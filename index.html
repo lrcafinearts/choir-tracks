@@ -3,58 +3,51 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Junior High Choir — Practice Tracks</title>
+<title>LRCA Choir Practice Tracks</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Choir Tracks">
 
 <!--
   ===========================================================================
-  SETUP — two values to fill in, then you never touch this file again.
+  SETUP
   ===========================================================================
 
-  STEP 1 — Build the folder structure in Drive.
+  Each choir gets its own Drive folder. Inside it, one folder per song.
+  Inside those, the tracks.
 
-      JH Practice Tracks/          <- share this one "Anyone with the link"
+      JH Boys/                          <- one of the five folders below
           My Tribute/
               88395_sopranotrack.mp3
               88395_altotrack.mp3
-              88395_tenortrack.mp3
-              88395_basstrack.mp3
               Vocals - Choir.wav
           Revelation 19:1/
               ...
 
-      Each subfolder becomes a song. Each file becomes a part.
+  File names don't need cleaning up. The page looks inside each name for a
+  part word — soprano, alto, tenor, baritone, bass, cambiata, choir, piano,
+  accompaniment — and labels the player from that, ignoring catalog numbers
+  and anything else. Files it can't place still appear, with a tidied name.
 
-      File names don't need cleaning up. The page looks inside the name for
-      a part word — soprano, alto, tenor, baritone, bass, cambiata, choir,
-      piano, accompaniment — and labels the player from that, ignoring
-      catalog numbers and anything else in there. Files it can't recognise
-      still show up, labelled with a tidied version of the file name.
+  TO ADD A FOLDER: open it in Drive, copy the part of the address after
+  /folders/, and paste it below in place of PASTE_ID. Share each folder
+  "Anyone with the link, viewer" or the page can't read it.
 
-      Add a song by making a folder. Add a part by dropping in a file.
-      The page picks it up on the next reload. No editing here.
-
-  STEP 2 — Get the folder ID.
-
-      Open the parent folder in Drive and look at the address bar:
-      https://drive.google.com/drive/folders/1AbCdEfGhIjKlMnOp
-      Everything after /folders/ is the ID. Paste it below.
-
-  STEP 3 — Get an API key (about ten minutes, once).
-
-      console.cloud.google.com -> new project -> enable "Google Drive API"
-      -> Credentials -> Create credentials -> API key.
-      Restrict the key to the Drive API, and to your site's address.
-      Paste it below.
-
-  The key only reaches files that are already shared publicly, so it can't
-  expose anything the link itself doesn't. Restricting it keeps other sites
-  from burning your quota.
+  The word "divider" in the list draws the dividing line in the choir bar.
+  Move it, remove it, or add choirs above or below it as you like.
   ===========================================================================
 -->
 
 <script>
-const ROOT_FOLDER_ID = "1fmLxRSVU2UWr9PwrDSQHRdfFH0fNsdaC";
-const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
+const API_KEY = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
+
+const GROUPS = [
+  { name: "JH Boys",       folderId: "PASTE_ID" },
+  { name: "JH Girls",      folderId: "PASTE_ID" },
+  { name: "Warrior Choir", folderId: "1fmLxRSVU2UWr9PwrDSQHRdfFH0fNsdaC" },
+  "divider",
+  { name: "JH All-Region", folderId: "PASTE_ID" },
+  { name: "HS All-Region", folderId: "PASTE_ID" }
+];
 </script>
 
 <style>
@@ -66,6 +59,7 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
     --ink:        #16191A;
     --ink-soft:   #5C6360;
     --rule:       #E4E2DB;
+    --quiet:      #93AAA3;
 
     --part-s:     #0E6E7F;
     --part-a:     #9B2F55;
@@ -89,21 +83,79 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
 
   body { min-height: 100vh; padding: 0 0 3rem; }
 
+  /* ---------- masthead ---------- */
+
   .masthead {
     background: var(--cover-deep);
-    padding: 1.6rem 1.5rem 1.4rem;
+    padding: 1.5rem 1.5rem 0;
     border-bottom: 1px solid var(--cover-line);
   }
 
   .masthead h1 {
     font-family: var(--serif);
-    font-size: 1.5rem; font-weight: normal;
-    letter-spacing: 0.01em; color: #F3F1EC; margin: 0;
+    font-size: 1.35rem;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    color: #F3F1EC;
+    margin: 0;
   }
 
   .masthead p {
-    margin: 0.3rem 0 0; font-size: 0.9rem; color: #93AAA3;
+    margin: 0.35rem 0 0;
+    font-size: 0.9rem;
+    color: var(--quiet);
   }
+
+  /* ---------- choir bar ---------- */
+
+  .groups {
+    display: flex;
+    align-items: stretch;
+    gap: 0.4rem;
+    margin-top: 1.1rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .groups::-webkit-scrollbar { display: none; }
+
+  .group-btn {
+    flex: 0 0 auto;
+    font-family: var(--sans);
+    font-size: 0.95rem;
+    white-space: nowrap;
+    color: #DDE6E2;
+    background: transparent;
+    border: 1px solid var(--cover-line);
+    border-bottom: none;
+    border-radius: 3px 3px 0 0;
+    padding: 0.7rem 1rem;
+    min-height: 44px;
+    cursor: pointer;
+  }
+
+  .group-btn:hover { background: var(--cover-line); }
+
+  .group-btn[aria-current="true"] {
+    background: var(--cover);
+    border-color: var(--cover);
+    color: #FFFFFF;
+    font-weight: 600;
+  }
+
+  .group-btn[data-unset="true"] { color: #6C8880; }
+
+  .group-btn:focus-visible { outline: 2px solid #F3F1EC; outline-offset: -3px; }
+
+  .group-divider {
+    flex: 0 0 auto;
+    width: 1px;
+    background: var(--cover-line);
+    margin: 0.4rem 0.6rem 0;
+  }
+
+  /* ---------- shell ---------- */
 
   .shell {
     max-width: 1100px; margin: 0 auto;
@@ -114,7 +166,7 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
 
   .rail h2 {
     font-size: 0.85rem; font-weight: 600;
-    color: #93AAA3; margin: 0 0 0.6rem 0.2rem;
+    color: var(--quiet); margin: 0 0 0.6rem 0.2rem;
   }
 
   .rail-list { list-style: none; margin: 0; padding: 0; }
@@ -136,7 +188,9 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
 
   .rail-btn:focus-visible { outline: 2px solid #F3F1EC; outline-offset: 2px; }
 
-  .rail-note { font-size: 0.85rem; color: #93AAA3; margin: 0 0 0 0.2rem; }
+  .rail-note { font-size: 0.85rem; color: var(--quiet); margin: 0 0 0 0.2rem; }
+
+  /* ---------- open song ---------- */
 
   .sheet {
     background: var(--page); border-radius: 3px;
@@ -205,14 +259,21 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
   .msg-list li { margin-bottom: 0.3rem; }
   .part-missing { font-size: 0.85rem; color: var(--ink-soft); margin: 0; padding: 0.6rem 0; }
 
+  /* ---------- narrow screens ---------- */
+
   @media (max-width: 760px) {
+    .masthead { padding: 1.2rem 1rem 0; }
+    .masthead h1 { font-size: 1.1rem; }
+
     .shell { grid-template-columns: 1fr; gap: 1rem; padding: 1rem 0.75rem 0; }
+
     .rail-list {
       display: flex; gap: 0.4rem; overflow-x: auto;
       padding-bottom: 0.4rem; -webkit-overflow-scrolling: touch;
     }
     .rail-list li { margin-bottom: 0; flex: 0 0 auto; }
     .rail-btn { white-space: nowrap; }
+
     .sheet { padding: 1.2rem 1rem 1.4rem; }
     .sheet-title { font-size: 1.6rem; }
     .part { grid-template-columns: 52px 1fr; gap: 0.8rem; }
@@ -228,15 +289,16 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
 <body>
 
 <header class="masthead">
-  <h1>Junior High Choir</h1>
-  <p>Practice tracks — pick your song, then your part</p>
+  <h1>LRCA CHOIR PRACTICE TRACKS</h1>
+  <p>Pick your choir, then your song</p>
+  <nav class="groups" id="groups" aria-label="Choirs"></nav>
 </header>
 
 <div class="shell">
   <nav class="rail" aria-label="Songs">
     <h2>Songs</h2>
     <ul class="rail-list" id="rail"></ul>
-    <p class="rail-note" id="railNote">Loading…</p>
+    <p class="rail-note" id="railNote"></p>
   </nav>
 
   <main class="sheet" id="sheet" aria-live="polite"></main>
@@ -253,32 +315,17 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
     soprano: "var(--part-s)", "soprano 1": "var(--part-s)", "soprano 2": "var(--part-s)",
     alto: "var(--part-a)", "alto 1": "var(--part-a)", "alto 2": "var(--part-a)",
     tenor: "var(--part-b)", baritone: "var(--part-b)", bass: "var(--part-b)",
-    everyone: "var(--part-all)", "full mix": "var(--part-all)", "all parts": "var(--part-all)",
-    "piano only": "var(--part-piano)", piano: "var(--part-piano)",
-    accompaniment: "var(--part-piano)"
+    cambiata: "var(--part-b)",
+    everyone: "var(--part-all)",
+    "piano only": "var(--part-piano)"
   };
 
   var PART_ORDER = [
     "soprano", "soprano 1", "soprano 2", "alto", "alto 1", "alto 2",
-    "tenor", "baritone", "bass",
-    "everyone", "full mix", "all parts",
-    "piano only", "piano", "accompaniment"
+    "tenor", "cambiata", "baritone", "bass",
+    "everyone", "piano only"
   ];
 
-  var rail = document.getElementById("rail");
-  var railNote = document.getElementById("railNote");
-  var sheet = document.getElementById("sheet");
-
-  var songs = [];
-  var cache = {};
-  var current = -1;
-  var speed = 1;
-  var repeat = false;
-
-  /* ---------- helpers ---------- */
-
-  /* Works out the part from the file name, whatever shape it's in.
-     Checked in order, so the more specific patterns come first. */
   var PART_MATCHERS = [
     { test: /soprano\s*(1|i\b)/i,                          name: "Soprano 1" },
     { test: /soprano\s*(2|ii\b)/i,                         name: "Soprano 2" },
@@ -287,19 +334,39 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
     { test: /alto\s*(2|ii\b)/i,                            name: "Alto 2" },
     { test: /alto/i,                                       name: "Alto" },
     { test: /tenor/i,                                      name: "Tenor" },
+    { test: /cambiata/i,                                   name: "Cambiata" },
     { test: /bari/i,                                       name: "Baritone" },
     { test: /bass/i,                                       name: "Bass" },
-    { test: /cambiata/i,                                   name: "Cambiata" },
     { test: /choir|full|everyone|all\s*parts|tutti|satb/i, name: "Everyone" },
     { test: /piano|accomp|instrument|backing|demo/i,       name: "Piano only" }
   ];
+
+  var groupsBar = document.getElementById("groups");
+  var rail = document.getElementById("rail");
+  var railNote = document.getElementById("railNote");
+  var sheet = document.getElementById("sheet");
+
+  var choirs = GROUPS.filter(function (g) { return g !== "divider"; });
+
+  var groupIndex = -1;
+  var songs = [];
+  var songIndex = -1;
+  var songCache = {};
+  var partCache = {};
+  var speed = 1;
+  var repeat = false;
+
+  /* ---------- helpers ---------- */
+
+  function isUnset(choir) {
+    return !choir.folderId || choir.folderId.indexOf("PASTE") === 0;
+  }
 
   function partNameFrom(fileName) {
     for (var i = 0; i < PART_MATCHERS.length; i++) {
       if (PART_MATCHERS[i].test.test(fileName)) { return PART_MATCHERS[i].name; }
     }
 
-    /* Nothing recognised — tidy up the file name and show that instead. */
     var base = fileName.replace(/\.[^.]+$/, "");
     var cut = base.lastIndexOf(" - ");
     if (cut !== -1) { return base.slice(cut + 3).trim(); }
@@ -325,8 +392,8 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
 
   function markFor(name) {
     var n = name.toLowerCase();
-    if (n === "everyone" || n === "full mix" || n === "all parts") return "\u266B";
-    if (n.indexOf("piano") === 0 || n === "accompaniment") return "\u266A";
+    if (n === "everyone") return "\u266B";
+    if (n === "piano only") return "\u266A";
     return name.charAt(0).toUpperCase();
   }
 
@@ -350,6 +417,14 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
 
   /* ---------- messages ---------- */
 
+  function showLoading(text) {
+    sheet.innerHTML = "";
+    var p = document.createElement("p");
+    p.className = "msg";
+    p.textContent = text;
+    sheet.appendChild(p);
+  }
+
   function showMessage(headline, points) {
     sheet.innerHTML = "";
     var p = document.createElement("p");
@@ -369,14 +444,6 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
       });
       sheet.appendChild(ul);
     }
-  }
-
-  function showLoading(text) {
-    sheet.innerHTML = "";
-    var p = document.createElement("p");
-    p.className = "msg";
-    p.textContent = text;
-    sheet.appendChild(p);
   }
 
   /* ---------- settings ---------- */
@@ -495,41 +562,47 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
     return row;
   }
 
-  /* ---------- rendering ---------- */
+  /* ---------- song view ---------- */
 
-  function renderSong(index) {
-    var song = songs[index];
-    showLoading("Loading " + song.name + "…");
+  function paintSong(song, parts) {
+    sheet.innerHTML = "";
 
-    var done = function (parts) {
-      sheet.innerHTML = "";
+    var title = document.createElement("h2");
+    title.className = "sheet-title";
+    title.textContent = song.name;
+    sheet.appendChild(title);
 
-      var title = document.createElement("h2");
-      title.className = "sheet-title";
-      title.textContent = song.name;
-      sheet.appendChild(title);
+    var sub = document.createElement("p");
+    sub.className = "sheet-sub";
+    sub.textContent = parts.length === 1 ? "1 track" : parts.length + " tracks";
+    sheet.appendChild(sub);
 
-      var sub = document.createElement("p");
-      sub.className = "sheet-sub";
-      sub.textContent = parts.length === 1 ? "1 track" : parts.length + " tracks";
-      sheet.appendChild(sub);
+    if (!parts.length) {
+      var empty = document.createElement("p");
+      empty.className = "msg";
+      empty.textContent = "Nothing in this folder yet. Drop the tracks into it and reload.";
+      sheet.appendChild(empty);
+      return;
+    }
 
-      if (!parts.length) {
-        var empty = document.createElement("p");
-        empty.className = "msg";
-        empty.textContent = "Nothing in this folder yet. Drop the MP3s into it and reload.";
-        sheet.appendChild(empty);
-        return;
-      }
+    sheet.appendChild(makeSettings());
 
-      sheet.appendChild(makeSettings());
+    var wrap = document.createElement("div");
+    parts.forEach(function (part) { wrap.appendChild(makePart(part)); });
+    sheet.appendChild(wrap);
+  }
 
-      var wrap = document.createElement("div");
-      parts.forEach(function (part) { wrap.appendChild(makePart(part)); });
-      sheet.appendChild(wrap);
-    };
+  function selectSong(i) {
+    songIndex = i;
+    var btns = rail.querySelectorAll(".rail-btn");
+    for (var j = 0; j < btns.length; j++) {
+      btns[j].setAttribute("aria-current", j === i ? "true" : "false");
+    }
 
-    if (cache[song.id]) { done(cache[song.id]); return; }
+    var song = songs[i];
+    if (partCache[song.id]) { paintSong(song, partCache[song.id]); return; }
+
+    showLoading("Loading " + song.name + "\u2026");
 
     listFolder(song.id, false).then(function (files) {
       var parts = files.filter(function (f) {
@@ -541,17 +614,19 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
         return d !== 0 ? d : a.name.localeCompare(b.name);
       });
 
-      cache[song.id] = parts;
-      done(parts);
+      partCache[song.id] = parts;
+      if (songIndex === i) { paintSong(song, parts); }
     }).catch(function () {
       showMessage("Couldn't open this song's folder.", [
-        "Make sure the folder is still shared with anyone who has the link.",
+        "Make sure it's still shared with anyone who has the link.",
         "Reload the page and try again."
       ]);
     });
   }
 
-  function buildRail() {
+  /* ---------- choir view ---------- */
+
+  function paintRail() {
     rail.innerHTML = "";
     songs.forEach(function (song, i) {
       var li = document.createElement("li");
@@ -559,58 +634,110 @@ const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
       btn.className = "rail-btn";
       btn.type = "button";
       btn.textContent = song.name;
-      btn.setAttribute("aria-current", i === current ? "true" : "false");
-      btn.addEventListener("click", function () {
-        current = i;
-        var btns = rail.querySelectorAll(".rail-btn");
-        for (var j = 0; j < btns.length; j++) {
-          btns[j].setAttribute("aria-current", j === current ? "true" : "false");
-        }
-        renderSong(i);
-      });
+      btn.setAttribute("aria-current", "false");
+      btn.addEventListener("click", function () { selectSong(i); });
       li.appendChild(btn);
       rail.appendChild(li);
     });
   }
 
-  /* ---------- start ---------- */
+  function selectGroup(i) {
+    groupIndex = i;
+    songs = [];
+    songIndex = -1;
+    rail.innerHTML = "";
 
-  if (ROOT_FOLDER_ID.indexOf("PASTE") === 0 || API_KEY.indexOf("PASTE") === 0) {
-    railNote.textContent = "Not set up yet";
-    showMessage("This page needs two values before it can find your tracks.", [
-      "The ID of your parent Drive folder.",
-      "A Google Drive API key.",
-      "Both go at the top of this file — the instructions are in there with them."
-    ]);
-    return;
-  }
+    var btns = groupsBar.querySelectorAll(".group-btn");
+    for (var j = 0; j < btns.length; j++) {
+      btns[j].setAttribute("aria-current", j === i ? "true" : "false");
+    }
 
-  showLoading("Looking for your songs…");
+    var choir = choirs[i];
 
-  listFolder(ROOT_FOLDER_ID, true).then(function (folders) {
-    songs = folders;
-
-    if (!songs.length) {
-      railNote.textContent = "No songs yet";
-      showMessage("The parent folder is reachable, but there are no song folders inside it.", [
-        "Make one folder per song, then put that song's MP3s inside it."
+    if (isUnset(choir)) {
+      railNote.textContent = "";
+      showMessage(choir.name + " isn't connected yet.", [
+        "Open that choir's folder in Drive and copy the part of the address after /folders/.",
+        "Paste it into the GROUPS list at the top of this file, in place of PASTE_ID.",
+        "Make sure the folder is shared with anyone who has the link."
       ]);
       return;
     }
 
-    railNote.remove();
-    current = 0;
-    buildRail();
-    renderSong(0);
-  }).catch(function () {
-    railNote.textContent = "Couldn't connect";
-    showMessage("Couldn't reach the Drive folder.", [
-      "Check the folder is shared with anyone who has the link, not just your school.",
-      "Check the folder ID matches what's in the Drive address bar.",
-      "Check the API key is active and has the Drive API turned on.",
-      "If the key is restricted by website, make sure this page's address is on the list."
-    ]);
-  });
+    if (songCache[choir.folderId]) {
+      songs = songCache[choir.folderId];
+      finishGroup(choir);
+      return;
+    }
+
+    railNote.textContent = "Loading\u2026";
+    showLoading("Looking for " + choir.name + " songs\u2026");
+
+    listFolder(choir.folderId, true).then(function (folders) {
+      if (groupIndex !== i) { return; }
+      songCache[choir.folderId] = folders;
+      songs = folders;
+      finishGroup(choir);
+    }).catch(function () {
+      if (groupIndex !== i) { return; }
+      railNote.textContent = "Couldn't connect";
+      showMessage("Couldn't reach the " + choir.name + " folder.", [
+        "Check the folder is shared with anyone who has the link, not just your school.",
+        "Check the folder ID matches what's in the Drive address bar.",
+        "Check the API key is active and has the Drive API turned on.",
+        "If the key is restricted by website, make sure this page's address is on the list."
+      ]);
+    });
+  }
+
+  function finishGroup(choir) {
+    if (!songs.length) {
+      railNote.textContent = "No songs yet";
+      showMessage("The " + choir.name + " folder is reachable, but there are no song folders inside it.", [
+        "Make one folder per song, then put that song's tracks inside it."
+      ]);
+      return;
+    }
+
+    railNote.textContent = "";
+    paintRail();
+    selectSong(0);
+  }
+
+  /* ---------- choir bar ---------- */
+
+  function buildGroupBar() {
+    var index = 0;
+    GROUPS.forEach(function (entry) {
+      if (entry === "divider") {
+        var rule = document.createElement("span");
+        rule.className = "group-divider";
+        rule.setAttribute("aria-hidden", "true");
+        groupsBar.appendChild(rule);
+        return;
+      }
+
+      var i = index++;
+      var btn = document.createElement("button");
+      btn.className = "group-btn";
+      btn.type = "button";
+      btn.textContent = entry.name;
+      btn.setAttribute("aria-current", "false");
+      if (isUnset(entry)) { btn.setAttribute("data-unset", "true"); }
+      btn.addEventListener("click", function () { selectGroup(i); });
+      groupsBar.appendChild(btn);
+    });
+  }
+
+  /* ---------- start ---------- */
+
+  buildGroupBar();
+
+  var first = 0;
+  for (var i = 0; i < choirs.length; i++) {
+    if (!isUnset(choirs[i])) { first = i; break; }
+  }
+  selectGroup(first);
 })();
 </script>
 

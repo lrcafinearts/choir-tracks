@@ -63,7 +63,10 @@ const GROUPS = [
 
     --part-s:     #0E6E7F;
     --part-a:     #9B2F55;
-    --part-b:     #3D51A3;
+    --part-t:     #3D51A3;
+    --part-c:     #6B4E9E;
+    --part-br:    #8A4A7D;
+    --part-bs:    #1F4E79;
     --part-all:   #465250;
     --part-piano: #7A7168;
 
@@ -311,34 +314,30 @@ const GROUPS = [
   var API = "https://www.googleapis.com/drive/v3/files";
   var FOLDER_MIME = "application/vnd.google-apps.folder";
 
-  var PART_COLORS = {
-    soprano: "var(--part-s)", "soprano 1": "var(--part-s)", "soprano 2": "var(--part-s)",
-    alto: "var(--part-a)", "alto 1": "var(--part-a)", "alto 2": "var(--part-a)",
-    tenor: "var(--part-b)", baritone: "var(--part-b)", bass: "var(--part-b)",
-    cambiata: "var(--part-b)",
-    everyone: "var(--part-all)",
-    "piano only": "var(--part-piano)"
-  };
-
-  var PART_ORDER = [
-    "soprano", "soprano 1", "soprano 2", "alto", "alto 1", "alto 2",
-    "tenor", "cambiata", "baritone", "bass",
-    "everyone", "piano only"
+  /* Voices, checked in this order. Each pattern allows the voice word to run
+     straight into other text — "88395_sopranotrack.mp3" still reads as
+     Soprano — but requires it to start a word so "alternate" isn't an Alto. */
+  var VOICES = [
+    { name: "Soprano",  mark: "S",  color: "var(--part-s)",
+      re: /(?:^|\s)(?:soprano|descant)|(?:^|\s)sopr?(?=[\s\d]|$)/i },
+    { name: "Alto",     mark: "A",  color: "var(--part-a)",
+      re: /(?:^|\s)alto|(?:^|\s)alt(?=[\s\d]|$)/i },
+    { name: "Tenor",    mark: "T",  color: "var(--part-t)",
+      re: /(?:^|\s)tenor|(?:^|\s)ten(?=[\s\d]|$)/i },
+    { name: "Cambiata", mark: "C",  color: "var(--part-c)",
+      re: /(?:^|\s)cambiata|(?:^|\s)camb(?=[\s\d]|$)/i },
+    { name: "Baritone", mark: "Br", color: "var(--part-br)",
+      re: /(?:^|\s)bariton|(?:^|\s)bari(?=[\s\d]|$)/i },
+    { name: "Bass",     mark: "B",  color: "var(--part-bs)",
+      re: /(?:^|\s)bass|(?:^|\s)bas(?=[\s\d]|$)/i }
   ];
 
-  var PART_MATCHERS = [
-    { test: /soprano\s*(1|i\b)/i,                          name: "Soprano 1" },
-    { test: /soprano\s*(2|ii\b)/i,                         name: "Soprano 2" },
-    { test: /soprano|descant/i,                            name: "Soprano" },
-    { test: /alto\s*(1|i\b)/i,                             name: "Alto 1" },
-    { test: /alto\s*(2|ii\b)/i,                            name: "Alto 2" },
-    { test: /alto/i,                                       name: "Alto" },
-    { test: /tenor/i,                                      name: "Tenor" },
-    { test: /cambiata/i,                                   name: "Cambiata" },
-    { test: /bari/i,                                       name: "Baritone" },
-    { test: /bass/i,                                       name: "Bass" },
-    { test: /choir|full|everyone|all\s*parts|tutti|satb/i, name: "Everyone" },
-    { test: /piano|accomp|instrument|backing|demo/i,       name: "Piano only" }
+  /* Anything that isn't a single voice part. */
+  var GROUPED = [
+    { name: "Everyone",   mark: "\u266B", color: "var(--part-all)",
+      re: /(?:^|\s)(?:balanced|choir|chorus|full|everyone|all\s*parts|tutti|satb|sab|ssaa?)/i },
+    { name: "Piano only", mark: "\u266A", color: "var(--part-piano)",
+      re: /(?:^|\s)(?:piano|accomp|instrument|backing|karaoke|demo)/i }
   ];
 
   var groupsBar = document.getElementById("groups");
@@ -362,11 +361,29 @@ const GROUPS = [
     return !choir.folderId || choir.folderId.indexOf("PASTE") === 0;
   }
 
-  function partNameFrom(fileName) {
-    for (var i = 0; i < PART_MATCHERS.length; i++) {
-      if (PART_MATCHERS[i].test.test(fileName)) { return PART_MATCHERS[i].name; }
-    }
+  /* 1 / 2 / 3, however it's written. */
+  function divisionValue(token) {
+    var t = token.toLowerCase();
+    if (t === "1" || t === "i"   || t === "1st" || t === "first")  { return "1"; }
+    if (t === "2" || t === "ii"  || t === "2nd" || t === "second") { return "2"; }
+    if (t === "3" || t === "iii" || t === "3rd" || t === "third")  { return "3"; }
+    return "";
+  }
 
+  /* Looks just after the voice word for "1", "2", "I", "II" — and if that
+     turns up nothing, just before it for "1st", "Second" and the like. */
+  function divisionNear(text, endOfVoice, beforeVoice) {
+    var after = text.slice(endOfVoice, endOfVoice + 8);
+    var m = after.match(/^\s*(?:no\.?\s*)?(1|2|3|i{1,3})(?![a-z0-9])/i);
+    if (m) { return divisionValue(m[1]); }
+
+    m = beforeVoice.match(/(1st|2nd|3rd|first|second|third|1|2|3)\s*$/i);
+    if (m) { return divisionValue(m[1]); }
+
+    return "";
+  }
+
+  function tidyName(fileName) {
     var base = fileName.replace(/\.[^.]+$/, "");
     var cut = base.lastIndexOf(" - ");
     if (cut !== -1) { return base.slice(cut + 3).trim(); }
@@ -381,20 +398,39 @@ const GROUPS = [
     return base.charAt(0).toUpperCase() + base.slice(1);
   }
 
-  function orderOf(name) {
-    var i = PART_ORDER.indexOf(name.toLowerCase());
-    return i === -1 ? PART_ORDER.length : i;
-  }
+  function describePart(id, fileName) {
+    /* Underscores, hyphens and dots all become spaces so separators stop
+       mattering: soprano_1, Soprano-1 and "Soprano 1" all read the same. */
+    var text = " " + fileName.replace(/\.[^.]+$/, "").replace(/[_\-.]+/g, " ") + " ";
 
-  function colorFor(name) {
-    return PART_COLORS[name.toLowerCase()] || "var(--part-all)";
-  }
+    for (var i = 0; i < VOICES.length; i++) {
+      var m = text.match(VOICES[i].re);
+      if (m) {
+        var v = VOICES[i];
+        var div = divisionNear(text, m.index + m[0].length, text.slice(0, m.index));
+        return {
+          id: id,
+          name: div ? v.name + " " + div : v.name,
+          mark: div ? v.mark + div : v.mark,
+          color: v.color,
+          order: i * 10 + (div ? Number(div) : 0)
+        };
+      }
+    }
 
-  function markFor(name) {
-    var n = name.toLowerCase();
-    if (n === "everyone") return "\u266B";
-    if (n === "piano only") return "\u266A";
-    return name.charAt(0).toUpperCase();
+    for (var j = 0; j < GROUPED.length; j++) {
+      if (GROUPED[j].re.test(text)) {
+        return {
+          id: id, name: GROUPED[j].name, mark: GROUPED[j].mark,
+          color: GROUPED[j].color, order: 100 + j
+        };
+      }
+    }
+
+    return {
+      id: id, name: tidyName(fileName), mark: "\u266A",
+      color: "var(--part-all)", order: 200
+    };
   }
 
   function mediaUrl(id) {
@@ -519,8 +555,8 @@ const GROUPS = [
 
     var mark = document.createElement("div");
     mark.className = "part-mark";
-    mark.style.color = colorFor(part.name);
-    mark.textContent = markFor(part.name);
+    mark.style.color = part.color;
+    mark.textContent = part.mark;
     mark.setAttribute("aria-hidden", "true");
     row.appendChild(mark);
 
@@ -608,9 +644,9 @@ const GROUPS = [
       var parts = files.filter(function (f) {
         return f.mimeType && f.mimeType.indexOf("audio") === 0;
       }).map(function (f) {
-        return { id: f.id, name: partNameFrom(f.name) };
+        return describePart(f.id, f.name);
       }).sort(function (a, b) {
-        var d = orderOf(a.name) - orderOf(b.name);
+        var d = a.order - b.order;
         return d !== 0 ? d : a.name.localeCompare(b.name);
       });
 

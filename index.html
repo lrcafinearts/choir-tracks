@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Junior High Choir — Practice Tracks</title>
+
+<!--
+  ===========================================================================
+  SETUP — two values to fill in, then you never touch this file again.
+  ===========================================================================
+
+  STEP 1 — Build the folder structure in Drive.
+
+      JH Practice Tracks/          <- share this one "Anyone with the link"
+          My Tribute/
+              88395_sopranotrack.mp3
+              88395_altotrack.mp3
+              88395_tenortrack.mp3
+              88395_basstrack.mp3
+              Vocals - Choir.wav
+          Revelation 19:1/
+              ...
+
+      Each subfolder becomes a song. Each file becomes a part.
+
+      File names don't need cleaning up. The page looks inside the name for
+      a part word — soprano, alto, tenor, baritone, bass, cambiata, choir,
+      piano, accompaniment — and labels the player from that, ignoring
+      catalog numbers and anything else in there. Files it can't recognise
+      still show up, labelled with a tidied version of the file name.
+
+      Add a song by making a folder. Add a part by dropping in a file.
+      The page picks it up on the next reload. No editing here.
+
+  STEP 2 — Get the folder ID.
+
+      Open the parent folder in Drive and look at the address bar:
+      https://drive.google.com/drive/folders/1AbCdEfGhIjKlMnOp
+      Everything after /folders/ is the ID. Paste it below.
+
+  STEP 3 — Get an API key (about ten minutes, once).
+
+      console.cloud.google.com -> new project -> enable "Google Drive API"
+      -> Credentials -> Create credentials -> API key.
+      Restrict the key to the Drive API, and to your site's address.
+      Paste it below.
+
+  The key only reaches files that are already shared publicly, so it can't
+  expose anything the link itself doesn't. Restricting it keeps other sites
+  from burning your quota.
+  ===========================================================================
+-->
+
+<script>
+const ROOT_FOLDER_ID = "1fmLxRSVU2UWr9PwrDSQHRdfFH0fNsdaC";
+const API_KEY        = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
+</script>
+
+<style>
+  :root {
+    --cover:      #14332C;
+    --cover-deep: #0E241F;
+    --cover-line: #2E5348;
+    --page:       #FFFFFF;
+    --ink:        #16191A;
+    --ink-soft:   #5C6360;
+    --rule:       #E4E2DB;
+
+    --part-s:     #0E6E7F;
+    --part-a:     #9B2F55;
+    --part-b:     #3D51A3;
+    --part-all:   #465250;
+    --part-piano: #7A7168;
+
+    --serif: Palatino, "Palatino Linotype", "Book Antiqua", "URW Palladio L", Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--cover);
+    color: var(--ink);
+    font-family: var(--sans);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body { min-height: 100vh; padding: 0 0 3rem; }
+
+  .masthead {
+    background: var(--cover-deep);
+    padding: 1.6rem 1.5rem 1.4rem;
+    border-bottom: 1px solid var(--cover-line);
+  }
+
+  .masthead h1 {
+    font-family: var(--serif);
+    font-size: 1.5rem; font-weight: normal;
+    letter-spacing: 0.01em; color: #F3F1EC; margin: 0;
+  }
+
+  .masthead p {
+    margin: 0.3rem 0 0; font-size: 0.9rem; color: #93AAA3;
+  }
+
+  .shell {
+    max-width: 1100px; margin: 0 auto;
+    padding: 1.5rem 1rem 0;
+    display: grid; grid-template-columns: 230px 1fr;
+    gap: 1.5rem; align-items: start;
+  }
+
+  .rail h2 {
+    font-size: 0.85rem; font-weight: 600;
+    color: #93AAA3; margin: 0 0 0.6rem 0.2rem;
+  }
+
+  .rail-list { list-style: none; margin: 0; padding: 0; }
+  .rail-list li { margin-bottom: 0.35rem; }
+
+  .rail-btn {
+    display: block; width: 100%; text-align: left;
+    font-family: var(--serif); font-size: 1.05rem; line-height: 1.3;
+    color: #DDE6E2; background: transparent;
+    border: 1px solid transparent; border-radius: 3px;
+    padding: 0.7rem 0.8rem; min-height: 44px; cursor: pointer;
+  }
+
+  .rail-btn:hover { background: var(--cover-line); }
+
+  .rail-btn[aria-current="true"] {
+    background: var(--page); color: var(--ink); border-color: var(--page);
+  }
+
+  .rail-btn:focus-visible { outline: 2px solid #F3F1EC; outline-offset: 2px; }
+
+  .rail-note { font-size: 0.85rem; color: #93AAA3; margin: 0 0 0 0.2rem; }
+
+  .sheet {
+    background: var(--page); border-radius: 3px;
+    padding: 1.6rem 1.5rem 1.8rem;
+  }
+
+  .sheet-title {
+    font-family: var(--serif); font-size: 1.9rem; font-weight: normal;
+    margin: 0 0 0.15rem; line-height: 1.15;
+  }
+
+  .sheet-sub { margin: 0 0 1.3rem; font-size: 0.9rem; color: var(--ink-soft); }
+
+  .settings {
+    display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center;
+    padding: 0.85rem 0;
+    border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+    margin-bottom: 1.4rem;
+  }
+
+  .setting { display: flex; align-items: center; gap: 0.55rem; }
+  .setting-label { font-size: 0.9rem; color: var(--ink-soft); }
+  .speeds { display: flex; gap: 0.3rem; }
+
+  .speed-btn, .repeat-btn {
+    font-family: var(--sans); font-size: 0.9rem; color: var(--ink);
+    background: transparent; border: 1px solid var(--rule); border-radius: 3px;
+    padding: 0.5rem 0.75rem; min-height: 44px; min-width: 48px; cursor: pointer;
+  }
+
+  .speed-btn:hover, .repeat-btn:hover { border-color: var(--ink-soft); }
+
+  .speed-btn[aria-pressed="true"], .repeat-btn[aria-pressed="true"] {
+    background: var(--ink); border-color: var(--ink); color: #FFF;
+  }
+
+  .speed-btn:focus-visible, .repeat-btn:focus-visible {
+    outline: 2px solid var(--ink); outline-offset: 2px;
+  }
+
+  .part {
+    display: grid; grid-template-columns: 62px 1fr; gap: 1rem;
+    align-items: center; padding: 0.9rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .part:last-child { border-bottom: 0; }
+
+  .part-mark {
+    font-family: var(--serif); font-size: 1.9rem; line-height: 1;
+    text-align: center; padding: 0.55rem 0;
+    border: 1px solid currentColor; border-radius: 2px;
+  }
+
+  .part-body { min-width: 0; }
+  .part-name { font-size: 0.95rem; font-weight: 600; margin: 0 0 0.45rem; }
+  .part audio { width: 100%; height: 40px; display: block; }
+
+  .msg {
+    font-size: 0.95rem; color: var(--ink-soft);
+    line-height: 1.55; margin: 0 0 0.6rem; max-width: 62ch;
+  }
+
+  .msg strong { color: var(--ink); font-weight: 600; }
+  .msg-list { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+  .msg-list li { margin-bottom: 0.3rem; }
+  .part-missing { font-size: 0.85rem; color: var(--ink-soft); margin: 0; padding: 0.6rem 0; }
+
+  @media (max-width: 760px) {
+    .shell { grid-template-columns: 1fr; gap: 1rem; padding: 1rem 0.75rem 0; }
+    .rail-list {
+      display: flex; gap: 0.4rem; overflow-x: auto;
+      padding-bottom: 0.4rem; -webkit-overflow-scrolling: touch;
+    }
+    .rail-list li { margin-bottom: 0; flex: 0 0 auto; }
+    .rail-btn { white-space: nowrap; }
+    .sheet { padding: 1.2rem 1rem 1.4rem; }
+    .sheet-title { font-size: 1.6rem; }
+    .part { grid-template-columns: 52px 1fr; gap: 0.8rem; }
+    .part-mark { font-size: 1.6rem; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+</head>
+
+<body>
+
+<header class="masthead">
+  <h1>Junior High Choir</h1>
+  <p>Practice tracks — pick your song, then your part</p>
+</header>
+
+<div class="shell">
+  <nav class="rail" aria-label="Songs">
+    <h2>Songs</h2>
+    <ul class="rail-list" id="rail"></ul>
+    <p class="rail-note" id="railNote">Loading…</p>
+  </nav>
+
+  <main class="sheet" id="sheet" aria-live="polite"></main>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var API = "https://www.googleapis.com/drive/v3/files";
+  var FOLDER_MIME = "application/vnd.google-apps.folder";
+
+  var PART_COLORS = {
+    soprano: "var(--part-s)", "soprano 1": "var(--part-s)", "soprano 2": "var(--part-s)",
+    alto: "var(--part-a)", "alto 1": "var(--part-a)", "alto 2": "var(--part-a)",
+    tenor: "var(--part-b)", baritone: "var(--part-b)", bass: "var(--part-b)",
+    everyone: "var(--part-all)", "full mix": "var(--part-all)", "all parts": "var(--part-all)",
+    "piano only": "var(--part-piano)", piano: "var(--part-piano)",
+    accompaniment: "var(--part-piano)"
+  };
+
+  var PART_ORDER = [
+    "soprano", "soprano 1", "soprano 2", "alto", "alto 1", "alto 2",
+    "tenor", "baritone", "bass",
+    "everyone", "full mix", "all parts",
+    "piano only", "piano", "accompaniment"
+  ];
+
+  var rail = document.getElementById("rail");
+  var railNote = document.getElementById("railNote");
+  var sheet = document.getElementById("sheet");
+
+  var songs = [];
+  var cache = {};
+  var current = -1;
+  var speed = 1;
+  var repeat = false;
+
+  /* ---------- helpers ---------- */
+
+  /* Works out the part from the file name, whatever shape it's in.
+     Checked in order, so the more specific patterns come first. */
+  var PART_MATCHERS = [
+    { test: /soprano\s*(1|i\b)/i,                          name: "Soprano 1" },
+    { test: /soprano\s*(2|ii\b)/i,                         name: "Soprano 2" },
+    { test: /soprano|descant/i,                            name: "Soprano" },
+    { test: /alto\s*(1|i\b)/i,                             name: "Alto 1" },
+    { test: /alto\s*(2|ii\b)/i,                            name: "Alto 2" },
+    { test: /alto/i,                                       name: "Alto" },
+    { test: /tenor/i,                                      name: "Tenor" },
+    { test: /bari/i,                                       name: "Baritone" },
+    { test: /bass/i,                                       name: "Bass" },
+    { test: /cambiata/i,                                   name: "Cambiata" },
+    { test: /choir|full|everyone|all\s*parts|tutti|satb/i, name: "Everyone" },
+    { test: /piano|accomp|instrument|backing|demo/i,       name: "Piano only" }
+  ];
+
+  function partNameFrom(fileName) {
+    for (var i = 0; i < PART_MATCHERS.length; i++) {
+      if (PART_MATCHERS[i].test.test(fileName)) { return PART_MATCHERS[i].name; }
+    }
+
+    /* Nothing recognised — tidy up the file name and show that instead. */
+    var base = fileName.replace(/\.[^.]+$/, "");
+    var cut = base.lastIndexOf(" - ");
+    if (cut !== -1) { return base.slice(cut + 3).trim(); }
+
+    base = base.replace(/^[\d\s_\-]+/, "")
+               .replace(/[_\-]+/g, " ")
+               .replace(/\btrack\b/ig, "")
+               .replace(/\s+/g, " ")
+               .trim();
+
+    if (!base) { return fileName; }
+    return base.charAt(0).toUpperCase() + base.slice(1);
+  }
+
+  function orderOf(name) {
+    var i = PART_ORDER.indexOf(name.toLowerCase());
+    return i === -1 ? PART_ORDER.length : i;
+  }
+
+  function colorFor(name) {
+    return PART_COLORS[name.toLowerCase()] || "var(--part-all)";
+  }
+
+  function markFor(name) {
+    var n = name.toLowerCase();
+    if (n === "everyone" || n === "full mix" || n === "all parts") return "\u266B";
+    if (n.indexOf("piano") === 0 || n === "accompaniment") return "\u266A";
+    return name.charAt(0).toUpperCase();
+  }
+
+  function mediaUrl(id) {
+    return API + "/" + encodeURIComponent(id) + "?alt=media&key=" + encodeURIComponent(API_KEY);
+  }
+
+  function listFolder(id, foldersOnly) {
+    var q = "'" + id + "' in parents and trashed=false";
+    if (foldersOnly) { q += " and mimeType='" + FOLDER_MIME + "'"; }
+    var url = API +
+      "?q=" + encodeURIComponent(q) +
+      "&fields=" + encodeURIComponent("files(id,name,mimeType)") +
+      "&orderBy=name&pageSize=200&key=" + encodeURIComponent(API_KEY);
+
+    return fetch(url).then(function (res) {
+      if (!res.ok) { throw new Error("Drive returned " + res.status); }
+      return res.json();
+    }).then(function (data) { return data.files || []; });
+  }
+
+  /* ---------- messages ---------- */
+
+  function showMessage(headline, points) {
+    sheet.innerHTML = "";
+    var p = document.createElement("p");
+    p.className = "msg";
+    var strong = document.createElement("strong");
+    strong.textContent = headline;
+    p.appendChild(strong);
+    sheet.appendChild(p);
+
+    if (points && points.length) {
+      var ul = document.createElement("ul");
+      ul.className = "msg-list msg";
+      points.forEach(function (t) {
+        var li = document.createElement("li");
+        li.textContent = t;
+        ul.appendChild(li);
+      });
+      sheet.appendChild(ul);
+    }
+  }
+
+  function showLoading(text) {
+    sheet.innerHTML = "";
+    var p = document.createElement("p");
+    p.className = "msg";
+    p.textContent = text;
+    sheet.appendChild(p);
+  }
+
+  /* ---------- settings ---------- */
+
+  function applySettings() {
+    var players = sheet.querySelectorAll("audio");
+    for (var i = 0; i < players.length; i++) {
+      players[i].playbackRate = speed;
+      players[i].loop = repeat;
+    }
+  }
+
+  function makeSettings() {
+    var wrap = document.createElement("div");
+    wrap.className = "settings";
+
+    var speedSetting = document.createElement("div");
+    speedSetting.className = "setting";
+
+    var label = document.createElement("span");
+    label.className = "setting-label";
+    label.textContent = "Speed";
+    speedSetting.appendChild(label);
+
+    var speeds = document.createElement("div");
+    speeds.className = "speeds";
+
+    [[1, "Normal"], [0.85, "Slower"], [0.7, "Slowest"]].forEach(function (opt) {
+      var b = document.createElement("button");
+      b.className = "speed-btn";
+      b.type = "button";
+      b.textContent = opt[1];
+      b.setAttribute("aria-pressed", speed === opt[0] ? "true" : "false");
+      b.addEventListener("click", function () {
+        speed = opt[0];
+        var all = speeds.querySelectorAll(".speed-btn");
+        for (var i = 0; i < all.length; i++) {
+          all[i].setAttribute("aria-pressed", all[i] === b ? "true" : "false");
+        }
+        applySettings();
+      });
+      speeds.appendChild(b);
+    });
+
+    speedSetting.appendChild(speeds);
+    wrap.appendChild(speedSetting);
+
+    var repeatSetting = document.createElement("div");
+    repeatSetting.className = "setting";
+
+    var repeatBtn = document.createElement("button");
+    repeatBtn.className = "repeat-btn";
+    repeatBtn.type = "button";
+    repeatBtn.textContent = "Repeat";
+    repeatBtn.setAttribute("aria-pressed", repeat ? "true" : "false");
+    repeatBtn.addEventListener("click", function () {
+      repeat = !repeat;
+      repeatBtn.setAttribute("aria-pressed", repeat ? "true" : "false");
+      applySettings();
+    });
+
+    repeatSetting.appendChild(repeatBtn);
+    wrap.appendChild(repeatSetting);
+
+    return wrap;
+  }
+
+  /* ---------- parts ---------- */
+
+  function makePart(part) {
+    var row = document.createElement("div");
+    row.className = "part";
+
+    var mark = document.createElement("div");
+    mark.className = "part-mark";
+    mark.style.color = colorFor(part.name);
+    mark.textContent = markFor(part.name);
+    mark.setAttribute("aria-hidden", "true");
+    row.appendChild(mark);
+
+    var body = document.createElement("div");
+    body.className = "part-body";
+
+    var name = document.createElement("p");
+    name.className = "part-name";
+    name.textContent = part.name;
+    body.appendChild(name);
+
+    var audio = document.createElement("audio");
+    audio.setAttribute("controls", "");
+    audio.setAttribute("preload", "none");
+    audio.src = mediaUrl(part.id);
+
+    audio.addEventListener("play", function () {
+      var others = sheet.querySelectorAll("audio");
+      for (var i = 0; i < others.length; i++) {
+        if (others[i] !== audio) { others[i].pause(); }
+      }
+      audio.playbackRate = speed;
+      audio.loop = repeat;
+    });
+
+    audio.addEventListener("loadedmetadata", function () {
+      audio.playbackRate = speed;
+    });
+
+    audio.addEventListener("error", function () {
+      var note = document.createElement("p");
+      note.className = "part-missing";
+      note.textContent = "This track wouldn't play. Check that it's shared with the rest of the folder.";
+      if (audio.parentNode) { audio.parentNode.replaceChild(note, audio); }
+    });
+
+    body.appendChild(audio);
+    row.appendChild(body);
+    return row;
+  }
+
+  /* ---------- rendering ---------- */
+
+  function renderSong(index) {
+    var song = songs[index];
+    showLoading("Loading " + song.name + "…");
+
+    var done = function (parts) {
+      sheet.innerHTML = "";
+
+      var title = document.createElement("h2");
+      title.className = "sheet-title";
+      title.textContent = song.name;
+      sheet.appendChild(title);
+
+      var sub = document.createElement("p");
+      sub.className = "sheet-sub";
+      sub.textContent = parts.length === 1 ? "1 track" : parts.length + " tracks";
+      sheet.appendChild(sub);
+
+      if (!parts.length) {
+        var empty = document.createElement("p");
+        empty.className = "msg";
+        empty.textContent = "Nothing in this folder yet. Drop the MP3s into it and reload.";
+        sheet.appendChild(empty);
+        return;
+      }
+
+      sheet.appendChild(makeSettings());
+
+      var wrap = document.createElement("div");
+      parts.forEach(function (part) { wrap.appendChild(makePart(part)); });
+      sheet.appendChild(wrap);
+    };
+
+    if (cache[song.id]) { done(cache[song.id]); return; }
+
+    listFolder(song.id, false).then(function (files) {
+      var parts = files.filter(function (f) {
+        return f.mimeType && f.mimeType.indexOf("audio") === 0;
+      }).map(function (f) {
+        return { id: f.id, name: partNameFrom(f.name) };
+      }).sort(function (a, b) {
+        var d = orderOf(a.name) - orderOf(b.name);
+        return d !== 0 ? d : a.name.localeCompare(b.name);
+      });
+
+      cache[song.id] = parts;
+      done(parts);
+    }).catch(function () {
+      showMessage("Couldn't open this song's folder.", [
+        "Make sure the folder is still shared with anyone who has the link.",
+        "Reload the page and try again."
+      ]);
+    });
+  }
+
+  function buildRail() {
+    rail.innerHTML = "";
+    songs.forEach(function (song, i) {
+      var li = document.createElement("li");
+      var btn = document.createElement("button");
+      btn.className = "rail-btn";
+      btn.type = "button";
+      btn.textContent = song.name;
+      btn.setAttribute("aria-current", i === current ? "true" : "false");
+      btn.addEventListener("click", function () {
+        current = i;
+        var btns = rail.querySelectorAll(".rail-btn");
+        for (var j = 0; j < btns.length; j++) {
+          btns[j].setAttribute("aria-current", j === current ? "true" : "false");
+        }
+        renderSong(i);
+      });
+      li.appendChild(btn);
+      rail.appendChild(li);
+    });
+  }
+
+  /* ---------- start ---------- */
+
+  if (ROOT_FOLDER_ID.indexOf("PASTE") === 0 || API_KEY.indexOf("PASTE") === 0) {
+    railNote.textContent = "Not set up yet";
+    showMessage("This page needs two values before it can find your tracks.", [
+      "The ID of your parent Drive folder.",
+      "A Google Drive API key.",
+      "Both go at the top of this file — the instructions are in there with them."
+    ]);
+    return;
+  }
+
+  showLoading("Looking for your songs…");
+
+  listFolder(ROOT_FOLDER_ID, true).then(function (folders) {
+    songs = folders;
+
+    if (!songs.length) {
+      railNote.textContent = "No songs yet";
+      showMessage("The parent folder is reachable, but there are no song folders inside it.", [
+        "Make one folder per song, then put that song's MP3s inside it."
+      ]);
+      return;
+    }
+
+    railNote.remove();
+    current = 0;
+    buildRail();
+    renderSong(0);
+  }).catch(function () {
+    railNote.textContent = "Couldn't connect";
+    showMessage("Couldn't reach the Drive folder.", [
+      "Check the folder is shared with anyone who has the link, not just your school.",
+      "Check the folder ID matches what's in the Drive address bar.",
+      "Check the API key is active and has the Drive API turned on.",
+      "If the key is restricted by website, make sure this page's address is on the list."
+    ]);
+  });
+})();
+</script>
+
+</body>
+</html>

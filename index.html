@@ -336,8 +336,10 @@ const GROUPS = [
   var GROUPED = [
     { name: "Everyone",   mark: "\u266B", color: "var(--part-all)",
       re: /(?:^|\s)(?:balanced|choir|chorus|full|everyone|all\s*parts|tutti|satb|sab|ssaa?)/i },
+    { name: "Accompaniment", mark: "\u266A", color: "var(--part-piano)",
+      re: /(?:^|\s)accomp/i },
     { name: "Piano only", mark: "\u266A", color: "var(--part-piano)",
-      re: /(?:^|\s)(?:piano|accomp|instrument|backing|karaoke|demo)/i }
+      re: /(?:^|\s)(?:piano|instrument|backing|karaoke|demo)/i }
   ];
 
   var groupsBar = document.getElementById("groups");

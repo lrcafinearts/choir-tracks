@@ -138,6 +138,34 @@ def peaks_for(path):
     return base64.b64encode(scaled).decode()
 
 
+def pdf_pages(path, file_id):
+    """Sheet music as page images.
+
+    iOS Safari renders only the first page of a PDF in a frame and won't
+    scroll it, so the site shows images instead. Returns [] if poppler
+    isn't around — the page falls back to the PDF itself.
+    """
+    if not shutil.which("pdftoppm"):
+        return []
+
+    for stale in FILES_DIR.glob(file_id + "-p*.jpg"):
+        stale.unlink()
+
+    FILES_DIR.mkdir(parents=True, exist_ok=True)
+    prefix = FILES_DIR / (file_id + "-p")
+
+    try:
+        subprocess.run(
+            ["pdftoppm", "-jpeg", "-r", "110", "-jpegopt", "quality=72",
+             str(path), str(prefix)],
+            capture_output=True, timeout=300, check=False)
+    except (subprocess.SubprocessError, OSError):
+        return []
+
+    pages = sorted(FILES_DIR.glob(file_id + "-p*.jpg"), key=lambda p: p.name)
+    return ["files/" + p.name for p in pages]
+
+
 def get(url, **kwargs):
     """Drive occasionally rate limits. Back off and try again."""
     for attempt in range(7):
@@ -186,7 +214,7 @@ def download(file_id, destination):
             handle.write(chunk)
 
 
-def walk(folder_id, previous, keep, old_peaks, depth=0):
+def walk(folder_id, previous, keep, old_peaks, old_pages, depth=0):
     """Returns the children of one Drive folder, downloading as it goes."""
     if depth > 8:
         return []
@@ -199,7 +227,7 @@ def walk(folder_id, previous, keep, old_peaks, depth=0):
             children.append({
                 "type": "folder",
                 "name": item["name"],
-                "children": walk(item["id"], previous, keep, old_peaks, depth + 1),
+                "children": walk(item["id"], previous, keep, old_peaks, old_pages, depth + 1),
             })
             continue
 
@@ -229,6 +257,18 @@ def walk(folder_id, previous, keep, old_peaks, depth=0):
             "id": file_id,
             "md5": checksum,
         }
+
+        if kind == "pdf":
+            pages = old_pages.get(file_id, []) if unchanged and on_disk else []
+            if pages and not all((ROOT / p).exists() for p in pages):
+                pages = []
+            if not pages:
+                print(f"  rendering pages of {item['name']}")
+                pages = pdf_pages(ROOT / path, file_id)
+            if pages:
+                entry["pages"] = pages
+                for page in pages:
+                    keep.add(page)
 
         if kind == "audio":
             # Reuse the outline we already have unless the file itself changed.
@@ -261,6 +301,15 @@ def collect_peaks(node, into):
     return into
 
 
+def collect_pages(node, into):
+    for child in node:
+        if child["type"] == "folder":
+            collect_pages(child["children"], into)
+        elif child.get("pages"):
+            into[child["id"]] = child["pages"]
+    return into
+
+
 def collect_paths(node, into):
     """Every file path under a node, so a skipped choir keeps its files."""
     for child in node:
@@ -276,6 +325,7 @@ def main():
 
     previous = {}
     old_peaks = {}
+    old_pages = {}
     previous_choirs = {}
     if MANIFEST.exists():
         try:
@@ -285,6 +335,7 @@ def main():
                     continue
                 collect_checksums(choir.get("children", []), previous)
                 collect_peaks(choir.get("children", []), old_peaks)
+                collect_pages(choir.get("children", []), old_pages)
                 previous_choirs[choir["name"]] = choir
         except (ValueError, KeyError):
             pass
@@ -304,7 +355,7 @@ def main():
         try:
             choirs.append({
                 "name": name,
-                "children": walk(entry["folderId"], previous, keep, old_peaks),
+                "children": walk(entry["folderId"], previous, keep, old_peaks, old_pages),
             })
         except DriveError as problem:
             # One unreadable folder shouldn't stop the rest. Keep whatever

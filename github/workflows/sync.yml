@@ -1,0 +1,46 @@
+name: Sync from Drive
+
+on:
+  # Every hour, at 17 past. GitHub runs scheduled jobs when it has capacity,
+  # so treat this as "roughly hourly" rather than exact.
+  schedule:
+    - cron: "17 * * * *"
+  # Adds a "Run workflow" button on the Actions tab for when you don't
+  # want to wait — use this right after adding tracks before a rehearsal.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: drive-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Pull files from Drive
+        env:
+          DRIVE_API_KEY: ${{ secrets.DRIVE_API_KEY }}
+        run: python sync.py
+
+      - name: Commit anything that changed
+        run: |
+          git config user.name "drive-sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Sync from Drive"
+            git push
+          fi

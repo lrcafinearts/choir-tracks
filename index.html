@@ -261,19 +261,19 @@
   .setting-label { font-size: 0.9rem; color: var(--ink-soft); }
   .speeds { display: flex; gap: 0.3rem; }
 
-  .speed-btn, .repeat-btn {
+  .speed-btn {
     font-family: var(--sans); font-size: 0.9rem; color: var(--ink);
     background: transparent; border: 1px solid var(--rule); border-radius: 3px;
     padding: 0.5rem 0.75rem; min-height: 44px; min-width: 48px; cursor: pointer;
   }
 
-  .speed-btn:hover, .repeat-btn:hover { border-color: var(--ink-soft); }
+  .speed-btn:hover { border-color: var(--ink-soft); }
 
-  .speed-btn[aria-pressed="true"], .repeat-btn[aria-pressed="true"] {
+  .speed-btn[aria-pressed="true"] {
     background: var(--ink); border-color: var(--ink); color: #FFF;
   }
 
-  .speed-btn:focus-visible, .repeat-btn:focus-visible {
+  .speed-btn:focus-visible {
     outline: 2px solid var(--ink); outline-offset: 2px;
   }
 
@@ -407,7 +407,6 @@
   var choirs = [];
   var path = [];
   var speed = 1;
-  var repeat = false;
   var players = [];
 
   var WAVE_QUIET = "#CFD4DD";
@@ -557,23 +556,6 @@
 
     speedSetting.appendChild(speeds);
     wrap.appendChild(speedSetting);
-
-    var repeatSetting = document.createElement("div");
-    repeatSetting.className = "setting";
-
-    var repeatBtn = document.createElement("button");
-    repeatBtn.className = "repeat-btn";
-    repeatBtn.type = "button";
-    repeatBtn.textContent = "Repeat";
-    repeatBtn.setAttribute("aria-pressed", repeat ? "true" : "false");
-    repeatBtn.addEventListener("click", function () {
-      repeat = !repeat;
-      repeatBtn.setAttribute("aria-pressed", repeat ? "true" : "false");
-      applySettings();
-    });
-
-    repeatSetting.appendChild(repeatBtn);
-    wrap.appendChild(repeatSetting);
 
     return wrap;
   }
@@ -893,7 +875,6 @@
         loopEnd = null;
         sectionBtn.setAttribute("aria-pressed", "false");
         sectionBtn.textContent = "Repeat part";
-        audio.loop = repeat;
         drawBand();
         drawTime();
         return;
@@ -907,7 +888,6 @@
         loopStart = clamp(loopEnd - span, 0, Math.max(0, loopEnd - 1));
       }
 
-      audio.loop = false;
       sectionBtn.setAttribute("aria-pressed", "true");
       sectionBtn.textContent = "Clear";
       audio.currentTime = loopStart;
@@ -922,7 +902,6 @@
       audio: audio,
       refresh: function () {
         audio.playbackRate = speed;
-        audio.loop = repeat && !hasBand();
       },
       redraw: function () {
         var box = timeline.getBoundingClientRect();

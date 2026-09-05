@@ -377,6 +377,12 @@ const GROUPS = [
 
   /* ---------- viewer ---------- */
 
+  /* The API's alt=media address serves files as downloads, which renders as a
+     blank frame. Drive's /preview address is the one built for embedding. */
+  function previewUrl(id) {
+    return "https://drive.google.com/file/d/" + encodeURIComponent(id) + "/preview";
+  }
+
   function openViewer(file) {
     viewerName.textContent = file.name;
     viewerBody.innerHTML = "";
@@ -385,17 +391,25 @@ const GROUPS = [
       var img = document.createElement("img");
       img.src = mediaUrl(file.id);
       img.alt = file.name;
+      img.addEventListener("error", function () {
+        img.replaceWith(buildFrame(file));
+      });
       viewerBody.appendChild(img);
     } else {
-      var frame = document.createElement("iframe");
-      frame.src = mediaUrl(file.id);
-      frame.title = file.name;
-      viewerBody.appendChild(frame);
+      viewerBody.appendChild(buildFrame(file));
     }
 
     viewer.hidden = false;
     document.body.style.overflow = "hidden";
     viewerClose.focus();
+  }
+
+  function buildFrame(file) {
+    var frame = document.createElement("iframe");
+    frame.src = previewUrl(file.id);
+    frame.title = file.name;
+    frame.setAttribute("allow", "autoplay");
+    return frame;
   }
 
   function closeViewer() {

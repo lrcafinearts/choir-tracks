@@ -8,9 +8,11 @@
 <meta name="apple-mobile-web-app-title" content="Choir Tracks">
 
 <!--
-  This page reads manifest.json, which the Drive sync writes for it.
-  There is nothing to configure here. To add or remove a choir, edit
-  folders.json instead — this page follows whatever the sync produces.
+  Reads manifest.json, which the Drive sync writes. Nothing to configure here.
+  To add or remove a choir, edit folders.json and re-run the sync.
+
+  This is an audio tool. Students sing from their own marked-up paper music;
+  sheet music is here to open when it's wanted, not to practise from.
 -->
 
 <style>
@@ -25,6 +27,7 @@
     --rule:       #E4E2DB;
     --quiet:      #93AAA3;
     --accent:     #0E6E7F;
+    --marked:     #9B2F55;
 
     --serif: Palatino, "Palatino Linotype", "Book Antiqua", "URW Palladio L", Georgia, serif;
     --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -86,8 +89,7 @@
 
   .crumbs {
     display: flex; flex-wrap: wrap; align-items: center;
-    gap: 0.3rem; padding: 1rem 0.2rem;
-    font-size: 0.9rem; color: var(--quiet);
+    gap: 0.3rem; padding: 1rem 0.2rem; font-size: 0.9rem;
   }
 
   .crumb {
@@ -128,15 +130,37 @@
   .row-file audio { width: 100%; height: 40px; display: block; }
   .file-note { font-size: 0.85rem; color: var(--ink-faint); margin: 0; }
 
-  .open-btn {
-    font-family: var(--sans); font-size: 0.9rem;
-    color: var(--accent); background: transparent;
-    border: 1px solid var(--rule); border-radius: 3px;
-    padding: 0.55rem 0.9rem; min-height: 44px; cursor: pointer;
+  /* ---------- section looping ---------- */
+
+  .loop-line {
+    display: flex; align-items: center; gap: 0.6rem;
+    flex-wrap: wrap; margin-top: 0.5rem;
   }
 
-  .open-btn:hover { border-color: var(--accent); }
-  .open-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .loop-btn {
+    font-family: var(--sans); font-size: 0.85rem; color: var(--ink);
+    background: transparent; border: 1px solid var(--rule); border-radius: 3px;
+    padding: 0.45rem 0.75rem; min-height: 40px; cursor: pointer; white-space: nowrap;
+  }
+
+  .loop-btn:hover { border-color: var(--ink-soft); }
+
+  .loop-btn[data-state="marking"] {
+    border-color: var(--marked); color: var(--marked); font-weight: 600;
+  }
+
+  .loop-btn[data-state="looping"] {
+    background: var(--marked); border-color: var(--marked); color: #FFFFFF;
+  }
+
+  .loop-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+  .loop-range {
+    font-size: 0.85rem; color: var(--ink-soft);
+    font-variant-numeric: tabular-nums; margin: 0;
+  }
+
+  /* ---------- speed and repeat ---------- */
 
   .settings {
     display: flex; flex-wrap: wrap; gap: 1.4rem; align-items: center;
@@ -163,6 +187,16 @@
     outline: 2px solid var(--ink); outline-offset: 2px;
   }
 
+  .open-btn {
+    font-family: var(--sans); font-size: 0.9rem;
+    color: var(--accent); background: transparent;
+    border: 1px solid var(--rule); border-radius: 3px;
+    padding: 0.55rem 0.9rem; min-height: 44px; cursor: pointer;
+  }
+
+  .open-btn:hover { border-color: var(--accent); }
+  .open-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
   .msg {
     font-size: 0.95rem; color: var(--ink-soft); line-height: 1.55;
     margin: 0 0 0.6rem; padding: 0.8rem 0.2rem 0; max-width: 62ch;
@@ -187,8 +221,7 @@
 
   .viewer-bar {
     display: flex; align-items: center; justify-content: space-between;
-    gap: 1rem; padding: 0.8rem 1rem;
-    border-bottom: 1px solid var(--cover-line);
+    gap: 1rem; padding: 0.8rem 1rem; border-bottom: 1px solid var(--cover-line);
   }
 
   .viewer-name {
@@ -237,7 +270,7 @@
   <p class="stamp" id="stamp"></p>
 </div>
 
-<div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="File viewer">
+<div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="Sheet music">
   <div class="viewer-bar">
     <p class="viewer-name" id="viewerName"></p>
     <button class="viewer-close" type="button" id="viewerClose">Close</button>
@@ -258,11 +291,18 @@
   var viewerBody = document.getElementById("viewerBody");
   var viewerClose = document.getElementById("viewerClose");
 
-  var entries = [];   /* the choirs list, dividers included */
-  var choirs = [];    /* just the choirs */
-  var path = [];      /* [{ name, children }] — deepest last */
+  var entries = [];
+  var choirs = [];
+  var path = [];
   var speed = 1;
   var repeat = false;
+
+  function clock(seconds) {
+    if (!isFinite(seconds)) { return "0:00"; }
+    var mins = Math.floor(seconds / 60);
+    var secs = Math.floor(seconds % 60);
+    return mins + ":" + (secs < 10 ? "0" : "") + secs;
+  }
 
   /* ---------- messages ---------- */
 
@@ -287,7 +327,7 @@
     }
   }
 
-  /* ---------- viewer ---------- */
+  /* ---------- sheet music viewer ---------- */
 
   function openViewer(file) {
     viewerName.textContent = file.name;
@@ -322,13 +362,14 @@
     if (e.key === "Escape" && !viewer.hidden) { closeViewer(); }
   });
 
-  /* ---------- playback settings ---------- */
+  /* ---------- speed and repeat ---------- */
 
   function applySettings() {
     var players = panel.querySelectorAll("audio");
     for (var i = 0; i < players.length; i++) {
       players[i].playbackRate = speed;
-      players[i].loop = repeat;
+      /* A marked section wins over whole-track repeat. */
+      players[i].loop = repeat && !players[i].dataset.section;
     }
   }
 
@@ -436,21 +477,81 @@
         if (others[i] !== audio) { others[i].pause(); }
       }
       audio.playbackRate = speed;
-      audio.loop = repeat;
     });
 
     audio.addEventListener("loadedmetadata", function () {
       audio.playbackRate = speed;
     });
 
-    audio.addEventListener("error", function () {
-      var note = document.createElement("p");
-      note.className = "file-note";
-      note.textContent = "This one hasn't synced across yet.";
-      if (audio.parentNode) { audio.parentNode.replaceChild(note, audio); }
+    row.appendChild(audio);
+
+    /* --- mark a section and loop just that --- */
+
+    var start = null;
+    var end = null;
+
+    var line = document.createElement("div");
+    line.className = "loop-line";
+
+    var loopBtn = document.createElement("button");
+    loopBtn.className = "loop-btn";
+    loopBtn.type = "button";
+    loopBtn.textContent = "Loop a section";
+    loopBtn.dataset.state = "idle";
+
+    var range = document.createElement("p");
+    range.className = "loop-range";
+
+    function clear() {
+      start = null;
+      end = null;
+      delete audio.dataset.section;
+      audio.loop = repeat;
+      loopBtn.dataset.state = "idle";
+      loopBtn.textContent = "Loop a section";
+      range.textContent = "";
+    }
+
+    loopBtn.addEventListener("click", function () {
+      if (start === null) {
+        start = audio.currentTime;
+        loopBtn.dataset.state = "marking";
+        loopBtn.textContent = "Mark the end";
+        range.textContent = "Starts at " + clock(start);
+        return;
+      }
+
+      if (end === null) {
+        end = audio.currentTime;
+        if (end <= start) {
+          var swap = start; start = end; end = swap;
+        }
+        /* Too small to be a phrase — they probably double-tapped. */
+        if (end - start < 0.4) { clear(); return; }
+
+        audio.dataset.section = "1";
+        audio.loop = false;
+        loopBtn.dataset.state = "looping";
+        loopBtn.textContent = "Clear loop";
+        range.textContent = clock(start) + " \u2013 " + clock(end);
+        audio.currentTime = start;
+        var attempt = audio.play();
+        if (attempt && attempt.catch) { attempt.catch(function () {}); }
+        return;
+      }
+
+      clear();
     });
 
-    row.appendChild(audio);
+    audio.addEventListener("timeupdate", function () {
+      if (start === null || end === null) { return; }
+      if (audio.currentTime >= end) { audio.currentTime = start; }
+    });
+
+    line.appendChild(loopBtn);
+    line.appendChild(range);
+    row.appendChild(line);
+
     return row;
   }
 
@@ -596,7 +697,6 @@
   }).catch(function () {
     showMessage("The file list hasn't been built yet.", [
       "Go to the Actions tab and run \u201cSync from Drive\u201d.",
-      "It creates manifest.json, which this page reads.",
       "If it fails, check that DRIVE_API_KEY is saved in the repository secrets."
     ]);
   });

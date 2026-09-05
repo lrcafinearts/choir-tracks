@@ -8,36 +8,10 @@
 <meta name="apple-mobile-web-app-title" content="Choir Tracks">
 
 <!--
-  ===========================================================================
-  WHAT THIS IS
-
-  A clean front door onto the Drive folders listed below. It shows whatever
-  is in them, named exactly as you named it, and lets students open folders,
-  play recordings and read sheet music without leaving the page.
-
-  Nothing is interpreted or renamed. What you put in Drive is what they see.
-
-  TO ADD OR CHANGE A CHOIR: open its folder in Drive, copy the part of the
-  address after /folders/, and paste it below. Each folder must be shared
-  "Anyone with the link, viewer" or the page can't read it.
-
-  The word "divider" draws the dividing line in the choir bar. Move it,
-  remove it, or add choirs on either side of it.
-  ===========================================================================
+  This page reads manifest.json, which the Drive sync writes for it.
+  There is nothing to configure here. To add or remove a choir, edit
+  folders.json instead — this page follows whatever the sync produces.
 -->
-
-<script>
-const API_KEY = "AIzaSyCCCtx1hWXM4ithbv8dYZQY_GyfKatE26E";
-
-const GROUPS = [
-  { name: "JH Boys",       folderId: "1K6_B8YQarJKDWJ6aw95hYiK7aoBKEaiInWhMNUU1GSoO8wyVtG7-SwYtWlEU5-Qk4JWQoNVV" },
-  { name: "JH Girls",      folderId: "1sRCKrMjJ1UXuWsFPmVFc6VTojycFbczYUUq4qHFLBowQqIozf_IwHcJ0tJfawWYRUH924Uf-" },
-  { name: "Warrior Choir", folderId: "1fmLxRSVU2UWr9PwrDSQHRdfFH0fNsdaC" },
-  "divider",
-  { name: "JH All-Region", folderId: "1C9nZ2216nUR_VqRaNOY9cQN_Y2NWxAwC" },
-  { name: "HS All-Region", folderId: "1rTbFrRiJdcmInWmc-RzGsjvZj6Js7ZYQ" }
-];
-</script>
 
 <style>
   :root {
@@ -60,15 +34,11 @@ const GROUPS = [
 
   html, body {
     margin: 0; padding: 0;
-    background: var(--cover);
-    color: var(--ink);
-    font-family: var(--sans);
-    -webkit-text-size-adjust: 100%;
+    background: var(--cover); color: var(--ink);
+    font-family: var(--sans); -webkit-text-size-adjust: 100%;
   }
 
   body { min-height: 100vh; padding: 0 0 4rem; }
-
-  /* ---------- masthead ---------- */
 
   .masthead {
     background: var(--cover-deep);
@@ -77,12 +47,8 @@ const GROUPS = [
   }
 
   .masthead h1 {
-    font-family: var(--serif);
-    font-size: 1.3rem;
-    font-weight: normal;
-    letter-spacing: 0.05em;
-    color: #F3F1EC;
-    margin: 0;
+    font-family: var(--serif); font-size: 1.3rem; font-weight: normal;
+    letter-spacing: 0.05em; color: #F3F1EC; margin: 0;
   }
 
   .groups {
@@ -109,15 +75,12 @@ const GROUPS = [
     color: var(--ink); font-weight: 600;
   }
 
-  .group-btn[data-unset="true"] { color: #6C8880; }
   .group-btn:focus-visible { outline: 2px solid #F3F1EC; outline-offset: -3px; }
 
   .group-divider {
     flex: 0 0 auto; width: 1px;
     background: var(--cover-line); margin: 0.4rem 0.6rem 0;
   }
-
-  /* ---------- shell ---------- */
 
   .shell { max-width: 760px; margin: 0 auto; padding: 0 1rem; }
 
@@ -134,17 +97,11 @@ const GROUPS = [
     text-decoration: underline; text-underline-offset: 3px;
   }
 
-  .crumb:last-child { text-decoration: none; color: var(--quiet); cursor: default; }
+  .crumb:disabled { text-decoration: none; color: var(--quiet); cursor: default; }
   .crumb:focus-visible { outline: 2px solid #F3F1EC; outline-offset: 2px; }
   .crumb-sep { color: var(--cover-line); }
 
-  .panel {
-    background: var(--page);
-    border-radius: 3px;
-    padding: 0.4rem 1.4rem 1.2rem;
-  }
-
-  /* ---------- rows ---------- */
+  .panel { background: var(--page); border-radius: 3px; padding: 0.4rem 1.4rem 1.2rem; }
 
   .row { border-bottom: 1px solid var(--rule); }
   .row:last-child { border-bottom: 0; }
@@ -169,6 +126,7 @@ const GROUPS = [
   }
 
   .row-file audio { width: 100%; height: 40px; display: block; }
+  .file-note { font-size: 0.85rem; color: var(--ink-faint); margin: 0; }
 
   .open-btn {
     font-family: var(--sans); font-size: 0.9rem;
@@ -179,10 +137,6 @@ const GROUPS = [
 
   .open-btn:hover { border-color: var(--accent); }
   .open-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-
-  .file-note { font-size: 0.85rem; color: var(--ink-faint); margin: 0; }
-
-  /* ---------- playback settings ---------- */
 
   .settings {
     display: flex; flex-wrap: wrap; gap: 1.4rem; align-items: center;
@@ -209,19 +163,19 @@ const GROUPS = [
     outline: 2px solid var(--ink); outline-offset: 2px;
   }
 
-  /* ---------- messages ---------- */
-
   .msg {
-    font-size: 0.95rem; color: var(--ink-soft);
-    line-height: 1.55; margin: 0 0 0.6rem; padding: 0.8rem 0.2rem 0;
-    max-width: 62ch;
+    font-size: 0.95rem; color: var(--ink-soft); line-height: 1.55;
+    margin: 0 0 0.6rem; padding: 0.8rem 0.2rem 0; max-width: 62ch;
   }
 
   .msg strong { color: var(--ink); font-weight: 600; }
   .msg-list { margin: 0.2rem 0 0.8rem; padding-left: 1.4rem; }
   .msg-list li { margin-bottom: 0.3rem; }
 
-  /* ---------- viewer overlay ---------- */
+  .stamp {
+    font-size: 0.8rem; color: var(--quiet);
+    text-align: center; padding: 1.2rem 0 0; margin: 0;
+  }
 
   .viewer {
     position: fixed; inset: 0; z-index: 50;
@@ -238,8 +192,8 @@ const GROUPS = [
   }
 
   .viewer-name {
-    font-size: 0.95rem; color: #F3F1EC;
-    margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    font-size: 0.95rem; color: #F3F1EC; margin: 0;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
 
   .viewer-close {
@@ -255,8 +209,6 @@ const GROUPS = [
   .viewer-body { flex: 1; overflow: auto; background: #FFFFFF; }
   .viewer-body iframe { width: 100%; height: 100%; border: 0; display: block; }
   .viewer-body img { width: 100%; height: auto; display: block; }
-
-  /* ---------- narrow screens ---------- */
 
   @media (max-width: 700px) {
     .masthead { padding: 1.1rem 1rem 0; }
@@ -282,6 +234,7 @@ const GROUPS = [
 <div class="shell">
   <nav class="crumbs" id="crumbs" aria-label="Where you are"></nav>
   <main class="panel" id="panel" aria-live="polite"></main>
+  <p class="stamp" id="stamp"></p>
 </div>
 
 <div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="File viewer">
@@ -296,53 +249,20 @@ const GROUPS = [
 (function () {
   "use strict";
 
-  var API = "https://www.googleapis.com/drive/v3/files";
-  var FOLDER_MIME = "application/vnd.google-apps.folder";
-
   var groupsBar = document.getElementById("groups");
   var crumbsBar = document.getElementById("crumbs");
   var panel = document.getElementById("panel");
+  var stamp = document.getElementById("stamp");
   var viewer = document.getElementById("viewer");
   var viewerName = document.getElementById("viewerName");
   var viewerBody = document.getElementById("viewerBody");
   var viewerClose = document.getElementById("viewerClose");
 
-  var choirs = GROUPS.filter(function (g) { return g !== "divider"; });
-
-  var groupIndex = -1;
-  var path = [];              /* [{ id, name }] — deepest last */
-  var cache = {};
+  var entries = [];   /* the choirs list, dividers included */
+  var choirs = [];    /* just the choirs */
+  var path = [];      /* [{ name, children }] — deepest last */
   var speed = 1;
   var repeat = false;
-  var loadToken = 0;
-
-  /* ---------- drive ---------- */
-
-  function isUnset(choir) {
-    return !choir.folderId || choir.folderId.indexOf("PASTE") === 0;
-  }
-
-  function mediaUrl(id) {
-    return API + "/" + encodeURIComponent(id) + "?alt=media&key=" + encodeURIComponent(API_KEY);
-  }
-
-  function listFolder(id) {
-    if (cache[id]) { return Promise.resolve(cache[id]); }
-
-    var url = API +
-      "?q=" + encodeURIComponent("'" + id + "' in parents and trashed=false") +
-      "&fields=" + encodeURIComponent("files(id,name,mimeType)") +
-      "&orderBy=name&pageSize=500&key=" + encodeURIComponent(API_KEY);
-
-    return fetch(url).then(function (res) {
-      if (!res.ok) { throw new Error("Drive returned " + res.status); }
-      return res.json();
-    }).then(function (data) {
-      var files = data.files || [];
-      cache[id] = files;
-      return files;
-    });
-  }
 
   /* ---------- messages ---------- */
 
@@ -367,49 +287,27 @@ const GROUPS = [
     }
   }
 
-  function showLoading(text) {
-    panel.innerHTML = "";
-    var p = document.createElement("p");
-    p.className = "msg";
-    p.textContent = text;
-    panel.appendChild(p);
-  }
-
   /* ---------- viewer ---------- */
-
-  /* The API's alt=media address serves files as downloads, which renders as a
-     blank frame. Drive's /preview address is the one built for embedding. */
-  function previewUrl(id) {
-    return "https://drive.google.com/file/d/" + encodeURIComponent(id) + "/preview";
-  }
 
   function openViewer(file) {
     viewerName.textContent = file.name;
     viewerBody.innerHTML = "";
 
-    if (file.mimeType.indexOf("image") === 0) {
+    if (file.kind === "image") {
       var img = document.createElement("img");
-      img.src = mediaUrl(file.id);
+      img.src = file.path;
       img.alt = file.name;
-      img.addEventListener("error", function () {
-        img.replaceWith(buildFrame(file));
-      });
       viewerBody.appendChild(img);
     } else {
-      viewerBody.appendChild(buildFrame(file));
+      var frame = document.createElement("iframe");
+      frame.src = file.path;
+      frame.title = file.name;
+      viewerBody.appendChild(frame);
     }
 
     viewer.hidden = false;
     document.body.style.overflow = "hidden";
     viewerClose.focus();
-  }
-
-  function buildFrame(file) {
-    var frame = document.createElement("iframe");
-    frame.src = previewUrl(file.id);
-    frame.title = file.name;
-    frame.setAttribute("allow", "autoplay");
-    return frame;
   }
 
   function closeViewer() {
@@ -491,7 +389,7 @@ const GROUPS = [
 
   /* ---------- rows ---------- */
 
-  function folderRow(file) {
+  function folderRow(node) {
     var row = document.createElement("div");
     row.className = "row";
 
@@ -500,7 +398,7 @@ const GROUPS = [
     btn.type = "button";
 
     var name = document.createElement("span");
-    name.textContent = file.name;
+    name.textContent = node.name;
     btn.appendChild(name);
 
     var chev = document.createElement("span");
@@ -510,7 +408,7 @@ const GROUPS = [
     btn.appendChild(chev);
 
     btn.addEventListener("click", function () {
-      path.push({ id: file.id, name: file.name });
+      path.push(node);
       render();
     });
 
@@ -518,7 +416,20 @@ const GROUPS = [
     return row;
   }
 
-  function wireAudio(audio) {
+  function audioRow(file) {
+    var row = document.createElement("div");
+    row.className = "row row-file";
+
+    var name = document.createElement("p");
+    name.className = "file-name";
+    name.textContent = file.name;
+    row.appendChild(name);
+
+    var audio = document.createElement("audio");
+    audio.setAttribute("controls", "");
+    audio.setAttribute("preload", "none");
+    audio.src = file.path;
+
     audio.addEventListener("play", function () {
       var others = panel.querySelectorAll("audio");
       for (var i = 0; i < others.length; i++) {
@@ -531,60 +442,19 @@ const GROUPS = [
     audio.addEventListener("loadedmetadata", function () {
       audio.playbackRate = speed;
     });
-  }
 
-  function audioRow(file) {
-    var row = document.createElement("div");
-    row.className = "row row-file";
-
-    var name = document.createElement("p");
-    name.className = "file-name";
-    name.textContent = file.name;
-    row.appendChild(name);
-
-    var btn = document.createElement("button");
-    btn.className = "open-btn";
-    btn.type = "button";
-    btn.textContent = "Play";
-
-    btn.addEventListener("click", function () {
-      btn.disabled = true;
-      btn.textContent = "Loading\u2026";
-
-      /* Fetched as data rather than pointed at directly, because Drive hands
-         these over as downloads and an <audio> tag won't play a download. */
-      fetch(mediaUrl(file.id)).then(function (res) {
-        if (!res.ok) { throw new Error("Drive returned " + res.status); }
-        return res.blob();
-      }).then(function (blob) {
-        var audio = document.createElement("audio");
-        audio.setAttribute("controls", "");
-        audio.src = URL.createObjectURL(blob);
-        audio.playbackRate = speed;
-        audio.loop = repeat;
-        wireAudio(audio);
-
-        btn.parentNode.replaceChild(audio, btn);
-        var attempt = audio.play();
-        if (attempt && attempt.catch) { attempt.catch(function () {}); }
-      }).catch(function () {
-        btn.disabled = false;
-        btn.textContent = "Play";
-
-        if (!row.querySelector(".file-note")) {
-          var note = document.createElement("p");
-          note.className = "file-note";
-          note.textContent = "This one wouldn't load. Check it's shared with the rest of the folder.";
-          row.appendChild(note);
-        }
-      });
+    audio.addEventListener("error", function () {
+      var note = document.createElement("p");
+      note.className = "file-note";
+      note.textContent = "This one hasn't synced across yet.";
+      if (audio.parentNode) { audio.parentNode.replaceChild(note, audio); }
     });
 
-    row.appendChild(btn);
+    row.appendChild(audio);
     return row;
   }
 
-  function viewableRow(file, label) {
+  function viewableRow(file) {
     var row = document.createElement("div");
     row.className = "row row-file";
 
@@ -596,60 +466,38 @@ const GROUPS = [
     var btn = document.createElement("button");
     btn.className = "open-btn";
     btn.type = "button";
-    btn.textContent = label;
+    btn.textContent = file.kind === "pdf" ? "Open sheet music" : "Open";
     btn.addEventListener("click", function () { openViewer(file); });
     row.appendChild(btn);
 
     return row;
   }
 
-  function plainRow(file) {
-    var row = document.createElement("div");
-    row.className = "row row-file";
-
-    var name = document.createElement("p");
-    name.className = "file-name";
-    name.textContent = file.name;
-    row.appendChild(name);
-
-    var note = document.createElement("p");
-    note.className = "file-note";
-    note.textContent = "Can't be opened here.";
-    row.appendChild(note);
-
-    return row;
-  }
-
   /* ---------- render ---------- */
 
-  function paint(files) {
+  function paint(children) {
     panel.innerHTML = "";
 
-    if (!files.length) {
-      showMessage("This folder is empty.", null);
+    if (!children || !children.length) {
+      showMessage("Nothing in here yet.", [
+        "Drop the files into this folder in Drive and they'll appear after the next sync."
+      ]);
       return;
     }
 
-    var folders = [], audio = [], viewable = [], other = [];
+    var folders = [], audio = [], viewable = [];
 
-    files.forEach(function (f) {
-      var m = f.mimeType || "";
-      if (m === FOLDER_MIME) { folders.push(f); }
-      else if (m.indexOf("audio") === 0) { audio.push(f); }
-      else if (m === "application/pdf" || m.indexOf("image") === 0) { viewable.push(f); }
-      else { other.push(f); }
+    children.forEach(function (child) {
+      if (child.type === "folder") { folders.push(child); }
+      else if (child.kind === "audio") { audio.push(child); }
+      else { viewable.push(child); }
     });
 
     folders.forEach(function (f) { panel.appendChild(folderRow(f)); });
 
     if (audio.length) { panel.appendChild(makeSettings()); }
     audio.forEach(function (f) { panel.appendChild(audioRow(f)); });
-
-    viewable.forEach(function (f) {
-      panel.appendChild(viewableRow(f, f.mimeType === "application/pdf" ? "Open sheet music" : "Open"));
-    });
-
-    other.forEach(function (f) { panel.appendChild(plainRow(f)); });
+    viewable.forEach(function (f) { panel.appendChild(viewableRow(f)); });
   }
 
   function paintCrumbs() {
@@ -675,7 +523,6 @@ const GROUPS = [
           render();
         });
       } else {
-        btn.setAttribute("aria-current", "true");
         btn.disabled = true;
       }
 
@@ -685,30 +532,12 @@ const GROUPS = [
 
   function render() {
     paintCrumbs();
-
-    var here = path[path.length - 1];
-    var token = ++loadToken;
-
-    if (cache[here.id]) { paint(cache[here.id]); return; }
-
-    showLoading("Loading\u2026");
-
-    listFolder(here.id).then(function (files) {
-      if (token === loadToken) { paint(files); }
-    }).catch(function () {
-      if (token !== loadToken) { return; }
-      showMessage("Couldn't open " + here.name + ".", [
-        "Check the folder is shared with anyone who has the link, not just your school.",
-        "If this is the top level, check the folder ID at the top of the file.",
-        "If the API key is restricted by website, make sure this page's address is allowed."
-      ]);
-    });
+    paint(path[path.length - 1].children);
   }
 
   /* ---------- choirs ---------- */
 
   function selectGroup(i) {
-    groupIndex = i;
     closeViewer();
 
     var btns = groupsBar.querySelectorAll(".group-btn");
@@ -716,25 +545,13 @@ const GROUPS = [
       btns[j].setAttribute("aria-current", j === i ? "true" : "false");
     }
 
-    var choir = choirs[i];
-
-    if (isUnset(choir)) {
-      path = [];
-      crumbsBar.innerHTML = "";
-      showMessage(choir.name + " isn't connected yet.", [
-        "Open that choir's folder in Drive and copy the part of the address after /folders/.",
-        "Paste it into the GROUPS list at the top of this file."
-      ]);
-      return;
-    }
-
-    path = [{ id: choir.folderId, name: choir.name }];
+    path = [choirs[i]];
     render();
   }
 
   function buildGroupBar() {
     var index = 0;
-    GROUPS.forEach(function (entry) {
+    entries.forEach(function (entry) {
       if (entry === "divider") {
         var rule = document.createElement("span");
         rule.className = "group-divider";
@@ -749,7 +566,6 @@ const GROUPS = [
       btn.type = "button";
       btn.textContent = entry.name;
       btn.setAttribute("aria-current", "false");
-      if (isUnset(entry)) { btn.setAttribute("data-unset", "true"); }
       btn.addEventListener("click", function () { selectGroup(i); });
       groupsBar.appendChild(btn);
     });
@@ -757,13 +573,33 @@ const GROUPS = [
 
   /* ---------- start ---------- */
 
-  buildGroupBar();
+  fetch("manifest.json", { cache: "no-cache" }).then(function (res) {
+    if (!res.ok) { throw new Error("no manifest"); }
+    return res.json();
+  }).then(function (data) {
+    entries = data.choirs || [];
+    choirs = entries.filter(function (e) { return e !== "divider"; });
 
-  var first = 0;
-  for (var i = 0; i < choirs.length; i++) {
-    if (!isUnset(choirs[i])) { first = i; break; }
-  }
-  selectGroup(first);
+    if (!choirs.length) {
+      showMessage("No choirs are set up yet.", [
+        "Add them to folders.json, then run the Sync from Drive job."
+      ]);
+      return;
+    }
+
+    if (data.generated) {
+      stamp.textContent = "Updated " + new Date(data.generated).toLocaleString();
+    }
+
+    buildGroupBar();
+    selectGroup(0);
+  }).catch(function () {
+    showMessage("The file list hasn't been built yet.", [
+      "Go to the Actions tab and run \u201cSync from Drive\u201d.",
+      "It creates manifest.json, which this page reads.",
+      "If it fails, check that DRIVE_API_KEY is saved in the repository secrets."
+    ]);
+  });
 })();
 </script>
 

@@ -518,20 +518,7 @@ const GROUPS = [
     return row;
   }
 
-  function audioRow(file) {
-    var row = document.createElement("div");
-    row.className = "row row-file";
-
-    var name = document.createElement("p");
-    name.className = "file-name";
-    name.textContent = file.name;
-    row.appendChild(name);
-
-    var audio = document.createElement("audio");
-    audio.setAttribute("controls", "");
-    audio.setAttribute("preload", "none");
-    audio.src = mediaUrl(file.id);
-
+  function wireAudio(audio) {
     audio.addEventListener("play", function () {
       var others = panel.querySelectorAll("audio");
       for (var i = 0; i < others.length; i++) {
@@ -544,15 +531,56 @@ const GROUPS = [
     audio.addEventListener("loadedmetadata", function () {
       audio.playbackRate = speed;
     });
+  }
 
-    audio.addEventListener("error", function () {
-      var note = document.createElement("p");
-      note.className = "file-note";
-      note.textContent = "This one wouldn't play.";
-      if (audio.parentNode) { audio.parentNode.replaceChild(note, audio); }
+  function audioRow(file) {
+    var row = document.createElement("div");
+    row.className = "row row-file";
+
+    var name = document.createElement("p");
+    name.className = "file-name";
+    name.textContent = file.name;
+    row.appendChild(name);
+
+    var btn = document.createElement("button");
+    btn.className = "open-btn";
+    btn.type = "button";
+    btn.textContent = "Play";
+
+    btn.addEventListener("click", function () {
+      btn.disabled = true;
+      btn.textContent = "Loading\u2026";
+
+      /* Fetched as data rather than pointed at directly, because Drive hands
+         these over as downloads and an <audio> tag won't play a download. */
+      fetch(mediaUrl(file.id)).then(function (res) {
+        if (!res.ok) { throw new Error("Drive returned " + res.status); }
+        return res.blob();
+      }).then(function (blob) {
+        var audio = document.createElement("audio");
+        audio.setAttribute("controls", "");
+        audio.src = URL.createObjectURL(blob);
+        audio.playbackRate = speed;
+        audio.loop = repeat;
+        wireAudio(audio);
+
+        btn.parentNode.replaceChild(audio, btn);
+        var attempt = audio.play();
+        if (attempt && attempt.catch) { attempt.catch(function () {}); }
+      }).catch(function () {
+        btn.disabled = false;
+        btn.textContent = "Play";
+
+        if (!row.querySelector(".file-note")) {
+          var note = document.createElement("p");
+          note.className = "file-note";
+          note.textContent = "This one wouldn't load. Check it's shared with the rest of the folder.";
+          row.appendChild(note);
+        }
+      });
     });
 
-    row.appendChild(audio);
+    row.appendChild(btn);
     return row;
   }
 

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T20:34:47Z",
+  "generated": "2026-09-05T21:11:15Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -1133,7 +1133,7 @@
       "children": [
         {
           "type": "folder",
-          "name": "Choral Tracks",
+          "name": "\ud83c\udfa4 SUNG Tracks",
           "children": [
             {
               "type": "folder",
@@ -1472,7 +1472,7 @@
         },
         {
           "type": "folder",
-          "name": "Official Tracks",
+          "name": "\ud83c\udfb5 Official Tracks",
           "children": [
             {
               "type": "folder",
@@ -1766,7 +1766,7 @@
         },
         {
           "type": "folder",
-          "name": "Sheet Music",
+          "name": "\ud83d\udcc4 Sheet Music",
           "children": [
             {
               "type": "file",
@@ -1951,517 +1951,7 @@
       "children": [
         {
           "type": "folder",
-          "name": "\ud83c\udfb6 TRACKS (OFFICIAL)",
-          "children": [
-            {
-              "type": "folder",
-              "name": "Afternoon on a Hill Practice Tracks SATB",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "Afternoon on a Hill (Barnum) Accompaniment.mp3",
-                  "path": "files/1_kRy0LCk2y37pKQYCh5mfNQvdLv8biM-.mp3",
-                  "kind": "audio",
-                  "id": "1_kRy0LCk2y37pKQYCh5mfNQvdLv8biM-",
-                  "md5": "cbd7529ba9c1d6dbcb4c9b542f547703",
-                  "peaks": "/36+/M9AREZZCkBARVsjBT1DQ2oPBj83OqE6WnpURzVlZmtdg3hFUmPEwWPgqFdHUIIzOjQ6gE4zPzE6eTA3Ozt8eiw4Ii94Njg4OiWAcFbccINegV80W2llYglqbH2Cd2pgVEVEZyc2jisKBwQAi5ZpT4mLQW5sVz9UVyp1Y1xVc2xWXF9YX2pgTWeLSq6VY0k5fkt0iEExfo9aij2TmntcO4ZzX4iZchuIeFylY6uHlnyGiFSVfFGllaNIhZZMeJZ0W6mOUYaKtVCQgkiPsIVPk4FDuYc+eXwHfYp8c28afXIJe3hzLYJ3L3B1dRF6bwl7iJyMe3Z3d1t3nauTeICFlmtpa31wko18f35vgTU7akRspZy4za2FgnCHbLTMl7eqpJwpa4mKRXlocatQtB8IwWNWajyKeGtJb6q0dg2mlZhSencYcw56ewhya3JwBRxCOUVHRC0KLwcxLTF4RilIKZl2QUI1Q4VDQjRHNp1FQDVAcWBIOkI3RUVIXFJJXHdxd25edmq3MQgFPkNDVzMEA1MfBQJsFgIBaysWDQsBAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Afternoon on a Hill (Barnum) Alto 1.mp3",
-                  "path": "files/1dW1l02aKsT81E35b8RG7j3q2l5nfVq80.mp3",
-                  "kind": "audio",
-                  "id": "1dW1l02aKsT81E35b8RG7j3q2l5nfVq80",
-                  "md5": "bf24390270bc8941f90debd5e4710f1a",
-                  "peaks": "/37V+yltZjV0VAR8YncjVWExYn5UCVhkK3ljiF1qbid/fK9wsn1+fqF2rNjLi3l7f6qdl2R4rHCDhpZgmX1+lYiWnJqCa36YgXeemoaakYe0q66CiHx9eaeTjJipg6WCeneufImHoXt3uYV1fpJxqrW8jYR4NmVlbTN8f4KRhoOOoJOGjHAlfWt9PGuPOK51f3dxh3eRnZeEl5aOoIiUh5V9fa6Vk72thHV/WnV+kpGEd4yBg6OKgY12lIqTlYeOkJWYsIOFhYyQqo+Eh42an5eKdYRysX9+dnx7c3mEh5B5e5ZliXp/ZYF4jYxymGeQgFl8jpB/jZWQm4mDgJuogZiPs5KWn66omLSmkMXDn5KSkzx6pJCkvqCKkYqAla+zmbOkhJmWucaThY6Sdrl/04F0yquPrKCdkY2Ybr3gq4+fqK+ihqplZVuXZQxRHlNTBF5lK28zZmYJYAZeXSSGjmiWibaKnIV0l6GahIGUgrSFlnGeyYqDeJl6i5yIi5eYcpCqmLWPwZKjIFgEaGMxfiVRBFsYWgNtEFcCcFpCCggBAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Afternoon on a Hill (Barnum) Alto 2.mp3",
-                  "path": "files/16r0zgD-hg1VrxRZmtsQwlKZU1Cwt02bB.mp3",
-                  "kind": "audio",
-                  "id": "16r0zgD-hg1VrxRZmtsQwlKZU1Cwt02bB",
-                  "md5": "799bff3150fa98011b770f8ec33d9c3a",
-                  "peaks": "/37z9XIzYHUdVXEtYnZSB2VaLYFUYCthdzxlinI5a30ld6yAqIGFb6OohouujHN/sHqalH5spY9oiJCehH2QkoiWdZF8fGGXeXGoi5lzjLODqamQdnt/f6SZe4+imXODcXOoiYFwmXZvsINxWpiYqbupiYRnZTdhYyl7hot6iYh7opWRgGN0IWaCY1CFsFR7f25zh4lvnIeClJWdkoWTgYJ5qZGUuI2xfXCAcFx8nZCGfJa0jKa0mXuLlZydhIeakYWLp4OTg5iLhZORkI+WsYx+ioWZhIl9fHh5cH+Fhot8aZiIYniLZYuEi3lynGGWfHdzk4p2k42BkaONlMKZgJiFrJmJjLWFjaSGfJ1+kXB0i2RwnJKfv6WEi3yAiKqmkbOXl42Wv8OShY2Pd7N+1H1xk4SUqnKQj46MZ7birHyil6qaiptmYlmVXg1UVgpXAltfK2wzY18JXFokXyOLgGORiLB4lod1j5uXbYCUgK+BlG+gxIOCepF5h5uHiJiSbo+nlLaMvI6hH1QDZmQwbSNVBWIXVwN7EFsCa1ZWCggBAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Afternoon on a Hill (Barnum) Bass 1.mp3",
-                  "path": "files/11dNPp3MDYjRVB1NKwo3qNLONlu4oGX46.mp3",
-                  "kind": "audio",
-                  "id": "11dNPp3MDYjRVB1NKwo3qNLONlu4oGX46",
-                  "md5": "7f1775daaeb28a60227f65ab375ed74e",
-                  "peaks": "9Xph/xxmUSxhUGUqT2gYT1FMN2ZOBlFKJWdScU9qUSBpYHBslIxra2N8oY+Qfnhib3BsbUNseXKFk4llf4Fxd4SPbI2mXWSKlV95m2RybJWneX1beXRlbmF7ZH6Fam1xcmNta2l4eoRzoXpvaUxoZ29hLXBpI1JYViVWZBpodlc2dGM0VlyRXnB2XXCWdMWlgTRedm1meI9qZoB6lommhXdeZYd1hGV3iWaBXl1qk4p3e39pcoWFj2dtdnRwiVp4eHRpbnB/bHR3cGFreHt7e39nZHh+bHdwYHFdXGliYn1nanFoYnNwaoxlZ4Nba2hohV5jmWlQc29qdjhiXnBkSXpogYFulIWFdoGDa5BybWmMe2JvgayQtYh6gnp4eZudeot+coGLnImBd4WKiY9tlmRniYNyjXlzmIJ+jo2edGVqd4l/gYlid154Xg5MTxBOA05XJFUtVFsIT08kUh55XxlLXHhDYFAhfXiDeH5xbpBvdGddgn2He3dmc36AaIGDaI+ico1kkH6aGEgDWFoqYB1NBE8TRQNtDkYCWU8RCAcBAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Afternoon on a Hill (Barnum) Bass 2.mp3",
-                  "path": "files/1U6oBtGDbOPXzU8goWOIebV90ArqEcGeN.mp3",
-                  "kind": "audio",
-                  "id": "1U6oBtGDbOPXzU8goWOIebV90ArqEcGeN",
-                  "md5": "0766e18519bc8b3090569c1364209fa2",
-                  "peaks": "/n5l/5plWC5lSQVoV2kwSVQrVm5JEUxQJWtRGHlhXStsaGt9nX5qcmtkpoqTg4Vkcn9wdURxe3aIl2l8fnVsdHVccqh5Zm57VnN7gFt9sHO2d3tpf3VzZWt+ZYmJbHN8dW52eW97h3ORropeckwEanBpRnRxL1paYkNfdyJ5chtgeWg9W15kiox5YXWbeM+iikFheG15dp5udYmAnYNurHpka4pzcoh9gWqKYFtskLCPgHt/jJaLrGt3i6l0jIykp5uNfYOUe4SJhqqTiKeffZGQfo2Jk4mBgn9eYFluZYBsZnhrZ3BvcohsZpNhb29qhGN0mWl6aWFscE13bHF0XW5niot0lpKNfoSFb5Z5dG2TeWZ5h6K2uYmAjX16h56lhI2UdIOjhqCAeIeNlJlznmlrhoZ4kHtzooqDlZOshmdrd4eKgYhpfWWBYhNHA0lKBFVgJl4tWVwIVQZVVh91Xx1MVIpgYFckhHuNf4N1c49xg4Jhg36HfHlrd3iCdYaGbJSneI9qmIOiHlADWVwsZyFHBFEUTQNoDksCX01GCQcBAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Afternoon on a Hill (Barnum) Soprano 1.mp3",
-                  "path": "files/1pKOw_ZPj0oiN5iyVhYYb-4EXI8bbyeY2.mp3",
-                  "kind": "audio",
-                  "id": "1pKOw_ZPj0oiN5iyVhYYb-4EXI8bbyeY2",
-                  "md5": "69317a0ce77651d1238e4d3182d2c0d6",
-                  "peaks": "/357/mxzZTV1WAd0ZDZ4VWUxXoAVU2BmK3lmIo13cTF/e3yysJKSgp51wKOcoImqh6W1jJWj1obSo32w0JaFw6IehGlkGVuRM192cjOLgD6kgomtjaV4a4h+g4CXiJuCgYCCgnekoIaXq4V5d1cFdoE8eYh/jI6RhJB5gG+Uq2uBhH5LZ2kjeml/S4qMh6mlm5momYR7lICCn5GTjHuGp62KhZORhbK4jXSJXmF0NXlmJG5nXkByaDp8cHVYaWoscmQ4bn5kPGppNXtkZTdYfj1abGcyil4vVFlueXqIdJFsfJFecrWqlraPeZiHXpJxvn2eqJGwtqqjnbKVo8Kuo6alw7aTnayikZiXorKMoIuui5CMpJKhv5uZmpWhh669xuSjlqiamcaThY2tqbuK6odzq5mMq5Cfhq+Qlbzhq3V5qKuNioZ9inqvdwt3enN+fnCXhah0qGQaYAdgWSSLZyJXcJRtcm8pi6WTkKF2ed+kiKt/nn+Ys35ojpuJi5qXb5Krl7mTwZGlIFQEZWIxdCZVBGIYWwN2EVwCblVbCggBAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Afternoon on a Hill (Barnum) Soprano 2.mp3",
-                  "path": "files/1mnjsW_gsUEWxQ8_IaG6yuj1HYduTWNu4.mp3",
-                  "kind": "audio",
-                  "id": "1mnjsW_gsUEWxQ8_IaG6yuj1HYduTWNu4",
-                  "md5": "5e37fc366a3019c16baa4b10c4d1f599",
-                  "peaks": "/n5l/+t1XTRzWHYtZHYcV2ZVNX5XB2NgXXljhV18ZiZ9eKV5poB2dHmhuZeYg5CsmIq1lFud0YHSn56J15aGw3qEUG1xGl+LYSh0ZxmEeaCeh6OAkaB0boqKeoOThaeDhnCHg3CmmJCKqIR3Vk92ZoFxNYaKi4yTfnt5f2uXqHk/gHs9ZWt7R2aBMIeEp6SgppeomYKDj36AnJSHgXifhaKIepeRs4S3g3eDe2q9sKqMkqKYkJOGoYmKnIWElY2Im3aHon2djIqVm4R1kpakrJJ1pJmLvnh1dnZ6cYZ2dIprg4BecbSajq6OeJOFkl52zoWZqpi0sZufs6+ZoMCgpqOpuLmVmrCfjZmTnK2Ol4qpiYqFo5yVxpOJnI2bgbC+v+ujmJ+axseRgo6poZmF4YN0l6qEhYihg62Dl5ncn26Dj3+Pkp94d5S8iBR5d3J6fnCOgp1znWcPWU9aXCONbB5ac49WcGgnjquIjJ6Ed96frH1/o36Yn3tuj6OKh5uOb46nlbmUuoyfH1UEZ2wxdyNYBWMYUAN/EVgBaU9XCggBAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Afternoon on a Hill (Barnum) Tenor 1.mp3",
-                  "path": "files/1dWFHNIbgfWaZBw3jvMfODDoKLUa5UiKB.mp3",
-                  "kind": "audio",
-                  "id": "1dWFHNIbgfWaZBw3jvMfODDoKLUa5UiKB",
-                  "md5": "4af2310429a358f16e3475e4d5864f46",
-                  "peaks": "/H3/3FGAZ3dBYnYxYnlfW2VfL3lgBmJeflFkhmJ8YYA2c4uEtK2Fd4a1mri4iXd9tYOshm2Nnqd8ob2UoK2Qjp59edKRgoKRr4+XpYl/v8i2iZ5xl4yDjIyidbKQhoKMhqKNhYGWlaGOxpiJZV+CbIZ4OI5+aEhrbCprf4JZjXWEmZR7c6CxkKGGKoGhvZ2jkJClwmhDoqOJj6Oci6HXiKJzl6agpI6al4V4dxlwUHd2bllqZ0N3XXc+e304b2tvOW1yRX51LW1cjTluYUNrhGg+amEzhGkvXmV/dn+Sjp6SeImKepKMfpt/hq2OinqImnqNnYpVjIaDjER3doh+VI2fs6CenKSxrb7Im6TFjnyVnY6Ir7ufwKuTm5GvhsfZlMKujJuswKmglaW2ro1/+HJwqp+NjoqMtqOSq5DwkW+GmZOHnaqDnoWCdwtfYRFgA2FxLWo3ZnEKYWIxZySUdh9ab5NRdmEom8aZj5uLiLGJkYBzupSdjpR9kd6PuZO6pYeoob6dwJabIFsEam80gCdgBWcYVASIEVUCbiBiCgkBAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Afternoon on a Hill (Barnum) Tenor 2.mp3",
-                  "path": "files/1fu-xRLdv-kZYntXrS7Q64fKb6WZq-8zA.mp3",
-                  "kind": "audio",
-                  "id": "1fu-xRLdv-kZYntXrS7Q64fKb6WZq-8zA",
-                  "md5": "55291c89c5fd40c1bf25559528467010",
-                  "peaks": "/H3/6E92bTh/WIExan8dWWpkM4dZBV9jfm1qj2J3dol0d5iCtp+De5OxnKy/kICCxYSkj22RpLqBi7uPpqmNjJ6BfNmWgYWcoJGWmoyDsMO4h5xyn4aGiImxd6yWiIWUhaGMgoWWoK+S0qGEemB8a4Z/O4x4a2NocC1sgSCKhneFnZd4dpmtkqqOL4GkvLqkkY2hrFNuoJ2IkKKmj6vNjqNznZ6bp5SZj4V6eSJ+Tn5md1hsZEN3boNAdHw3YnA9cWxqRoRsLnBxhDltbEddh1w+c2s1k2QyWV5/e4CNjJKSfpuGfqCHf5x4h6iQh3yTmXmTqo1kfYmNiUiKeIuKW46GpaWLrbfEqbmfi8jGrIKUiIeEtbihvKuZn4umi7jSns6wjJu4zaaek6Gut6KU2IGCvp+Rjo6Pr6SUrKjQoH98oaWLlq2EqIOGewxXV0pZBWJsLXU1amkJZgdfYSWObyFab51heHMrn8iekqqLiLOFp4F5qpidlo99kLOXsZa3qJCyn8CXyZivIVoEbGUzeyZYBWEaYAR5El4CciFgCwkBAAAA"
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "Dicite in Gentibus Practice Tracks  SATB",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Accompaniment.mp3",
-                  "path": "files/1Uk6_AmRT2crT4zrDvsz-IQHphugDTnF3.mp3",
-                  "kind": "audio",
-                  "id": "1Uk6_AmRT2crT4zrDvsz-IQHphugDTnF3",
-                  "md5": "e1efac6598f10bdc91f484dd61b16a2b",
-                  "peaks": "k/B0lDKt/v+JAEqpNhsLCgGHCo8GhYERqbOmfYuXbZ9bW52JvliZd5iObIOzpH2Nk32AcVk5WWdkZVlYOFBtYFOUXz1knpt/l0BTe5+VXrRYdHeAX4iPkpOcbHWLo4N0dJKWg4VOnYmYe3iAQnF4Ylx0iaWUeHBTqpWCmKmGhomllWxoc5B3hF+jfnqWa6xhYUaDfFJseW+zmImKj5JxfXNtUWRxZnN9fYRmj5CLelRXdn56cJJtPXdne32Jb1NcbGOLepJ8l2afj4Nbi5SqvpaDXImWj6WVc4CVmXV0Xk5MbGZ6b2NVVGFldIqtPG1ymJeyhD92e5d+t3lkXGtwlpSZk6SOe46gm4KedJebmYqdn3tmZ3xcYVyAV1xNtZawk5FWXJ6QprOIpFK/cE+Ifn9VVXtkh4F1PVp8a4KChFeMbIucjKmBpKqZcECAbnCRnYh1jG1zk5yNqYR0c5mioJqXjZyrsax4yF5tZXRhY4WBeG5pYmOOdlxwQ6qfrYhaWHhtWVBken6rYU9qaG9OX3uTnHV5ZVIwHQMBAAAAAAAAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Alto.mp3",
-                  "path": "files/1VJC4RViCQC0GKtp1auYqFY3wD7pw_AtR.mp3",
-                  "kind": "audio",
-                  "id": "1VJC4RViCQC0GKtp1auYqFY3wD7pw_AtR",
-                  "md5": "2104e58f0756da64b74dea91afd5e34f",
-                  "peaks": "mvx6mzUkAP+MAABcY2hkaxkFVmAJWQRWX5GcnKV+lcSHh6KwvHmgjYZ4j6eXqJWUs3GBRnumipyMfkR9wIi8h5aJgqF1mYmXtXWYf5CbmKCBgoiIl3e9kY+hrKWTipR2pJOSloaCjIWRkKCdjoOVlZS/faqnl4eUjI2z0oyLfH6ctZaWkGOZjXuJkHqIfKuKhYhRcUlkeniFYoqTlpG6j7Kcto6WrIuho6qhqoyennp8jZSpdoWq0XaDs0+Go6Oalq5bgpGVqXOge7CHjK+6ooqHkX2pmKCYn4+ApYVLd4OdnJGPTG5upLqCmF6ao5Z9itqwh6Koj4zdtpSel3+unJ6Mlpafioiffo2UjpWAybOT9HGYfKqkb5unurR8tYfFk6BvfZuLqJaKkIWpd22fVn3IjoiDrlmGjI+Hu8CGqZCWgqSgmp6Ur6yZVmOYjH2AmYmBkqaAfZaEkKKAgImKtKOwdKTFu6SDupt6i1Fzl6/Wkp2UjZCWnG6Ue5bBnJKTkVJzZjNufZevjn1FcGY3hHeSjoOxcJluXgcCAAAAAAAAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Bass.mp3",
-                  "path": "files/1z7Fg_4JXn40WugLYe-1ZSP-peSdjbY4I.mp3",
-                  "kind": "audio",
-                  "id": "1z7Fg_4JXn40WugLYe-1ZSP-peSdjbY4I",
-                  "md5": "158ffd3e7d8f03e77e6eb6d90dd67f55",
-                  "peaks": "k/B0lDIiAP86AABXcntvdRkFWVUJXQZZA4aGfpSDmpCAfJ3Ho26LeH+Ri52e5bKXy511Soipl3aKlEWFqpmYho9mdo5wrJySoXeScZ+Zm6mMlZ2KgqeRiKCYdYBejoh7c3mdf3SCl4d2iLOZkICIi4GOf5WJrKyMjpSWqZZwbX53ko+GjF56enuSe7ODi5FvdX1QcUlZRHmDX36MiJmPi52Nkqh1eImKipq6nIaMjnxwbYqPeYCQmmV9nVB4l3KGdW1be5ZvsX+tc5WOrsqZrIl2e3aSeJ3VqpqMqYhPeYGwe4KMUIR6p5OMq12HsnaRhICHkaxzhoN6loCghZGasbeMn5iTlX+aoHmUjpKLj5eApoOdipSwZJ2V05lkkJSWroyKmaeEtKWNkYiln3yhVoSZdXmSkVOGqGuDhI9kkY+Ps7CllZSpoKmOUV+QeHB1uXZ6f6Oac8Z5eaF2lXy0iKijg5WVm46Gi32PfFR3qrizjLGxtKmwpISSc4m+kYlxaXFFYThpe3+Hc41Ia2E2h3WFnXmEeodubQcBAAAAAAAAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Soprano.mp3",
-                  "path": "files/1tWINt7LIuQD6WEW0ROH5e7hkfUuDVGpj.mp3",
-                  "kind": "audio",
-                  "id": "1tWINt7LIuQD6WEW0ROH5e7hkfUuDVGpj",
-                  "md5": "7d31018544b4fd17e2a5704805aa9704",
-                  "peaks": "lfR2ljMjAOj/FQBNaod6iC0HW14JWQRZboSGiqKPoaGLzIfLx5mRnsyWmJKBtnShmImsUo6Bn4iPfUOMnIuTh5ySjrWZlYufn4rEm4+VkKezuoawlpyQr6HHiI19moWEipCfqIedrrCNrZiflYiiuY2PjbPFjZ16kaWmgo6nhJeRmZSSjGaAkpClnZGRkYuDiZBUb0tpcld9ZHKKpI2mm6+GjYq8ja+iscuUnJOhrXKfjJaEWnC3u5mLsliIgp53fppkdJmI6I2hi4q0lbGNwYyszJCUo4W+eouEjqFWg4+Nk5WLWYqPmnynrmOflouVjKGtipWGoo2mt5+/i5LLqqiNh6WOwW+Sep+SjLF7m5mVqI+fkp6re46fpq54kY+Gj4aIdpaK2q5+upmspnCgV4C1oqyDrVeJvIu/g69dz52praeVo4CefpWxX5N4l4WWpIaFjrOTe6iTiqSHlYaurI+noayEur2Wq4uBjlNuobamf3CPkJeXlpaFgoarwdGbiVJueDRuhaesiH5MbXY2gI6ynHuVdoJqawgCAAAAAAAAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Tenor.mp3",
-                  "path": "files/19uQfrplnOOl9b3Dzd2U3L0SmLCvQCVSm.mp3",
-                  "kind": "audio",
-                  "id": "19uQfrplnOOl9b3Dzd2U3L0SmLCvQCVSm",
-                  "md5": "38eac9094559363981a8555b9807e221",
-                  "peaks": "lPJ1lTMiAP9JAABben57fi4GZ1gKWwZeA5XFtqyFnLiWpJStnJ2Vh6ydqJ2hlIiaqoqhTaKPr5GFlUabppGIj4V7jZmDl72RqKCSh5bGla6Yhq6gy4qdoLS7lJpqxbCyjq6wkLrUkqiFlKGjk46un4eknZ2pqaqMmJufrKyNi6ehnYaRpUuEyn+ljIqSk69uraBVdkpeSYGBZJqRmZadmY6loamYpoivq7ark6SmqJ6Zh5OUoHqzl4ujvFuMnaaoiY1cpZ+cu5aRjqiwjMGfopmhvJ2kna2ZeKOXlJ1Sc4ukg36YVoR7m4KTsWKXlZGGvriqm56Gjri/po6TfJ/Pp7Kklr2bsYakmbCYfaCopb+V2JKUkK66h6ir3IaPp5yiuY+Nmqmqv4mEoHnThpCmX3m9mHiFm1eHtZp9hJJxsaunk8iqoJq1iq6wW19Vf6mQlpibl6OhiZebpaygnJGmvrC2kbKglJ+H14qGs1RynbyZprKmsZmcnZGWeJCVr52lk1NvcDRyl6ufkLlKank3i5Glqo6ZfqOEeggDAQAAAAAAAAAA"
-                },
-                {
-                  "type": "folder",
-                  "name": "SLOWER TRACKS",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Accompaniment (pitch 0.00 - tempo 80).mp3",
-                      "path": "files/1jkQ85XMuthFqU8b3g9LBPx3kOdAbBj4H.mp3",
-                      "kind": "audio",
-                      "id": "1jkQ85XMuthFqU8b3g9LBPx3kOdAbBj4H",
-                      "md5": "47828e7efb7a3d1c503a93b4a939a115",
-                      "peaks": "rbqPbjrv9OahADxyLhUJCgCWCp0HrpsN7+jepqfHjbB0eMaz+G2/oKW6frPqsqaYppagi3Y+ZYmCkXN2RmmNgWOzgUqLvZ2tx1trlbGycupwkpuObaSwwozSg5+EyK6XktjCoJlQvLHAmYueTYmagn6CstK1n3hmr8GcddOgvafjiXaBnq+Uj2CuhqB9cJt9gFqhmXqHoI/InbexpKuXm5+LaIeRkJKhlaaJq7axpG1fhpeglLuDYo1ym5axfXGFfoG2o8yYwIHOppBzm8DYy9OuhaHIv+Gwl5ixtZGcfGtpa4uek3VgZGiKnb7FTWqKy9DdnEqemM2i25WGfoGMw8/At929obHP0IzZnJfUz8S4uoaNjJRzhnqqf3Rv4rTHx7V4Y7S7tf+uxW3ad1aemq9qcYqEq6GQU3SEiqWlkGisfqK7u9ii08TKjFyeh47JvJ+OspSRsbqWzYKbkdLK082lsbnOyNab4miRh5R/grOoepCQfHmvjnqTXeXL7opoa4+LaWx+oKqrcmyEj4JYeKy1k5uSfXI3HAMBAAAAAAAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Alto (pitch 0.00 - tempo 80).mp3",
-                      "path": "files/1-A3DwGgvZgUxnR6MAycLlwEZ5cdJ9_hk.mp3",
-                      "kind": "audio",
-                      "id": "1-A3DwGgvZgUxnR6MAycLlwEZ5cdJ9_hk",
-                      "md5": "9b7347d7bc01d45a2715fe8d26b46f4a",
-                      "peaks": "qraMbDksAPa1AABCcoCDgB0EZGYLZwRmV1WywqGixKyHv7jD2YeisqWQuLu/o6ult5SuWmCyro2ylFCX6LbIpbiXkqaFuKWZ3necbr6sqMWZrKmooafwupbNtK+lo6x3p6+om6Srs6mlp73BsaGcibvAn8jCnKOcv6zBqKqeh5Gkn7u0oXiyoICthoufeaN5n5tjk0lvW4CNZI2prrbau9HT47GhnZSd0L3AzpK6yaSNpqu0f3rK/42ksF+Ql5eSedhxka3Fp4KgosC1oLTDwKOlsIrIsLKsyJmdrJlOYqGtz6euW4aX1b2Rt3Gny8eLp9PQu7i7np/7qqvMtazQss2zt665j6DFlK2wr8SizNWe1YC5h83OjerQrr6LpJawtLx+b5ukuL/JtLG8ipXOZ3bBw7mXvmqLoJmVt96Cwrq6lM+tpruoz8a9YlSprpisqJ+it76coKmlp7OsrKaqz9LiisXt/K+Zv42StEOTtNC6672xpKGtvXahibPK0qaIjmVphTlqg6q8tZRTgWo6dJawrZzKjrF8cQcCAAAAAAAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Bass (pitch 0.00 - tempo 80).mp3",
-                      "path": "files/1UO4Q0hlypnI7ALZcdpZNvj8f42r-KEgg.mp3",
-                      "kind": "audio",
-                      "id": "1UO4Q0hlypnI7ALZcdpZNvj8f42r-KEgg",
-                      "md5": "c56589883b19ceb78cbfbcd52eb996ff",
-                      "peaks": "lqF7XzInAP8cAAA5hY2AjSAEQVcIWwRiA4ajfKpwtpJQe8OnrXqgaYqUmLex58SZl5qbUIG2rIyIjUaBrKqzk6RbeIx2uYibuIiucbuaoq+noIuYlq+ceo6vY45gl6FzfXSul394mKOIi7qurXaUi3+QlqaZwb2cpaWHp4xxdIWPWouOoF5vdWGwe6mOeppmhpdbcTt7UG6DWWCTlayjrLeenJ13cHukiKTKrJiQrU93apRupoNoqGyRo1l8foq2enFpXKWjrIesU4d9u7mvwJ5zcoOlhLyrxbKWqJZZTX7MmJGWTn1hrquF1WycqIKuenSMnZqAi3+JhX6vn4Otw+SXorOsrXKdloyRhLGVkpjPwICIj4bOapGc9KlWlZunwKeZi7qUypighXOfe5i5X29hsIhwn1dzr3l/kplkqKKezZXCraybq7KXXkyblm93rIOBlK6vZqVzhqGJo5i7jrC6ga+GzK2JkHGZj0dloL6cj7ihwIeivZCQeJzJxKBjjFhgljByiYSmhXNUdStejHaOfq2Lbp1TVQcBAAAAAAAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Soprano (pitch 0.00 - tempo 80).mp3",
-                      "path": "files/1K3NM4tbt-0zVhLAqdkMrrlA8MstdpREg.mp3",
-                      "kind": "audio",
-                      "id": "1K3NM4tbt-0zVhLAqdkMrrlA8MstdpREg",
-                      "md5": "04ba7d42446c70324300856b8325fe10",
-                      "peaks": "dX5hSiceANH/FQA6ZXxrdiIEMkgFTQNQXFeId4R8l3l9nW2krmRtjpmDkIx5lmKAenWORmNheHFiaj52dl5sZm16e5CPgoh4jH2kf4aBfY+WoHaSfJFyfISTd3hxjHBma4B7j3SKm49viXuBcGl3nmZqcHSlf4xxZ4+JcnqQd254aJGBcFViY119bHOAfGZbZHBHazlIYmZoRl1ze2mRepdyc2mDf5mInKSLgn6Epm1ybH15S2BsjIFoi0RkX3txS4RWUXZ3ymyESGqrhZBvqmyTs3aOaoajaGV3c3o+U3pxbmNhRU59gYJlgVlrimuGdpyhjndsk2qAoI6gb26oeZF1f3h/pl1taIV9dYp5hI19hXOLhouqdH2RiJlqgYByjWdvW49qmIZninqEj22RR3GImIpkk0tytmp+aX9Us5KMd1GKnXRob4KSVHhueW+Ff3x3cpx3dZGId5ZziXqYmYF9gINriZZrj3VyeC5lgpORhHWNl4J6hnJsdWeHp7qEa0VaXSpiaZebdnhBclknXG2kfmmBY2ZrXgUBAAAAAAAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Tenor (pitch 0.00 - tempo 80).mp3",
-                      "path": "files/1X6uMcZps0UXAq56dEj_oTLGaCNzmokgr.mp3",
-                      "kind": "audio",
-                      "id": "1X6uMcZps0UXAq56dEj_oTLGaCNzmokgr",
-                      "md5": "6a8dbcb492b2276d78a78a4288c39b9d",
-                      "peaks": "hY9tVCwiAP8sAAAsd3d5dCoFUVANWQRhAmawlpd4kLR4mo+yooyJhLeMip6rm12kqImPSHx/m5KCl0CHl3uIfHNsjYR4l7eKr5qdf3+xkbCMe5qgop1xjLSpioxtrbCfg5WOe7vPhZN6iIWnl3iYoYqplJ6nnKuTi3OMnpuIgJOhhoBti1BrmHOMenuKbJVzeqRSdTZmRoBvVGOGho2dmJyon42bqnGvrqaSiYyhnpWWcYF6nXd3lXaZplJbYqSfZpNbXWiYmlWDZa6TdZydq26QyJKwmqeVX6KIpJxHbXeddIqZTFldiYBbrFGVm5GZvpF+pbCJnb+jmoyMbIfNtqGcf8KilXiek5+ieJWTn76cvZaDkJqviaexwZdvm46ms5WKfaOSoJSAnG+nmY6kVmGDx5hxi1hvp5R5bHtzsamocm2WkpybkJ6wTkhVY6qJh5GRXpyieZCKhaKTnJCtvqS0kK+IlYxvroqJr0JSlbyJlbGFuZKAkY2McoqWtJmkl1FrXDF1jJKamJVLWXEsZZOonp6JZqNbRAYCAAAAAAAAAAAA"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "Libertango Practice Tracks SSAA",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "Libertango (arr. Escalada) Accompaniment.mp3",
-                  "path": "files/1q9ZloHZ1FF433T6J9bMbOMWdtzIvZMq_.mp3",
-                  "kind": "audio",
-                  "id": "1q9ZloHZ1FF433T6J9bMbOMWdtzIvZMq_",
-                  "md5": "98d2a92b8bd7c6719a349f169b1074b9",
-                  "peaks": "lYD0//wdMy4NAwFvcXV3OoZ7cYyPOJCKfmCEc4GAjXCSc3J1cnFQd3N7dGU1iImLZoqXZHeRj1uRfn6NcTuFhoeFf31Cm2iJY2p5h3uuWIGHkHM3iE16d4tpeEF1lJJme5tegH1vT3R5eWR+PHqKk3Fzl0F2eJFgenp5dHtkipF9gYKCXIaEd2JtRWtrcGB6gGh3dnZceW9eUlBXV0dUTko+S0hRN0lBR0tHRktRSExERzFBOFE3P0RJRUA6TkpCL00/MDM2Py8yOTkyNjBBTDY9QD0yPUE/Lz09OTc1QT88MkNOPTgwK0pIJUFNNTtVTEoxP0VLTmWwWqliNjhBSlhDcEhYZVtSWnGTW113bmxFVUltSk9NYEpkdGFjZXhXeVFXWWdPTltEUFBGTU1KT0tRSkpPUkxNT1FNSUU5RVJLQj1QTkxcSlRURE9ITk5SSk1JVElMTVlCTD9KQ0tFOEBESUNKQ1pEWkdTUU1ESExQVEhNSk1JS01dRkhISUhERzk9RkFSSUw2RkdsYHFLbnx/cXdYYmWKwksLAwEAAAAAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Libertango (arr. Escalada) Alto 1.mp3",
-                  "path": "files/1wdXaVkkyCqfY7-GPebVjQ8Fhi-V5Ox-2.mp3",
-                  "kind": "audio",
-                  "id": "1wdXaVkkyCqfY7-GPebVjQ8Fhi-V5Ox-2",
-                  "md5": "4527029f48d76cada9019c8f2fd9970f",
-                  "peaks": "loEA3/93AGJfXmCEUFZYH4qDhoiVj4WJo5eHhZKNgZeKkYOKe56AkLGTj31/j5deiJOTioODgo+Jiaebbougm5OPg5yVsp6AiHmOpIKOkKGZl7ZzoKaOiLWehniXknSUj6SUh5eajZKAq5OKhqqRlY2RkpKEjcCbg3+hhox3gJSRh4KSrJSllYh8jIybgZeLhJuRr4OAh4+bpq3CocCftKaUtrCxkLO4nqauxJ6yoqu/u5nSm8yV1orGldi1rp2gwLywjL+yppbWqsSimaegsJ65x56ipberoqfCnJuikI5/jo+Kln+GsI+djoyTi4WHpHh0kpt2kYXziqJ6kISEmeiRh6aVuJqbkqjPrpCcwrCPocCImpegk4aTvaKupbOsnIt4iJ11mneMdo9zlYeXeoJ/gppwgod8a4mPa2d7g39wXp2egHCGb5FtmHikcW6fl4WGon97anmCb3KXeWtuaYKIZGeHgXRvgXiMaHxkhZd1k42Wa6aNgXGNeJdwZoZ5dXCCg3Zjho+WnYmVlZ+/iKas0qqQfXaexUgKAwEAAAAAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Libertango (arr. Escalada) Alto 2.mp3",
-                  "path": "files/1xktlCqrv5aHFrBHnab3Lhs9MoeZ_KvOZ.mp3",
-                  "kind": "audio",
-                  "id": "1xktlCqrv5aHFrBHnab3Lhs9MoeZ_KvOZ",
-                  "md5": "3977d020e70351aa1bdc005cd7def0f1",
-                  "peaks": "nIYA/+AGAFtYV1lxUUxOOoF/gXyHgneEl4Z7e4aDioR/hW52eJR1iqeLg3hvh4pWgIGHgn55eYJ8gp6LaoGUkIeFf5KMp5KCfniFlXiCkI6TeKRwjqR4dJ2RgHGYhY6KfpmJeo6PgYx8mIV5fJiNVIOHj4d9ia+NeHWSe4RrlIWDfYCDooiajH9zfISDeIV/eZSKnnZ4fHuNzKuolevAs6eovdS8sMS3srm6uL6mttPBpJ/ZtsKd9JmvoOigrLuJosuls87GpaHDrsiypLu7oqq2uqyywMmyqL28p6udh3SPda2dfXR8nYaNdoJ+fXqBnG1qi5JthHvUf6Ckv5Jui9GFf5eJppGRiaG6o4qnsqR/kbWAjH2Rh3uKtaOdmaKakIBwfY1sjGh7bXxli4hmeXl5fZJog3l1X3OCZF57Y3ZpV5GYfWp7YIRsjmWVYF+Mi256jXt4ZIB9aGyJdWVgYHd6XFx7fG9oeXeDYH58d5Bqj4WRY5KAdmZ2cIVlgWxubWd3eWtdf4R/kHWMjJSmf5qgxqCJd3GVskIJAwEAAAAAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Libertango (arr. Escalada) Soprano 1.mp3",
-                  "path": "files/1XYQO_pDqEznLK7CxcanNffXd7Qg5gWJe.mp3",
-                  "kind": "audio",
-                  "id": "1XYQO_pDqEznLK7CxcanNffXd7Qg5gWJe",
-                  "md5": "ef172325469f5f6a163244931ead3115",
-                  "peaks": "lYAOs/9PAFJUU1F0JFBPTnJveHR/e21zjINpdHmKdIJ2g3V7aGxufI16h1hoa4N5dH93dnZtcX12boeHVmiGeYJ2eYZ3mHtrdmd9jW1kfpKKWZh2daiWj5SUiH1trKC4oK7NopeugomFlZGPeompgaCYrZxsbYKAlnypmniBa52gpa2kv72fnIWgmaeXjZt0fJnRoItgZ1tuw4aai4Goe2VrjaSPkJOAqId/jXqFhH1pZFmWi5OVroOIYYJ9dZCjkIBcbY2ikLmfhal1bniGqpSSe2d0k5iUqpmXoINqhoucaGVyfHSTgICGf55+VnOEm5Joc1yWe6a/j4JeVR5UaYtyf2Zzfot0hMSkoqGYn6KMb5JtaY9ph3iQk5CJnqadnntddX9igmR2ZYBmf3SGb2tufHhdYnVkZnZ5X1prZnRdTnd4blpxbXddbmuGZV2LfHtzknduV3xzXWF3aWFcXHBwW1Zva2xcc2lmWmlVbHJgfXSGXYN6dVqJcYdkbnFnZWFxc2BYdWtea1NdSHldW5CZuaGBa2KBhzwIAgAAAAAAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Libertango (arr. Escalada) Soprano 2A.mp3",
-                  "path": "files/16qO9dVfSLfmaBgeC2RJaWDCMf_TVhTWb.mp3",
-                  "kind": "audio",
-                  "id": "16qO9dVfSLfmaBgeC2RJaWDCMf_TVhTWb",
-                  "md5": "bc24b8b6a60cd104833790f23d33fce7",
-                  "peaks": "loET4v/IEGJiYGB4HVZQUYeIkXuThH+HmZOCjI6ajZWFmXxyiJyAkq6VkIF5f5OQiIWVio9wiYiIk5WXYnybnZqQl6eQtouHinWQn4CGmKefpa6FgLeCcMCRiZGJtoSaf5uNi3qchJGCooB0gIOMjZJ+opF/lqeRdYKYg2SOg7CXjoCMr5ChmJeNjIl7n5SPhqWloYOBf3mTeYiNr6Ckl3+TpZeRoZh7lIWnnICOfKV9g4iLkbCMfZR3V7Jtp7aAn4G0dqyRqXiVgZ10fpB/q3qLgKeCg5m1kIGVgXZ+rLC+pZmqp5SrqnV0joGBioqSgpdupHOHkJ3EdKmjmZeJqp2jkIaguZSemJ/DqrK2v6ifmal/oKqTjYJ5nHyGipaelXN5couCh3d+b4NoZJGMkHeHj5ZrlId0bYCBb2V0ioRjc4yejW+Yd4Vug3N/imeWjoVymZSJYp+ReXWFbXlxaIh9Y2ONkotrg46FaWSQgZduo4+ibIiGfmCReXNmdYJ8dmt/hGpmj4RadFZfh6e1n52ku6B/inaRnFELAwEAAAAAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Libertango (arr. Escalada) Soprano 2B.mp3",
-                  "path": "files/17aA-vMT0pTffBUoqG3tE1C8IsA_8kM5b.mp3",
-                  "kind": "audio",
-                  "id": "17aA-vMT0pTffBUoqG3tE1C8IsA_8kM5b",
-                  "md5": "b034b6d00db85af2ff15a7f6c7e4776a",
-                  "peaks": "mINp9cn/GWJgYV6IWRNcWoiKiYuVkYh3pZt7iZ6KiZyKnoaQdZGCkqaQm25/gJqMipeIi4eChZKNeqSeenqfmZKMjpyNtZV+i36PpYJilKyhqq9xn4qYjcOWhI+el46SlJuajIqajnx1sJaMhYOvhJKOhZOHeMabhYKij452hJmbioWao5WwlpB9lImuZZuOhoKSrYeCiJabe5WispChj42KopmglZN8kYWrm4B9c6N3hqOKhp2OgYx6V6ergbFyqoKreo6PhnqYiql8h498qX2Ti5KLjIWpjZ2hj3eEoq25oaK2qJCujYGDi42PdHaklYqGg6B5mp+5fLS2nWWPmKuCoYidtKGpnZvGnsGhwbGao52RnbGSkIKZnaSYiqqSqnFsiZ5zmXaNd5d5mYeegHaBkI9ucIt1couNb2p9e4duXY6Qf26Gfo9th3+fdmqlkoh1qox/ZoqDbW6PeW5xbICJaWaEgIRshH18Z3tugIhwkomdb52RimuehJt1aIN5d3OGg3Jlhnxqf2Nqh6HFm5+ur6J2g3KWnUkMAwEAAAAAAAAA"
-                },
-                {
-                  "type": "folder",
-                  "name": "SLOWER TRACKS",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "Libertango (arr. Escalada) Accompaniment (pitch 0.00 - tempo 75).mp3",
-                      "path": "files/1PRKeHHzP7g2GqzynILLpzFq4ROIs1FdQ.mp3",
-                      "kind": "audio",
-                      "id": "1PRKeHHzP7g2GqzynILLpzFq4ROIs1FdQ",
-                      "md5": "5c42ffdc1c6c6f19dc5b279cbfb5e3d7",
-                      "peaks": "t2Sx6f8dKyYPAwJ0l6KYQqiGbKCxRJGqsnWrlXyxv3WMmI2Jl55bcKmocY49n5q1bpOah5WDoG6UlImJe02bhZuEm41huYuxb3yWsZPVZ5KhoaI9j1yLjYRrj0uTtatnoaOReq6TV42VlYCZTIt8oYOXrUSSnaZnk5Snnphkm5uMlIiXaKSIhnuGVYaIiH6gmX2rro1riot2YFhnalxjYVdTXltpPV1SYF9SV1BlWF9dU0ZhSVtHXFhXYFlMSl9dPmBcQkFNU0FFR09HSURVXk5SRlVLVVVeNFJRVk5CT0tIPVBhT0w5MltgMVVpREpfVFNBSVxOa3PaeKWJRElUWXVTdFNrY3BfZWqXc1yVh45jaWlmYFlaamuEh3BtfYFyp1pibJFXWW5XX2leVVBSZVllWlNjaWFYZ2dbalpGU3BmV1FfY2OCY1h3Vl9kZVlnWWVYcFdXamxZW0dqZWpUUFJhYUpjT2RUgVliclZWWWVnWFpkWl5gVE93XVpRT2VdXUpQaVJMX1VPUk9/bINih4qigpZ0Xoul3EYJAwAAAAAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Libertango (arr. Escalada) Alto 1 (pitch 0.00 - tempo 75).mp3",
-                      "path": "files/19tiZcmso6ixQe8GU3G96thR5dHodw5I6.mp3",
-                      "kind": "audio",
-                      "id": "19tiZcmso6ixQe8GU3G96thR5dHodw5I6",
-                      "md5": "14bf7437081cf70945d1ea821fa07003",
-                      "peaks": "nVUAsu1RAHJsbnCPZFNyUpOGoo25q4WSp6eQi8qnlZ6br6VxqpiamLOut3WPnJ2Plpi0lHeSpZqSmqStmaq8mp6dkbmgz7CYnXiDvJujhbu/x6OMlci5hdmngoumoIyRkcCgoJ+bm5SSx6qamsKTonSmnaR6kMymm4+4m5COiLGujZG+x4XBsJiem63ApIidmqKXsaCfjYKSt8rFurq82ca038LJsMypsqvW6LrBscDY0q/An+vK8JnVq+nQtbvHyPPOpMjb0K3Kr9bRq6PMubKr16GRv7DBo8LKqMd6q6mMo5yKj46ZoJGthpmqZZKYl6d0lpWinI3elZuPv3iTqPCfnK2XxZ+ZnL/Gt5educiZvcOgsZ+krYydrcDHtaqWo3yAl5SKr3aQiox9qIempYWUqKZuqpGGXo2lf2xnmH1wd7GclXqRi5B6n4mXnF6itJOByYGrfLGnkYibeX+IW5aBdmWHmpBzfpyIeWOrmKGDtp+ka6igl2Guk5pfg5l9kGaUo3x4oojCnIWNn67toqvC/5yqnJCVzFsJAgAAAAAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Libertango (arr. Escalada) Alto 2 (pitch 0.00 - tempo 75).mp3",
-                      "path": "files/1zEEYi4NWgrCHo4gFDj3cmWmxVxbaL27S.mp3",
-                      "kind": "audio",
-                      "id": "1zEEYi4NWgrCHo4gFDj3cmWmxVxbaL27S",
-                      "md5": "e06fa90e387ee7bba734fb5db8b6b337",
-                      "peaks": "l1IAqeQLAD5fWlpeQlhdCHtxdW+PjWxko5JieaCKa3OIlJSGf4yGgpmckGl8e4lMiYORh4J7ho55gJSNcJGRioh7fKSWuoaBinNun4CGf3uRqYl9gZNoabudbouQjIV7e4qMhI+JgYB4roZtg6aFWHGDnYZyipeMf36Lg3VqlZSVfnmWnXunk5COhIqYiYyAhKGfn4uCYJV/0KvDoNqNwaSv3NnKxL6zr66mzMOktcfOpqbmqr2W/6q3o+acq8nIosqyvdDXsLC5p8awtqe5rKa8varBybHAor7AtbiFdX6Vfph+iXV9hoGEiJWEiHqHo3l0g4h0gHHFeImi2mlhlNOPipKTqZeFeJytiYmGoal9oJWCmHqMhXaHxpisnI6JnWtognhyjHNzeYFjiFehkGx5iIBQi4t9bYV8blpQe3JlaYqJgGd9e3JWeGyDeGWLlopwqHyQZn+DbXOHZ2BuT4GHZGZ3hXxhhH9rZYVygYpog4+PcZCKgHV6fZloZX96elB0hnBjkHOgj2yNhKK/gI6hx5GWinWJ0kQJAQAAAAAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Libertango (arr. Escalada) Soprano 1 (pitch 0.00 - tempo 75).mp3",
-                      "path": "files/1hbkpnIIddSWiu8NyW8TA7MY6Vsznq7v2.mp3",
-                      "kind": "audio",
-                      "id": "1hbkpnIIddSWiu8NyW8TA7MY6Vsznq7v2",
-                      "md5": "521825cdaed0ce06b1643287628a1b46",
-                      "peaks": "ploOwf9LAGVoZWVsNV5EXYx9hnqqjIl+qJx/fo+0j42GnJODj4+PmramnGiCiIOMiYyjjWqDj5CNg5CWZHmel52FkLKcuqOGjH16q4dvlaGkcomBhdXBnaTDknSPzbzursTxyqzMoKuVr6SFa5u1zLW91taUhKqTl6DGwZqFZrjLuMPR5tTAupa5tMG3q7WPkszdqcV2dm+N5qjEp5usiIeZr8etnLKUr7OTq5V2soaHfYGfp7O20Y6Sf6CJf4nD05Ryi5/Bvb27qruZXJKVwKW1oXePn96vvLTJ0rWOm5WxhoGAgqWwjpehnaOPcYSMuq5rhGWxj9TRqaB7KW9tdZaEcHl4nZ+L1tu7xbC8xLeOjaZ4hqJ6oJSfpaOiw+a+t4V1boiAjX59d4N3WqCii2uMjJBkk5SDeoeVb2ZehIhmYouThWieiYN1dnxxiW+Popp+qHeUbrKWcHaOcXh1V459bnCMjYJlbpV3amWFiYxtnpqRgIadhGuujJNweYx2hFN7j3pklHt0hGZpTlmEY5m52L2umXyEnVAGAgAAAAAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Libertango (arr. Escalada) Soprano 2A (pitch 0.00 - tempo 75).mp3",
-                      "path": "files/1JrjaEweXBy8rQ4ztxcU4rj8VLuzJNyyk.mp3",
-                      "kind": "audio",
-                      "id": "1JrjaEweXBy8rQ4ztxcU4rj8VLuzJNyyk",
-                      "md5": "a80a9e2b6b7b2af93da8fae044149f03",
-                      "peaks": "hUgKnv+GCl1fXV19GlhRUX1zg3GZgX2En4x3b4WfhoN0nIdrgnl/cZeVj2F3gYuBgoKDgn9qiIRnhI+KWmCTmIeIhoOPqI55hHBqnmdmeJ+bgo9oi5mNZo6db46MjoeNdquMj3KTfX94so2Cf3qMeHh8lYh0gaaPc4OHg0x2d4uVcHCUpXenk3hogolynIaCgq2YnoSAaoWId4OBjI6cj4uFiXeJiZt5g3ikmnF3cZZ5iZJ9dK+Le4FzTq5sl491p36Ca6qAl2Z9bptpdIV9oX6PgJhnhYGplHSZeGx3oJWzpZKnlXumnHRogYp9jICNdYddgH2CfYO2bn58hpF0kIt2oXZ7oo+Rf5ilnayqmpp7l5iJh5KSjXpol3V1h4GXonFwZoZ0i2Z5cIpUYpt6g2WHiJ5jfX2Gan+FaEtKe3NoZoONg2uGZ3ppkHB7eWmNlntqoXGEZaOMa26KY3xqTYBzZFx8gnpUgYpwaFKJgolmoICRZo2KhVmceYRZcoN5fU55d2dde3JuZUhgip63kKWKr5CAdHaQhVYHAgAAAAAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Libertango (arr. Escalada) Soprano 2B (pitch 0.00 - tempo 75).mp3",
-                      "path": "files/1yEjPtBEXs0qAjullsIp54xwa6v_z9cEZ.mp3",
-                      "kind": "audio",
-                      "id": "1yEjPtBEXs0qAjullsIp54xwa6v_z9cEZ",
-                      "md5": "1d4268d8a1615b4e398ab74a751c509c",
-                      "peaks": "uWVG1KXtElN8hHyXeBl2crCXpaLVuo6f0r6km9K9qLq/3MqdsLewqNDLwnqlsbu2vrLMpq+lu7mgoKjFponL0bfCtOvK396txKSw3a1iue3N2eGly/mtlOLNpqLOwqy+0OnHu5+7tbGp/L2yrqrHs5fJqbuaps7HprjDp7uiotfZp5/T56vqxbCao8DWYrK1uuGc4Lizj8yxorO40sPrqai8vrPP1cmqua/f35uwmb20rMatq+i4rr2XcMPPntus7bm1jcy/rqrCnNqQsLemybCvrNCbxLXN0snIm6CW2szj5dXU4qLlz4+pqr/FlJXQw56gqdqjp7D/m+yoxYaWpcmj4KjU1867s9PpxuTZ6r6s09C3vb6/vqrD1dzPrd+59YygoquyvqKfnLWcsKfPtJq+vdqEybSzmquth3ZarrmVkrPCmaHSlKuZto7aloSxta2VxJy9id3IlZ/Gm4OWeK6miIiRuaKPkMPAlZ2QtLSJ6si5pM+2v4C4tZacjraspIGbq5eAxZ+Zj3d9zODlxOS958qtr3zB1UwKAgAAAAAAAAAA"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "Miracles Practice Tracks TTBB",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "Miracles (Frizzell) Accompaniment.mp3",
-                  "path": "files/1ljhkxnaiRe3gAMCgWuKGIgRYNjTBV7-l.mp3",
-                  "kind": "audio",
-                  "id": "1ljhkxnaiRe3gAMCgWuKGIgRYNjTBV7-l",
-                  "md5": "9469e2fb6f7c29a9f0d3f4913df6a2f5",
-                  "peaks": "XP85AwT5qcMSAEhQRzQwL2toTEgyLiwYHgGQmnlKgGhES0ksCwWQko9YeYJNK0c2EgZ/VVwbEAqDZUs+Lw9oXUlXMR59WCxSQxd8YV9noEverzy1nDxPqUk8JhUTS08/NTEmiHBEOh0MhV4wPxsLZUxdPioPfUdXVCYOe1dJap4yYlR9cFF1bGZgbmZgeWpabmJgq45ZhKOZoy1CMtpgn8OnrGZrhziHdZt0bath4r43sGBWYXRdYWJZSlZjWEkzNjIXAwCbYplzdqpWfXBhs1uch2GpZHiUZNxaoYZh41CRb21lcpq7rGhhdIB6ameCjpFkaXOGf2NzZop/aG59lHhhYW1abXFleWe2zVMsfnd8SEtFIAkBAUZDST4PAgEARk9IOy8pZVREjzoThmVAPhgMPIlVPx4RhFtMPB4NZFtVTC8YwUxknTERCwsJsoo7OS67rT46LSkpuH5AOzYnvp86KRgVREZvUnhXTJJKfgx1C3sNj2mYa30+Yy5LOhUHi4Cda4RKYzBLOxYGBJUnOEgzLTFdNR4YEhAOCgkDAAAAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Miracles (Frizzell) Bass 1.mp3",
-                  "path": "files/1KXgBLtCl-deEd4W5BTt0ywN1s3sIc0_y.mp3",
-                  "kind": "audio",
-                  "id": "1KXgBLtCl-deEd4W5BTt0ywN1s3sIc0_y",
-                  "md5": "b3aa89f8ebcae64c330e42336ce1a68a",
-                  "peaks": "W/xBAv+QHG08QzpuKCZoO0A6eSgoIQoBjoNZkHFVbz41ZwoEjnNxcWNsaCQ5ZhMGl0dOXhAJn1U/fi8Phks/biwdp2Ulej0XaomTc6Bte7OKgLeHe6mIi55rb3lBNnosImNtZq58eLVscYtpaZdejpd1bpBze6+Hc3aZjnuPeIuDncJ/kK58nKywkJyokKGNUGCPSruMe4hXgioqtY+6drOUco2Siae1tKuUlnbJWWKzj6dWYHNvsGhjrYiblXuhgJZsboRFoYGIr5eXl5+qiL2on8eCpI2rt06XlaW9l7qNsKChwsnHmZmdZIuQiKy7yJawr2yZkqmcn7Okq6F0joWcnJqvq5iZqLDQ0IR6n6WGPUBxDAIBBHc+fRgGAQF0OkNvKSVjLkavc3SljXuUaGeOdGGxgWGel5mggXB+l39xnHx+k4yBsX10agsIpZqKgo2+knaFkWMqrniBlm54tXmDx2xaboOYkpKGh4lgc2yLao5no4qbnJh9kX541W9lo2++jp6DhXSEqIJteqFvf7mIc4Koh3lxem96cXBdBQEAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Miracles (Frizzell) Bass 2.mp3",
-                  "path": "files/1t8uDh1KWGH68baI-4U7nEETD9FLogIbs.mp3",
-                  "kind": "audio",
-                  "id": "1t8uDh1KWGH68baI-4U7nEETD9FLogIbs",
-                  "md5": "71a856903b5547f8c58e7a3fb7d72d29",
-                  "peaks": "Xf5CAv9wngBwP0WAMCsdfEBEP3grJxsDlFiFj3IzbCxCdx4FBIx/ZYFKcG03PmwKBKxSOXENCahTN4UWCpNQTGsoErI7SYonD4idg3+necOMj8OUkqKcjqhxeZJGRHMrLWZ0bq6Bg8OFd56WbmeOl5ibfHuYZ5GsixOInn6AlomYpcWyiJm3pqeyqaeqlqiUWVaXWk/Kj4SPKI8svledw7mjeJCTl5HAscSoo3TZu1m3nKtXZ35T03BqrmGjpIOsfZ98dI1YooiUw5uhm6yzjcO0q86NkK2XyFifnp/Opb2gmrKtztvOpqOhbo6Sl7i307OzvnSRoLSjoMiut62AdJKkpaOptKugm4zd3Hp5oYyCPkKIDQMBAXVBiyIHAQFxO0R1LipqNUzIfHmekoOubW2XeV+ffWemjo68b2AOo4V4ooKHnpKKuoR5cAwIrqCUmJjHm3yOkmgtxH6JmHSAw4GLwHNKe4mhmZyLkItidHKUcKdupJOro6KRmIR/t3ZttXfNmaaJjXqMwIh1r5d4iMaFf5S7k3yAeHd9enp7BQEAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Miracles (Frizzell) Tenor 1.mp3",
-                  "path": "files/1tkKoYGBslmf2u29djcQF9iequRgXGs02.mp3",
-                  "kind": "audio",
-                  "id": "1tkKoYGBslmf2u29djcQF9iequRgXGs02",
-                  "md5": "88d9a7d69ab6076b3ba7ec4d03e54374",
-                  "peaks": "X/85AwT8rsEAAABmOD1vJyYbbTg8OGklJBoChUZ3e2cpYSc7ZhYEeUtvcV0iZCcxYxkGml5dfGlmnnJznHVyqWhxeHhobrNlhYZlDHmLbZVicZ+Gatl0caFqaYtkVnk9MWooHVxvYKt4Y6t3c5hxaaN2Z391XZ1chaF3G3OLaG+WeJmOk7ORlJqdl5mWlI+NkpNMS4RsbtyopYpuk2+2U5iGgY47gHiFl4O8jn3In79vXamDgk9YbmGdbmeZh76CbJt7iGZleEGNeI+tiZGKmKR7rp+0kn2ZhK52SYyM0paBoq2yqJemt52ZinptroKJsMG6kZWChZyInKSppp+aWXF/h4eBjaiEgZCBmKphaXmLoDo7dw4DAQFlOXYdBgEBZTQ8aSgkXTBCt5d0momArGtqgm1pl3djk4GMn21bcnaLlnZ3oYOKkIVpZScIc6+Lfo5wm4l5fYVbKLB9dYxzgqF7iotsGXiZiq2SfnxyZ4RrlHN1crWpmZV8dmeEdZBpYZKmvcKwhph9hotmbYh4cqZ/c3uwc3VxcmlramtkBgIAAAAA"
-                },
-                {
-                  "type": "file",
-                  "name": "Miracles (Frizzell) Tenor 2.mp3",
-                  "path": "files/1p0ek6msTZbWniwRB1Y-idCM-LLUCpNOM.mp3",
-                  "kind": "audio",
-                  "id": "1p0ek6msTZbWniwRB1Y-idCM-LLUCpNOM",
-                  "md5": "069a5ee902664c24b196166aa0599138",
-                  "peaks": "WvpBAv+bYjY7M2YlG2M2OTVpJSMbAwGAc1B4SU1gODBeBwR8aVVqWmBcLjRgDQOQPFp3ZF2VXm2YaW2pY2xwaWOqaGiHamFygYRqj2Jtqnl3pIZ9m4Rum2thdDowZyYaWGJqqXNqomFxlG5pomBxe29kl2BnlHVob36GYXp/e4WPlJ6JkqSWmJaGkIeLmYVKVnw+z4Wfmm+MbmquQpB+e4suenOAkXyth3jBmbh4WI1/jEhTaUesXXOVcKORZ5ZniF1ac0aLc3yigoGFkZl3qJiOsWp6k36hVIaFhs+Fmqaiqpyyl66Hlnxfg6l/opmckY6KVIGilpKghJyZi1ZpepOIiX2JopiilZPFdHKXr5mEOnAXBQEBZzA2cAwBAQBiOjRkIhpZP0qvhG6We3imZ2V5aGSOb1+PfIWbaFducYWScnKgi3yPe2JfFQmNl4OWcniif3V4flgmnYlzjnx6vniGpGocY4CInJeBhXRwi2upYZVil4yTmmyVdXF7fGphmpfNm4J6gXd5lW1kr49vdapraHR/fGxlaWZoZmMNAwEAAAAA"
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "z-LEARN AFTER-z",
-              "children": [
-                {
-                  "type": "folder",
-                  "name": "I Am The Wind  (SSAA)",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "I Am The Wind (Hagenberg) Accompaniment.mp3",
-                      "path": "files/1nurbXntm15TSZ6zQwp_CeOY2Tmhn_0Qg.mp3",
-                      "kind": "audio",
-                      "id": "1nurbXntm15TSZ6zQwp_CeOY2Tmhn_0Qg",
-                      "md5": "59be850428c716db1b5ae39d38be65e6",
-                      "peaks": "BvmgPwn//CkAGDElYh1kB2BrYgp/e1kdbnlcW35gL3t6WhxvlGQ8YUkSZGBfDGJ5YQ5hZwdDQks7LlVCRltXQFFDTTwyVzxHXlZZUF9EODhbVUYsOkxFTUtUTWVbSEBFU0dKT0A3PktQTUpVREdKP0BRQ0VHV3FNUUc+Op5FOjkuemsMXm6clThKMEFwSEE8SXtsXmo8O4qGZXpboYcoOT8/bVR3Yl6rZJ2HknWMVaCZesFkTnZtIEpQZlBabW5abm9xW30PAQJjRjI1PjhGKCA7MThMMDkjOyFOKUxNN0Y/OUA4Rio5OCk2QjY6MD4yQDpXQTBAMUVlLmBZSlM6PVk1OH4ymHQ6JjsSc0hEZkJWRHtMVCapP0VGVW1Tbz51MFtePj1YYGNtfoBNho1IYnWBYEuMbKWOe3FPXU98ZHh1jmlzclCQmG9Vb2mvh3NphouxmrKru7ydhp15Z62btaXFtKaQqKB8laiGcZagj6mFgpWYnqCOjLKKfZ20mJK7ZmSGsEhdq2WgmMWmy52CiFGkkmgLaGRfCuwnCQYGAwAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "I Am The Wind (Hagenberg) Alto 1.mp3",
-                      "path": "files/1CNV-skpwduEuiY4j4hfNV9eFu9Rf9peO.mp3",
-                      "kind": "audio",
-                      "id": "1CNV-skpwduEuiY4j4hfNV9eFu9Rf9peO",
-                      "md5": "c6801e797f073c57a97fd309d5beade7",
-                      "peaks": "BvifPgnj/2IZXpCmcWZTBlRZd5ufgV98kYWRq5eMhp53em6th3SMl4tsh4OETVx5YXZlanmehId0fot/gYBmeqCSeGp3kqF9h390jW9ocmije15xgmV2dH6Ch4BtlYZ+e4d+d3d0enl1lnpuaI9zZ4N+cHl5oJJ9j3d3kHx8X4WChE92YaKRlHdylYxvbYiDpol/h2h7g4WBh5epj4eghW2ag3CYeKuCjpGFipVweriUyW6Oc4RrhmyJW3psRG5faDhidhECAlAEYy15IzxmGjFkH2NMMWAyIFkiMXE3cUA5e2lziVd5n1t3ZXONdmeMbG6EZ2p5dIFrWoyGZ3ZXvoaEqXp/iWlVhWCNcISMcXaAc3RqXK1/WJRmb4B4fZR+m3OUiXSNdYyFcqGKiZt/pIqVjp57k8qCc5HAiYyad3mvzbCZjZWCmZN8joiinYyMqr6dm8/L0qmenqKTpaKny83ZuLqaqZmKfJGBfbKjrVaSrrKTmM/Dzqepj67Dpamxl5O5tp2wsoerr6mp05uxp4iU1XZidHKDa7ZrbmxsXhECAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "I Am The Wind (Hagenberg) Alto 2.mp3",
-                      "path": "files/1vwVYfs2MdGsgrErUB_OEVrxpF4sDWMKj.mp3",
-                      "kind": "audio",
-                      "id": "1vwVYfs2MdGsgrErUB_OEVrxpF4sDWMKj",
-                      "md5": "2123073fafe7ddfa4ea634fb7936b853",
-                      "peaks": "Bv+jQAn93WNVo5Wnl11TBVJdh4eMh1ahj3B8mnySiZOWdJmboF2VkW5Xb3R/U210YHaBYHiihYJye4qBd4BmeaKReWh7kqJ9h2ZIhHNrdn2eZ2eJcnF8kIN8fI+NWZVsg4iUcXuAlaB7eniPgZ97cHx8nniRmIRvdXh4lHRka3N/cmWCcKiMaKNrdXJxa4h4oISIhWh7jqh5g3+Ii5hneG+HhHGsf5t6l4x9h6STepiIsmdsgY9mcnCCXXVsQ3BbaThhdxECAlAEZCx5JjtiGTFiHzBiMWAyIVgiMW43cUA4eWhyh1d4oFpzZWiLcmiKbG2BZmlobnFpWo1lcYVmanRxfoBwu3V2k292b3RybHSAc3RpZK9+V5VmcIJjfXSGfX+iW4Vnjo6Ed6uWhKWEpnWnj6N4q5p9fHSNeLO3qZypl6VrqYWzuI6BbIu0j5WLqp/Lmcq+rbWnmpKQmLO136K9tMOmqJmNoLqvoMPKuJ+WnKyhsJiRrpWHkavHpYWfnMKStI2Iw3W3uKel0pqzqna0j39icXODa7JlbmtsXRECAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "I Am The Wind (Hagenberg) Soprano 1.mp3",
-                      "path": "files/1o4oq91hqEKlq7lEYYGwRqqn6puZyWlrn.mp3",
-                      "kind": "audio",
-                      "id": "1o4oq91hqEKlq7lEYYGwRqqn6puZyWlrn",
-                      "md5": "dc7b06db6993bba1eb9b55851693e053",
-                      "peaks": "BveePgm2/xVfVyCCh18RTk9XBnyjj05fpmuCl3hfcKmGUGimgaqAg2VspIRtk4aBbnN/cYJZXDFgWlc7gGI2ZlJfMV1eVzp8XVx0f2tubHiJhWlzcG10c4Oag35lZ39sYoaKbGZ0eF12iXNjo59lYoFyZYGMl2SOiot8inB5WoqGcWuCd0auf5+Pj4xAZ111O4RnZTRYeGpueG1AglNhLXiIhHi8hIWheIt5c36XjI1urKOJh2qOdWhIeXFnTWtZO2NccRwDAU0HYHSKW4WCaXFlaYV5aoNvdXlVeGuDb4Rqd2R5jWRwZGuDenV3c3F3bWmLgoxzYodwbZ9na61scmZVf2Z5qGJzhWR2b3+Ed2qIcJplgpx/eIyCgZ90ipyXe4qYdFVAZG9cc3d/hZqPmH5+lI55g453pYKveX2WfpSZfFOid3WVlpCFmpueuZ2QlaawqM6zxLSzm6R3bZOxwKLEsaWHl5t6lYuajqyhpoCdvK6CmKXJqaBwZ6q1qJymsoqgpXeE036ypK6b1aOpu7Sawph1lpOYjOGHlZt9dhACAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "I Am The Wind (Hagenberg) Soprano 2.mp3",
-                      "path": "files/1KvYx5ESya-h_KffPqtAYt1djRgsvfcHr.mp3",
-                      "kind": "audio",
-                      "id": "1KvYx5ESya-h_KffPqtAYt1djRgsvfcHr",
-                      "md5": "3bab7d95d421e44f468e8c901a2f8b1b",
-                      "peaks": "BveePgnu/w5cViJ+hV4SS01VRHqfYIxfommAlYtVdqhegWOjfqN6cU9ucolIbYtSYG5qSGFXWjBhVDVTfV81Z5SJXG9vhXqXf2N1f4RzdHCggmVybXFvcW58fIBiZ3pyR2KUboFtdFpxinBIYqZjc25oZICJlmKIhnlylWRxd31wcHxcXUaKa4NmgGs9ZlpxOoRnZD5UdEhtd2w/g1FcLHSBgHW3gXSqgZ91jpmCgIWAmruHj2WHd2dGem5lYGdXOWBbbxoDAUsIXHFciIOCZm9jZ4J1aH9hc3hTdWh/bYZodmF2imBtY2mAa2mEbWB0ameHf4hxWYZvcIp9cIdqZ2BTdWlfqn1ylW5mdnt6aGSbdYhff41+c4Jug5Brm4h9cmqId3d4hnF4eKaqWotdfV59k4mMhJFpnn6ddWqCm4OVdnDDnpXBgXt/lJSfm4GKkJeVkcy3rIWfiqF/cI+OybuzmbOEkK+Zi46SlZyHuIuxjaSHmKGOnqKYoKWRpZOsqKGgmJaazo6Us7mWuoeSjY6Lj4ZYZnKKWb9WZ1xeWgUBAAAA"
-                    }
-                  ]
-                },
-                {
-                  "type": "folder",
-                  "name": "Soon I Will Be Done (SATB)",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "Soon I Will Be Done (arr. Garrett) Accompaniment.mp3",
-                      "path": "files/1_zj7M-GPsNr0SaTrIwF4HYGPoBdG5m-2.mp3",
-                      "kind": "audio",
-                      "id": "1_zj7M-GPsNr0SaTrIwF4HYGPoBdG5m-2",
-                      "md5": "a653f6c0fc70a2d07203e20a06f532ca",
-                      "peaks": "AJf/4IAA8vz7KQAAcmYoFRE0EjMzNgctKywvJzssKi8uPT00J0lPSD4wSEuQanxogZp8dXNdjXFvVoNYYnF4Y0OEc2N1mZCIdHyfYlVya3Zkdj40S05EPjlIUHxufnGDkoaablhIhGtxcW14c2J0TX9wcnmHmZeYbp5+Yi94Tmt3PzVET0o4N0RObWFMP0oYk5aHl3xDOzo3M42HeYaYsc2DjJNBkqF8aa1hNGtuYFlLOjhOQUA1KU1El3GAapGXfoVbVXl6bF1zV2lufGgydWx3bH6geYKFoWxSb3VsZoZGJEtNR0AwREt8rGtJQk9RRTRUOZqZeTI4MjY2NDtTco+EnnlRZk5ojmYscEZiYT4ybFlYPDdDTYltdFdXV2BTTUZLPD9LRy40PU1mX35vb2FeV2pwZWl0W2hwZGx+XTRMWG9HPSVUSHlKaUVdWFJOSVA0Q0BJKDQ3S018VH1iZ09aUnhng4FYUVpAV0RAZF5RSmBiPS1ZUSwNnSlmSRIKYV5mHGpYF3o4N0ROSkIxRk1LIIkbCwUGBgQEAwIAAAAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Soon I Will Be Done (arr. Garrett) Alto 1.mp3",
-                      "path": "files/1vwfuenAfEzrOfKYIkzNqGstOz8aVr6MI.mp3",
-                      "kind": "audio",
-                      "id": "1vwfuenAfEzrOfKYIkzNqGstOz8aVr6MI",
-                      "md5": "7ff601a3d6edb78c3b8c8237c8a55408",
-                      "peaks": "AJf/4IAAAN/8iQBvb2hoZl4VPDc2BkZTTy5cXkopSlpPR0tQWlhCV01WRIt4c2aFsn5ijZZ7Y2BwZ1xqV4SSaXeGeWmMko93boJzZ3aLeGyOfnyDp458iXtwcnp7a5iHfXt0jnRrZm1Ydl1oZZp7fXprb5OMeGhoeIBtZ4dxc4F1dIucjHuHdok9YzteXGKPjoKIj1lqMz5Jha6Fjn910pd/aYN2fH2DvHRYdZB6eoKCfod8h4VyfmSNgG9qkLR3iXuPcXVmeF1uZV2hgH16eGl8i4d0boGNa29of2xxl3l2h4yMlJB+mW2XhmRrT2J+b2JonpJ0UVZCMllGYTqAd5F2iYxweW91doR6hXx/iYhof2KGiWx4hIhTcoeKeGFlfIiFPklpg3R6Vl9OaXdwfnJ3bnCReWGLXYShenWQeXmSfH6bk36WgGtndHxfZnpjgZpzU1JqdpVEQ1p1enFxdnlZcXKFhn5udXaPbZZuW2xYa1ZpenBoj3N7iG1tW2qOW3FsXG2LgHt3g4qih5N3i6OIbnFmgmNrc2R2b00HAgAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Soon I Will Be Done (arr. Garrett) Alto 2.mp3",
-                      "path": "files/1Htkk3fMENrP7bGeBWZnAfhD3fkzvMwZu.mp3",
-                      "kind": "audio",
-                      "id": "1Htkk3fMENrP7bGeBWZnAfhD3fkzvMwZu",
-                      "md5": "62017afa2819c01ae948a2b30654a2df",
-                      "peaks": "AJf/4IAAEfTXIQBrb2dnZF9MOTc5L0pSTi9eW0ooSFVOOUlRVUZYVks5WYt1a3WIrX1hhJJ4ZmFxZ11vWJCPgnWDcnV/kHSKZX5yaHOOanuRfnp/fKd1hnxxcXp7ZpWHfH56iYhnZWlofF1nYZB6XnxwbIyDlGhnZ4BraH9+bnx1co6ehXeIc4ZHY1FlYVx+joCGiGVmTTlIEaqJi4Fv06d8YIN0enx/s29ycJ14dXqGfHqGhYZ/fXqJgm1pirV3hYGNdnNld15vZGBimn52eGp2hoR1bImNfG9kfHRumHp3goSOkY13nEmTh2ZsYGF+dWFhlpByUVRGMU5LYjd8eYpyiYpufWp1dYJ0gHuBgIRtfmGBhm55eIZTcIKHeVlqaYKBcklic2ZTVWBOXXt2fW13cW+GdV6LYIGJeXKJe3N4jnh7loWYZX5ndnldanBphJVtUThrX19BRFtmY3JvdndVbW+AhXxsc3GIbJRwXW1XbVRofXFsjXR8hmtrXWqDWWtsYm2KgHl6fIeeiI5whaWKaHNnk2JucmNwck0JAgAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Soon I Will Be Done (arr. Garrett) Bass 1.mp3",
-                      "path": "files/1bGw2GxqZ5_38rxfFURG0bQBj-_pLS_NP.mp3",
-                      "kind": "audio",
-                      "id": "1bGw2GxqZ5_38rxfFURG0bQBj-_pLS_NP",
-                      "md5": "99735c7dfba98937181bac887b1bab18",
-                      "peaks": "AJH12HsAAP+CjgBmY3d1cWtNOj4IQEFVSWlgUDlWaGlTZ1NidF1tZ1xwaoNwdZ+XjI5wnYVXiXiZsKV6ZnV6hoB3b5uWo6WQiLGVfH56eY59WU9lZndcTGZjbXKBj42AiHSWgmeLkH6+m7NYZnN8X3t4l5+fspmFfa+Fe4SJfnZ1VWhuWWFhaGtjhV55W3immpicjW5dbjxNF4eTm5+Jq8iYgXyZlpeIsGx7d4ducWxuYmdhcmRQa2SVYXWWp5GNko+YXHyLk7OxomFZfnptX3+Xh3q0m46npHaBe4GDa2dIaGZ+S15pZ1mym3ArUEZiU01YcI16e29maHtphG1/dI2RmnaCaXR8moqBeXtsWl1se2Z7aGVsYIiWf3p5eIS1lXhXXXR9bmhuYmaVbpSVjYB2X3eAfouEsLaAjYp4VV91b21kSWlmg3yEfXR7nJmKandTdXtvi3BwZHOYfZR1jmRRZId8hbKDaHx6bnJgjKyIel1ldnBwb3yUqHJydW5ngHOGl3d/eJdTXGtkdltdamFXhpKEa2dqaWNrbEAIAgEAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Soon I Will Be Done (arr. Garrett) Bass 2.mp3",
-                      "path": "files/1M9ZhaiC2CCGW3CVdLvJtNiyarpGcKAng.mp3",
-                      "kind": "audio",
-                      "id": "1M9ZhaiC2CCGW3CVdLvJtNiyarpGcKAng",
-                      "md5": "88aff6c58d1330e9e1cf3c6be638c0e0",
-                      "peaks": "AJb83n8AAP+imRdManp4dG9PQD4JPkJZS21kUTtWa2hUaVBldGBral90dIhxeKOcj5Fzoolaj3ycsat+aXZ+gIZ7cZ+XraaejLemh4N9fZWEW1FpZ3tWYWlib3aFlZKFi3mdh2uSloPAnb1ZaH5+Yn98n6eisJ6LgbiDgIeOgHh6WWxwXGdlbm5njGGNYHyqoZ2klHFea0NSGImPpKaOrs6dhX+gl5qOt3SCeIVweG5wYmpmdmlSbmKXY3qcsZKXmYedX36Pl7S4pGRceH9uYIacjYG7n5CsqXqMfoSHb2tHamd7TWBta160nHMuWUlpTk5bc5aDfWplbIVwiXGBeJOVnnyDbXqDmn2TfoFwXGFufWp/amtwYYehhX52fYi4mXtaYn+Cc2lzZXGbcJeVj4h/YniEf5iGtriGkop6WWJ5cW1oTGtrfomIgXp+nZ2PbntbeYFvlXBoZW2ZhZx5kmhTZol/i7SJaoGAbXVfkLKRgFxpenJ1cn+Vq3VzeW9rg3eMnHyCfJ5UZG9qeF9nbmZciJmGcGlqa2ZublsIAgEAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Soon I Will Be Done (arr. Garrett) Soprano 1.mp3",
-                      "path": "files/1typ2WqVhPxbk1hV2sW6pVglJgmawOTcw.mp3",
-                      "kind": "audio",
-                      "id": "1typ2WqVhPxbk1hV2sW6pVglJgmawOTcw",
-                      "md5": "fba19a15e7366171de58966c85f3824b",
-                      "peaks": "AJf/4IAAAKS1/QFWdWJeWVpPQT8HQ1NZL1ZnYzBTU14yWFJXYk5jYFRAY498cHmUw5d0ipZlfGZ9c3RzW5CIjICJeXaTnH+bbZOCd32JZZ2ShXhnh5Z8fGuHXH6BcZmNioh7i4xwbmptj2hfaJh+NYV/b4+Wn3xrZZB6fW6Ml46edX19fnuFcY9/cmJOSkelsKuNgGg7T1xwVauYfZeEydF4cn2ehZ9xuoZ4i3t+eWV9eIONk3R3hH+XiHdxlZHBnIiSdX53eWB1ZWJeoYNxgHOBkYuJeY9ppoyGhHqPno1wcX6Dh4Vye1SmkHNiVWJyWFuCd52ZWF9MNlZUcD1qcYV9pId+f3F4j4Bug3t6d4B6cWFviIGFc49+ZYqGeGVkbG1ub1R5c29mYmdbYHV6kX92jm+BbITBnVqBe42hgWl5fpt6kmiPeYeObn56XlxZbG5nWD14dG85S2BxYnhwlnWVg2toj3h9rrp9gpB0YnSMbn+Ohm2Mc2KRlmSMY1ZglIJ1fZJ/aK52bnJ+jIhmhpR/Z4uglIqDjI56d24MAgEAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Soon I Will Be Done (arr. Garrett) Soprano 2.mp3",
-                      "path": "files/1wifvjUBJ5vLkR-kjvKQzlVP9jgLv1T9-.mp3",
-                      "kind": "audio",
-                      "id": "1wifvjUBJ5vLkR-kjvKQzlVP9jgLv1T9-",
-                      "md5": "c48ef979987b72bb946151ab77ea3463",
-                      "peaks": "AJX/4IAHAObu/m9fXFxYUjoGPkBMMFhXZTBfVU00XFdUWUVfYl8zUWV5jXVzjIS6fYORi3NgZXRwcVJVmIc1g4Nyb46NkHhvkW5sj6R3fn6Tf5B6iXtvgYV0fXRujoeDenqKbW5qZ1qLYWVein57eG1yj55/dWOEj3teooFtg55rdpt/dmxwgEVqZE5JRpqqjoaBWjROVHJ3no13j2rFsXVueJeWfXSzdG50d3p7joB0dI1lgF1lho2EdG6NiL+MhY+NYnZ3aG9hXliYhFx6e3qLhIRykm6hbWh6lWeXfIt9jH6CenCAZICge2NlW15hY2OKlZVuXztOXlQ2aGRybXqdgWyCX32EdVucYXaNa19ueIqGYVpldnWBgWxhaGBnY29YTjpmkGg/XWdcV3ZkdW2DXmhif2q9WGmTcYKFkm11eXKCbI17and3b3xXWF9sbmNSU0tqh19SSmVteF99bHRhXnR8hGxpqpJ7o35lZm5+hm6hk5lnfnadgWN/e1eNb3hnZHpwZYideYt8f3Jwe5SDjYtpV1lbVFZjUD8FAQAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Soon I Will Be Done (arr. Garrett) Tenor 1.mp3",
-                      "path": "files/1nAcdiVUurX_Y5ZTYaKclntSkvdcJAayk.mp3",
-                      "kind": "audio",
-                      "id": "1nAcdiVUurX_Y5ZTYaKclntSkvdcJAayk",
-                      "md5": "9f24fb3214fdf8fa8dd4d9efe83c3465",
-                      "peaks": "AJf/4IAAAP6XvgAAcGVeWGNiNjUKNUJOJ0RPWCtLTFoqWF+NaYJxYIZpfnuAg5GXip6Nl35ghHuDuZeGWUh0Z32KiIqIr6S4eKa1dWGkdIFvcm2EZn5qbotsYH+Jio2DlaGShWqHgWqll5hUVnF4Z3t7jXuKsJiDia1zk4uifHp8ZZBzYm5ygWpicnFAQz6GfIiEj1k1P1uDZoKEg4KAn7V9iYJ5e4R4sGZ1c4pxeIRqkGlxfmVViWd+c4CVf4KQo6d4cISDhJmLnlZXZXdygJKUioWdiX5/vH1jiJSIfoNuhXJxa3eKf2Ksk10yTD5bNkJOX4V+em1vYXh0kHBlcHh/h3iId3d9kGl7oYh+fGCOiW18aodoZ4xqa4eCjZKLi2VnbFZcW29rdH13do6Ni3ZnVW5ycJF0dHufcoKAfGGAeYl6bG9oenB4b4pomoZ5XGphRlVrhFZiYmyDW5V5jXhfWX5vbKFwXnF3ZWtSdYNzYlxfcGVoaGCJp2SDfEhSeHxtd4t9SYJoiWpqaXlVfGRgcoJcYV1KSUpIQz8EAQAAAAAA"
-                    },
-                    {
-                      "type": "file",
-                      "name": "Soon I Will Be Done (arr. Garrett) Tenor 2.mp3",
-                      "path": "files/1ilpZfyetALJFiIKgiFRk7QYzSSiGGKUQ.mp3",
-                      "kind": "audio",
-                      "id": "1ilpZfyetALJFiIKgiFRk7QYzSSiGGKUQ",
-                      "md5": "ecc5d344f656c0800604ba723d194d01",
-                      "peaks": "AJf/4IAAAP5bnAB4Z3NnZGsXPD9CBk5WVzJmYlVNM11gb1yijoRTcpeVcoyHnpSppZGOr32Yl3uco45kYnWPYI+KlZe7r7iEi7FziJF8mm6naJdva59jmHd4ioV9mZ6rloyeiXOShqK14ItsWYZyi3+HnouxqaCTn7B8goh4i6h4YYt4d1Jtl3pqf1dKSkeXoI+VjlpMYGd0jZGWlpx/y5yel5KVl4eBxXtxjoF0f2yAmXlvgWqjdXiEf36fh7CEmLmUeY+Gm6aYnV5siHeUioCmnamylY+skYB/hYOIinZdoJ2UZlqLdZXBoW9NOklgVE1Yb5OIenxyc4BufHWFdpSGjIR/fGiOp4mPd4N/cGqWmYKCeaByb4yhlIiMhZWNi2Z0PmJ7gXN7gYSIhqKhhK1rZXSPmJGPrKiKdoCqY5KHd5V0WI5zl4uGiZV7nZ2EcmVvU1p9cmVydY+RdqSEmHZWd4GSgcKxbn10dXh0po6EfltsgYB1eJqqtXWAfXh4hIh7gHiNa6tjoXOCkXBhlG1tnpVhclxfUlVaVlEEAgEAAAAA"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "folder",
-          "name": "\ud83c\udfb6 TRACKS (SUNG)",
+          "name": "\ud83c\udfa4 TRACKS (SUNG)",
           "children": [
             {
               "type": "folder",
@@ -3110,6 +2600,516 @@
                       "id": "14sJC57WjW2GvL4PW1IANFp3vbJ0zJoCJ",
                       "md5": "23bc1ea4ffd66238b7bd88747aec57af",
                       "peaks": "AAABCwoODxYQCg4OFjhCNVtSkWQxMElicz07Tm2QOzpHYJRzXFNMXY6THhlxf2w9S25SZJJbfG5ojqt6cmZmUWVsbnlLXUtnQUIvL1NGTToxOEtKVF9gP3+gPhoaS3tgPzxSX11rWFtgV3CNSmthQllUZmVyTV1rX2OJojU5MkaCd5KJax4qWlJ9cmRxfISLrXmkY5yZeYmPV2Cw4ltjYz0/PVU+SyU1OTI1JSUqND81MyYwLClERGJekpAjJBtucEoyNkVhWWVZhml6uLlZdX1OV1dhZlxcWm9ZT62fJSY3LCIxKCgomKqanmNmgpODhWqhgoqk37mFdG15fem0anNuSDZLTGBZMDtWdI2TpJRnYYiLhX+IeTKJzNC4nNGpf3VMjHuFYUWupmiirLCjoGdygk9dYGl1fJpqfaqXnrmHgV+DhnuApH8wdsK9ytC5apCIaKV8hFw0i7NwotDDQ4Dd/4G6w9Llx8Ffc9XlicHbYqWkvLjS0WV4d4l2iXtUW1J2Y1lqaFyyey5tiIyAkZ2lmZicoZ2nppJrEgYBAAAAAAAA"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "\ud83c\udfb5 TRACKS (OFFICIAL)",
+          "children": [
+            {
+              "type": "folder",
+              "name": "Afternoon on a Hill Practice Tracks SATB",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Accompaniment.mp3",
+                  "path": "files/1_kRy0LCk2y37pKQYCh5mfNQvdLv8biM-.mp3",
+                  "kind": "audio",
+                  "id": "1_kRy0LCk2y37pKQYCh5mfNQvdLv8biM-",
+                  "md5": "cbd7529ba9c1d6dbcb4c9b542f547703",
+                  "peaks": "/36+/M9AREZZCkBARVsjBT1DQ2oPBj83OqE6WnpURzVlZmtdg3hFUmPEwWPgqFdHUIIzOjQ6gE4zPzE6eTA3Ozt8eiw4Ii94Njg4OiWAcFbccINegV80W2llYglqbH2Cd2pgVEVEZyc2jisKBwQAi5ZpT4mLQW5sVz9UVyp1Y1xVc2xWXF9YX2pgTWeLSq6VY0k5fkt0iEExfo9aij2TmntcO4ZzX4iZchuIeFylY6uHlnyGiFSVfFGllaNIhZZMeJZ0W6mOUYaKtVCQgkiPsIVPk4FDuYc+eXwHfYp8c28afXIJe3hzLYJ3L3B1dRF6bwl7iJyMe3Z3d1t3nauTeICFlmtpa31wko18f35vgTU7akRspZy4za2FgnCHbLTMl7eqpJwpa4mKRXlocatQtB8IwWNWajyKeGtJb6q0dg2mlZhSencYcw56ewhya3JwBRxCOUVHRC0KLwcxLTF4RilIKZl2QUI1Q4VDQjRHNp1FQDVAcWBIOkI3RUVIXFJJXHdxd25edmq3MQgFPkNDVzMEA1MfBQJsFgIBaysWDQsBAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Alto 1.mp3",
+                  "path": "files/1dW1l02aKsT81E35b8RG7j3q2l5nfVq80.mp3",
+                  "kind": "audio",
+                  "id": "1dW1l02aKsT81E35b8RG7j3q2l5nfVq80",
+                  "md5": "bf24390270bc8941f90debd5e4710f1a",
+                  "peaks": "/37V+yltZjV0VAR8YncjVWExYn5UCVhkK3ljiF1qbid/fK9wsn1+fqF2rNjLi3l7f6qdl2R4rHCDhpZgmX1+lYiWnJqCa36YgXeemoaakYe0q66CiHx9eaeTjJipg6WCeneufImHoXt3uYV1fpJxqrW8jYR4NmVlbTN8f4KRhoOOoJOGjHAlfWt9PGuPOK51f3dxh3eRnZeEl5aOoIiUh5V9fa6Vk72thHV/WnV+kpGEd4yBg6OKgY12lIqTlYeOkJWYsIOFhYyQqo+Eh42an5eKdYRysX9+dnx7c3mEh5B5e5ZliXp/ZYF4jYxymGeQgFl8jpB/jZWQm4mDgJuogZiPs5KWn66omLSmkMXDn5KSkzx6pJCkvqCKkYqAla+zmbOkhJmWucaThY6Sdrl/04F0yquPrKCdkY2Ybr3gq4+fqK+ihqplZVuXZQxRHlNTBF5lK28zZmYJYAZeXSSGjmiWibaKnIV0l6GahIGUgrSFlnGeyYqDeJl6i5yIi5eYcpCqmLWPwZKjIFgEaGMxfiVRBFsYWgNtEFcCcFpCCggBAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Alto 2.mp3",
+                  "path": "files/16r0zgD-hg1VrxRZmtsQwlKZU1Cwt02bB.mp3",
+                  "kind": "audio",
+                  "id": "16r0zgD-hg1VrxRZmtsQwlKZU1Cwt02bB",
+                  "md5": "799bff3150fa98011b770f8ec33d9c3a",
+                  "peaks": "/37z9XIzYHUdVXEtYnZSB2VaLYFUYCthdzxlinI5a30ld6yAqIGFb6OohouujHN/sHqalH5spY9oiJCehH2QkoiWdZF8fGGXeXGoi5lzjLODqamQdnt/f6SZe4+imXODcXOoiYFwmXZvsINxWpiYqbupiYRnZTdhYyl7hot6iYh7opWRgGN0IWaCY1CFsFR7f25zh4lvnIeClJWdkoWTgYJ5qZGUuI2xfXCAcFx8nZCGfJa0jKa0mXuLlZydhIeakYWLp4OTg5iLhZORkI+WsYx+ioWZhIl9fHh5cH+Fhot8aZiIYniLZYuEi3lynGGWfHdzk4p2k42BkaONlMKZgJiFrJmJjLWFjaSGfJ1+kXB0i2RwnJKfv6WEi3yAiKqmkbOXl42Wv8OShY2Pd7N+1H1xk4SUqnKQj46MZ7birHyil6qaiptmYlmVXg1UVgpXAltfK2wzY18JXFokXyOLgGORiLB4lod1j5uXbYCUgK+BlG+gxIOCepF5h5uHiJiSbo+nlLaMvI6hH1QDZmQwbSNVBWIXVwN7EFsCa1ZWCggBAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Bass 1.mp3",
+                  "path": "files/11dNPp3MDYjRVB1NKwo3qNLONlu4oGX46.mp3",
+                  "kind": "audio",
+                  "id": "11dNPp3MDYjRVB1NKwo3qNLONlu4oGX46",
+                  "md5": "7f1775daaeb28a60227f65ab375ed74e",
+                  "peaks": "9Xph/xxmUSxhUGUqT2gYT1FMN2ZOBlFKJWdScU9qUSBpYHBslIxra2N8oY+Qfnhib3BsbUNseXKFk4llf4Fxd4SPbI2mXWSKlV95m2RybJWneX1beXRlbmF7ZH6Fam1xcmNta2l4eoRzoXpvaUxoZ29hLXBpI1JYViVWZBpodlc2dGM0VlyRXnB2XXCWdMWlgTRedm1meI9qZoB6lommhXdeZYd1hGV3iWaBXl1qk4p3e39pcoWFj2dtdnRwiVp4eHRpbnB/bHR3cGFreHt7e39nZHh+bHdwYHFdXGliYn1nanFoYnNwaoxlZ4Nba2hohV5jmWlQc29qdjhiXnBkSXpogYFulIWFdoGDa5BybWmMe2JvgayQtYh6gnp4eZudeot+coGLnImBd4WKiY9tlmRniYNyjXlzmIJ+jo2edGVqd4l/gYlid154Xg5MTxBOA05XJFUtVFsIT08kUh55XxlLXHhDYFAhfXiDeH5xbpBvdGddgn2He3dmc36AaIGDaI+ico1kkH6aGEgDWFoqYB1NBE8TRQNtDkYCWU8RCAcBAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Bass 2.mp3",
+                  "path": "files/1U6oBtGDbOPXzU8goWOIebV90ArqEcGeN.mp3",
+                  "kind": "audio",
+                  "id": "1U6oBtGDbOPXzU8goWOIebV90ArqEcGeN",
+                  "md5": "0766e18519bc8b3090569c1364209fa2",
+                  "peaks": "/n5l/5plWC5lSQVoV2kwSVQrVm5JEUxQJWtRGHlhXStsaGt9nX5qcmtkpoqTg4Vkcn9wdURxe3aIl2l8fnVsdHVccqh5Zm57VnN7gFt9sHO2d3tpf3VzZWt+ZYmJbHN8dW52eW97h3ORropeckwEanBpRnRxL1paYkNfdyJ5chtgeWg9W15kiox5YXWbeM+iikFheG15dp5udYmAnYNurHpka4pzcoh9gWqKYFtskLCPgHt/jJaLrGt3i6l0jIykp5uNfYOUe4SJhqqTiKeffZGQfo2Jk4mBgn9eYFluZYBsZnhrZ3BvcohsZpNhb29qhGN0mWl6aWFscE13bHF0XW5niot0lpKNfoSFb5Z5dG2TeWZ5h6K2uYmAjX16h56lhI2UdIOjhqCAeIeNlJlznmlrhoZ4kHtzooqDlZOshmdrd4eKgYhpfWWBYhNHA0lKBFVgJl4tWVwIVQZVVh91Xx1MVIpgYFckhHuNf4N1c49xg4Jhg36HfHlrd3iCdYaGbJSneI9qmIOiHlADWVwsZyFHBFEUTQNoDksCX01GCQcBAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Soprano 1.mp3",
+                  "path": "files/1pKOw_ZPj0oiN5iyVhYYb-4EXI8bbyeY2.mp3",
+                  "kind": "audio",
+                  "id": "1pKOw_ZPj0oiN5iyVhYYb-4EXI8bbyeY2",
+                  "md5": "69317a0ce77651d1238e4d3182d2c0d6",
+                  "peaks": "/357/mxzZTV1WAd0ZDZ4VWUxXoAVU2BmK3lmIo13cTF/e3yysJKSgp51wKOcoImqh6W1jJWj1obSo32w0JaFw6IehGlkGVuRM192cjOLgD6kgomtjaV4a4h+g4CXiJuCgYCCgnekoIaXq4V5d1cFdoE8eYh/jI6RhJB5gG+Uq2uBhH5LZ2kjeml/S4qMh6mlm5momYR7lICCn5GTjHuGp62KhZORhbK4jXSJXmF0NXlmJG5nXkByaDp8cHVYaWoscmQ4bn5kPGppNXtkZTdYfj1abGcyil4vVFlueXqIdJFsfJFecrWqlraPeZiHXpJxvn2eqJGwtqqjnbKVo8Kuo6alw7aTnayikZiXorKMoIuui5CMpJKhv5uZmpWhh669xuSjlqiamcaThY2tqbuK6odzq5mMq5Cfhq+Qlbzhq3V5qKuNioZ9inqvdwt3enN+fnCXhah0qGQaYAdgWSSLZyJXcJRtcm8pi6WTkKF2ed+kiKt/nn+Ys35ojpuJi5qXb5Krl7mTwZGlIFQEZWIxdCZVBGIYWwN2EVwCblVbCggBAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Soprano 2.mp3",
+                  "path": "files/1mnjsW_gsUEWxQ8_IaG6yuj1HYduTWNu4.mp3",
+                  "kind": "audio",
+                  "id": "1mnjsW_gsUEWxQ8_IaG6yuj1HYduTWNu4",
+                  "md5": "5e37fc366a3019c16baa4b10c4d1f599",
+                  "peaks": "/n5l/+t1XTRzWHYtZHYcV2ZVNX5XB2NgXXljhV18ZiZ9eKV5poB2dHmhuZeYg5CsmIq1lFud0YHSn56J15aGw3qEUG1xGl+LYSh0ZxmEeaCeh6OAkaB0boqKeoOThaeDhnCHg3CmmJCKqIR3Vk92ZoFxNYaKi4yTfnt5f2uXqHk/gHs9ZWt7R2aBMIeEp6SgppeomYKDj36AnJSHgXifhaKIepeRs4S3g3eDe2q9sKqMkqKYkJOGoYmKnIWElY2Im3aHon2djIqVm4R1kpakrJJ1pJmLvnh1dnZ6cYZ2dIprg4BecbSajq6OeJOFkl52zoWZqpi0sZufs6+ZoMCgpqOpuLmVmrCfjZmTnK2Ol4qpiYqFo5yVxpOJnI2bgbC+v+ujmJ+axseRgo6poZmF4YN0l6qEhYihg62Dl5ncn26Dj3+Pkp94d5S8iBR5d3J6fnCOgp1znWcPWU9aXCONbB5ac49WcGgnjquIjJ6Ed96frH1/o36Yn3tuj6OKh5uOb46nlbmUuoyfH1UEZ2wxdyNYBWMYUAN/EVgBaU9XCggBAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Tenor 1.mp3",
+                  "path": "files/1dWFHNIbgfWaZBw3jvMfODDoKLUa5UiKB.mp3",
+                  "kind": "audio",
+                  "id": "1dWFHNIbgfWaZBw3jvMfODDoKLUa5UiKB",
+                  "md5": "4af2310429a358f16e3475e4d5864f46",
+                  "peaks": "/H3/3FGAZ3dBYnYxYnlfW2VfL3lgBmJeflFkhmJ8YYA2c4uEtK2Fd4a1mri4iXd9tYOshm2Nnqd8ob2UoK2Qjp59edKRgoKRr4+XpYl/v8i2iZ5xl4yDjIyidbKQhoKMhqKNhYGWlaGOxpiJZV+CbIZ4OI5+aEhrbCprf4JZjXWEmZR7c6CxkKGGKoGhvZ2jkJClwmhDoqOJj6Oci6HXiKJzl6agpI6al4V4dxlwUHd2bllqZ0N3XXc+e304b2tvOW1yRX51LW1cjTluYUNrhGg+amEzhGkvXmV/dn+Sjp6SeImKepKMfpt/hq2OinqImnqNnYpVjIaDjER3doh+VI2fs6CenKSxrb7Im6TFjnyVnY6Ir7ufwKuTm5GvhsfZlMKujJuswKmglaW2ro1/+HJwqp+NjoqMtqOSq5DwkW+GmZOHnaqDnoWCdwtfYRFgA2FxLWo3ZnEKYWIxZySUdh9ab5NRdmEom8aZj5uLiLGJkYBzupSdjpR9kd6PuZO6pYeoob6dwJabIFsEam80gCdgBWcYVASIEVUCbiBiCgkBAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Tenor 2.mp3",
+                  "path": "files/1fu-xRLdv-kZYntXrS7Q64fKb6WZq-8zA.mp3",
+                  "kind": "audio",
+                  "id": "1fu-xRLdv-kZYntXrS7Q64fKb6WZq-8zA",
+                  "md5": "55291c89c5fd40c1bf25559528467010",
+                  "peaks": "/H3/6E92bTh/WIExan8dWWpkM4dZBV9jfm1qj2J3dol0d5iCtp+De5OxnKy/kICCxYSkj22RpLqBi7uPpqmNjJ6BfNmWgYWcoJGWmoyDsMO4h5xyn4aGiImxd6yWiIWUhaGMgoWWoK+S0qGEemB8a4Z/O4x4a2NocC1sgSCKhneFnZd4dpmtkqqOL4GkvLqkkY2hrFNuoJ2IkKKmj6vNjqNznZ6bp5SZj4V6eSJ+Tn5md1hsZEN3boNAdHw3YnA9cWxqRoRsLnBxhDltbEddh1w+c2s1k2QyWV5/e4CNjJKSfpuGfqCHf5x4h6iQh3yTmXmTqo1kfYmNiUiKeIuKW46GpaWLrbfEqbmfi8jGrIKUiIeEtbihvKuZn4umi7jSns6wjJu4zaaek6Gut6KU2IGCvp+Rjo6Pr6SUrKjQoH98oaWLlq2EqIOGewxXV0pZBWJsLXU1amkJZgdfYSWObyFab51heHMrn8iekqqLiLOFp4F5qpidlo99kLOXsZa3qJCyn8CXyZivIVoEbGUzeyZYBWEaYAR5El4CciFgCwkBAAAA"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Dicite in Gentibus Practice Tracks  SATB",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Accompaniment.mp3",
+                  "path": "files/1Uk6_AmRT2crT4zrDvsz-IQHphugDTnF3.mp3",
+                  "kind": "audio",
+                  "id": "1Uk6_AmRT2crT4zrDvsz-IQHphugDTnF3",
+                  "md5": "e1efac6598f10bdc91f484dd61b16a2b",
+                  "peaks": "k/B0lDKt/v+JAEqpNhsLCgGHCo8GhYERqbOmfYuXbZ9bW52JvliZd5iObIOzpH2Nk32AcVk5WWdkZVlYOFBtYFOUXz1knpt/l0BTe5+VXrRYdHeAX4iPkpOcbHWLo4N0dJKWg4VOnYmYe3iAQnF4Ylx0iaWUeHBTqpWCmKmGhomllWxoc5B3hF+jfnqWa6xhYUaDfFJseW+zmImKj5JxfXNtUWRxZnN9fYRmj5CLelRXdn56cJJtPXdne32Jb1NcbGOLepJ8l2afj4Nbi5SqvpaDXImWj6WVc4CVmXV0Xk5MbGZ6b2NVVGFldIqtPG1ymJeyhD92e5d+t3lkXGtwlpSZk6SOe46gm4KedJebmYqdn3tmZ3xcYVyAV1xNtZawk5FWXJ6QprOIpFK/cE+Ifn9VVXtkh4F1PVp8a4KChFeMbIucjKmBpKqZcECAbnCRnYh1jG1zk5yNqYR0c5mioJqXjZyrsax4yF5tZXRhY4WBeG5pYmOOdlxwQ6qfrYhaWHhtWVBken6rYU9qaG9OX3uTnHV5ZVIwHQMBAAAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Alto.mp3",
+                  "path": "files/1VJC4RViCQC0GKtp1auYqFY3wD7pw_AtR.mp3",
+                  "kind": "audio",
+                  "id": "1VJC4RViCQC0GKtp1auYqFY3wD7pw_AtR",
+                  "md5": "2104e58f0756da64b74dea91afd5e34f",
+                  "peaks": "mvx6mzUkAP+MAABcY2hkaxkFVmAJWQRWX5GcnKV+lcSHh6KwvHmgjYZ4j6eXqJWUs3GBRnumipyMfkR9wIi8h5aJgqF1mYmXtXWYf5CbmKCBgoiIl3e9kY+hrKWTipR2pJOSloaCjIWRkKCdjoOVlZS/faqnl4eUjI2z0oyLfH6ctZaWkGOZjXuJkHqIfKuKhYhRcUlkeniFYoqTlpG6j7Kcto6WrIuho6qhqoyennp8jZSpdoWq0XaDs0+Go6Oalq5bgpGVqXOge7CHjK+6ooqHkX2pmKCYn4+ApYVLd4OdnJGPTG5upLqCmF6ao5Z9itqwh6Koj4zdtpSel3+unJ6Mlpafioiffo2UjpWAybOT9HGYfKqkb5unurR8tYfFk6BvfZuLqJaKkIWpd22fVn3IjoiDrlmGjI+Hu8CGqZCWgqSgmp6Ur6yZVmOYjH2AmYmBkqaAfZaEkKKAgImKtKOwdKTFu6SDupt6i1Fzl6/Wkp2UjZCWnG6Ue5bBnJKTkVJzZjNufZevjn1FcGY3hHeSjoOxcJluXgcCAAAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Bass.mp3",
+                  "path": "files/1z7Fg_4JXn40WugLYe-1ZSP-peSdjbY4I.mp3",
+                  "kind": "audio",
+                  "id": "1z7Fg_4JXn40WugLYe-1ZSP-peSdjbY4I",
+                  "md5": "158ffd3e7d8f03e77e6eb6d90dd67f55",
+                  "peaks": "k/B0lDIiAP86AABXcntvdRkFWVUJXQZZA4aGfpSDmpCAfJ3Ho26LeH+Ri52e5bKXy511Soipl3aKlEWFqpmYho9mdo5wrJySoXeScZ+Zm6mMlZ2KgqeRiKCYdYBejoh7c3mdf3SCl4d2iLOZkICIi4GOf5WJrKyMjpSWqZZwbX53ko+GjF56enuSe7ODi5FvdX1QcUlZRHmDX36MiJmPi52Nkqh1eImKipq6nIaMjnxwbYqPeYCQmmV9nVB4l3KGdW1be5ZvsX+tc5WOrsqZrIl2e3aSeJ3VqpqMqYhPeYGwe4KMUIR6p5OMq12HsnaRhICHkaxzhoN6loCghZGasbeMn5iTlX+aoHmUjpKLj5eApoOdipSwZJ2V05lkkJSWroyKmaeEtKWNkYiln3yhVoSZdXmSkVOGqGuDhI9kkY+Ps7CllZSpoKmOUV+QeHB1uXZ6f6Oac8Z5eaF2lXy0iKijg5WVm46Gi32PfFR3qrizjLGxtKmwpISSc4m+kYlxaXFFYThpe3+Hc41Ia2E2h3WFnXmEeodubQcBAAAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Soprano.mp3",
+                  "path": "files/1tWINt7LIuQD6WEW0ROH5e7hkfUuDVGpj.mp3",
+                  "kind": "audio",
+                  "id": "1tWINt7LIuQD6WEW0ROH5e7hkfUuDVGpj",
+                  "md5": "7d31018544b4fd17e2a5704805aa9704",
+                  "peaks": "lfR2ljMjAOj/FQBNaod6iC0HW14JWQRZboSGiqKPoaGLzIfLx5mRnsyWmJKBtnShmImsUo6Bn4iPfUOMnIuTh5ySjrWZlYufn4rEm4+VkKezuoawlpyQr6HHiI19moWEipCfqIedrrCNrZiflYiiuY2PjbPFjZ16kaWmgo6nhJeRmZSSjGaAkpClnZGRkYuDiZBUb0tpcld9ZHKKpI2mm6+GjYq8ja+iscuUnJOhrXKfjJaEWnC3u5mLsliIgp53fppkdJmI6I2hi4q0lbGNwYyszJCUo4W+eouEjqFWg4+Nk5WLWYqPmnynrmOflouVjKGtipWGoo2mt5+/i5LLqqiNh6WOwW+Sep+SjLF7m5mVqI+fkp6re46fpq54kY+Gj4aIdpaK2q5+upmspnCgV4C1oqyDrVeJvIu/g69dz52praeVo4CefpWxX5N4l4WWpIaFjrOTe6iTiqSHlYaurI+noayEur2Wq4uBjlNuobamf3CPkJeXlpaFgoarwdGbiVJueDRuhaesiH5MbXY2gI6ynHuVdoJqawgCAAAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Tenor.mp3",
+                  "path": "files/19uQfrplnOOl9b3Dzd2U3L0SmLCvQCVSm.mp3",
+                  "kind": "audio",
+                  "id": "19uQfrplnOOl9b3Dzd2U3L0SmLCvQCVSm",
+                  "md5": "38eac9094559363981a8555b9807e221",
+                  "peaks": "lPJ1lTMiAP9JAABben57fi4GZ1gKWwZeA5XFtqyFnLiWpJStnJ2Vh6ydqJ2hlIiaqoqhTaKPr5GFlUabppGIj4V7jZmDl72RqKCSh5bGla6Yhq6gy4qdoLS7lJpqxbCyjq6wkLrUkqiFlKGjk46un4eknZ2pqaqMmJufrKyNi6ehnYaRpUuEyn+ljIqSk69uraBVdkpeSYGBZJqRmZadmY6loamYpoivq7ark6SmqJ6Zh5OUoHqzl4ujvFuMnaaoiY1cpZ+cu5aRjqiwjMGfopmhvJ2kna2ZeKOXlJ1Sc4ukg36YVoR7m4KTsWKXlZGGvriqm56Gjri/po6TfJ/Pp7Kklr2bsYakmbCYfaCopb+V2JKUkK66h6ir3IaPp5yiuY+Nmqmqv4mEoHnThpCmX3m9mHiFm1eHtZp9hJJxsaunk8iqoJq1iq6wW19Vf6mQlpibl6OhiZebpaygnJGmvrC2kbKglJ+H14qGs1RynbyZprKmsZmcnZGWeJCVr52lk1NvcDRyl6ufkLlKank3i5Glqo6ZfqOEeggDAQAAAAAAAAAA"
+                },
+                {
+                  "type": "folder",
+                  "name": "SLOWER TRACKS",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Accompaniment (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1jkQ85XMuthFqU8b3g9LBPx3kOdAbBj4H.mp3",
+                      "kind": "audio",
+                      "id": "1jkQ85XMuthFqU8b3g9LBPx3kOdAbBj4H",
+                      "md5": "47828e7efb7a3d1c503a93b4a939a115",
+                      "peaks": "rbqPbjrv9OahADxyLhUJCgCWCp0HrpsN7+jepqfHjbB0eMaz+G2/oKW6frPqsqaYppagi3Y+ZYmCkXN2RmmNgWOzgUqLvZ2tx1trlbGycupwkpuObaSwwozSg5+EyK6XktjCoJlQvLHAmYueTYmagn6CstK1n3hmr8GcddOgvafjiXaBnq+Uj2CuhqB9cJt9gFqhmXqHoI/InbexpKuXm5+LaIeRkJKhlaaJq7axpG1fhpeglLuDYo1ym5axfXGFfoG2o8yYwIHOppBzm8DYy9OuhaHIv+Gwl5ixtZGcfGtpa4uek3VgZGiKnb7FTWqKy9DdnEqemM2i25WGfoGMw8/At929obHP0IzZnJfUz8S4uoaNjJRzhnqqf3Rv4rTHx7V4Y7S7tf+uxW3ad1aemq9qcYqEq6GQU3SEiqWlkGisfqK7u9ii08TKjFyeh47JvJ+OspSRsbqWzYKbkdLK082lsbnOyNab4miRh5R/grOoepCQfHmvjnqTXeXL7opoa4+LaWx+oKqrcmyEj4JYeKy1k5uSfXI3HAMBAAAAAAAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Alto (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1-A3DwGgvZgUxnR6MAycLlwEZ5cdJ9_hk.mp3",
+                      "kind": "audio",
+                      "id": "1-A3DwGgvZgUxnR6MAycLlwEZ5cdJ9_hk",
+                      "md5": "9b7347d7bc01d45a2715fe8d26b46f4a",
+                      "peaks": "qraMbDksAPa1AABCcoCDgB0EZGYLZwRmV1WywqGixKyHv7jD2YeisqWQuLu/o6ult5SuWmCyro2ylFCX6LbIpbiXkqaFuKWZ3necbr6sqMWZrKmooafwupbNtK+lo6x3p6+om6Srs6mlp73BsaGcibvAn8jCnKOcv6zBqKqeh5Gkn7u0oXiyoICthoufeaN5n5tjk0lvW4CNZI2prrbau9HT47GhnZSd0L3AzpK6yaSNpqu0f3rK/42ksF+Ql5eSedhxka3Fp4KgosC1oLTDwKOlsIrIsLKsyJmdrJlOYqGtz6euW4aX1b2Rt3Gny8eLp9PQu7i7np/7qqvMtazQss2zt665j6DFlK2wr8SizNWe1YC5h83OjerQrr6LpJawtLx+b5ukuL/JtLG8ipXOZ3bBw7mXvmqLoJmVt96Cwrq6lM+tpruoz8a9YlSprpisqJ+it76coKmlp7OsrKaqz9LiisXt/K+Zv42StEOTtNC6672xpKGtvXahibPK0qaIjmVphTlqg6q8tZRTgWo6dJawrZzKjrF8cQcCAAAAAAAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Bass (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1UO4Q0hlypnI7ALZcdpZNvj8f42r-KEgg.mp3",
+                      "kind": "audio",
+                      "id": "1UO4Q0hlypnI7ALZcdpZNvj8f42r-KEgg",
+                      "md5": "c56589883b19ceb78cbfbcd52eb996ff",
+                      "peaks": "lqF7XzInAP8cAAA5hY2AjSAEQVcIWwRiA4ajfKpwtpJQe8OnrXqgaYqUmLex58SZl5qbUIG2rIyIjUaBrKqzk6RbeIx2uYibuIiucbuaoq+noIuYlq+ceo6vY45gl6FzfXSul394mKOIi7qurXaUi3+QlqaZwb2cpaWHp4xxdIWPWouOoF5vdWGwe6mOeppmhpdbcTt7UG6DWWCTlayjrLeenJ13cHukiKTKrJiQrU93apRupoNoqGyRo1l8foq2enFpXKWjrIesU4d9u7mvwJ5zcoOlhLyrxbKWqJZZTX7MmJGWTn1hrquF1WycqIKuenSMnZqAi3+JhX6vn4Otw+SXorOsrXKdloyRhLGVkpjPwICIj4bOapGc9KlWlZunwKeZi7qUypighXOfe5i5X29hsIhwn1dzr3l/kplkqKKezZXCraybq7KXXkyblm93rIOBlK6vZqVzhqGJo5i7jrC6ga+GzK2JkHGZj0dloL6cj7ihwIeivZCQeJzJxKBjjFhgljByiYSmhXNUdStejHaOfq2Lbp1TVQcBAAAAAAAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Soprano (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1K3NM4tbt-0zVhLAqdkMrrlA8MstdpREg.mp3",
+                      "kind": "audio",
+                      "id": "1K3NM4tbt-0zVhLAqdkMrrlA8MstdpREg",
+                      "md5": "04ba7d42446c70324300856b8325fe10",
+                      "peaks": "dX5hSiceANH/FQA6ZXxrdiIEMkgFTQNQXFeId4R8l3l9nW2krmRtjpmDkIx5lmKAenWORmNheHFiaj52dl5sZm16e5CPgoh4jH2kf4aBfY+WoHaSfJFyfISTd3hxjHBma4B7j3SKm49viXuBcGl3nmZqcHSlf4xxZ4+JcnqQd254aJGBcFViY119bHOAfGZbZHBHazlIYmZoRl1ze2mRepdyc2mDf5mInKSLgn6Epm1ybH15S2BsjIFoi0RkX3txS4RWUXZ3ymyESGqrhZBvqmyTs3aOaoajaGV3c3o+U3pxbmNhRU59gYJlgVlrimuGdpyhjndsk2qAoI6gb26oeZF1f3h/pl1taIV9dYp5hI19hXOLhouqdH2RiJlqgYByjWdvW49qmIZninqEj22RR3GImIpkk0tytmp+aX9Us5KMd1GKnXRob4KSVHhueW+Ff3x3cpx3dZGId5ZziXqYmYF9gINriZZrj3VyeC5lgpORhHWNl4J6hnJsdWeHp7qEa0VaXSpiaZebdnhBclknXG2kfmmBY2ZrXgUBAAAAAAAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Tenor (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1X6uMcZps0UXAq56dEj_oTLGaCNzmokgr.mp3",
+                      "kind": "audio",
+                      "id": "1X6uMcZps0UXAq56dEj_oTLGaCNzmokgr",
+                      "md5": "6a8dbcb492b2276d78a78a4288c39b9d",
+                      "peaks": "hY9tVCwiAP8sAAAsd3d5dCoFUVANWQRhAmawlpd4kLR4mo+yooyJhLeMip6rm12kqImPSHx/m5KCl0CHl3uIfHNsjYR4l7eKr5qdf3+xkbCMe5qgop1xjLSpioxtrbCfg5WOe7vPhZN6iIWnl3iYoYqplJ6nnKuTi3OMnpuIgJOhhoBti1BrmHOMenuKbJVzeqRSdTZmRoBvVGOGho2dmJyon42bqnGvrqaSiYyhnpWWcYF6nXd3lXaZplJbYqSfZpNbXWiYmlWDZa6TdZydq26QyJKwmqeVX6KIpJxHbXeddIqZTFldiYBbrFGVm5GZvpF+pbCJnb+jmoyMbIfNtqGcf8KilXiek5+ieJWTn76cvZaDkJqviaexwZdvm46ms5WKfaOSoJSAnG+nmY6kVmGDx5hxi1hvp5R5bHtzsamocm2WkpybkJ6wTkhVY6qJh5GRXpyieZCKhaKTnJCtvqS0kK+IlYxvroqJr0JSlbyJlbGFuZKAkY2McoqWtJmkl1FrXDF1jJKamJVLWXEsZZOonp6JZqNbRAYCAAAAAAAAAAAA"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Libertango Practice Tracks SSAA",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Accompaniment.mp3",
+                  "path": "files/1q9ZloHZ1FF433T6J9bMbOMWdtzIvZMq_.mp3",
+                  "kind": "audio",
+                  "id": "1q9ZloHZ1FF433T6J9bMbOMWdtzIvZMq_",
+                  "md5": "98d2a92b8bd7c6719a349f169b1074b9",
+                  "peaks": "lYD0//wdMy4NAwFvcXV3OoZ7cYyPOJCKfmCEc4GAjXCSc3J1cnFQd3N7dGU1iImLZoqXZHeRj1uRfn6NcTuFhoeFf31Cm2iJY2p5h3uuWIGHkHM3iE16d4tpeEF1lJJme5tegH1vT3R5eWR+PHqKk3Fzl0F2eJFgenp5dHtkipF9gYKCXIaEd2JtRWtrcGB6gGh3dnZceW9eUlBXV0dUTko+S0hRN0lBR0tHRktRSExERzFBOFE3P0RJRUA6TkpCL00/MDM2Py8yOTkyNjBBTDY9QD0yPUE/Lz09OTc1QT88MkNOPTgwK0pIJUFNNTtVTEoxP0VLTmWwWqliNjhBSlhDcEhYZVtSWnGTW113bmxFVUltSk9NYEpkdGFjZXhXeVFXWWdPTltEUFBGTU1KT0tRSkpPUkxNT1FNSUU5RVJLQj1QTkxcSlRURE9ITk5SSk1JVElMTVlCTD9KQ0tFOEBESUNKQ1pEWkdTUU1ESExQVEhNSk1JS01dRkhISUhERzk9RkFSSUw2RkdsYHFLbnx/cXdYYmWKwksLAwEAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Alto 1.mp3",
+                  "path": "files/1wdXaVkkyCqfY7-GPebVjQ8Fhi-V5Ox-2.mp3",
+                  "kind": "audio",
+                  "id": "1wdXaVkkyCqfY7-GPebVjQ8Fhi-V5Ox-2",
+                  "md5": "4527029f48d76cada9019c8f2fd9970f",
+                  "peaks": "loEA3/93AGJfXmCEUFZYH4qDhoiVj4WJo5eHhZKNgZeKkYOKe56AkLGTj31/j5deiJOTioODgo+Jiaebbougm5OPg5yVsp6AiHmOpIKOkKGZl7ZzoKaOiLWehniXknSUj6SUh5eajZKAq5OKhqqRlY2RkpKEjcCbg3+hhox3gJSRh4KSrJSllYh8jIybgZeLhJuRr4OAh4+bpq3CocCftKaUtrCxkLO4nqauxJ6yoqu/u5nSm8yV1orGldi1rp2gwLywjL+yppbWqsSimaegsJ65x56ipberoqfCnJuikI5/jo+Kln+GsI+djoyTi4WHpHh0kpt2kYXziqJ6kISEmeiRh6aVuJqbkqjPrpCcwrCPocCImpegk4aTvaKupbOsnIt4iJ11mneMdo9zlYeXeoJ/gppwgod8a4mPa2d7g39wXp2egHCGb5FtmHikcW6fl4WGon97anmCb3KXeWtuaYKIZGeHgXRvgXiMaHxkhZd1k42Wa6aNgXGNeJdwZoZ5dXCCg3Zjho+WnYmVlZ+/iKas0qqQfXaexUgKAwEAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Alto 2.mp3",
+                  "path": "files/1xktlCqrv5aHFrBHnab3Lhs9MoeZ_KvOZ.mp3",
+                  "kind": "audio",
+                  "id": "1xktlCqrv5aHFrBHnab3Lhs9MoeZ_KvOZ",
+                  "md5": "3977d020e70351aa1bdc005cd7def0f1",
+                  "peaks": "nIYA/+AGAFtYV1lxUUxOOoF/gXyHgneEl4Z7e4aDioR/hW52eJR1iqeLg3hvh4pWgIGHgn55eYJ8gp6LaoGUkIeFf5KMp5KCfniFlXiCkI6TeKRwjqR4dJ2RgHGYhY6KfpmJeo6PgYx8mIV5fJiNVIOHj4d9ia+NeHWSe4RrlIWDfYCDooiajH9zfISDeIV/eZSKnnZ4fHuNzKuolevAs6eovdS8sMS3srm6uL6mttPBpJ/ZtsKd9JmvoOigrLuJosuls87GpaHDrsiypLu7oqq2uqyywMmyqL28p6udh3SPda2dfXR8nYaNdoJ+fXqBnG1qi5JthHvUf6Ckv5Jui9GFf5eJppGRiaG6o4qnsqR/kbWAjH2Rh3uKtaOdmaKakIBwfY1sjGh7bXxli4hmeXl5fZJog3l1X3OCZF57Y3ZpV5GYfWp7YIRsjmWVYF+Mi256jXt4ZIB9aGyJdWVgYHd6XFx7fG9oeXeDYH58d5Bqj4WRY5KAdmZ2cIVlgWxubWd3eWtdf4R/kHWMjJSmf5qgxqCJd3GVskIJAwEAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Soprano 1.mp3",
+                  "path": "files/1XYQO_pDqEznLK7CxcanNffXd7Qg5gWJe.mp3",
+                  "kind": "audio",
+                  "id": "1XYQO_pDqEznLK7CxcanNffXd7Qg5gWJe",
+                  "md5": "ef172325469f5f6a163244931ead3115",
+                  "peaks": "lYAOs/9PAFJUU1F0JFBPTnJveHR/e21zjINpdHmKdIJ2g3V7aGxufI16h1hoa4N5dH93dnZtcX12boeHVmiGeYJ2eYZ3mHtrdmd9jW1kfpKKWZh2daiWj5SUiH1trKC4oK7NopeugomFlZGPeompgaCYrZxsbYKAlnypmniBa52gpa2kv72fnIWgmaeXjZt0fJnRoItgZ1tuw4aai4Goe2VrjaSPkJOAqId/jXqFhH1pZFmWi5OVroOIYYJ9dZCjkIBcbY2ikLmfhal1bniGqpSSe2d0k5iUqpmXoINqhoucaGVyfHSTgICGf55+VnOEm5Joc1yWe6a/j4JeVR5UaYtyf2Zzfot0hMSkoqGYn6KMb5JtaY9ph3iQk5CJnqadnntddX9igmR2ZYBmf3SGb2tufHhdYnVkZnZ5X1prZnRdTnd4blpxbXddbmuGZV2LfHtzknduV3xzXWF3aWFcXHBwW1Zva2xcc2lmWmlVbHJgfXSGXYN6dVqJcYdkbnFnZWFxc2BYdWtea1NdSHldW5CZuaGBa2KBhzwIAgAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Soprano 2A.mp3",
+                  "path": "files/16qO9dVfSLfmaBgeC2RJaWDCMf_TVhTWb.mp3",
+                  "kind": "audio",
+                  "id": "16qO9dVfSLfmaBgeC2RJaWDCMf_TVhTWb",
+                  "md5": "bc24b8b6a60cd104833790f23d33fce7",
+                  "peaks": "loET4v/IEGJiYGB4HVZQUYeIkXuThH+HmZOCjI6ajZWFmXxyiJyAkq6VkIF5f5OQiIWVio9wiYiIk5WXYnybnZqQl6eQtouHinWQn4CGmKefpa6FgLeCcMCRiZGJtoSaf5uNi3qchJGCooB0gIOMjZJ+opF/lqeRdYKYg2SOg7CXjoCMr5ChmJeNjIl7n5SPhqWloYOBf3mTeYiNr6Ckl3+TpZeRoZh7lIWnnICOfKV9g4iLkbCMfZR3V7Jtp7aAn4G0dqyRqXiVgZ10fpB/q3qLgKeCg5m1kIGVgXZ+rLC+pZmqp5SrqnV0joGBioqSgpdupHOHkJ3EdKmjmZeJqp2jkIaguZSemJ/DqrK2v6ifmal/oKqTjYJ5nHyGipaelXN5couCh3d+b4NoZJGMkHeHj5ZrlId0bYCBb2V0ioRjc4yejW+Yd4Vug3N/imeWjoVymZSJYp+ReXWFbXlxaIh9Y2ONkotrg46FaWSQgZduo4+ibIiGfmCReXNmdYJ8dmt/hGpmj4RadFZfh6e1n52ku6B/inaRnFELAwEAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Soprano 2B.mp3",
+                  "path": "files/17aA-vMT0pTffBUoqG3tE1C8IsA_8kM5b.mp3",
+                  "kind": "audio",
+                  "id": "17aA-vMT0pTffBUoqG3tE1C8IsA_8kM5b",
+                  "md5": "b034b6d00db85af2ff15a7f6c7e4776a",
+                  "peaks": "mINp9cn/GWJgYV6IWRNcWoiKiYuVkYh3pZt7iZ6KiZyKnoaQdZGCkqaQm25/gJqMipeIi4eChZKNeqSeenqfmZKMjpyNtZV+i36PpYJilKyhqq9xn4qYjcOWhI+el46SlJuajIqajnx1sJaMhYOvhJKOhZOHeMabhYKij452hJmbioWao5WwlpB9lImuZZuOhoKSrYeCiJabe5WispChj42KopmglZN8kYWrm4B9c6N3hqOKhp2OgYx6V6ergbFyqoKreo6PhnqYiql8h498qX2Ti5KLjIWpjZ2hj3eEoq25oaK2qJCujYGDi42PdHaklYqGg6B5mp+5fLS2nWWPmKuCoYidtKGpnZvGnsGhwbGao52RnbGSkIKZnaSYiqqSqnFsiZ5zmXaNd5d5mYeegHaBkI9ucIt1couNb2p9e4duXY6Qf26Gfo9th3+fdmqlkoh1qox/ZoqDbW6PeW5xbICJaWaEgIRshH18Z3tugIhwkomdb52RimuehJt1aIN5d3OGg3Jlhnxqf2Nqh6HFm5+ur6J2g3KWnUkMAwEAAAAAAAAA"
+                },
+                {
+                  "type": "folder",
+                  "name": "SLOWER TRACKS",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Accompaniment (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1PRKeHHzP7g2GqzynILLpzFq4ROIs1FdQ.mp3",
+                      "kind": "audio",
+                      "id": "1PRKeHHzP7g2GqzynILLpzFq4ROIs1FdQ",
+                      "md5": "5c42ffdc1c6c6f19dc5b279cbfb5e3d7",
+                      "peaks": "t2Sx6f8dKyYPAwJ0l6KYQqiGbKCxRJGqsnWrlXyxv3WMmI2Jl55bcKmocY49n5q1bpOah5WDoG6UlImJe02bhZuEm41huYuxb3yWsZPVZ5KhoaI9j1yLjYRrj0uTtatnoaOReq6TV42VlYCZTIt8oYOXrUSSnaZnk5Snnphkm5uMlIiXaKSIhnuGVYaIiH6gmX2rro1riot2YFhnalxjYVdTXltpPV1SYF9SV1BlWF9dU0ZhSVtHXFhXYFlMSl9dPmBcQkFNU0FFR09HSURVXk5SRlVLVVVeNFJRVk5CT0tIPVBhT0w5MltgMVVpREpfVFNBSVxOa3PaeKWJRElUWXVTdFNrY3BfZWqXc1yVh45jaWlmYFlaamuEh3BtfYFyp1pibJFXWW5XX2leVVBSZVllWlNjaWFYZ2dbalpGU3BmV1FfY2OCY1h3Vl9kZVlnWWVYcFdXamxZW0dqZWpUUFJhYUpjT2RUgVliclZWWWVnWFpkWl5gVE93XVpRT2VdXUpQaVJMX1VPUk9/bINih4qigpZ0Xoul3EYJAwAAAAAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Alto 1 (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/19tiZcmso6ixQe8GU3G96thR5dHodw5I6.mp3",
+                      "kind": "audio",
+                      "id": "19tiZcmso6ixQe8GU3G96thR5dHodw5I6",
+                      "md5": "14bf7437081cf70945d1ea821fa07003",
+                      "peaks": "nVUAsu1RAHJsbnCPZFNyUpOGoo25q4WSp6eQi8qnlZ6br6VxqpiamLOut3WPnJ2Plpi0lHeSpZqSmqStmaq8mp6dkbmgz7CYnXiDvJujhbu/x6OMlci5hdmngoumoIyRkcCgoJ+bm5SSx6qamsKTonSmnaR6kMymm4+4m5COiLGujZG+x4XBsJiem63ApIidmqKXsaCfjYKSt8rFurq82ca038LJsMypsqvW6LrBscDY0q/An+vK8JnVq+nQtbvHyPPOpMjb0K3Kr9bRq6PMubKr16GRv7DBo8LKqMd6q6mMo5yKj46ZoJGthpmqZZKYl6d0lpWinI3elZuPv3iTqPCfnK2XxZ+ZnL/Gt5educiZvcOgsZ+krYydrcDHtaqWo3yAl5SKr3aQiox9qIempYWUqKZuqpGGXo2lf2xnmH1wd7GclXqRi5B6n4mXnF6itJOByYGrfLGnkYibeX+IW5aBdmWHmpBzfpyIeWOrmKGDtp+ka6igl2Guk5pfg5l9kGaUo3x4oojCnIWNn67toqvC/5yqnJCVzFsJAgAAAAAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Alto 2 (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1zEEYi4NWgrCHo4gFDj3cmWmxVxbaL27S.mp3",
+                      "kind": "audio",
+                      "id": "1zEEYi4NWgrCHo4gFDj3cmWmxVxbaL27S",
+                      "md5": "e06fa90e387ee7bba734fb5db8b6b337",
+                      "peaks": "l1IAqeQLAD5fWlpeQlhdCHtxdW+PjWxko5JieaCKa3OIlJSGf4yGgpmckGl8e4lMiYORh4J7ho55gJSNcJGRioh7fKSWuoaBinNun4CGf3uRqYl9gZNoabudbouQjIV7e4qMhI+JgYB4roZtg6aFWHGDnYZyipeMf36Lg3VqlZSVfnmWnXunk5COhIqYiYyAhKGfn4uCYJV/0KvDoNqNwaSv3NnKxL6zr66mzMOktcfOpqbmqr2W/6q3o+acq8nIosqyvdDXsLC5p8awtqe5rKa8varBybHAor7AtbiFdX6Vfph+iXV9hoGEiJWEiHqHo3l0g4h0gHHFeImi2mlhlNOPipKTqZeFeJytiYmGoal9oJWCmHqMhXaHxpisnI6JnWtognhyjHNzeYFjiFehkGx5iIBQi4t9bYV8blpQe3JlaYqJgGd9e3JWeGyDeGWLlopwqHyQZn+DbXOHZ2BuT4GHZGZ3hXxhhH9rZYVygYpog4+PcZCKgHV6fZloZX96elB0hnBjkHOgj2yNhKK/gI6hx5GWinWJ0kQJAQAAAAAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Soprano 1 (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1hbkpnIIddSWiu8NyW8TA7MY6Vsznq7v2.mp3",
+                      "kind": "audio",
+                      "id": "1hbkpnIIddSWiu8NyW8TA7MY6Vsznq7v2",
+                      "md5": "521825cdaed0ce06b1643287628a1b46",
+                      "peaks": "ploOwf9LAGVoZWVsNV5EXYx9hnqqjIl+qJx/fo+0j42GnJODj4+PmramnGiCiIOMiYyjjWqDj5CNg5CWZHmel52FkLKcuqOGjH16q4dvlaGkcomBhdXBnaTDknSPzbzursTxyqzMoKuVr6SFa5u1zLW91taUhKqTl6DGwZqFZrjLuMPR5tTAupa5tMG3q7WPkszdqcV2dm+N5qjEp5usiIeZr8etnLKUr7OTq5V2soaHfYGfp7O20Y6Sf6CJf4nD05Ryi5/Bvb27qruZXJKVwKW1oXePn96vvLTJ0rWOm5WxhoGAgqWwjpehnaOPcYSMuq5rhGWxj9TRqaB7KW9tdZaEcHl4nZ+L1tu7xbC8xLeOjaZ4hqJ6oJSfpaOiw+a+t4V1boiAjX59d4N3WqCii2uMjJBkk5SDeoeVb2ZehIhmYouThWieiYN1dnxxiW+Popp+qHeUbrKWcHaOcXh1V459bnCMjYJlbpV3amWFiYxtnpqRgIadhGuujJNweYx2hFN7j3pklHt0hGZpTlmEY5m52L2umXyEnVAGAgAAAAAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Soprano 2A (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1JrjaEweXBy8rQ4ztxcU4rj8VLuzJNyyk.mp3",
+                      "kind": "audio",
+                      "id": "1JrjaEweXBy8rQ4ztxcU4rj8VLuzJNyyk",
+                      "md5": "a80a9e2b6b7b2af93da8fae044149f03",
+                      "peaks": "hUgKnv+GCl1fXV19GlhRUX1zg3GZgX2En4x3b4WfhoN0nIdrgnl/cZeVj2F3gYuBgoKDgn9qiIRnhI+KWmCTmIeIhoOPqI55hHBqnmdmeJ+bgo9oi5mNZo6db46MjoeNdquMj3KTfX94so2Cf3qMeHh8lYh0gaaPc4OHg0x2d4uVcHCUpXenk3hogolynIaCgq2YnoSAaoWId4OBjI6cj4uFiXeJiZt5g3ikmnF3cZZ5iZJ9dK+Le4FzTq5sl491p36Ca6qAl2Z9bptpdIV9oX6PgJhnhYGplHSZeGx3oJWzpZKnlXumnHRogYp9jICNdYddgH2CfYO2bn58hpF0kIt2oXZ7oo+Rf5ilnayqmpp7l5iJh5KSjXpol3V1h4GXonFwZoZ0i2Z5cIpUYpt6g2WHiJ5jfX2Gan+FaEtKe3NoZoONg2uGZ3ppkHB7eWmNlntqoXGEZaOMa26KY3xqTYBzZFx8gnpUgYpwaFKJgolmoICRZo2KhVmceYRZcoN5fU55d2dde3JuZUhgip63kKWKr5CAdHaQhVYHAgAAAAAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Soprano 2B (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1yEjPtBEXs0qAjullsIp54xwa6v_z9cEZ.mp3",
+                      "kind": "audio",
+                      "id": "1yEjPtBEXs0qAjullsIp54xwa6v_z9cEZ",
+                      "md5": "1d4268d8a1615b4e398ab74a751c509c",
+                      "peaks": "uWVG1KXtElN8hHyXeBl2crCXpaLVuo6f0r6km9K9qLq/3MqdsLewqNDLwnqlsbu2vrLMpq+lu7mgoKjFponL0bfCtOvK396txKSw3a1iue3N2eGly/mtlOLNpqLOwqy+0OnHu5+7tbGp/L2yrqrHs5fJqbuaps7HprjDp7uiotfZp5/T56vqxbCao8DWYrK1uuGc4Lizj8yxorO40sPrqai8vrPP1cmqua/f35uwmb20rMatq+i4rr2XcMPPntus7bm1jcy/rqrCnNqQsLemybCvrNCbxLXN0snIm6CW2szj5dXU4qLlz4+pqr/FlJXQw56gqdqjp7D/m+yoxYaWpcmj4KjU1867s9PpxuTZ6r6s09C3vb6/vqrD1dzPrd+59YygoquyvqKfnLWcsKfPtJq+vdqEybSzmquth3ZarrmVkrPCmaHSlKuZto7aloSxta2VxJy9id3IlZ/Gm4OWeK6miIiRuaKPkMPAlZ2QtLSJ6si5pM+2v4C4tZacjraspIGbq5eAxZ+Zj3d9zODlxOS958qtr3zB1UwKAgAAAAAAAAAA"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Miracles Practice Tracks TTBB",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Miracles (Frizzell) Accompaniment.mp3",
+                  "path": "files/1ljhkxnaiRe3gAMCgWuKGIgRYNjTBV7-l.mp3",
+                  "kind": "audio",
+                  "id": "1ljhkxnaiRe3gAMCgWuKGIgRYNjTBV7-l",
+                  "md5": "9469e2fb6f7c29a9f0d3f4913df6a2f5",
+                  "peaks": "XP85AwT5qcMSAEhQRzQwL2toTEgyLiwYHgGQmnlKgGhES0ksCwWQko9YeYJNK0c2EgZ/VVwbEAqDZUs+Lw9oXUlXMR59WCxSQxd8YV9noEverzy1nDxPqUk8JhUTS08/NTEmiHBEOh0MhV4wPxsLZUxdPioPfUdXVCYOe1dJap4yYlR9cFF1bGZgbmZgeWpabmJgq45ZhKOZoy1CMtpgn8OnrGZrhziHdZt0bath4r43sGBWYXRdYWJZSlZjWEkzNjIXAwCbYplzdqpWfXBhs1uch2GpZHiUZNxaoYZh41CRb21lcpq7rGhhdIB6ameCjpFkaXOGf2NzZop/aG59lHhhYW1abXFleWe2zVMsfnd8SEtFIAkBAUZDST4PAgEARk9IOy8pZVREjzoThmVAPhgMPIlVPx4RhFtMPB4NZFtVTC8YwUxknTERCwsJsoo7OS67rT46LSkpuH5AOzYnvp86KRgVREZvUnhXTJJKfgx1C3sNj2mYa30+Yy5LOhUHi4Cda4RKYzBLOxYGBJUnOEgzLTFdNR4YEhAOCgkDAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles (Frizzell) Bass 1.mp3",
+                  "path": "files/1KXgBLtCl-deEd4W5BTt0ywN1s3sIc0_y.mp3",
+                  "kind": "audio",
+                  "id": "1KXgBLtCl-deEd4W5BTt0ywN1s3sIc0_y",
+                  "md5": "b3aa89f8ebcae64c330e42336ce1a68a",
+                  "peaks": "W/xBAv+QHG08QzpuKCZoO0A6eSgoIQoBjoNZkHFVbz41ZwoEjnNxcWNsaCQ5ZhMGl0dOXhAJn1U/fi8Phks/biwdp2Ulej0XaomTc6Bte7OKgLeHe6mIi55rb3lBNnosImNtZq58eLVscYtpaZdejpd1bpBze6+Hc3aZjnuPeIuDncJ/kK58nKywkJyokKGNUGCPSruMe4hXgioqtY+6drOUco2Siae1tKuUlnbJWWKzj6dWYHNvsGhjrYiblXuhgJZsboRFoYGIr5eXl5+qiL2on8eCpI2rt06XlaW9l7qNsKChwsnHmZmdZIuQiKy7yJawr2yZkqmcn7Okq6F0joWcnJqvq5iZqLDQ0IR6n6WGPUBxDAIBBHc+fRgGAQF0OkNvKSVjLkavc3SljXuUaGeOdGGxgWGel5mggXB+l39xnHx+k4yBsX10agsIpZqKgo2+knaFkWMqrniBlm54tXmDx2xaboOYkpKGh4lgc2yLao5no4qbnJh9kX541W9lo2++jp6DhXSEqIJteqFvf7mIc4Koh3lxem96cXBdBQEAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles (Frizzell) Bass 2.mp3",
+                  "path": "files/1t8uDh1KWGH68baI-4U7nEETD9FLogIbs.mp3",
+                  "kind": "audio",
+                  "id": "1t8uDh1KWGH68baI-4U7nEETD9FLogIbs",
+                  "md5": "71a856903b5547f8c58e7a3fb7d72d29",
+                  "peaks": "Xf5CAv9wngBwP0WAMCsdfEBEP3grJxsDlFiFj3IzbCxCdx4FBIx/ZYFKcG03PmwKBKxSOXENCahTN4UWCpNQTGsoErI7SYonD4idg3+necOMj8OUkqKcjqhxeZJGRHMrLWZ0bq6Bg8OFd56WbmeOl5ibfHuYZ5GsixOInn6AlomYpcWyiJm3pqeyqaeqlqiUWVaXWk/Kj4SPKI8svledw7mjeJCTl5HAscSoo3TZu1m3nKtXZ35T03BqrmGjpIOsfZ98dI1YooiUw5uhm6yzjcO0q86NkK2XyFifnp/Opb2gmrKtztvOpqOhbo6Sl7i307OzvnSRoLSjoMiut62AdJKkpaOptKugm4zd3Hp5oYyCPkKIDQMBAXVBiyIHAQFxO0R1LipqNUzIfHmekoOubW2XeV+ffWemjo68b2AOo4V4ooKHnpKKuoR5cAwIrqCUmJjHm3yOkmgtxH6JmHSAw4GLwHNKe4mhmZyLkItidHKUcKdupJOro6KRmIR/t3ZttXfNmaaJjXqMwIh1r5d4iMaFf5S7k3yAeHd9enp7BQEAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles (Frizzell) Tenor 1.mp3",
+                  "path": "files/1tkKoYGBslmf2u29djcQF9iequRgXGs02.mp3",
+                  "kind": "audio",
+                  "id": "1tkKoYGBslmf2u29djcQF9iequRgXGs02",
+                  "md5": "88d9a7d69ab6076b3ba7ec4d03e54374",
+                  "peaks": "X/85AwT8rsEAAABmOD1vJyYbbTg8OGklJBoChUZ3e2cpYSc7ZhYEeUtvcV0iZCcxYxkGml5dfGlmnnJznHVyqWhxeHhobrNlhYZlDHmLbZVicZ+Gatl0caFqaYtkVnk9MWooHVxvYKt4Y6t3c5hxaaN2Z391XZ1chaF3G3OLaG+WeJmOk7ORlJqdl5mWlI+NkpNMS4RsbtyopYpuk2+2U5iGgY47gHiFl4O8jn3In79vXamDgk9YbmGdbmeZh76CbJt7iGZleEGNeI+tiZGKmKR7rp+0kn2ZhK52SYyM0paBoq2yqJemt52ZinptroKJsMG6kZWChZyInKSppp+aWXF/h4eBjaiEgZCBmKphaXmLoDo7dw4DAQFlOXYdBgEBZTQ8aSgkXTBCt5d0momArGtqgm1pl3djk4GMn21bcnaLlnZ3oYOKkIVpZScIc6+Lfo5wm4l5fYVbKLB9dYxzgqF7iotsGXiZiq2SfnxyZ4RrlHN1crWpmZV8dmeEdZBpYZKmvcKwhph9hotmbYh4cqZ/c3uwc3VxcmlramtkBgIAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles (Frizzell) Tenor 2.mp3",
+                  "path": "files/1p0ek6msTZbWniwRB1Y-idCM-LLUCpNOM.mp3",
+                  "kind": "audio",
+                  "id": "1p0ek6msTZbWniwRB1Y-idCM-LLUCpNOM",
+                  "md5": "069a5ee902664c24b196166aa0599138",
+                  "peaks": "WvpBAv+bYjY7M2YlG2M2OTVpJSMbAwGAc1B4SU1gODBeBwR8aVVqWmBcLjRgDQOQPFp3ZF2VXm2YaW2pY2xwaWOqaGiHamFygYRqj2Jtqnl3pIZ9m4Rum2thdDowZyYaWGJqqXNqomFxlG5pomBxe29kl2BnlHVob36GYXp/e4WPlJ6JkqSWmJaGkIeLmYVKVnw+z4Wfmm+MbmquQpB+e4suenOAkXyth3jBmbh4WI1/jEhTaUesXXOVcKORZ5ZniF1ac0aLc3yigoGFkZl3qJiOsWp6k36hVIaFhs+Fmqaiqpyyl66Hlnxfg6l/opmckY6KVIGilpKghJyZi1ZpepOIiX2JopiilZPFdHKXr5mEOnAXBQEBZzA2cAwBAQBiOjRkIhpZP0qvhG6We3imZ2V5aGSOb1+PfIWbaFducYWScnKgi3yPe2JfFQmNl4OWcniif3V4flgmnYlzjnx6vniGpGocY4CInJeBhXRwi2upYZVil4yTmmyVdXF7fGphmpfNm4J6gXd5lW1kr49vdapraHR/fGxlaWZoZmMNAwEAAAAA"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "z-LEARN AFTER-z",
+              "children": [
+                {
+                  "type": "folder",
+                  "name": "I Am The Wind  (SSAA)",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "I Am The Wind (Hagenberg) Accompaniment.mp3",
+                      "path": "files/1nurbXntm15TSZ6zQwp_CeOY2Tmhn_0Qg.mp3",
+                      "kind": "audio",
+                      "id": "1nurbXntm15TSZ6zQwp_CeOY2Tmhn_0Qg",
+                      "md5": "59be850428c716db1b5ae39d38be65e6",
+                      "peaks": "BvmgPwn//CkAGDElYh1kB2BrYgp/e1kdbnlcW35gL3t6WhxvlGQ8YUkSZGBfDGJ5YQ5hZwdDQks7LlVCRltXQFFDTTwyVzxHXlZZUF9EODhbVUYsOkxFTUtUTWVbSEBFU0dKT0A3PktQTUpVREdKP0BRQ0VHV3FNUUc+Op5FOjkuemsMXm6clThKMEFwSEE8SXtsXmo8O4qGZXpboYcoOT8/bVR3Yl6rZJ2HknWMVaCZesFkTnZtIEpQZlBabW5abm9xW30PAQJjRjI1PjhGKCA7MThMMDkjOyFOKUxNN0Y/OUA4Rio5OCk2QjY6MD4yQDpXQTBAMUVlLmBZSlM6PVk1OH4ymHQ6JjsSc0hEZkJWRHtMVCapP0VGVW1Tbz51MFtePj1YYGNtfoBNho1IYnWBYEuMbKWOe3FPXU98ZHh1jmlzclCQmG9Vb2mvh3NphouxmrKru7ydhp15Z62btaXFtKaQqKB8laiGcZagj6mFgpWYnqCOjLKKfZ20mJK7ZmSGsEhdq2WgmMWmy52CiFGkkmgLaGRfCuwnCQYGAwAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am The Wind (Hagenberg) Alto 1.mp3",
+                      "path": "files/1CNV-skpwduEuiY4j4hfNV9eFu9Rf9peO.mp3",
+                      "kind": "audio",
+                      "id": "1CNV-skpwduEuiY4j4hfNV9eFu9Rf9peO",
+                      "md5": "c6801e797f073c57a97fd309d5beade7",
+                      "peaks": "BvifPgnj/2IZXpCmcWZTBlRZd5ufgV98kYWRq5eMhp53em6th3SMl4tsh4OETVx5YXZlanmehId0fot/gYBmeqCSeGp3kqF9h390jW9ocmije15xgmV2dH6Ch4BtlYZ+e4d+d3d0enl1lnpuaI9zZ4N+cHl5oJJ9j3d3kHx8X4WChE92YaKRlHdylYxvbYiDpol/h2h7g4WBh5epj4eghW2ag3CYeKuCjpGFipVweriUyW6Oc4RrhmyJW3psRG5faDhidhECAlAEYy15IzxmGjFkH2NMMWAyIFkiMXE3cUA5e2lziVd5n1t3ZXONdmeMbG6EZ2p5dIFrWoyGZ3ZXvoaEqXp/iWlVhWCNcISMcXaAc3RqXK1/WJRmb4B4fZR+m3OUiXSNdYyFcqGKiZt/pIqVjp57k8qCc5HAiYyad3mvzbCZjZWCmZN8joiinYyMqr6dm8/L0qmenqKTpaKny83ZuLqaqZmKfJGBfbKjrVaSrrKTmM/Dzqepj67Dpamxl5O5tp2wsoerr6mp05uxp4iU1XZidHKDa7ZrbmxsXhECAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am The Wind (Hagenberg) Alto 2.mp3",
+                      "path": "files/1vwVYfs2MdGsgrErUB_OEVrxpF4sDWMKj.mp3",
+                      "kind": "audio",
+                      "id": "1vwVYfs2MdGsgrErUB_OEVrxpF4sDWMKj",
+                      "md5": "2123073fafe7ddfa4ea634fb7936b853",
+                      "peaks": "Bv+jQAn93WNVo5Wnl11TBVJdh4eMh1ahj3B8mnySiZOWdJmboF2VkW5Xb3R/U210YHaBYHiihYJye4qBd4BmeaKReWh7kqJ9h2ZIhHNrdn2eZ2eJcnF8kIN8fI+NWZVsg4iUcXuAlaB7eniPgZ97cHx8nniRmIRvdXh4lHRka3N/cmWCcKiMaKNrdXJxa4h4oISIhWh7jqh5g3+Ii5hneG+HhHGsf5t6l4x9h6STepiIsmdsgY9mcnCCXXVsQ3BbaThhdxECAlAEZCx5JjtiGTFiHzBiMWAyIVgiMW43cUA4eWhyh1d4oFpzZWiLcmiKbG2BZmlobnFpWo1lcYVmanRxfoBwu3V2k292b3RybHSAc3RpZK9+V5VmcIJjfXSGfX+iW4Vnjo6Ed6uWhKWEpnWnj6N4q5p9fHSNeLO3qZypl6VrqYWzuI6BbIu0j5WLqp/Lmcq+rbWnmpKQmLO136K9tMOmqJmNoLqvoMPKuJ+WnKyhsJiRrpWHkavHpYWfnMKStI2Iw3W3uKel0pqzqna0j39icXODa7JlbmtsXRECAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am The Wind (Hagenberg) Soprano 1.mp3",
+                      "path": "files/1o4oq91hqEKlq7lEYYGwRqqn6puZyWlrn.mp3",
+                      "kind": "audio",
+                      "id": "1o4oq91hqEKlq7lEYYGwRqqn6puZyWlrn",
+                      "md5": "dc7b06db6993bba1eb9b55851693e053",
+                      "peaks": "BveePgm2/xVfVyCCh18RTk9XBnyjj05fpmuCl3hfcKmGUGimgaqAg2VspIRtk4aBbnN/cYJZXDFgWlc7gGI2ZlJfMV1eVzp8XVx0f2tubHiJhWlzcG10c4Oag35lZ39sYoaKbGZ0eF12iXNjo59lYoFyZYGMl2SOiot8inB5WoqGcWuCd0auf5+Pj4xAZ111O4RnZTRYeGpueG1AglNhLXiIhHi8hIWheIt5c36XjI1urKOJh2qOdWhIeXFnTWtZO2NccRwDAU0HYHSKW4WCaXFlaYV5aoNvdXlVeGuDb4Rqd2R5jWRwZGuDenV3c3F3bWmLgoxzYodwbZ9na61scmZVf2Z5qGJzhWR2b3+Ed2qIcJplgpx/eIyCgZ90ipyXe4qYdFVAZG9cc3d/hZqPmH5+lI55g453pYKveX2WfpSZfFOid3WVlpCFmpueuZ2QlaawqM6zxLSzm6R3bZOxwKLEsaWHl5t6lYuajqyhpoCdvK6CmKXJqaBwZ6q1qJymsoqgpXeE036ypK6b1aOpu7Sawph1lpOYjOGHlZt9dhACAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am The Wind (Hagenberg) Soprano 2.mp3",
+                      "path": "files/1KvYx5ESya-h_KffPqtAYt1djRgsvfcHr.mp3",
+                      "kind": "audio",
+                      "id": "1KvYx5ESya-h_KffPqtAYt1djRgsvfcHr",
+                      "md5": "3bab7d95d421e44f468e8c901a2f8b1b",
+                      "peaks": "BveePgnu/w5cViJ+hV4SS01VRHqfYIxfommAlYtVdqhegWOjfqN6cU9ucolIbYtSYG5qSGFXWjBhVDVTfV81Z5SJXG9vhXqXf2N1f4RzdHCggmVybXFvcW58fIBiZ3pyR2KUboFtdFpxinBIYqZjc25oZICJlmKIhnlylWRxd31wcHxcXUaKa4NmgGs9ZlpxOoRnZD5UdEhtd2w/g1FcLHSBgHW3gXSqgZ91jpmCgIWAmruHj2WHd2dGem5lYGdXOWBbbxoDAUsIXHFciIOCZm9jZ4J1aH9hc3hTdWh/bYZodmF2imBtY2mAa2mEbWB0ameHf4hxWYZvcIp9cIdqZ2BTdWlfqn1ylW5mdnt6aGSbdYhff41+c4Jug5Brm4h9cmqId3d4hnF4eKaqWotdfV59k4mMhJFpnn6ddWqCm4OVdnDDnpXBgXt/lJSfm4GKkJeVkcy3rIWfiqF/cI+OybuzmbOEkK+Zi46SlZyHuIuxjaSHmKGOnqKYoKWRpZOsqKGgmJaazo6Us7mWuoeSjY6Lj4ZYZnKKWb9WZ1xeWgUBAAAA"
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
+                  "name": "Soon I Will Be Done (SATB)",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Accompaniment.mp3",
+                      "path": "files/1_zj7M-GPsNr0SaTrIwF4HYGPoBdG5m-2.mp3",
+                      "kind": "audio",
+                      "id": "1_zj7M-GPsNr0SaTrIwF4HYGPoBdG5m-2",
+                      "md5": "a653f6c0fc70a2d07203e20a06f532ca",
+                      "peaks": "AJf/4IAA8vz7KQAAcmYoFRE0EjMzNgctKywvJzssKi8uPT00J0lPSD4wSEuQanxogZp8dXNdjXFvVoNYYnF4Y0OEc2N1mZCIdHyfYlVya3Zkdj40S05EPjlIUHxufnGDkoaablhIhGtxcW14c2J0TX9wcnmHmZeYbp5+Yi94Tmt3PzVET0o4N0RObWFMP0oYk5aHl3xDOzo3M42HeYaYsc2DjJNBkqF8aa1hNGtuYFlLOjhOQUA1KU1El3GAapGXfoVbVXl6bF1zV2lufGgydWx3bH6geYKFoWxSb3VsZoZGJEtNR0AwREt8rGtJQk9RRTRUOZqZeTI4MjY2NDtTco+EnnlRZk5ojmYscEZiYT4ybFlYPDdDTYltdFdXV2BTTUZLPD9LRy40PU1mX35vb2FeV2pwZWl0W2hwZGx+XTRMWG9HPSVUSHlKaUVdWFJOSVA0Q0BJKDQ3S018VH1iZ09aUnhng4FYUVpAV0RAZF5RSmBiPS1ZUSwNnSlmSRIKYV5mHGpYF3o4N0ROSkIxRk1LIIkbCwUGBgQEAwIAAAAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Alto 1.mp3",
+                      "path": "files/1vwfuenAfEzrOfKYIkzNqGstOz8aVr6MI.mp3",
+                      "kind": "audio",
+                      "id": "1vwfuenAfEzrOfKYIkzNqGstOz8aVr6MI",
+                      "md5": "7ff601a3d6edb78c3b8c8237c8a55408",
+                      "peaks": "AJf/4IAAAN/8iQBvb2hoZl4VPDc2BkZTTy5cXkopSlpPR0tQWlhCV01WRIt4c2aFsn5ijZZ7Y2BwZ1xqV4SSaXeGeWmMko93boJzZ3aLeGyOfnyDp458iXtwcnp7a5iHfXt0jnRrZm1Ydl1oZZp7fXprb5OMeGhoeIBtZ4dxc4F1dIucjHuHdok9YzteXGKPjoKIj1lqMz5Jha6Fjn910pd/aYN2fH2DvHRYdZB6eoKCfod8h4VyfmSNgG9qkLR3iXuPcXVmeF1uZV2hgH16eGl8i4d0boGNa29of2xxl3l2h4yMlJB+mW2XhmRrT2J+b2JonpJ0UVZCMllGYTqAd5F2iYxweW91doR6hXx/iYhof2KGiWx4hIhTcoeKeGFlfIiFPklpg3R6Vl9OaXdwfnJ3bnCReWGLXYShenWQeXmSfH6bk36WgGtndHxfZnpjgZpzU1JqdpVEQ1p1enFxdnlZcXKFhn5udXaPbZZuW2xYa1ZpenBoj3N7iG1tW2qOW3FsXG2LgHt3g4qih5N3i6OIbnFmgmNrc2R2b00HAgAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Alto 2.mp3",
+                      "path": "files/1Htkk3fMENrP7bGeBWZnAfhD3fkzvMwZu.mp3",
+                      "kind": "audio",
+                      "id": "1Htkk3fMENrP7bGeBWZnAfhD3fkzvMwZu",
+                      "md5": "62017afa2819c01ae948a2b30654a2df",
+                      "peaks": "AJf/4IAAEfTXIQBrb2dnZF9MOTc5L0pSTi9eW0ooSFVOOUlRVUZYVks5WYt1a3WIrX1hhJJ4ZmFxZ11vWJCPgnWDcnV/kHSKZX5yaHOOanuRfnp/fKd1hnxxcXp7ZpWHfH56iYhnZWlofF1nYZB6XnxwbIyDlGhnZ4BraH9+bnx1co6ehXeIc4ZHY1FlYVx+joCGiGVmTTlIEaqJi4Fv06d8YIN0enx/s29ycJ14dXqGfHqGhYZ/fXqJgm1pirV3hYGNdnNld15vZGBimn52eGp2hoR1bImNfG9kfHRumHp3goSOkY13nEmTh2ZsYGF+dWFhlpByUVRGMU5LYjd8eYpyiYpufWp1dYJ0gHuBgIRtfmGBhm55eIZTcIKHeVlqaYKBcklic2ZTVWBOXXt2fW13cW+GdV6LYIGJeXKJe3N4jnh7loWYZX5ndnldanBphJVtUThrX19BRFtmY3JvdndVbW+AhXxsc3GIbJRwXW1XbVRofXFsjXR8hmtrXWqDWWtsYm2KgHl6fIeeiI5whaWKaHNnk2JucmNwck0JAgAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Bass 1.mp3",
+                      "path": "files/1bGw2GxqZ5_38rxfFURG0bQBj-_pLS_NP.mp3",
+                      "kind": "audio",
+                      "id": "1bGw2GxqZ5_38rxfFURG0bQBj-_pLS_NP",
+                      "md5": "99735c7dfba98937181bac887b1bab18",
+                      "peaks": "AJH12HsAAP+CjgBmY3d1cWtNOj4IQEFVSWlgUDlWaGlTZ1NidF1tZ1xwaoNwdZ+XjI5wnYVXiXiZsKV6ZnV6hoB3b5uWo6WQiLGVfH56eY59WU9lZndcTGZjbXKBj42AiHSWgmeLkH6+m7NYZnN8X3t4l5+fspmFfa+Fe4SJfnZ1VWhuWWFhaGtjhV55W3immpicjW5dbjxNF4eTm5+Jq8iYgXyZlpeIsGx7d4ducWxuYmdhcmRQa2SVYXWWp5GNko+YXHyLk7OxomFZfnptX3+Xh3q0m46npHaBe4GDa2dIaGZ+S15pZ1mym3ArUEZiU01YcI16e29maHtphG1/dI2RmnaCaXR8moqBeXtsWl1se2Z7aGVsYIiWf3p5eIS1lXhXXXR9bmhuYmaVbpSVjYB2X3eAfouEsLaAjYp4VV91b21kSWlmg3yEfXR7nJmKandTdXtvi3BwZHOYfZR1jmRRZId8hbKDaHx6bnJgjKyIel1ldnBwb3yUqHJydW5ngHOGl3d/eJdTXGtkdltdamFXhpKEa2dqaWNrbEAIAgEAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Bass 2.mp3",
+                      "path": "files/1M9ZhaiC2CCGW3CVdLvJtNiyarpGcKAng.mp3",
+                      "kind": "audio",
+                      "id": "1M9ZhaiC2CCGW3CVdLvJtNiyarpGcKAng",
+                      "md5": "88aff6c58d1330e9e1cf3c6be638c0e0",
+                      "peaks": "AJb83n8AAP+imRdManp4dG9PQD4JPkJZS21kUTtWa2hUaVBldGBral90dIhxeKOcj5Fzoolaj3ycsat+aXZ+gIZ7cZ+XraaejLemh4N9fZWEW1FpZ3tWYWlib3aFlZKFi3mdh2uSloPAnb1ZaH5+Yn98n6eisJ6LgbiDgIeOgHh6WWxwXGdlbm5njGGNYHyqoZ2klHFea0NSGImPpKaOrs6dhX+gl5qOt3SCeIVweG5wYmpmdmlSbmKXY3qcsZKXmYedX36Pl7S4pGRceH9uYIacjYG7n5CsqXqMfoSHb2tHamd7TWBta160nHMuWUlpTk5bc5aDfWplbIVwiXGBeJOVnnyDbXqDmn2TfoFwXGFufWp/amtwYYehhX52fYi4mXtaYn+Cc2lzZXGbcJeVj4h/YniEf5iGtriGkop6WWJ5cW1oTGtrfomIgXp+nZ2PbntbeYFvlXBoZW2ZhZx5kmhTZol/i7SJaoGAbXVfkLKRgFxpenJ1cn+Vq3VzeW9rg3eMnHyCfJ5UZG9qeF9nbmZciJmGcGlqa2ZublsIAgEAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Soprano 1.mp3",
+                      "path": "files/1typ2WqVhPxbk1hV2sW6pVglJgmawOTcw.mp3",
+                      "kind": "audio",
+                      "id": "1typ2WqVhPxbk1hV2sW6pVglJgmawOTcw",
+                      "md5": "fba19a15e7366171de58966c85f3824b",
+                      "peaks": "AJf/4IAAAKS1/QFWdWJeWVpPQT8HQ1NZL1ZnYzBTU14yWFJXYk5jYFRAY498cHmUw5d0ipZlfGZ9c3RzW5CIjICJeXaTnH+bbZOCd32JZZ2ShXhnh5Z8fGuHXH6BcZmNioh7i4xwbmptj2hfaJh+NYV/b4+Wn3xrZZB6fW6Ml46edX19fnuFcY9/cmJOSkelsKuNgGg7T1xwVauYfZeEydF4cn2ehZ9xuoZ4i3t+eWV9eIONk3R3hH+XiHdxlZHBnIiSdX53eWB1ZWJeoYNxgHOBkYuJeY9ppoyGhHqPno1wcX6Dh4Vye1SmkHNiVWJyWFuCd52ZWF9MNlZUcD1qcYV9pId+f3F4j4Bug3t6d4B6cWFviIGFc49+ZYqGeGVkbG1ub1R5c29mYmdbYHV6kX92jm+BbITBnVqBe42hgWl5fpt6kmiPeYeObn56XlxZbG5nWD14dG85S2BxYnhwlnWVg2toj3h9rrp9gpB0YnSMbn+Ohm2Mc2KRlmSMY1ZglIJ1fZJ/aK52bnJ+jIhmhpR/Z4uglIqDjI56d24MAgEAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Soprano 2.mp3",
+                      "path": "files/1wifvjUBJ5vLkR-kjvKQzlVP9jgLv1T9-.mp3",
+                      "kind": "audio",
+                      "id": "1wifvjUBJ5vLkR-kjvKQzlVP9jgLv1T9-",
+                      "md5": "c48ef979987b72bb946151ab77ea3463",
+                      "peaks": "AJX/4IAHAObu/m9fXFxYUjoGPkBMMFhXZTBfVU00XFdUWUVfYl8zUWV5jXVzjIS6fYORi3NgZXRwcVJVmIc1g4Nyb46NkHhvkW5sj6R3fn6Tf5B6iXtvgYV0fXRujoeDenqKbW5qZ1qLYWVein57eG1yj55/dWOEj3teooFtg55rdpt/dmxwgEVqZE5JRpqqjoaBWjROVHJ3no13j2rFsXVueJeWfXSzdG50d3p7joB0dI1lgF1lho2EdG6NiL+MhY+NYnZ3aG9hXliYhFx6e3qLhIRykm6hbWh6lWeXfIt9jH6CenCAZICge2NlW15hY2OKlZVuXztOXlQ2aGRybXqdgWyCX32EdVucYXaNa19ueIqGYVpldnWBgWxhaGBnY29YTjpmkGg/XWdcV3ZkdW2DXmhif2q9WGmTcYKFkm11eXKCbI17and3b3xXWF9sbmNSU0tqh19SSmVteF99bHRhXnR8hGxpqpJ7o35lZm5+hm6hk5lnfnadgWN/e1eNb3hnZHpwZYideYt8f3Jwe5SDjYtpV1lbVFZjUD8FAQAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Tenor 1.mp3",
+                      "path": "files/1nAcdiVUurX_Y5ZTYaKclntSkvdcJAayk.mp3",
+                      "kind": "audio",
+                      "id": "1nAcdiVUurX_Y5ZTYaKclntSkvdcJAayk",
+                      "md5": "9f24fb3214fdf8fa8dd4d9efe83c3465",
+                      "peaks": "AJf/4IAAAP6XvgAAcGVeWGNiNjUKNUJOJ0RPWCtLTFoqWF+NaYJxYIZpfnuAg5GXip6Nl35ghHuDuZeGWUh0Z32KiIqIr6S4eKa1dWGkdIFvcm2EZn5qbotsYH+Jio2DlaGShWqHgWqll5hUVnF4Z3t7jXuKsJiDia1zk4uifHp8ZZBzYm5ygWpicnFAQz6GfIiEj1k1P1uDZoKEg4KAn7V9iYJ5e4R4sGZ1c4pxeIRqkGlxfmVViWd+c4CVf4KQo6d4cISDhJmLnlZXZXdygJKUioWdiX5/vH1jiJSIfoNuhXJxa3eKf2Ksk10yTD5bNkJOX4V+em1vYXh0kHBlcHh/h3iId3d9kGl7oYh+fGCOiW18aodoZ4xqa4eCjZKLi2VnbFZcW29rdH13do6Ni3ZnVW5ycJF0dHufcoKAfGGAeYl6bG9oenB4b4pomoZ5XGphRlVrhFZiYmyDW5V5jXhfWX5vbKFwXnF3ZWtSdYNzYlxfcGVoaGCJp2SDfEhSeHxtd4t9SYJoiWpqaXlVfGRgcoJcYV1KSUpIQz8EAQAAAAAA"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Tenor 2.mp3",
+                      "path": "files/1ilpZfyetALJFiIKgiFRk7QYzSSiGGKUQ.mp3",
+                      "kind": "audio",
+                      "id": "1ilpZfyetALJFiIKgiFRk7QYzSSiGGKUQ",
+                      "md5": "ecc5d344f656c0800604ba723d194d01",
+                      "peaks": "AJf/4IAAAP5bnAB4Z3NnZGsXPD9CBk5WVzJmYlVNM11gb1yijoRTcpeVcoyHnpSppZGOr32Yl3uco45kYnWPYI+KlZe7r7iEi7FziJF8mm6naJdva59jmHd4ioV9mZ6rloyeiXOShqK14ItsWYZyi3+HnouxqaCTn7B8goh4i6h4YYt4d1Jtl3pqf1dKSkeXoI+VjlpMYGd0jZGWlpx/y5yel5KVl4eBxXtxjoF0f2yAmXlvgWqjdXiEf36fh7CEmLmUeY+Gm6aYnV5siHeUioCmnamylY+skYB/hYOIinZdoJ2UZlqLdZXBoW9NOklgVE1Yb5OIenxyc4BufHWFdpSGjIR/fGiOp4mPd4N/cGqWmYKCeaByb4yhlIiMhZWNi2Z0PmJ7gXN7gYSIhqKhhK1rZXSPmJGPrKiKdoCqY5KHd5V0WI5zl4uGiZV7nZ2EcmVvU1p9cmVydY+RdqSEmHZWd4GSgcKxbn10dXh0po6EfltsgYB1eJqqtXWAfXh4hIh7gHiNa6tjoXOCkXBhlG1tnpVhclxfUlVaVlEEAgEAAAAA"
                     }
                   ]
                 }

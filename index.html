@@ -103,14 +103,21 @@
     background: var(--cover-line); margin: 0.4rem 0.6rem 0;
   }
 
-  .choir-picker { display: none; padding: 0 0 1rem; }
+  .choir-picker {
+    display: none; align-items: center; gap: 0.75rem;
+    padding: 1rem 0.2rem 0.9rem;
+  }
+
+  .choir-label {
+    flex: 0 0 auto; font-size: 0.85rem; color: var(--quiet);
+  }
 
   .choir-select {
-    -webkit-appearance: none; appearance: none;
-    width: 100%; font-family: var(--sans); font-size: 1rem; font-weight: 600;
-    color: #FFFFFF; background-color: transparent;
+    -webkit-appearance: none; appearance: none; flex: 1; min-width: 0;
+    font-family: var(--sans); font-size: 1rem; font-weight: 600;
+    color: #FFFFFF; background-color: rgba(255, 255, 255, 0.07);
     border: 1px solid var(--cover-line); border-radius: 3px;
-    padding: 0.8rem 2.4rem 0.8rem 0.9rem; min-height: 48px;
+    padding: 0.7rem 2.4rem 0.7rem 0.85rem; min-height: 46px;
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath fill='%238FC9A8' d='M1 1.5 6 6.5l5-5'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 0.9rem center;
@@ -369,7 +376,7 @@
 
     /* Too many choirs to sit in a row on a phone — use a picker instead. */
     .groups { display: none; }
-    .choir-picker { display: block; }
+    .choir-picker { display: flex; }
     .masthead h1 .school { font-size: 0.6rem; letter-spacing: 0.16em; }
     .crest { height: 38px; }
     .brand { gap: 0.65rem; }
@@ -395,12 +402,13 @@
   </div>
   <div class="brand-rule"></div>
   <nav class="groups" id="groups" aria-label="Choirs"></nav>
-  <div class="choir-picker">
-    <select class="choir-select" id="choirSelect" aria-label="Choose a choir"></select>
-  </div>
 </header>
 
 <div class="shell">
+  <div class="choir-picker">
+    <label class="choir-label" for="choirSelect">Choir</label>
+    <select class="choir-select" id="choirSelect"></select>
+  </div>
   <nav class="crumbs" id="crumbs" aria-label="Where you are"></nav>
   <main class="panel" id="panel" aria-live="polite"></main>
   <p class="stamp" id="stamp"></p>

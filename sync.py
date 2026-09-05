@@ -12,10 +12,14 @@ renames, duplicate names and awkward characters can't break anything.
 The display name lives in the manifest.
 """
 
+import array
+import base64
 import json
 import os
 import pathlib
 import random
+import shutil
+import subprocess
 import sys
 import time
 
@@ -91,6 +95,49 @@ def extension_for(name, mime):
     return EXTENSIONS.get(mime, "")
 
 
+PEAK_BUCKETS = 420
+
+
+def peaks_for(path):
+    """A small loudness outline of a track, for the website to draw.
+
+    Decoded once here so browsers never have to. Returns base64 of one byte
+    per bucket, or "" if ffmpeg isn't around — the page copes without it.
+    """
+    if not shutil.which("ffmpeg"):
+        return ""
+
+    try:
+        result = subprocess.run(
+            ["ffmpeg", "-v", "quiet", "-i", str(path),
+             "-ac", "1", "-ar", "8000", "-f", "s16le", "-"],
+            capture_output=True, timeout=180)
+    except (subprocess.SubprocessError, OSError):
+        return ""
+
+    raw = result.stdout
+    if not raw:
+        return ""
+
+    samples = array.array("h")
+    samples.frombytes(raw[:len(raw) // 2 * 2])
+    if not len(samples):
+        return ""
+
+    step = max(1, len(samples) // PEAK_BUCKETS)
+    peaks = []
+    for i in range(PEAK_BUCKETS):
+        chunk = samples[i * step:(i + 1) * step]
+        if not chunk:
+            peaks.append(0)
+            continue
+        peaks.append(max(abs(min(chunk)), abs(max(chunk))))
+
+    loudest = max(peaks) or 1
+    scaled = bytes(min(255, value * 255 // loudest) for value in peaks)
+    return base64.b64encode(scaled).decode()
+
+
 def get(url, **kwargs):
     """Drive occasionally rate limits. Back off and try again."""
     for attempt in range(7):
@@ -139,7 +186,7 @@ def download(file_id, destination):
             handle.write(chunk)
 
 
-def walk(folder_id, previous, keep, depth=0):
+def walk(folder_id, previous, keep, old_peaks, depth=0):
     """Returns the children of one Drive folder, downloading as it goes."""
     if depth > 8:
         return []
@@ -152,7 +199,7 @@ def walk(folder_id, previous, keep, depth=0):
             children.append({
                 "type": "folder",
                 "name": item["name"],
-                "children": walk(item["id"], previous, keep, depth + 1),
+                "children": walk(item["id"], previous, keep, old_peaks, depth + 1),
             })
             continue
 
@@ -174,14 +221,24 @@ def walk(folder_id, previous, keep, depth=0):
             # A short pause keeps Drive from throttling on a big first run.
             time.sleep(0.3)
 
-        children.append({
+        entry = {
             "type": "file",
             "name": item["name"],
             "path": path,
             "kind": kind,
             "id": file_id,
             "md5": checksum,
-        })
+        }
+
+        if kind == "audio":
+            # Reuse the outline we already have unless the file itself changed.
+            outline = old_peaks.get(file_id, "") if unchanged and on_disk else ""
+            if not outline:
+                outline = peaks_for(ROOT / path)
+            if outline:
+                entry["peaks"] = outline
+
+        children.append(entry)
 
     return children
 
@@ -192,6 +249,15 @@ def collect_checksums(node, into):
             collect_checksums(child["children"], into)
         else:
             into[child["id"]] = child.get("md5", "")
+    return into
+
+
+def collect_peaks(node, into):
+    for child in node:
+        if child["type"] == "folder":
+            collect_peaks(child["children"], into)
+        elif child.get("peaks"):
+            into[child["id"]] = child["peaks"]
     return into
 
 
@@ -209,6 +275,7 @@ def main():
     folders = json.loads((ROOT / "folders.json").read_text())
 
     previous = {}
+    old_peaks = {}
     previous_choirs = {}
     if MANIFEST.exists():
         try:
@@ -217,6 +284,7 @@ def main():
                 if choir == "divider":
                     continue
                 collect_checksums(choir.get("children", []), previous)
+                collect_peaks(choir.get("children", []), old_peaks)
                 previous_choirs[choir["name"]] = choir
         except (ValueError, KeyError):
             pass
@@ -236,7 +304,7 @@ def main():
         try:
             choirs.append({
                 "name": name,
-                "children": walk(entry["folderId"], previous, keep),
+                "children": walk(entry["folderId"], previous, keep, old_peaks),
             })
         except DriveError as problem:
             # One unreadable folder shouldn't stop the rest. Keep whatever

@@ -33,6 +33,10 @@ if not API_KEY:
 
 session = requests.Session()
 
+
+class DriveError(Exception):
+    """A folder we couldn't read. Skipped rather than fatal."""
+
 EXTENSIONS = {
     "application/pdf": ".pdf",
     "audio/mpeg": ".mp3",
@@ -69,11 +73,13 @@ def get(url, **kwargs):
         response = session.get(url, timeout=120, **kwargs)
         if response.status_code < 400:
             return response
-        if response.status_code in (403, 429, 500, 502, 503) and attempt < 4:
+        # 403 here means "not shared" or "key not allowed" — retrying won't
+        # help, so fail straight away rather than waiting through backoff.
+        if response.status_code in (429, 500, 502, 503) and attempt < 4:
             time.sleep(2 ** attempt)
             continue
-        raise SystemExit(f"Drive returned {response.status_code} for {url}")
-    raise SystemExit("Gave up talking to Drive")
+        raise DriveError(f"Drive returned {response.status_code}")
+    raise DriveError("Gave up talking to Drive")
 
 
 def list_folder(folder_id):
@@ -157,31 +163,57 @@ def collect_checksums(node, into):
     return into
 
 
+def collect_paths(node, into):
+    """Every file path under a node, so a skipped choir keeps its files."""
+    for child in node:
+        if child["type"] == "folder":
+            collect_paths(child["children"], into)
+        elif child.get("path"):
+            into.add(child["path"])
+    return into
+
+
 def main():
     folders = json.loads((ROOT / "folders.json").read_text())
 
     previous = {}
+    previous_choirs = {}
     if MANIFEST.exists():
         try:
             old = json.loads(MANIFEST.read_text())
             for choir in old.get("choirs", []):
+                if choir == "divider":
+                    continue
                 collect_checksums(choir.get("children", []), previous)
+                previous_choirs[choir["name"]] = choir
         except (ValueError, KeyError):
             pass
 
     keep = set()
     choirs = []
+    failed = []
 
     for entry in folders:
         if entry == "divider":
             choirs.append("divider")
             continue
 
-        print(f"{entry['name']}")
-        choirs.append({
-            "name": entry["name"],
-            "children": walk(entry["folderId"], previous, keep),
-        })
+        name = entry["name"]
+        print(f"{name}")
+
+        try:
+            choirs.append({
+                "name": name,
+                "children": walk(entry["folderId"], previous, keep),
+            })
+        except DriveError as problem:
+            # One unreadable folder shouldn't stop the rest. Keep whatever
+            # this choir had last time so its files aren't deleted.
+            print(f"  SKIPPED: {problem}")
+            failed.append(name)
+            kept = previous_choirs.get(name, {"name": name, "children": []})
+            collect_paths(kept.get("children", []), keep)
+            choirs.append(kept)
 
     manifest = {
         "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
@@ -197,6 +229,10 @@ def main():
                 removed += 1
 
     print(f"\n{len(keep)} files tracked, {removed} removed")
+
+    if failed:
+        print("\nCouldn't read: " + ", ".join(failed))
+        print("Check those folders are shared with anyone who has the link.")
 
 
 if __name__ == "__main__":

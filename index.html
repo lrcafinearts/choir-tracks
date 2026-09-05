@@ -349,6 +349,22 @@
   @media (max-width: 700px) {
     .masthead { padding: 1.1rem 1rem 0; }
     .masthead h1 { font-size: 0.98rem; letter-spacing: 0.1em; }
+
+    /* Wrap the choirs instead of hiding them off the right edge. */
+    .groups { flex-wrap: wrap; overflow: visible; gap: 0.35rem; margin-top: 0.9rem; }
+
+    .group-btn {
+      font-size: 0.88rem; padding: 0.6rem 0.8rem;
+      border: 1px solid var(--cover-line); border-radius: 999px;
+    }
+
+    .group-btn[aria-current="true"] { border-color: var(--page); }
+
+    /* The divider becomes the line break between ensembles and All-Region. */
+    .group-divider {
+      flex-basis: 100%; width: auto; height: 0;
+      background: none; margin: 0.15rem 0 0;
+    }
     .masthead h1 .school { font-size: 0.6rem; letter-spacing: 0.16em; }
     .crest { height: 38px; }
     .brand { gap: 0.65rem; }

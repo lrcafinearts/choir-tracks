@@ -103,6 +103,23 @@
     background: var(--cover-line); margin: 0.4rem 0.6rem 0;
   }
 
+  .choir-picker { display: none; padding: 0 0 1rem; }
+
+  .choir-select {
+    -webkit-appearance: none; appearance: none;
+    width: 100%; font-family: var(--sans); font-size: 1rem; font-weight: 600;
+    color: #FFFFFF; background-color: transparent;
+    border: 1px solid var(--cover-line); border-radius: 3px;
+    padding: 0.8rem 2.4rem 0.8rem 0.9rem; min-height: 48px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath fill='%238FC9A8' d='M1 1.5 6 6.5l5-5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.9rem center;
+    background-size: 12px 8px;
+  }
+
+  .choir-select:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .choir-select option { color: #16305C; background: #FFFFFF; }
+
   .shell { max-width: 760px; margin: 0 auto; padding: 0 1rem; }
 
   .crumbs {
@@ -350,21 +367,9 @@
     .masthead { padding: 1.1rem 1rem 0; }
     .masthead h1 { font-size: 0.98rem; letter-spacing: 0.1em; }
 
-    /* Wrap the choirs instead of hiding them off the right edge. */
-    .groups { flex-wrap: wrap; overflow: visible; gap: 0.35rem; margin-top: 0.9rem; }
-
-    .group-btn {
-      font-size: 0.88rem; padding: 0.6rem 0.8rem;
-      border: 1px solid var(--cover-line); border-radius: 999px;
-    }
-
-    .group-btn[aria-current="true"] { border-color: var(--page); }
-
-    /* The divider becomes the line break between ensembles and All-Region. */
-    .group-divider {
-      flex-basis: 100%; width: auto; height: 0;
-      background: none; margin: 0.15rem 0 0;
-    }
+    /* Too many choirs to sit in a row on a phone — use a picker instead. */
+    .groups { display: none; }
+    .choir-picker { display: block; }
     .masthead h1 .school { font-size: 0.6rem; letter-spacing: 0.16em; }
     .crest { height: 38px; }
     .brand { gap: 0.65rem; }
@@ -390,6 +395,9 @@
   </div>
   <div class="brand-rule"></div>
   <nav class="groups" id="groups" aria-label="Choirs"></nav>
+  <div class="choir-picker">
+    <select class="choir-select" id="choirSelect" aria-label="Choose a choir"></select>
+  </div>
 </header>
 
 <div class="shell">
@@ -411,6 +419,7 @@
   "use strict";
 
   var groupsBar = document.getElementById("groups");
+  var choirSelect = document.getElementById("choirSelect");
   var crumbsBar = document.getElementById("crumbs");
   var panel = document.getElementById("panel");
   var stamp = document.getElementById("stamp");
@@ -991,6 +1000,7 @@
 
   function paintCrumbs() {
     crumbsBar.innerHTML = "";
+    crumbsBar.style.display = path.length > 1 ? "" : "none";
 
     path.forEach(function (step, i) {
       if (i > 0) {
@@ -1033,6 +1043,7 @@
     for (var j = 0; j < btns.length; j++) {
       btns[j].setAttribute("aria-current", j === i ? "true" : "false");
     }
+    choirSelect.value = String(i);
 
     path = [choirs[i]];
     render();
@@ -1057,6 +1068,17 @@
       btn.setAttribute("aria-current", "false");
       btn.addEventListener("click", function () { selectGroup(i); });
       groupsBar.appendChild(btn);
+    });
+
+    choirs.forEach(function (choir, i) {
+      var option = document.createElement("option");
+      option.value = String(i);
+      option.textContent = choir.name;
+      choirSelect.appendChild(option);
+    });
+
+    choirSelect.addEventListener("change", function () {
+      selectGroup(parseInt(choirSelect.value, 10) || 0);
     });
   }
 

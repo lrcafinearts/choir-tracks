@@ -11,8 +11,8 @@
   Reads manifest.json, which the Drive sync writes. Nothing to configure here.
   To add or remove a choir, edit folders.json and re-run the sync.
 
-  This is an audio tool. Students sing from their own marked-up paper music;
-  sheet music is here to open when it's wanted, not to practise from.
+  An audio tool. Students sing from their own marked-up paper music; sheet
+  music is here to open when it's wanted, not to practise from.
 -->
 
 <style>
@@ -27,7 +27,8 @@
     --rule:       #E4E2DB;
     --quiet:      #93AAA3;
     --accent:     #0E6E7F;
-    --marked:     #9B2F55;
+    --band:       #9B2F55;
+    --band-soft:  rgba(155, 47, 85, 0.16);
 
     --serif: Palatino, "Palatino Linotype", "Book Antiqua", "URW Palladio L", Georgia, serif;
     --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -120,45 +121,109 @@
   .row-folder:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; }
   .row-chevron { color: var(--ink-faint); font-size: 1.3rem; flex: 0 0 auto; }
 
-  .row-file { padding: 0.95rem 0.2rem; }
+  .row-file { padding: 0.95rem 0.2rem 1.1rem; }
 
   .file-name {
     font-size: 0.95rem; color: var(--ink);
-    margin: 0 0 0.5rem; word-break: break-word;
+    margin: 0 0 0.6rem; word-break: break-word;
   }
 
-  .row-file audio { width: 100%; height: 40px; display: block; }
-  .file-note { font-size: 0.85rem; color: var(--ink-faint); margin: 0; }
+  /* ---------- player ---------- */
 
-  /* ---------- section looping ---------- */
+  .player { display: flex; align-items: center; gap: 0.75rem; }
 
-  .loop-line {
-    display: flex; align-items: center; gap: 0.6rem;
-    flex-wrap: wrap; margin-top: 0.5rem;
+  .play-btn {
+    flex: 0 0 auto; width: 46px; height: 46px;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--ink); color: #FFFFFF;
+    border: 0; border-radius: 50%; cursor: pointer;
+    font-size: 1rem; line-height: 1; padding: 0;
   }
 
-  .loop-btn {
-    font-family: var(--sans); font-size: 0.85rem; color: var(--ink);
-    background: transparent; border: 1px solid var(--rule); border-radius: 3px;
-    padding: 0.45rem 0.75rem; min-height: 40px; cursor: pointer; white-space: nowrap;
+  .play-btn:hover { background: var(--accent); }
+  .play-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+  .play-btn svg { width: 16px; height: 16px; fill: currentColor; display: block; }
+
+  .timeline-wrap { flex: 1; min-width: 0; }
+
+  .timeline {
+    position: relative; height: 44px; cursor: pointer;
+    touch-action: none; -webkit-user-select: none; user-select: none;
   }
 
-  .loop-btn:hover { border-color: var(--ink-soft); }
+  .timeline:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 
-  .loop-btn[data-state="marking"] {
-    border-color: var(--marked); color: var(--marked); font-weight: 600;
+  /* the grey bar itself, centred in the taller touch area */
+  .timeline::before {
+    content: ""; position: absolute; left: 0; right: 0; top: 50%;
+    height: 6px; margin-top: -3px; background: var(--rule); border-radius: 3px;
   }
 
-  .loop-btn[data-state="looping"] {
-    background: var(--marked); border-color: var(--marked); color: #FFFFFF;
+  .played {
+    position: absolute; left: 0; top: 50%; height: 6px; margin-top: -3px;
+    background: var(--ink-faint); border-radius: 3px; width: 0;
   }
 
-  .loop-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .band {
+    position: absolute; top: 50%; height: 14px; margin-top: -7px;
+    background: var(--band-soft);
+    border-left: 2px solid var(--band); border-right: 2px solid var(--band);
+    display: none;
+  }
 
-  .loop-range {
-    font-size: 0.85rem; color: var(--ink-soft);
+  .band.on { display: block; }
+
+  .playhead {
+    position: absolute; top: 50%; width: 3px; height: 20px; margin-top: -10px;
+    background: var(--ink); border-radius: 2px; left: 0; pointer-events: none;
+  }
+
+  .handle {
+    position: absolute; top: 0; height: 100%; width: 34px;
+    margin-left: -17px; background: transparent; border: 0; padding: 0;
+    cursor: grab; touch-action: none; display: none;
+  }
+
+  .handle.on { display: block; }
+  .handle:active { cursor: grabbing; }
+
+  /* the visible grip, drawn inside the wider touch target */
+  .handle::after {
+    content: ""; position: absolute; left: 50%; top: 50%;
+    width: 14px; height: 26px; margin: -13px 0 0 -7px;
+    background: var(--band); border-radius: 4px;
+    border: 2px solid var(--page);
+  }
+
+  .handle:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; }
+
+  .under {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 0.75rem; margin-top: 0.15rem;
+  }
+
+  .times {
+    font-size: 0.8rem; color: var(--ink-faint);
     font-variant-numeric: tabular-nums; margin: 0;
   }
+
+  .band-times { color: var(--band); font-weight: 600; }
+
+  .section-btn {
+    font-family: var(--sans); font-size: 0.85rem; color: var(--ink);
+    background: transparent; border: 1px solid var(--rule); border-radius: 3px;
+    padding: 0.4rem 0.7rem; min-height: 38px; cursor: pointer; white-space: nowrap;
+  }
+
+  .section-btn:hover { border-color: var(--ink-soft); }
+
+  .section-btn[aria-pressed="true"] {
+    background: var(--band); border-color: var(--band); color: #FFFFFF;
+  }
+
+  .section-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .section-btn:disabled { opacity: 0.45; cursor: default; }
 
   /* ---------- speed and repeat ---------- */
 
@@ -249,6 +314,7 @@
     .shell { padding: 0 0.75rem; }
     .panel { padding: 0.3rem 1rem 1rem; }
     .row-folder { font-size: 1.1rem; }
+    .player { gap: 0.6rem; }
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -296,12 +362,20 @@
   var path = [];
   var speed = 1;
   var repeat = false;
+  var players = [];
+
+  var PLAY_ICON = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z"/></svg>';
+  var PAUSE_ICON = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5h4v13H3zM9 1.5h4v13H9z"/></svg>';
 
   function clock(seconds) {
-    if (!isFinite(seconds)) { return "0:00"; }
+    if (!isFinite(seconds) || seconds < 0) { return "0:00"; }
     var mins = Math.floor(seconds / 60);
     var secs = Math.floor(seconds % 60);
     return mins + ":" + (secs < 10 ? "0" : "") + secs;
+  }
+
+  function clamp(value, low, high) {
+    return Math.min(high, Math.max(low, value));
   }
 
   /* ---------- messages ---------- */
@@ -327,7 +401,7 @@
     }
   }
 
-  /* ---------- sheet music viewer ---------- */
+  /* ---------- sheet music ---------- */
 
   function openViewer(file) {
     viewerName.textContent = file.name;
@@ -365,12 +439,7 @@
   /* ---------- speed and repeat ---------- */
 
   function applySettings() {
-    var players = panel.querySelectorAll("audio");
-    for (var i = 0; i < players.length; i++) {
-      players[i].playbackRate = speed;
-      /* A marked section wins over whole-track repeat. */
-      players[i].loop = repeat && !players[i].dataset.section;
-    }
+    players.forEach(function (p) { p.refresh(); });
   }
 
   function makeSettings() {
@@ -467,90 +536,273 @@
     row.appendChild(name);
 
     var audio = document.createElement("audio");
-    audio.setAttribute("controls", "");
-    audio.setAttribute("preload", "none");
+    audio.preload = "metadata";
     audio.src = file.path;
 
-    audio.addEventListener("play", function () {
-      var others = panel.querySelectorAll("audio");
-      for (var i = 0; i < others.length; i++) {
-        if (others[i] !== audio) { others[i].pause(); }
+    /* --- markup --- */
+
+    var player = document.createElement("div");
+    player.className = "player";
+
+    var playBtn = document.createElement("button");
+    playBtn.className = "play-btn";
+    playBtn.type = "button";
+    playBtn.innerHTML = PLAY_ICON;
+    playBtn.setAttribute("aria-label", "Play " + file.name);
+    player.appendChild(playBtn);
+
+    var wrap = document.createElement("div");
+    wrap.className = "timeline-wrap";
+
+    var timeline = document.createElement("div");
+    timeline.className = "timeline";
+    timeline.tabIndex = 0;
+    timeline.setAttribute("role", "slider");
+    timeline.setAttribute("aria-label", "Position in track");
+    timeline.setAttribute("aria-valuemin", "0");
+
+    var played = document.createElement("div");
+    played.className = "played";
+    timeline.appendChild(played);
+
+    var band = document.createElement("div");
+    band.className = "band";
+    timeline.appendChild(band);
+
+    var head = document.createElement("div");
+    head.className = "playhead";
+    timeline.appendChild(head);
+
+    var handleA = document.createElement("button");
+    handleA.className = "handle";
+    handleA.type = "button";
+    handleA.setAttribute("aria-label", "Start of repeated section");
+    timeline.appendChild(handleA);
+
+    var handleB = document.createElement("button");
+    handleB.className = "handle";
+    handleB.type = "button";
+    handleB.setAttribute("aria-label", "End of repeated section");
+    timeline.appendChild(handleB);
+
+    wrap.appendChild(timeline);
+
+    var under = document.createElement("div");
+    under.className = "under";
+
+    var times = document.createElement("p");
+    times.className = "times";
+    times.textContent = "0:00";
+    under.appendChild(times);
+
+    var sectionBtn = document.createElement("button");
+    sectionBtn.className = "section-btn";
+    sectionBtn.type = "button";
+    sectionBtn.textContent = "Repeat part";
+    sectionBtn.setAttribute("aria-pressed", "false");
+    sectionBtn.disabled = true;
+    under.appendChild(sectionBtn);
+
+    wrap.appendChild(under);
+    player.appendChild(wrap);
+    row.appendChild(player);
+
+    /* --- state --- */
+
+    var duration = 0;
+    var loopStart = null;
+    var loopEnd = null;
+    var ticking = null;
+
+    function hasBand() { return loopStart !== null && loopEnd !== null; }
+
+    function drawBand() {
+      if (!hasBand() || !duration) {
+        band.classList.remove("on");
+        handleA.classList.remove("on");
+        handleB.classList.remove("on");
+        return;
       }
-      audio.playbackRate = speed;
-    });
-
-    audio.addEventListener("loadedmetadata", function () {
-      audio.playbackRate = speed;
-    });
-
-    row.appendChild(audio);
-
-    /* --- mark a section and loop just that --- */
-
-    var start = null;
-    var end = null;
-
-    var line = document.createElement("div");
-    line.className = "loop-line";
-
-    var loopBtn = document.createElement("button");
-    loopBtn.className = "loop-btn";
-    loopBtn.type = "button";
-    loopBtn.textContent = "Loop a section";
-    loopBtn.dataset.state = "idle";
-
-    var range = document.createElement("p");
-    range.className = "loop-range";
-
-    function clear() {
-      start = null;
-      end = null;
-      delete audio.dataset.section;
-      audio.loop = repeat;
-      loopBtn.dataset.state = "idle";
-      loopBtn.textContent = "Loop a section";
-      range.textContent = "";
+      var a = (loopStart / duration) * 100;
+      var b = (loopEnd / duration) * 100;
+      band.style.left = a + "%";
+      band.style.width = (b - a) + "%";
+      band.classList.add("on");
+      handleA.style.left = a + "%";
+      handleB.style.left = b + "%";
+      handleA.classList.add("on");
+      handleB.classList.add("on");
     }
 
-    loopBtn.addEventListener("click", function () {
-      if (start === null) {
-        start = audio.currentTime;
-        loopBtn.dataset.state = "marking";
-        loopBtn.textContent = "Mark the end";
-        range.textContent = "Starts at " + clock(start);
-        return;
+    function drawTime() {
+      var pos = duration ? (audio.currentTime / duration) * 100 : 0;
+      head.style.left = pos + "%";
+      played.style.width = pos + "%";
+
+      var text = clock(audio.currentTime) + " / " + clock(duration);
+      if (hasBand()) {
+        text += "  \u00B7  repeating " + clock(loopStart) + "\u2013" + clock(loopEnd);
       }
+      times.textContent = text;
+      times.className = hasBand() ? "times band-times" : "times";
+      timeline.setAttribute("aria-valuenow", Math.floor(audio.currentTime));
+      timeline.setAttribute("aria-valuetext", clock(audio.currentTime));
+    }
 
-      if (end === null) {
-        end = audio.currentTime;
-        if (end <= start) {
-          var swap = start; start = end; end = swap;
-        }
-        /* Too small to be a phrase — they probably double-tapped. */
-        if (end - start < 0.4) { clear(); return; }
+    function tick() {
+      if (hasBand() && audio.currentTime >= loopEnd) {
+        audio.currentTime = loopStart;
+      }
+      drawTime();
+      ticking = requestAnimationFrame(tick);
+    }
 
-        audio.dataset.section = "1";
-        audio.loop = false;
-        loopBtn.dataset.state = "looping";
-        loopBtn.textContent = "Clear loop";
-        range.textContent = clock(start) + " \u2013 " + clock(end);
-        audio.currentTime = start;
+    function startTicking() {
+      if (ticking === null) { ticking = requestAnimationFrame(tick); }
+    }
+
+    function stopTicking() {
+      if (ticking !== null) { cancelAnimationFrame(ticking); ticking = null; }
+      drawTime();
+    }
+
+    audio.addEventListener("loadedmetadata", function () {
+      duration = audio.duration || 0;
+      timeline.setAttribute("aria-valuemax", Math.floor(duration));
+      sectionBtn.disabled = false;
+      audio.playbackRate = speed;
+      drawTime();
+    });
+
+    audio.addEventListener("play", function () {
+      players.forEach(function (p) { if (p.audio !== audio) { p.audio.pause(); } });
+      audio.playbackRate = speed;
+      playBtn.innerHTML = PAUSE_ICON;
+      playBtn.setAttribute("aria-label", "Pause " + file.name);
+      startTicking();
+    });
+
+    audio.addEventListener("pause", function () {
+      playBtn.innerHTML = PLAY_ICON;
+      playBtn.setAttribute("aria-label", "Play " + file.name);
+      stopTicking();
+    });
+
+    audio.addEventListener("ended", function () {
+      playBtn.innerHTML = PLAY_ICON;
+      stopTicking();
+    });
+
+    playBtn.addEventListener("click", function () {
+      if (audio.paused) {
         var attempt = audio.play();
         if (attempt && attempt.catch) { attempt.catch(function () {}); }
+      } else {
+        audio.pause();
+      }
+    });
+
+    /* --- dragging --- */
+
+    function timeAt(clientX) {
+      var box = timeline.getBoundingClientRect();
+      if (!box.width || !duration) { return 0; }
+      return clamp(((clientX - box.left) / box.width) * duration, 0, duration);
+    }
+
+    timeline.addEventListener("pointerdown", function (e) {
+      if (e.target === handleA || e.target === handleB) { return; }
+      if (!duration) { return; }
+      audio.currentTime = timeAt(e.clientX);
+      drawTime();
+    });
+
+    function dragHandle(handle, which) {
+      handle.addEventListener("pointerdown", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        handle.setPointerCapture(e.pointerId);
+      });
+
+      handle.addEventListener("pointermove", function (e) {
+        if (!handle.hasPointerCapture(e.pointerId)) { return; }
+        var t = timeAt(e.clientX);
+        if (which === "a") {
+          loopStart = Math.min(t, loopEnd - 0.3);
+        } else {
+          loopEnd = Math.max(t, loopStart + 0.3);
+        }
+        drawBand();
+        drawTime();
+      });
+
+      handle.addEventListener("pointerup", function (e) {
+        if (handle.hasPointerCapture(e.pointerId)) {
+          handle.releasePointerCapture(e.pointerId);
+        }
+        if (audio.currentTime < loopStart || audio.currentTime > loopEnd) {
+          audio.currentTime = loopStart;
+        }
+      });
+
+      /* Arrow keys nudge by a second, for anyone not using touch. */
+      handle.addEventListener("keydown", function (e) {
+        var step = e.shiftKey ? 5 : 1;
+        if (e.key === "ArrowLeft") { step = -step; }
+        else if (e.key !== "ArrowRight") { return; }
+        e.preventDefault();
+        if (which === "a") {
+          loopStart = clamp(loopStart + step, 0, loopEnd - 0.3);
+        } else {
+          loopEnd = clamp(loopEnd + step, loopStart + 0.3, duration);
+        }
+        drawBand();
+        drawTime();
+      });
+    }
+
+    dragHandle(handleA, "a");
+    dragHandle(handleB, "b");
+
+    /* --- the section button --- */
+
+    sectionBtn.addEventListener("click", function () {
+      if (hasBand()) {
+        loopStart = null;
+        loopEnd = null;
+        sectionBtn.setAttribute("aria-pressed", "false");
+        sectionBtn.textContent = "Repeat part";
+        audio.loop = repeat;
+        drawBand();
+        drawTime();
         return;
       }
 
-      clear();
+      /* Drop a band around wherever they are, then let them drag it to fit. */
+      var here = audio.currentTime;
+      var span = Math.min(10, Math.max(4, duration * 0.12));
+      loopStart = clamp(here, 0, Math.max(0, duration - 1));
+      loopEnd = clamp(loopStart + span, loopStart + 1, duration);
+      if (loopEnd - loopStart < 1) { loopStart = clamp(loopEnd - span, 0, loopEnd - 1); }
+
+      audio.loop = false;
+      sectionBtn.setAttribute("aria-pressed", "true");
+      sectionBtn.textContent = "Clear";
+      audio.currentTime = loopStart;
+      drawBand();
+      drawTime();
+
+      var attempt = audio.play();
+      if (attempt && attempt.catch) { attempt.catch(function () {}); }
     });
 
-    audio.addEventListener("timeupdate", function () {
-      if (start === null || end === null) { return; }
-      if (audio.currentTime >= end) { audio.currentTime = start; }
+    players.push({
+      audio: audio,
+      refresh: function () {
+        audio.playbackRate = speed;
+        audio.loop = repeat && !hasBand();
+      }
     });
-
-    line.appendChild(loopBtn);
-    line.appendChild(range);
-    row.appendChild(line);
 
     return row;
   }
@@ -577,6 +829,8 @@
   /* ---------- render ---------- */
 
   function paint(children) {
+    players.forEach(function (p) { p.audio.pause(); });
+    players = [];
     panel.innerHTML = "";
 
     if (!children || !children.length) {

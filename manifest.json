@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T19:07:48Z",
+  "generated": "2026-09-05T19:23:07Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -1614,7 +1614,1062 @@
     },
     {
       "name": "HS All-Region",
-      "children": []
+      "children": [
+        {
+          "type": "folder",
+          "name": "\ud83c\udfb6 TRACKS (OFFICIAL)",
+          "children": [
+            {
+              "type": "folder",
+              "name": "Afternoon on a Hill Practice Tracks SATB",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Accompaniment.mp3",
+                  "path": "files/1_kRy0LCk2y37pKQYCh5mfNQvdLv8biM-.mp3",
+                  "kind": "audio",
+                  "id": "1_kRy0LCk2y37pKQYCh5mfNQvdLv8biM-",
+                  "md5": "cbd7529ba9c1d6dbcb4c9b542f547703"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Alto 1.mp3",
+                  "path": "files/1dW1l02aKsT81E35b8RG7j3q2l5nfVq80.mp3",
+                  "kind": "audio",
+                  "id": "1dW1l02aKsT81E35b8RG7j3q2l5nfVq80",
+                  "md5": "bf24390270bc8941f90debd5e4710f1a"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Alto 2.mp3",
+                  "path": "files/16r0zgD-hg1VrxRZmtsQwlKZU1Cwt02bB.mp3",
+                  "kind": "audio",
+                  "id": "16r0zgD-hg1VrxRZmtsQwlKZU1Cwt02bB",
+                  "md5": "799bff3150fa98011b770f8ec33d9c3a"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Bass 1.mp3",
+                  "path": "files/11dNPp3MDYjRVB1NKwo3qNLONlu4oGX46.mp3",
+                  "kind": "audio",
+                  "id": "11dNPp3MDYjRVB1NKwo3qNLONlu4oGX46",
+                  "md5": "7f1775daaeb28a60227f65ab375ed74e"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Bass 2.mp3",
+                  "path": "files/1U6oBtGDbOPXzU8goWOIebV90ArqEcGeN.mp3",
+                  "kind": "audio",
+                  "id": "1U6oBtGDbOPXzU8goWOIebV90ArqEcGeN",
+                  "md5": "0766e18519bc8b3090569c1364209fa2"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Soprano 1.mp3",
+                  "path": "files/1pKOw_ZPj0oiN5iyVhYYb-4EXI8bbyeY2.mp3",
+                  "kind": "audio",
+                  "id": "1pKOw_ZPj0oiN5iyVhYYb-4EXI8bbyeY2",
+                  "md5": "69317a0ce77651d1238e4d3182d2c0d6"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Soprano 2.mp3",
+                  "path": "files/1mnjsW_gsUEWxQ8_IaG6yuj1HYduTWNu4.mp3",
+                  "kind": "audio",
+                  "id": "1mnjsW_gsUEWxQ8_IaG6yuj1HYduTWNu4",
+                  "md5": "5e37fc366a3019c16baa4b10c4d1f599"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Tenor 1.mp3",
+                  "path": "files/1dWFHNIbgfWaZBw3jvMfODDoKLUa5UiKB.mp3",
+                  "kind": "audio",
+                  "id": "1dWFHNIbgfWaZBw3jvMfODDoKLUa5UiKB",
+                  "md5": "4af2310429a358f16e3475e4d5864f46"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon on a Hill (Barnum) Tenor 2.mp3",
+                  "path": "files/1fu-xRLdv-kZYntXrS7Q64fKb6WZq-8zA.mp3",
+                  "kind": "audio",
+                  "id": "1fu-xRLdv-kZYntXrS7Q64fKb6WZq-8zA",
+                  "md5": "55291c89c5fd40c1bf25559528467010"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Dicite in Gentibus Practice Tracks  SATB",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Accompaniment.mp3",
+                  "path": "files/1Uk6_AmRT2crT4zrDvsz-IQHphugDTnF3.mp3",
+                  "kind": "audio",
+                  "id": "1Uk6_AmRT2crT4zrDvsz-IQHphugDTnF3",
+                  "md5": "e1efac6598f10bdc91f484dd61b16a2b"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Alto.mp3",
+                  "path": "files/1VJC4RViCQC0GKtp1auYqFY3wD7pw_AtR.mp3",
+                  "kind": "audio",
+                  "id": "1VJC4RViCQC0GKtp1auYqFY3wD7pw_AtR",
+                  "md5": "2104e58f0756da64b74dea91afd5e34f"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Bass.mp3",
+                  "path": "files/1z7Fg_4JXn40WugLYe-1ZSP-peSdjbY4I.mp3",
+                  "kind": "audio",
+                  "id": "1z7Fg_4JXn40WugLYe-1ZSP-peSdjbY4I",
+                  "md5": "158ffd3e7d8f03e77e6eb6d90dd67f55"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Soprano.mp3",
+                  "path": "files/1tWINt7LIuQD6WEW0ROH5e7hkfUuDVGpj.mp3",
+                  "kind": "audio",
+                  "id": "1tWINt7LIuQD6WEW0ROH5e7hkfUuDVGpj",
+                  "md5": "7d31018544b4fd17e2a5704805aa9704"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite In Gentibus (Haydn, ed. Banner) Tenor.mp3",
+                  "path": "files/19uQfrplnOOl9b3Dzd2U3L0SmLCvQCVSm.mp3",
+                  "kind": "audio",
+                  "id": "19uQfrplnOOl9b3Dzd2U3L0SmLCvQCVSm",
+                  "md5": "38eac9094559363981a8555b9807e221"
+                },
+                {
+                  "type": "folder",
+                  "name": "SLOWER TRACKS",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Accompaniment (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1jkQ85XMuthFqU8b3g9LBPx3kOdAbBj4H.mp3",
+                      "kind": "audio",
+                      "id": "1jkQ85XMuthFqU8b3g9LBPx3kOdAbBj4H",
+                      "md5": "47828e7efb7a3d1c503a93b4a939a115"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Alto (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1-A3DwGgvZgUxnR6MAycLlwEZ5cdJ9_hk.mp3",
+                      "kind": "audio",
+                      "id": "1-A3DwGgvZgUxnR6MAycLlwEZ5cdJ9_hk",
+                      "md5": "9b7347d7bc01d45a2715fe8d26b46f4a"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Bass (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1UO4Q0hlypnI7ALZcdpZNvj8f42r-KEgg.mp3",
+                      "kind": "audio",
+                      "id": "1UO4Q0hlypnI7ALZcdpZNvj8f42r-KEgg",
+                      "md5": "c56589883b19ceb78cbfbcd52eb996ff"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Soprano (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1K3NM4tbt-0zVhLAqdkMrrlA8MstdpREg.mp3",
+                      "kind": "audio",
+                      "id": "1K3NM4tbt-0zVhLAqdkMrrlA8MstdpREg",
+                      "md5": "04ba7d42446c70324300856b8325fe10"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite In Gentibus (Haydn, ed. Banner) Tenor (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1X6uMcZps0UXAq56dEj_oTLGaCNzmokgr.mp3",
+                      "kind": "audio",
+                      "id": "1X6uMcZps0UXAq56dEj_oTLGaCNzmokgr",
+                      "md5": "6a8dbcb492b2276d78a78a4288c39b9d"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Libertango Practice Tracks SSAA",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Accompaniment.mp3",
+                  "path": "files/1q9ZloHZ1FF433T6J9bMbOMWdtzIvZMq_.mp3",
+                  "kind": "audio",
+                  "id": "1q9ZloHZ1FF433T6J9bMbOMWdtzIvZMq_",
+                  "md5": "98d2a92b8bd7c6719a349f169b1074b9"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Alto 1.mp3",
+                  "path": "files/1wdXaVkkyCqfY7-GPebVjQ8Fhi-V5Ox-2.mp3",
+                  "kind": "audio",
+                  "id": "1wdXaVkkyCqfY7-GPebVjQ8Fhi-V5Ox-2",
+                  "md5": "4527029f48d76cada9019c8f2fd9970f"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Alto 2.mp3",
+                  "path": "files/1xktlCqrv5aHFrBHnab3Lhs9MoeZ_KvOZ.mp3",
+                  "kind": "audio",
+                  "id": "1xktlCqrv5aHFrBHnab3Lhs9MoeZ_KvOZ",
+                  "md5": "3977d020e70351aa1bdc005cd7def0f1"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Soprano 1.mp3",
+                  "path": "files/1XYQO_pDqEznLK7CxcanNffXd7Qg5gWJe.mp3",
+                  "kind": "audio",
+                  "id": "1XYQO_pDqEznLK7CxcanNffXd7Qg5gWJe",
+                  "md5": "ef172325469f5f6a163244931ead3115"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Soprano 2A.mp3",
+                  "path": "files/16qO9dVfSLfmaBgeC2RJaWDCMf_TVhTWb.mp3",
+                  "kind": "audio",
+                  "id": "16qO9dVfSLfmaBgeC2RJaWDCMf_TVhTWb",
+                  "md5": "bc24b8b6a60cd104833790f23d33fce7"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango (arr. Escalada) Soprano 2B.mp3",
+                  "path": "files/17aA-vMT0pTffBUoqG3tE1C8IsA_8kM5b.mp3",
+                  "kind": "audio",
+                  "id": "17aA-vMT0pTffBUoqG3tE1C8IsA_8kM5b",
+                  "md5": "b034b6d00db85af2ff15a7f6c7e4776a"
+                },
+                {
+                  "type": "folder",
+                  "name": "SLOWER TRACKS",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Accompaniment (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1PRKeHHzP7g2GqzynILLpzFq4ROIs1FdQ.mp3",
+                      "kind": "audio",
+                      "id": "1PRKeHHzP7g2GqzynILLpzFq4ROIs1FdQ",
+                      "md5": "5c42ffdc1c6c6f19dc5b279cbfb5e3d7"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Alto 1 (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/19tiZcmso6ixQe8GU3G96thR5dHodw5I6.mp3",
+                      "kind": "audio",
+                      "id": "19tiZcmso6ixQe8GU3G96thR5dHodw5I6",
+                      "md5": "14bf7437081cf70945d1ea821fa07003"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Alto 2 (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1zEEYi4NWgrCHo4gFDj3cmWmxVxbaL27S.mp3",
+                      "kind": "audio",
+                      "id": "1zEEYi4NWgrCHo4gFDj3cmWmxVxbaL27S",
+                      "md5": "e06fa90e387ee7bba734fb5db8b6b337"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Soprano 1 (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1hbkpnIIddSWiu8NyW8TA7MY6Vsznq7v2.mp3",
+                      "kind": "audio",
+                      "id": "1hbkpnIIddSWiu8NyW8TA7MY6Vsznq7v2",
+                      "md5": "521825cdaed0ce06b1643287628a1b46"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Soprano 2A (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1JrjaEweXBy8rQ4ztxcU4rj8VLuzJNyyk.mp3",
+                      "kind": "audio",
+                      "id": "1JrjaEweXBy8rQ4ztxcU4rj8VLuzJNyyk",
+                      "md5": "a80a9e2b6b7b2af93da8fae044149f03"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango (arr. Escalada) Soprano 2B (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1yEjPtBEXs0qAjullsIp54xwa6v_z9cEZ.mp3",
+                      "kind": "audio",
+                      "id": "1yEjPtBEXs0qAjullsIp54xwa6v_z9cEZ",
+                      "md5": "1d4268d8a1615b4e398ab74a751c509c"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Miracles Practice Tracks TTBB",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Miracles (Frizzell) Accompaniment.mp3",
+                  "path": "files/1ljhkxnaiRe3gAMCgWuKGIgRYNjTBV7-l.mp3",
+                  "kind": "audio",
+                  "id": "1ljhkxnaiRe3gAMCgWuKGIgRYNjTBV7-l",
+                  "md5": "9469e2fb6f7c29a9f0d3f4913df6a2f5"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles (Frizzell) Bass 1.mp3",
+                  "path": "files/1KXgBLtCl-deEd4W5BTt0ywN1s3sIc0_y.mp3",
+                  "kind": "audio",
+                  "id": "1KXgBLtCl-deEd4W5BTt0ywN1s3sIc0_y",
+                  "md5": "b3aa89f8ebcae64c330e42336ce1a68a"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles (Frizzell) Bass 2.mp3",
+                  "path": "files/1t8uDh1KWGH68baI-4U7nEETD9FLogIbs.mp3",
+                  "kind": "audio",
+                  "id": "1t8uDh1KWGH68baI-4U7nEETD9FLogIbs",
+                  "md5": "71a856903b5547f8c58e7a3fb7d72d29"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles (Frizzell) Tenor 1.mp3",
+                  "path": "files/1tkKoYGBslmf2u29djcQF9iequRgXGs02.mp3",
+                  "kind": "audio",
+                  "id": "1tkKoYGBslmf2u29djcQF9iequRgXGs02",
+                  "md5": "88d9a7d69ab6076b3ba7ec4d03e54374"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles (Frizzell) Tenor 2.mp3",
+                  "path": "files/1p0ek6msTZbWniwRB1Y-idCM-LLUCpNOM.mp3",
+                  "kind": "audio",
+                  "id": "1p0ek6msTZbWniwRB1Y-idCM-LLUCpNOM",
+                  "md5": "069a5ee902664c24b196166aa0599138"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "z-LEARN AFTER-z",
+              "children": [
+                {
+                  "type": "folder",
+                  "name": "I Am The Wind  (SSAA)",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "I Am The Wind (Hagenberg) Accompaniment.mp3",
+                      "path": "files/1nurbXntm15TSZ6zQwp_CeOY2Tmhn_0Qg.mp3",
+                      "kind": "audio",
+                      "id": "1nurbXntm15TSZ6zQwp_CeOY2Tmhn_0Qg",
+                      "md5": "59be850428c716db1b5ae39d38be65e6"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am The Wind (Hagenberg) Alto 1.mp3",
+                      "path": "files/1CNV-skpwduEuiY4j4hfNV9eFu9Rf9peO.mp3",
+                      "kind": "audio",
+                      "id": "1CNV-skpwduEuiY4j4hfNV9eFu9Rf9peO",
+                      "md5": "c6801e797f073c57a97fd309d5beade7"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am The Wind (Hagenberg) Alto 2.mp3",
+                      "path": "files/1vwVYfs2MdGsgrErUB_OEVrxpF4sDWMKj.mp3",
+                      "kind": "audio",
+                      "id": "1vwVYfs2MdGsgrErUB_OEVrxpF4sDWMKj",
+                      "md5": "2123073fafe7ddfa4ea634fb7936b853"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am The Wind (Hagenberg) Soprano 1.mp3",
+                      "path": "files/1o4oq91hqEKlq7lEYYGwRqqn6puZyWlrn.mp3",
+                      "kind": "audio",
+                      "id": "1o4oq91hqEKlq7lEYYGwRqqn6puZyWlrn",
+                      "md5": "dc7b06db6993bba1eb9b55851693e053"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am The Wind (Hagenberg) Soprano 2.mp3",
+                      "path": "files/1KvYx5ESya-h_KffPqtAYt1djRgsvfcHr.mp3",
+                      "kind": "audio",
+                      "id": "1KvYx5ESya-h_KffPqtAYt1djRgsvfcHr",
+                      "md5": "3bab7d95d421e44f468e8c901a2f8b1b"
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
+                  "name": "Soon I Will Be Done (SATB)",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Accompaniment.mp3",
+                      "path": "files/1_zj7M-GPsNr0SaTrIwF4HYGPoBdG5m-2.mp3",
+                      "kind": "audio",
+                      "id": "1_zj7M-GPsNr0SaTrIwF4HYGPoBdG5m-2",
+                      "md5": "a653f6c0fc70a2d07203e20a06f532ca"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Alto 1.mp3",
+                      "path": "files/1vwfuenAfEzrOfKYIkzNqGstOz8aVr6MI.mp3",
+                      "kind": "audio",
+                      "id": "1vwfuenAfEzrOfKYIkzNqGstOz8aVr6MI",
+                      "md5": "7ff601a3d6edb78c3b8c8237c8a55408"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Alto 2.mp3",
+                      "path": "files/1Htkk3fMENrP7bGeBWZnAfhD3fkzvMwZu.mp3",
+                      "kind": "audio",
+                      "id": "1Htkk3fMENrP7bGeBWZnAfhD3fkzvMwZu",
+                      "md5": "62017afa2819c01ae948a2b30654a2df"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Bass 1.mp3",
+                      "path": "files/1bGw2GxqZ5_38rxfFURG0bQBj-_pLS_NP.mp3",
+                      "kind": "audio",
+                      "id": "1bGw2GxqZ5_38rxfFURG0bQBj-_pLS_NP",
+                      "md5": "99735c7dfba98937181bac887b1bab18"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Bass 2.mp3",
+                      "path": "files/1M9ZhaiC2CCGW3CVdLvJtNiyarpGcKAng.mp3",
+                      "kind": "audio",
+                      "id": "1M9ZhaiC2CCGW3CVdLvJtNiyarpGcKAng",
+                      "md5": "88aff6c58d1330e9e1cf3c6be638c0e0"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Soprano 1.mp3",
+                      "path": "files/1typ2WqVhPxbk1hV2sW6pVglJgmawOTcw.mp3",
+                      "kind": "audio",
+                      "id": "1typ2WqVhPxbk1hV2sW6pVglJgmawOTcw",
+                      "md5": "fba19a15e7366171de58966c85f3824b"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Soprano 2.mp3",
+                      "path": "files/1wifvjUBJ5vLkR-kjvKQzlVP9jgLv1T9-.mp3",
+                      "kind": "audio",
+                      "id": "1wifvjUBJ5vLkR-kjvKQzlVP9jgLv1T9-",
+                      "md5": "c48ef979987b72bb946151ab77ea3463"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Tenor 1.mp3",
+                      "path": "files/1nAcdiVUurX_Y5ZTYaKclntSkvdcJAayk.mp3",
+                      "kind": "audio",
+                      "id": "1nAcdiVUurX_Y5ZTYaKclntSkvdcJAayk",
+                      "md5": "9f24fb3214fdf8fa8dd4d9efe83c3465"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done (arr. Garrett) Tenor 2.mp3",
+                      "path": "files/1ilpZfyetALJFiIKgiFRk7QYzSSiGGKUQ.mp3",
+                      "kind": "audio",
+                      "id": "1ilpZfyetALJFiIKgiFRk7QYzSSiGGKUQ",
+                      "md5": "ecc5d344f656c0800604ba723d194d01"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "\ud83c\udfb6 TRACKS (SUNG)",
+          "children": [
+            {
+              "type": "folder",
+              "name": "Afternoon On a Hill (SATB)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Afternoon On a Hill - Accompaniment Track - Eric Barnum.mp3",
+                  "path": "files/1kp3TvoO7AmTp6ujbuzoOw1ObgeF45seP.mp3",
+                  "kind": "audio",
+                  "id": "1kp3TvoO7AmTp6ujbuzoOw1ObgeF45seP",
+                  "md5": "09b75dac84994af676cec1ab3f7b8043"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon On a Hill - Alto 1 Predominant - Eric Barnum.mp3",
+                  "path": "files/1N5tJ8qsRzM5-K3o3v8kb-rJHJy46Nyz7.mp3",
+                  "kind": "audio",
+                  "id": "1N5tJ8qsRzM5-K3o3v8kb-rJHJy46Nyz7",
+                  "md5": "337953726077773a898a4e5e66e9cec9"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon On a Hill - Alto 2 Predominant - Eric Barnum.mp3",
+                  "path": "files/1YNqXLuS8keY8FNRTVeIEdRTNise4rc3r.mp3",
+                  "kind": "audio",
+                  "id": "1YNqXLuS8keY8FNRTVeIEdRTNise4rc3r",
+                  "md5": "b5eba61788e8430b02287478c719bc99"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon On a Hill - Balanced Voices - Eric Barnum.mp3",
+                  "path": "files/1AqLODoZsX02XcigLOFTvlpnsiTFqzmSp.mp3",
+                  "kind": "audio",
+                  "id": "1AqLODoZsX02XcigLOFTvlpnsiTFqzmSp",
+                  "md5": "15cd8d6ef942ceb58372f3ba1ac81942"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon On a Hill - Bass 1 Predominant - Eric Barnum.mp3",
+                  "path": "files/1uTxN9wCOg6Ew15Wdqt3WBGhuLHw9DUJW.mp3",
+                  "kind": "audio",
+                  "id": "1uTxN9wCOg6Ew15Wdqt3WBGhuLHw9DUJW",
+                  "md5": "1b933dfeb3d4e6c3c40bf7245956432d"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon On a Hill - Bass 2 Predominant - Eric Barnum.mp3",
+                  "path": "files/1eXYxMJfgwRZG3QGTsv8HQtRWCsHac017.mp3",
+                  "kind": "audio",
+                  "id": "1eXYxMJfgwRZG3QGTsv8HQtRWCsHac017",
+                  "md5": "9b3647bc7a90a58f5fe33d6e2dedc865"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon On a Hill - Soprano 1 Predominant - Eric Barnum.mp3",
+                  "path": "files/1iSEDsM_rf4gY_91qQXTR5jX0XVO9TNzT.mp3",
+                  "kind": "audio",
+                  "id": "1iSEDsM_rf4gY_91qQXTR5jX0XVO9TNzT",
+                  "md5": "c5c54bba82d0ab45e00e311e5b3a2ba8"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon On a Hill - Soprano 2 Predominant - Eric Barnum.mp3",
+                  "path": "files/1YiIG2NHPLwUq_ehOXszt_Hl5AR-ttuDs.mp3",
+                  "kind": "audio",
+                  "id": "1YiIG2NHPLwUq_ehOXszt_Hl5AR-ttuDs",
+                  "md5": "09deb05d57563ae40188e50681590e06"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon On a Hill - Tenor 1 Predominant - Eric Barnum.mp3",
+                  "path": "files/1IOw2cxbg5IYKeDU1AESHDvX9ML3TJHy9.mp3",
+                  "kind": "audio",
+                  "id": "1IOw2cxbg5IYKeDU1AESHDvX9ML3TJHy9",
+                  "md5": "bd33c8a0e873ba73617cd833f724b878"
+                },
+                {
+                  "type": "file",
+                  "name": "Afternoon On a Hill - Tenor 2 Predominant - Eric Barnum.mp3",
+                  "path": "files/1WinlsT89QrYKPfOibVBEF7TExqHR6m9Q.mp3",
+                  "kind": "audio",
+                  "id": "1WinlsT89QrYKPfOibVBEF7TExqHR6m9Q",
+                  "md5": "cd6f385510ac3a97261bf921d27472ad"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Dicite in Gentibus (SATB)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Dicite in Gentibus - SHEET MUSIC.pdf",
+                  "path": "files/1rHvlYCYBN7QB5VureUnKjOzg-uwouKYt.pdf",
+                  "kind": "pdf",
+                  "id": "1rHvlYCYBN7QB5VureUnKjOzg-uwouKYt",
+                  "md5": "cfd7e082c846d89d0389696e58bd8093"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite in Gentibus SATB - Accompaniment Track - Johann Michael Haydn, ed Martin Banner.mp3",
+                  "path": "files/1577dW0QFMjJKsq19QbJe4PUiKt-yNeK8.mp3",
+                  "kind": "audio",
+                  "id": "1577dW0QFMjJKsq19QbJe4PUiKt-yNeK8",
+                  "md5": "477e1b6663956e36160567a45fd7f894"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite in Gentibus SATB - Alto Predominant - Johann Michael Haydn, ed Martin Banner.mp3",
+                  "path": "files/1Q9FgRsx1FCmxiGLBOihKJfaLCOZ6IPmS.mp3",
+                  "kind": "audio",
+                  "id": "1Q9FgRsx1FCmxiGLBOihKJfaLCOZ6IPmS",
+                  "md5": "4a3bfe798237f43309863e87a4567d2c"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite in Gentibus SATB - Balanced Voices - Johann Michael Haydn, ed Martin Banner.mp3",
+                  "path": "files/1d_OgWOMXSr1jtVXyj6dvKEm7b5soQS9R.mp3",
+                  "kind": "audio",
+                  "id": "1d_OgWOMXSr1jtVXyj6dvKEm7b5soQS9R",
+                  "md5": "132e418a52f28d4634fa13d02de211c7"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite in Gentibus SATB - Bass Predominant - Johann Michael Haydn, ed Martin Banner.mp3",
+                  "path": "files/1_MW0_B9oBuUpqOJyQyOhb4UDHdXqy2iB.mp3",
+                  "kind": "audio",
+                  "id": "1_MW0_B9oBuUpqOJyQyOhb4UDHdXqy2iB",
+                  "md5": "38852363749f0c3e4619bf1ec5afbcd7"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite in Gentibus SATB - Soprano Predominant - Johann Michael Haydn, ed Martin Banner.mp3",
+                  "path": "files/1t65XynRFxZaxSL2FJ8x7GFO7kxYVaAqT.mp3",
+                  "kind": "audio",
+                  "id": "1t65XynRFxZaxSL2FJ8x7GFO7kxYVaAqT",
+                  "md5": "8e7837c7111935cffd3be308114de705"
+                },
+                {
+                  "type": "file",
+                  "name": "Dicite in Gentibus SATB - Tenor Predominant - Johann Michael Haydn, ed Martin Banner.mp3",
+                  "path": "files/1-hDhvQQKRd-CbbnOCF1vyyl7icFqGm5f.mp3",
+                  "kind": "audio",
+                  "id": "1-hDhvQQKRd-CbbnOCF1vyyl7icFqGm5f",
+                  "md5": "b502bc4a1f5f51dcdec8e430d3532a42"
+                },
+                {
+                  "type": "folder",
+                  "name": "SLOWER TRACKS",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "Dicite in Gentibus SATB - Accompaniment Track - Johann Michael Haydn, ed Martin Banner (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1rOMnQ83auFb-s5YaxeYSxdzcdPkBp_EC.mp3",
+                      "kind": "audio",
+                      "id": "1rOMnQ83auFb-s5YaxeYSxdzcdPkBp_EC",
+                      "md5": "dbcbaf164e9ccb5926f7b85e402ab5f3"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite in Gentibus SATB - Alto Predominant - Johann Michael Haydn, ed Martin Banner (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1C03Vwy1qiZ5KNccT9b6QhabZgbX0l_8t.mp3",
+                      "kind": "audio",
+                      "id": "1C03Vwy1qiZ5KNccT9b6QhabZgbX0l_8t",
+                      "md5": "3e89a1d904b9b293551c2d7bc0f59c40"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite in Gentibus SATB - Balanced Voices - Johann Michael Haydn, ed Martin Banner (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1B1a2mvKZIB-4V8Y2vipEZFKHJ4dySeAa.mp3",
+                      "kind": "audio",
+                      "id": "1B1a2mvKZIB-4V8Y2vipEZFKHJ4dySeAa",
+                      "md5": "9e4a57148f105714de21770e1be42095"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite in Gentibus SATB - Bass Predominant - Johann Michael Haydn, ed Martin Banner (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1oZyx0ed0Q8JRIUxga2M0e6VyWxUwFCx8.mp3",
+                      "kind": "audio",
+                      "id": "1oZyx0ed0Q8JRIUxga2M0e6VyWxUwFCx8",
+                      "md5": "081e8458378c8657c7ff67d5b10bd95c"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite in Gentibus SATB - Soprano Predominant - Johann Michael Haydn, ed Martin Banner (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/179p3N5A2QM4TviBUQQbwC3G0jZekvqNS.mp3",
+                      "kind": "audio",
+                      "id": "179p3N5A2QM4TviBUQQbwC3G0jZekvqNS",
+                      "md5": "bf203c7a36812dcfb67462388d949716"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Dicite in Gentibus SATB - Tenor Predominant - Johann Michael Haydn, ed Martin Banner (pitch 0.00 - tempo 80).mp3",
+                      "path": "files/1kKSFJpecpv8Yw4nVH5HI1eU0K-mE4MXY.mp3",
+                      "kind": "audio",
+                      "id": "1kKSFJpecpv8Yw4nVH5HI1eU0K-mE4MXY",
+                      "md5": "d83ff605422d38b6290fc5622a31c883"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Libertango (SSA)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Libertango - Alto 1 Predominant - Astor Piazzolla_ arr. Oscar Escalada.mp3",
+                  "path": "files/1dwqn9EA2EJKyAAaCR4OJfd1nMaBcqJuZ.mp3",
+                  "kind": "audio",
+                  "id": "1dwqn9EA2EJKyAAaCR4OJfd1nMaBcqJuZ",
+                  "md5": "35bce027a5e67daca5ab4659de62d523"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango - Alto 2 Predominant - Astor Piazzolla_ arr. Oscar Escalada.mp3",
+                  "path": "files/1qP-ehQZBP2NxUByZZCZNP6hEvf8GMfAD.mp3",
+                  "kind": "audio",
+                  "id": "1qP-ehQZBP2NxUByZZCZNP6hEvf8GMfAD",
+                  "md5": "1cf4625746a0c97d42667ad37210b277"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango - Balanced Voices - Astor Piazzolla_ arr. Oscar Escalada.mp3",
+                  "path": "files/1ilKcxNXF9tc8BcLdHh4Y8jbh6iQ_Cyyq.mp3",
+                  "kind": "audio",
+                  "id": "1ilKcxNXF9tc8BcLdHh4Y8jbh6iQ_Cyyq",
+                  "md5": "eeeffc6e5cebd0e6f8165fda40d4a4e0"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango - Piano Only - Astor Piazzolla_ arr. Oscar Escalada.mp3",
+                  "path": "files/1BjwOSe7BHaHjbOCRss9HfGaFuWiOztyg.mp3",
+                  "kind": "audio",
+                  "id": "1BjwOSe7BHaHjbOCRss9HfGaFuWiOztyg",
+                  "md5": "2e76cb3cfd24f25f43dc14d74bc25ad9"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango - SHEET MUSIC.pdf",
+                  "path": "files/123KtpMuN3qUtEYoLegfXQrBOz1mbhyTq.pdf",
+                  "kind": "pdf",
+                  "id": "123KtpMuN3qUtEYoLegfXQrBOz1mbhyTq",
+                  "md5": "1a3c81b2c3a79382722d47deccac8fca"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango - Soprano 1 Predominant - Astor Piazzolla_ arr. Oscar Escalada.mp3",
+                  "path": "files/17gMvc19t3w55P_lB7TnFHHG3d3oLjpaD.mp3",
+                  "kind": "audio",
+                  "id": "17gMvc19t3w55P_lB7TnFHHG3d3oLjpaD",
+                  "md5": "687ebdd3596cf2b2fc59a1d840e94340"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango - Soprano 2a Predominant - Astor Piazzolla_ arr. Oscar Escalada.mp3",
+                  "path": "files/177ncMPqoFcs9r-uer_V3PaQUdRhIpVCJ.mp3",
+                  "kind": "audio",
+                  "id": "177ncMPqoFcs9r-uer_V3PaQUdRhIpVCJ",
+                  "md5": "ac5797c88b9fa9b5aa01bbfda4616317"
+                },
+                {
+                  "type": "file",
+                  "name": "Libertango - Soprano 2b Predominant - Astor Piazzolla_ arr. Oscar Escalada.mp3",
+                  "path": "files/1jn9u3Tl6oshTMlxUxuVBHTwcWE3-_x62.mp3",
+                  "kind": "audio",
+                  "id": "1jn9u3Tl6oshTMlxUxuVBHTwcWE3-_x62",
+                  "md5": "c44d6ab3fabdd038c5d7361f0c5a7cbb"
+                },
+                {
+                  "type": "folder",
+                  "name": "SLOWER TRACKS",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "Libertango - Alto 1 Predominant - Astor Piazzolla_ arr. Oscar Escalada (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1KzrnHr6RQIkEAAtdtT75W6NlYbCWHn7T.mp3",
+                      "kind": "audio",
+                      "id": "1KzrnHr6RQIkEAAtdtT75W6NlYbCWHn7T",
+                      "md5": "a2752561a2b88c33f16e6ea3d46c9b34"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango - Alto 2 Predominant - Astor Piazzolla_ arr. Oscar Escalada (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1jWuVWDhdhPuJynIJ8r1quhEVGAOlXNgy.mp3",
+                      "kind": "audio",
+                      "id": "1jWuVWDhdhPuJynIJ8r1quhEVGAOlXNgy",
+                      "md5": "08992ab4400ddaf92d48de064268d7ac"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango - Balanced Voices - Astor Piazzolla_ arr. Oscar Escalada (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1Rcww9v5Xd4W4HuszwvmVUo_poqodk0Pr.mp3",
+                      "kind": "audio",
+                      "id": "1Rcww9v5Xd4W4HuszwvmVUo_poqodk0Pr",
+                      "md5": "18a029b00688afefef2135f9f96672d5"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango - Piano Only - Astor Piazzolla_ arr. Oscar Escalada (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1asXLlhsPGn_5dDlq8lrcEY_j7jo37DYI.mp3",
+                      "kind": "audio",
+                      "id": "1asXLlhsPGn_5dDlq8lrcEY_j7jo37DYI",
+                      "md5": "14319a34e2b6bfc0f92770131c543e92"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango - Soprano 1 Predominant - Astor Piazzolla_ arr. Oscar Escalada (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1JBEWvenCv6yRqV5vdcFMwMZKoKOnCi-i.mp3",
+                      "kind": "audio",
+                      "id": "1JBEWvenCv6yRqV5vdcFMwMZKoKOnCi-i",
+                      "md5": "15be0aba1cf2a47b298a93bffa3b534d"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango - Soprano 2a Predominant - Astor Piazzolla_ arr. Oscar Escalada (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1tJs0A-BrZLe2BgRw38Jdwx3_E9yB1JSv.mp3",
+                      "kind": "audio",
+                      "id": "1tJs0A-BrZLe2BgRw38Jdwx3_E9yB1JSv",
+                      "md5": "4566d8bed07a91e14232b44514ea9147"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Libertango - Soprano 2b Predominant - Astor Piazzolla_ arr. Oscar Escalada (pitch 0.00 - tempo 75).mp3",
+                      "path": "files/1sp0sp0Ke0x6mFg9SCMXhoZ9tcvWoFh0N.mp3",
+                      "kind": "audio",
+                      "id": "1sp0sp0Ke0x6mFg9SCMXhoZ9tcvWoFh0N",
+                      "md5": "68cac062193e2f9088bc31919a76da38"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Miracles (TTBB)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Miracles TTBB - Accompaniment Track - J.D. Frizzell.mp3",
+                  "path": "files/1AUzpxCqCcmWkcmSKCR_vViyPFsiWj8An.mp3",
+                  "kind": "audio",
+                  "id": "1AUzpxCqCcmWkcmSKCR_vViyPFsiWj8An",
+                  "md5": "91c841a483f70d5909929d28f42c9814"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles TTBB - Balanced Voices - J.D. Frizzell.mp3",
+                  "path": "files/1pbG8OseRoNY-c5eBdYnmZSeVCamw6aH8.mp3",
+                  "kind": "audio",
+                  "id": "1pbG8OseRoNY-c5eBdYnmZSeVCamw6aH8",
+                  "md5": "c6c06949f1fbf5723a59a0d28cbca0f0"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles TTBB - Bass 1 Predominant - J.D. Frizzell.mp3",
+                  "path": "files/1ytHZ8RjZIaYOZAT5tDUJUs9FNQglrRrI.mp3",
+                  "kind": "audio",
+                  "id": "1ytHZ8RjZIaYOZAT5tDUJUs9FNQglrRrI",
+                  "md5": "3204200e54e218a84b9359e7180d6699"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles TTBB - Bass 2 Predominant - J.D. Frizzell.mp3",
+                  "path": "files/1s-vn-s7zRLbnmH50zeHP6bSQE71xg5c9.mp3",
+                  "kind": "audio",
+                  "id": "1s-vn-s7zRLbnmH50zeHP6bSQE71xg5c9",
+                  "md5": "5e9412553cccbb26b1527a8b14654542"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles TTBB - Tenor 1 Predominant - J.D. Frizzell.mp3",
+                  "path": "files/1n3oitMgT_VArKylqiqpOkPo1J6HMB2e5.mp3",
+                  "kind": "audio",
+                  "id": "1n3oitMgT_VArKylqiqpOkPo1J6HMB2e5",
+                  "md5": "f61ce711cee7e6c7d7b49f7a39ee27d3"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles TTBB - Tenor 2 Predominant - J.D. Frizzell.mp3",
+                  "path": "files/1dKWrmbP6eSvDi1TsNPqPLE_CRa0kI5DH.mp3",
+                  "kind": "audio",
+                  "id": "1dKWrmbP6eSvDi1TsNPqPLE_CRa0kI5DH",
+                  "md5": "f3b9496c37981fcf92683e64e498207b"
+                },
+                {
+                  "type": "file",
+                  "name": "Miracles TTBB SHEET MUSIC.pdf",
+                  "path": "files/1nQxf4u6tq7KdS_KQnMZV9Ua0uF11v5JL.pdf",
+                  "kind": "pdf",
+                  "id": "1nQxf4u6tq7KdS_KQnMZV9Ua0uF11v5JL",
+                  "md5": "593d4c5da483621b608dc171c1d22123"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "z-LEARN AFTER PIECES",
+              "children": [
+                {
+                  "type": "folder",
+                  "name": "I Am The Wind SSAA",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "I Am the Wind SSAA - Accompaniment Trackt - Elaine Hagenberg.mp3",
+                      "path": "files/1iyAZ3AWOlIkA28uXnKt2vBo8QqRVx-uh.mp3",
+                      "kind": "audio",
+                      "id": "1iyAZ3AWOlIkA28uXnKt2vBo8QqRVx-uh",
+                      "md5": "ad10b0ff2cd489fcaa532589093ecc76"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am the Wind SSAA - Alto 1 Predominant - Elaine Hagenberg.mp3",
+                      "path": "files/1CAAA5FaM_4_OdTT0CoBCeXv6qgob-64l.mp3",
+                      "kind": "audio",
+                      "id": "1CAAA5FaM_4_OdTT0CoBCeXv6qgob-64l",
+                      "md5": "04bb9a67dc7155d3e636bca3d7aedbce"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am the Wind SSAA - Alto 2 Predominant - Elaine Hagenberg.mp3",
+                      "path": "files/1VeWmaNWBfOEZ4dEjtWEDj5yOYcdBM0fq.mp3",
+                      "kind": "audio",
+                      "id": "1VeWmaNWBfOEZ4dEjtWEDj5yOYcdBM0fq",
+                      "md5": "4589f77935e016791613da8344d94188"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am the Wind SSAA - Balanced Voices - Elaine Hagenberg.mp3",
+                      "path": "files/138gHXSmYdZZGAZcCRa0nlr904JC4TDX4.mp3",
+                      "kind": "audio",
+                      "id": "138gHXSmYdZZGAZcCRa0nlr904JC4TDX4",
+                      "md5": "1a70af6f2ec4aed96f5c7600cd6db916"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am the Wind SSAA - Soprano 1 Predominant - Elaine Hagenberg.mp3",
+                      "path": "files/1N1MlMhZYVeLl5bLoBWkK9ikaZo2L33bG.mp3",
+                      "kind": "audio",
+                      "id": "1N1MlMhZYVeLl5bLoBWkK9ikaZo2L33bG",
+                      "md5": "01ae39dfc794355ef3ca2cb08b71a5ad"
+                    },
+                    {
+                      "type": "file",
+                      "name": "I Am the Wind SSAA - Soprano 2 Predominant - Elaine Hagenberg.mp3",
+                      "path": "files/1Bs8ZDh8rB7osLCcKOoDi7q6F6FCBtw7h.mp3",
+                      "kind": "audio",
+                      "id": "1Bs8ZDh8rB7osLCcKOoDi7q6F6FCBtw7h",
+                      "md5": "05fa0927ee8ea7b0c060ba0e25194f03"
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
+                  "name": "Soon I Will Be Done (arr. Garrett, SATB)",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Accompaniment Track - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/1kztqHWKX9qfHZYR8KMy8bAshUYyK1OSc.mp3",
+                      "kind": "audio",
+                      "id": "1kztqHWKX9qfHZYR8KMy8bAshUYyK1OSc",
+                      "md5": "cead592232a8595e49b602ddb52b9a35"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Alto 1 Predominant - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/1sGvtupgoyjaEwn4nbdDSC3oleB5CLriT.mp3",
+                      "kind": "audio",
+                      "id": "1sGvtupgoyjaEwn4nbdDSC3oleB5CLriT",
+                      "md5": "ca1e4e6e22d8652138588fe758d3c953"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Alto 2 Predominant - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/1me3jRSybIKnUfUv6yPCVmIG-Gr97zKF_.mp3",
+                      "kind": "audio",
+                      "id": "1me3jRSybIKnUfUv6yPCVmIG-Gr97zKF_",
+                      "md5": "3d75f1c6c29a77dbadb723f714d586f1"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Balanced Voices - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/157xd2jdOaZQwEngoT2N9H0zku5sXtf7I.mp3",
+                      "kind": "audio",
+                      "id": "157xd2jdOaZQwEngoT2N9H0zku5sXtf7I",
+                      "md5": "a307f4358edc39935aeee17edb8e0d7c"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Bass 1 Predominant - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/1UZbNSnSJ7hNIFyOd8WfzDaeHa0mXNMnU.mp3",
+                      "kind": "audio",
+                      "id": "1UZbNSnSJ7hNIFyOd8WfzDaeHa0mXNMnU",
+                      "md5": "fa517f6ca5658c7563b74904c8b9c746"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Bass 2 Predominant - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/1bsHEfp9iIL0TCinqf4azbbfjrVQ265lc.mp3",
+                      "kind": "audio",
+                      "id": "1bsHEfp9iIL0TCinqf4azbbfjrVQ265lc",
+                      "md5": "5fd9dba9eecdbae4baa9992ce80ebec6"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Soprano 1a Predominant - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/1nuMYKQSy7vaxyT0wS9O-Kfg25WsoE_Nw.mp3",
+                      "kind": "audio",
+                      "id": "1nuMYKQSy7vaxyT0wS9O-Kfg25WsoE_Nw",
+                      "md5": "76a7b39658ad9d37d35cbdcf6d5704d6"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Soprano 1b Predominant - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/1NTPawirRgf1IstwNCVaYOkgApGVSajtS.mp3",
+                      "kind": "audio",
+                      "id": "1NTPawirRgf1IstwNCVaYOkgApGVSajtS",
+                      "md5": "8a06ff49cc0954128f447e0a346926b5"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Soprano 2 Predominant - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/1OYGpUnCDVo3gS9l1Qum3i6ie1TfIRkob.mp3",
+                      "kind": "audio",
+                      "id": "1OYGpUnCDVo3gS9l1Qum3i6ie1TfIRkob",
+                      "md5": "f5a33c3583f3b633db79f70787feb92e"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Tenor 1 Predominant - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/1UNqdzq3FE7N_7YqCNB2I_-nlGT93bjT_.mp3",
+                      "kind": "audio",
+                      "id": "1UNqdzq3FE7N_7YqCNB2I_-nlGT93bjT_",
+                      "md5": "26b460e25e2a1926e43c84a5392e0b4e"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Soon I Will Be Done SATB - Tenor 2 Predominant - arr. Marques L.A. Garrett.mp3",
+                      "path": "files/14sJC57WjW2GvL4PW1IANFp3vbJ0zJoCJ.mp3",
+                      "kind": "audio",
+                      "id": "14sJC57WjW2GvL4PW1IANFp3vbJ0zJoCJ",
+                      "md5": "23bc1ea4ffd66238b7bd88747aec57af"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "\ud83c\udfbc Sheet Music",
+          "children": [
+            {
+              "type": "file",
+              "name": "Afternoon on a Hill - SHEET MUSIC.pdf",
+              "path": "files/1TGgG8YDS4qO5qEze4w5t2xwaux2E9wE1.pdf",
+              "kind": "pdf",
+              "id": "1TGgG8YDS4qO5qEze4w5t2xwaux2E9wE1",
+              "md5": "1c064bc1415157e77b94706df3f7bacc"
+            },
+            {
+              "type": "file",
+              "name": "Dicite in Gentibus - SHEET MUSIC.pdf",
+              "path": "files/1M8YsxqRmtnOPAoPfuzh9VdhnIdmSLTPv.pdf",
+              "kind": "pdf",
+              "id": "1M8YsxqRmtnOPAoPfuzh9VdhnIdmSLTPv",
+              "md5": "cfd7e082c846d89d0389696e58bd8093"
+            },
+            {
+              "type": "file",
+              "name": "Libertango - SHEET MUSIC.pdf",
+              "path": "files/1RU-6pTD7FV-zj_xwZ6xxEr4AdJSA5l21.pdf",
+              "kind": "pdf",
+              "id": "1RU-6pTD7FV-zj_xwZ6xxEr4AdJSA5l21",
+              "md5": "1a3c81b2c3a79382722d47deccac8fca"
+            },
+            {
+              "type": "file",
+              "name": "Miracles TTBB SHEET MUSIC.pdf",
+              "path": "files/1Jlf5u96UuLSCe-9fVJpD9ylB_2Vt4edd.pdf",
+              "kind": "pdf",
+              "id": "1Jlf5u96UuLSCe-9fVJpD9ylB_2Vt4edd",
+              "md5": "593d4c5da483621b608dc171c1d22123"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

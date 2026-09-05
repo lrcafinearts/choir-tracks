@@ -1,0 +1,1620 @@
+{
+  "generated": "2026-09-05T19:07:48Z",
+  "choirs": [
+    {
+      "name": "JH Boys",
+      "children": [
+        {
+          "type": "folder",
+          "name": "Because of Jesus",
+          "children": [
+            {
+              "type": "file",
+              "name": "Because of Jesus ACCOMPANIMENT",
+              "path": "files/10sy2ZqbPsLQIccd64TzBRDwK6QyIJSTu.mp3",
+              "kind": "audio",
+              "id": "10sy2ZqbPsLQIccd64TzBRDwK6QyIJSTu",
+              "md5": "a0b1a7ca35e62acf43274d0b84916a98"
+            },
+            {
+              "type": "file",
+              "name": "Because of Jesus Tenor",
+              "path": "files/1IpKfWWyJ9gpBGstPe75O8hlgnxQsC-7g.mp3",
+              "kind": "audio",
+              "id": "1IpKfWWyJ9gpBGstPe75O8hlgnxQsC-7g",
+              "md5": "cd78c0329398454e25ed29fe7cd44f30"
+            },
+            {
+              "type": "folder",
+              "name": "Stereo Track Rehearsal Points",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "01 Because of Jesus - Meas. 1 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1FNwzVFUeO6SSVv7w6Znw-qFfvbAXRwXP.mp3",
+                  "kind": "audio",
+                  "id": "1FNwzVFUeO6SSVv7w6Znw-qFfvbAXRwXP",
+                  "md5": "7958bb1dd363b9975b08ae9a3b858c94"
+                },
+                {
+                  "type": "file",
+                  "name": "02 Because of Jesus - Meas. 11 - Stereo_1701Y26P050.mp3",
+                  "path": "files/148MHF8hrA1sGo--WAsft38npUn91VwXX.mp3",
+                  "kind": "audio",
+                  "id": "148MHF8hrA1sGo--WAsft38npUn91VwXX",
+                  "md5": "6970f595d1305b6f2dca4754ff0af225"
+                },
+                {
+                  "type": "file",
+                  "name": "03 Because of Jesus - Meas. 20 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1cqSk-fk9o6tLs-ko3HHN7Y3-Y8kyKnZq.mp3",
+                  "kind": "audio",
+                  "id": "1cqSk-fk9o6tLs-ko3HHN7Y3-Y8kyKnZq",
+                  "md5": "3d3703c858453963bedbfc7a3de9abc2"
+                },
+                {
+                  "type": "file",
+                  "name": "04 Because of Jesus - Meas. 28 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1mky-5Z6QG_G0fzvBQbv6gcsFRVauSpWT.mp3",
+                  "kind": "audio",
+                  "id": "1mky-5Z6QG_G0fzvBQbv6gcsFRVauSpWT",
+                  "md5": "841f2dd0c01e86eca2f1fd6e7cbacce0"
+                },
+                {
+                  "type": "file",
+                  "name": "05 Because of Jesus - Meas. 36 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1_Qv-4iAzvIbM6tAiNgmuj2lTtGgf9eNn.mp3",
+                  "kind": "audio",
+                  "id": "1_Qv-4iAzvIbM6tAiNgmuj2lTtGgf9eNn",
+                  "md5": "61dac6ee57d8f66bfc8172d75e231887"
+                },
+                {
+                  "type": "file",
+                  "name": "06 Because of Jesus - Meas. 44 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1KWBj4buHO463-SJvmIhmzrsDlCVwWWFE.mp3",
+                  "kind": "audio",
+                  "id": "1KWBj4buHO463-SJvmIhmzrsDlCVwWWFE",
+                  "md5": "d4f8c7200e175b695f4533985e991785"
+                },
+                {
+                  "type": "file",
+                  "name": "07 Because of Jesus - Meas. 53 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1l3bZKGBcSMkvaZVb1fYpgEwIAcEdnsKd.mp3",
+                  "kind": "audio",
+                  "id": "1l3bZKGBcSMkvaZVb1fYpgEwIAcEdnsKd",
+                  "md5": "849c8f0aa89e7ca401d314232a139a3d"
+                },
+                {
+                  "type": "file",
+                  "name": "08 Because of Jesus - Meas. 61 - Stereo_1701Y26P050.mp3",
+                  "path": "files/18sW3AOy-wLcBrxxtFHoN-kDd-IG56JEa.mp3",
+                  "kind": "audio",
+                  "id": "18sW3AOy-wLcBrxxtFHoN-kDd-IG56JEa",
+                  "md5": "aa941b79266ac7a39e73e772ff4360fa"
+                },
+                {
+                  "type": "file",
+                  "name": "09 Because of Jesus - Meas. 70 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1xM-GMnCmR-uL0tIpCdZNvgcZImcYIRtK.mp3",
+                  "kind": "audio",
+                  "id": "1xM-GMnCmR-uL0tIpCdZNvgcZImcYIRtK",
+                  "md5": "02d946060c6140c0f3404696ec41218f"
+                },
+                {
+                  "type": "file",
+                  "name": "10 Because of Jesus - Meas. 74 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1cwBcuu6Qc1c8spw9pz5s82ApCbPxK1HL.mp3",
+                  "kind": "audio",
+                  "id": "1cwBcuu6Qc1c8spw9pz5s82ApCbPxK1HL",
+                  "md5": "3e9850ba7470f2c2f23f892c2326df47"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "Because of Jesus.pdf",
+          "path": "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L.pdf",
+          "kind": "pdf",
+          "id": "1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L",
+          "md5": "30eea5beb3ff8f0f143aef85d8755b88"
+        },
+        {
+          "type": "folder",
+          "name": "Dusty Bibles",
+          "children": [
+            {
+              "type": "file",
+              "name": "Dusty Bibles - ACCOMPANIMENT",
+              "path": "files/1EBRBXJH0HrWzxhZ5OjwVa34xRTinTD1g.mp3",
+              "kind": "audio",
+              "id": "1EBRBXJH0HrWzxhZ5OjwVa34xRTinTD1g",
+              "md5": "44b0f710d8bcc6a223da9bde12b0360f"
+            },
+            {
+              "type": "file",
+              "name": "Dusty Bibles - Tenor",
+              "path": "files/1NhiLqmJJB34R1s0OtXJ-4mOFpuKe-Ann.mp3",
+              "kind": "audio",
+              "id": "1NhiLqmJJB34R1s0OtXJ-4mOFpuKe-Ann",
+              "md5": "5c224f2bf240a99e749672c282b95ac5"
+            },
+            {
+              "type": "folder",
+              "name": "Stereo Track Rehearsal Points",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "01 Dusty Bibles - Meas. 1 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1Ev8x_x8ousZqvbYz63U2WF5pwjNqvam9.mp3",
+                  "kind": "audio",
+                  "id": "1Ev8x_x8ousZqvbYz63U2WF5pwjNqvam9",
+                  "md5": "5edfbc6e546501a62c31eec97337e00e"
+                },
+                {
+                  "type": "file",
+                  "name": "02 Dusty Bibles - Meas. 7 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1tFVr2BoZP8SfUS2yIKqk_v_vOkVLFkLC.mp3",
+                  "kind": "audio",
+                  "id": "1tFVr2BoZP8SfUS2yIKqk_v_vOkVLFkLC",
+                  "md5": "f0cb588c4209c97c474ac872676946c7"
+                },
+                {
+                  "type": "file",
+                  "name": "03 Dusty Bibles - Meas. 15 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1U20_FeFvE3qwGCa_lCy-d2j2WW1e9Bfn.mp3",
+                  "kind": "audio",
+                  "id": "1U20_FeFvE3qwGCa_lCy-d2j2WW1e9Bfn",
+                  "md5": "ed0990156b8c4d8b4e137f2894090d41"
+                },
+                {
+                  "type": "file",
+                  "name": "04 Dusty Bibles - Meas. 23 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1Fekbv7bzZHVgrSyWn568UyGC8wZD6jeO.mp3",
+                  "kind": "audio",
+                  "id": "1Fekbv7bzZHVgrSyWn568UyGC8wZD6jeO",
+                  "md5": "f58bfd6a984071e540e9e5a34d375a3c"
+                },
+                {
+                  "type": "file",
+                  "name": "05 Dusty Bibles - Meas. 33 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1DJjI9qVMC6qhlpu-ZecuaiDkXFCwPDCx.mp3",
+                  "kind": "audio",
+                  "id": "1DJjI9qVMC6qhlpu-ZecuaiDkXFCwPDCx",
+                  "md5": "d4fe524c97569fa84fb430db6b69a975"
+                },
+                {
+                  "type": "file",
+                  "name": "06 Dusty Bibles - Meas. 37 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1dJcI1nQU066Ke4tTdqQ-5cgMWT_SHxoE.mp3",
+                  "kind": "audio",
+                  "id": "1dJcI1nQU066Ke4tTdqQ-5cgMWT_SHxoE",
+                  "md5": "e77db75f25931a384b472756b4241a16"
+                },
+                {
+                  "type": "file",
+                  "name": "07 Dusty Bibles - Meas. 47 - Stereo_1701Y26P028.mp3",
+                  "path": "files/14ga2TtAOWUM0_kggmssPdpIeScogmZ-9.mp3",
+                  "kind": "audio",
+                  "id": "14ga2TtAOWUM0_kggmssPdpIeScogmZ-9",
+                  "md5": "0fe48c24953151905034e61431e409ee"
+                },
+                {
+                  "type": "file",
+                  "name": "08 Dusty Bibles - Meas. 55 - Stereo_1701Y26P028.mp3",
+                  "path": "files/17kvax7cFLI8pB8HA1vZIvU3YLRoJFc99.mp3",
+                  "kind": "audio",
+                  "id": "17kvax7cFLI8pB8HA1vZIvU3YLRoJFc99",
+                  "md5": "0836c6e811a13900bbaa58916fa2e318"
+                },
+                {
+                  "type": "file",
+                  "name": "09 Dusty Bibles - Meas. 63 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1l8dCbovvzwl02QIAkARCCKGUIc44mh5G.mp3",
+                  "kind": "audio",
+                  "id": "1l8dCbovvzwl02QIAkARCCKGUIc44mh5G",
+                  "md5": "424215999ae8923738e186f3cdecb852"
+                },
+                {
+                  "type": "file",
+                  "name": "10 Dusty Bibles - Meas. 67 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1zP7LOgs9C7itqhrRcsBn3zgIadkXyBw3.mp3",
+                  "kind": "audio",
+                  "id": "1zP7LOgs9C7itqhrRcsBn3zgIadkXyBw3",
+                  "md5": "46cc251122498a9cb5e6f39ef3818cd1"
+                },
+                {
+                  "type": "file",
+                  "name": "11 Dusty Bibles - Meas. 76 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1ntWXS-rMo7BPmFG6pkjMbQlG2c6DxFhO.mp3",
+                  "kind": "audio",
+                  "id": "1ntWXS-rMo7BPmFG6pkjMbQlG2c6DxFhO",
+                  "md5": "5eb40a00edb16032fc60fe15b7f9204c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "Dusty-Bibles_Anthem_1701Y26P023.pdf",
+          "path": "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0.pdf",
+          "kind": "pdf",
+          "id": "1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0",
+          "md5": "b865659af9afc7bd49805638daf39cd0"
+        },
+        {
+          "type": "folder",
+          "name": "Rest Not ",
+          "children": [
+            {
+              "type": "file",
+              "name": "Rest Not! TB - Accompaniment Track - Laura Farnell.mp3",
+              "path": "files/1MrO_k8lrwjH_IS-sprqcELf8EwM5huvX.mp3",
+              "kind": "audio",
+              "id": "1MrO_k8lrwjH_IS-sprqcELf8EwM5huvX",
+              "md5": "7da2c139c5ecd2ae1289f7a996981e5c"
+            },
+            {
+              "type": "file",
+              "name": "Rest Not! TB - Balanced Voices - Laura Farnell.mp3",
+              "path": "files/1VK4ggk4PTkHi8Tu2icPh1ul34pom9Zt4.mp3",
+              "kind": "audio",
+              "id": "1VK4ggk4PTkHi8Tu2icPh1ul34pom9Zt4",
+              "md5": "536e9425798be273413fc38316a865a9"
+            },
+            {
+              "type": "file",
+              "name": "Rest Not! TB - Bass Predominant - Laura Farnell.mp3",
+              "path": "files/1q9EsYIRF7s94RKtGtT215aDOq6Soi3zq.mp3",
+              "kind": "audio",
+              "id": "1q9EsYIRF7s94RKtGtT215aDOq6Soi3zq",
+              "md5": "f9e618b939a1186908d0bb017472301d"
+            },
+            {
+              "type": "file",
+              "name": "Rest Not! TB - Tenor Predominant - Laura Farnell.mp3",
+              "path": "files/1f0biHPH6DlIPPM-aoVXnEk6Px9ELC5E9.mp3",
+              "kind": "audio",
+              "id": "1f0biHPH6DlIPPM-aoVXnEk6Px9ELC5E9",
+              "md5": "6bea0b40af0d2ae099b90a114df29a60"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "She Dwelt Among the Untrodden Ways ",
+          "children": [
+            {
+              "type": "file",
+              "name": "She Dwelt among the Untrodden Ways TTB - Accompaniment Track - Mark Patterson.mp3",
+              "path": "files/1YjRk72ARtxAO8tN7spbukdL4r9yZhJST.mp3",
+              "kind": "audio",
+              "id": "1YjRk72ARtxAO8tN7spbukdL4r9yZhJST",
+              "md5": "dc533c45f2d2fe6d9b1e85fd1731677d"
+            },
+            {
+              "type": "file",
+              "name": "She Dwelt among the Untrodden Ways TTB - Balanced Voices - Mark Patterson.mp3",
+              "path": "files/1kTA51cdai2JXQioJrV73JIUXOJsHFqzX.mp3",
+              "kind": "audio",
+              "id": "1kTA51cdai2JXQioJrV73JIUXOJsHFqzX",
+              "md5": "095ebf471d9734b29cc49f9a94d3b409"
+            },
+            {
+              "type": "file",
+              "name": "She Dwelt among the Untrodden Ways TTB - Bass 1 Predominant - Mark Patterson.mp3",
+              "path": "files/1xHGbzilI18UYuuozrn-WdtGP8ys9jXtf.mp3",
+              "kind": "audio",
+              "id": "1xHGbzilI18UYuuozrn-WdtGP8ys9jXtf",
+              "md5": "c55d7e9077f1ad15f730c8cbb24cdd7b"
+            },
+            {
+              "type": "file",
+              "name": "She Dwelt among the Untrodden Ways TTB - Bass 2 Predominant - Mark Patterson.mp3",
+              "path": "files/1FpyxXZ3k0yCKpKOVPvdvoM9K7OSjxGdG.mp3",
+              "kind": "audio",
+              "id": "1FpyxXZ3k0yCKpKOVPvdvoM9K7OSjxGdG",
+              "md5": "17f9949bfddfacf2759d4c1c2bf673a1"
+            },
+            {
+              "type": "file",
+              "name": "She Dwelt among the Untrodden Ways TTB - Tenor 1 Predominant - Mark Patterson.mp3",
+              "path": "files/1A6BvBhv_2eOei4pEIAdx2koOD62FbHlo.mp3",
+              "kind": "audio",
+              "id": "1A6BvBhv_2eOei4pEIAdx2koOD62FbHlo",
+              "md5": "843e8b0fb0ee6b47ba45225ba88e544f"
+            },
+            {
+              "type": "file",
+              "name": "She Dwelt among the Untrodden Ways TTB - Tenor 2 Predominant - Mark Patterson.mp3",
+              "path": "files/1JnVYggeiRRxewwPP1k_n64WiwK7695Xs.mp3",
+              "kind": "audio",
+              "id": "1JnVYggeiRRxewwPP1k_n64WiwK7695Xs",
+              "md5": "816474d47b5e261fe8b67ca6f5e54a31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JH Girls",
+      "children": [
+        {
+          "type": "folder",
+          "name": "Ad Astra ",
+          "children": [
+            {
+              "type": "file",
+              "name": "Ad Astra SSA - Accompaniment Track - Jacob Narverud.mp3",
+              "path": "files/1eEUR_NZ1O_Q3TUBwrYJeY9GWwJ7QtoR-.mp3",
+              "kind": "audio",
+              "id": "1eEUR_NZ1O_Q3TUBwrYJeY9GWwJ7QtoR-",
+              "md5": "cbd113eb0a8dd3e0230c7bbe695eae1c"
+            },
+            {
+              "type": "file",
+              "name": "Ad Astra SSA - Alto 1 Predominant - Jacob Narverud.mp3",
+              "path": "files/1ouNRDk1kcGARWamfuj-I2Lb-cJ_E8ivL.mp3",
+              "kind": "audio",
+              "id": "1ouNRDk1kcGARWamfuj-I2Lb-cJ_E8ivL",
+              "md5": "bb73a4a0c880df9669aae43968f6783b"
+            },
+            {
+              "type": "file",
+              "name": "Ad Astra SSA - Alto 2 Predominant - Jacob Narverud.mp3",
+              "path": "files/10b79us1GiraGob-D3fOSAs9tUb7IzLEU.mp3",
+              "kind": "audio",
+              "id": "10b79us1GiraGob-D3fOSAs9tUb7IzLEU",
+              "md5": "64dedceaf1c5124ed10b9d30e87126b1"
+            },
+            {
+              "type": "file",
+              "name": "Ad Astra SSA - Balanced Voices - Jacob Narverud.mp3",
+              "path": "files/1YUPwMowsBuxVlItwOOuHjduzjpfsieEX.mp3",
+              "kind": "audio",
+              "id": "1YUPwMowsBuxVlItwOOuHjduzjpfsieEX",
+              "md5": "dc41619b89d361c3da7f436faedce6a4"
+            },
+            {
+              "type": "file",
+              "name": "Ad Astra SSA - Soprano 1 Predominant - Jacob Narverud.mp3",
+              "path": "files/1ti3MtrWtufCrytO9aCTj4dh8XfMw_TaQ.mp3",
+              "kind": "audio",
+              "id": "1ti3MtrWtufCrytO9aCTj4dh8XfMw_TaQ",
+              "md5": "897f605b787ad0a61f6b7be2ee975272"
+            },
+            {
+              "type": "file",
+              "name": "Ad Astra SSA - Soprano 2 Predominant - Jacob Narverud.mp3",
+              "path": "files/1M0GfHHz8gaqgiDGNCb84J9OUpuEmKyVv.mp3",
+              "kind": "audio",
+              "id": "1M0GfHHz8gaqgiDGNCb84J9OUpuEmKyVv",
+              "md5": "8e1b018ae3d3cc81b3f5ffe6efe681b5"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Because of Jesus",
+          "children": [
+            {
+              "type": "file",
+              "name": "Because of Jesus - ACCOMP",
+              "path": "files/1b5UufUxciqH5XQwrU6cg7r4ouKcKR7So.mp3",
+              "kind": "audio",
+              "id": "1b5UufUxciqH5XQwrU6cg7r4ouKcKR7So",
+              "md5": "a0b1a7ca35e62acf43274d0b84916a98"
+            },
+            {
+              "type": "file",
+              "name": "Because of Jesus - Alto",
+              "path": "files/1hP-blICIwmjjLa8txS0tQUaFzPaJTAaR.mp3",
+              "kind": "audio",
+              "id": "1hP-blICIwmjjLa8txS0tQUaFzPaJTAaR",
+              "md5": "48bd99aea3a28ec26d1cfde5d1c37b79"
+            },
+            {
+              "type": "file",
+              "name": "Because of Jesus - Soprano",
+              "path": "files/1OLOFzeYhfeiYbzaIkedT61FvgY60oBv3.mp3",
+              "kind": "audio",
+              "id": "1OLOFzeYhfeiYbzaIkedT61FvgY60oBv3",
+              "md5": "8ebf4c055d47cea159b703118ab587dc"
+            },
+            {
+              "type": "file",
+              "name": "Dusty-Bibles_Alto_1701Y26P032.mp3",
+              "path": "files/1imPrdt_ffSTJYi9r69cschPDF0IMaekc.mp3",
+              "kind": "audio",
+              "id": "1imPrdt_ffSTJYi9r69cschPDF0IMaekc",
+              "md5": "bb7028efec4a02cd5478525e2bc6d106"
+            },
+            {
+              "type": "file",
+              "name": "Dusty-Bibles_Soprano_1701Y26P031.mp3",
+              "path": "files/1zmvLEWp_4uKz37z5csgAmnaEYQQxcbxW.mp3",
+              "kind": "audio",
+              "id": "1zmvLEWp_4uKz37z5csgAmnaEYQQxcbxW",
+              "md5": "11b74865395a9f77c295e3754b46f635"
+            },
+            {
+              "type": "folder",
+              "name": "Stereo Track Rehearsal Points",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "01 Because of Jesus - Meas. 1 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1P8RB7TBVKiXa-xZRJKwJjI1jkNf6jj95.mp3",
+                  "kind": "audio",
+                  "id": "1P8RB7TBVKiXa-xZRJKwJjI1jkNf6jj95",
+                  "md5": "7958bb1dd363b9975b08ae9a3b858c94"
+                },
+                {
+                  "type": "file",
+                  "name": "02 Because of Jesus - Meas. 11 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1ynQvCUJQNfM7LPKM4AfAvWLZ2CaVDwSq.mp3",
+                  "kind": "audio",
+                  "id": "1ynQvCUJQNfM7LPKM4AfAvWLZ2CaVDwSq",
+                  "md5": "6970f595d1305b6f2dca4754ff0af225"
+                },
+                {
+                  "type": "file",
+                  "name": "03 Because of Jesus - Meas. 20 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1Ke_NNYgp6r-8_UcViHwhWidOqL5gXEGh.mp3",
+                  "kind": "audio",
+                  "id": "1Ke_NNYgp6r-8_UcViHwhWidOqL5gXEGh",
+                  "md5": "3d3703c858453963bedbfc7a3de9abc2"
+                },
+                {
+                  "type": "file",
+                  "name": "04 Because of Jesus - Meas. 28 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1dpFQj42ZiYwMcYNBsfqk4QH34CW_QPYV.mp3",
+                  "kind": "audio",
+                  "id": "1dpFQj42ZiYwMcYNBsfqk4QH34CW_QPYV",
+                  "md5": "841f2dd0c01e86eca2f1fd6e7cbacce0"
+                },
+                {
+                  "type": "file",
+                  "name": "05 Because of Jesus - Meas. 36 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1mrYeoxerKCUItjilbzShoony5ehN-X-Q.mp3",
+                  "kind": "audio",
+                  "id": "1mrYeoxerKCUItjilbzShoony5ehN-X-Q",
+                  "md5": "61dac6ee57d8f66bfc8172d75e231887"
+                },
+                {
+                  "type": "file",
+                  "name": "06 Because of Jesus - Meas. 44 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1uLmHgEj__dQKjrzq70kGhcO0NnQVGwSs.mp3",
+                  "kind": "audio",
+                  "id": "1uLmHgEj__dQKjrzq70kGhcO0NnQVGwSs",
+                  "md5": "d4f8c7200e175b695f4533985e991785"
+                },
+                {
+                  "type": "file",
+                  "name": "07 Because of Jesus - Meas. 53 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1O2gUiULj4WZJM3neL-hq7zw-rkU6bndp.mp3",
+                  "kind": "audio",
+                  "id": "1O2gUiULj4WZJM3neL-hq7zw-rkU6bndp",
+                  "md5": "849c8f0aa89e7ca401d314232a139a3d"
+                },
+                {
+                  "type": "file",
+                  "name": "08 Because of Jesus - Meas. 61 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1ydBiY0ftro2ZTFmOxt69S6AUNcp9IttD.mp3",
+                  "kind": "audio",
+                  "id": "1ydBiY0ftro2ZTFmOxt69S6AUNcp9IttD",
+                  "md5": "aa941b79266ac7a39e73e772ff4360fa"
+                },
+                {
+                  "type": "file",
+                  "name": "09 Because of Jesus - Meas. 70 - Stereo_1701Y26P050.mp3",
+                  "path": "files/1DWCOgphbtZUvGidAasmM4ygNNIAjB-GB.mp3",
+                  "kind": "audio",
+                  "id": "1DWCOgphbtZUvGidAasmM4ygNNIAjB-GB",
+                  "md5": "02d946060c6140c0f3404696ec41218f"
+                },
+                {
+                  "type": "file",
+                  "name": "10 Because of Jesus - Meas. 74 - Stereo_1701Y26P050.mp3",
+                  "path": "files/18UdXSjHhm-euYeTn1NK_fLeapUMvO-p5.mp3",
+                  "kind": "audio",
+                  "id": "18UdXSjHhm-euYeTn1NK_fLeapUMvO-p5",
+                  "md5": "3e9850ba7470f2c2f23f892c2326df47"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "Because-of-Jesus_Anthem_1701Y26P045.pdf",
+          "path": "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN.pdf",
+          "kind": "pdf",
+          "id": "1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN",
+          "md5": "30eea5beb3ff8f0f143aef85d8755b88"
+        },
+        {
+          "type": "folder",
+          "name": "Dies Irae ",
+          "children": [
+            {
+              "type": "file",
+              "name": "Dies Irae SSA - Accompaniment Track - Christi Jones.mp3",
+              "path": "files/1YGhdqTVEDHIIQ562yUTZQg4ihCvvQrYV.mp3",
+              "kind": "audio",
+              "id": "1YGhdqTVEDHIIQ562yUTZQg4ihCvvQrYV",
+              "md5": "d420b70acc0faa6e1fcdb8981b9ddfea"
+            },
+            {
+              "type": "file",
+              "name": "Dies Irae SSA - Alto Predominant - Christi Jones.mp3",
+              "path": "files/13xGvwhVBW9MY2jZtvqmLt4iPzLPy8lgJ.mp3",
+              "kind": "audio",
+              "id": "13xGvwhVBW9MY2jZtvqmLt4iPzLPy8lgJ",
+              "md5": "87593e39b599e97ffaaebaf33ffd9c8b"
+            },
+            {
+              "type": "file",
+              "name": "Dies Irae SSA - Balanced Voices - Christi Jones.mp3",
+              "path": "files/1EOrYgcPMsIBpc9ZOoqHc7M6PUJc40tPm.mp3",
+              "kind": "audio",
+              "id": "1EOrYgcPMsIBpc9ZOoqHc7M6PUJc40tPm",
+              "md5": "8fbc4df2b3261e2a51dc1ad590aada0c"
+            },
+            {
+              "type": "file",
+              "name": "Dies Irae SSA - Soprano 1 Predominant - Christi Jones.mp3",
+              "path": "files/1fuTcl_0kBVYZGzctQ3NzIMSXmAj3V-PG.mp3",
+              "kind": "audio",
+              "id": "1fuTcl_0kBVYZGzctQ3NzIMSXmAj3V-PG",
+              "md5": "3f92f2dcf994a57495e7c6ba9decf4a9"
+            },
+            {
+              "type": "file",
+              "name": "Dies Irae SSA - Soprano 2 Predominant - Christi Jones.mp3",
+              "path": "files/1M0AMmz2D7QJjk3ldRfQNHTtpa-2pEpyx.mp3",
+              "kind": "audio",
+              "id": "1M0AMmz2D7QJjk3ldRfQNHTtpa-2pEpyx",
+              "md5": "71a91fdd83c49b60cc7748369e911b45"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Dusty-Bibles",
+          "children": [
+            {
+              "type": "file",
+              "name": "Dusty Bibles - Stereo_1701Y26P028.mp3",
+              "path": "files/11ALBBHY9IHGdbQF-nUo7WlmHQ4Jt8RLq.mp3",
+              "kind": "audio",
+              "id": "11ALBBHY9IHGdbQF-nUo7WlmHQ4Jt8RLq",
+              "md5": "44b0f710d8bcc6a223da9bde12b0360f"
+            },
+            {
+              "type": "folder",
+              "name": "Stereo Track Rehearsal Points",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "01 Dusty Bibles - Meas. 1 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1jL5uPuX3ujSo8W_K24wQjWEjIx0vOliQ.mp3",
+                  "kind": "audio",
+                  "id": "1jL5uPuX3ujSo8W_K24wQjWEjIx0vOliQ",
+                  "md5": "5edfbc6e546501a62c31eec97337e00e"
+                },
+                {
+                  "type": "file",
+                  "name": "02 Dusty Bibles - Meas. 7 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1b0OO60UbXcGv_VRqKlL34fFZ7WwOg2oY.mp3",
+                  "kind": "audio",
+                  "id": "1b0OO60UbXcGv_VRqKlL34fFZ7WwOg2oY",
+                  "md5": "f0cb588c4209c97c474ac872676946c7"
+                },
+                {
+                  "type": "file",
+                  "name": "03 Dusty Bibles - Meas. 15 - Stereo_1701Y26P028.mp3",
+                  "path": "files/18WcstoPbAU0PRns0mZbAS7saBluKzxa8.mp3",
+                  "kind": "audio",
+                  "id": "18WcstoPbAU0PRns0mZbAS7saBluKzxa8",
+                  "md5": "ed0990156b8c4d8b4e137f2894090d41"
+                },
+                {
+                  "type": "file",
+                  "name": "04 Dusty Bibles - Meas. 23 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1QZ6EcbCClJVpCMi-t_gGYa2TE9XdEZ0n.mp3",
+                  "kind": "audio",
+                  "id": "1QZ6EcbCClJVpCMi-t_gGYa2TE9XdEZ0n",
+                  "md5": "f58bfd6a984071e540e9e5a34d375a3c"
+                },
+                {
+                  "type": "file",
+                  "name": "05 Dusty Bibles - Meas. 33 - Stereo_1701Y26P028.mp3",
+                  "path": "files/18HePAIjGI63ZF48QQpQxuBk3LBCwQK-O.mp3",
+                  "kind": "audio",
+                  "id": "18HePAIjGI63ZF48QQpQxuBk3LBCwQK-O",
+                  "md5": "d4fe524c97569fa84fb430db6b69a975"
+                },
+                {
+                  "type": "file",
+                  "name": "06 Dusty Bibles - Meas. 37 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1HOPRcvTtidKTio4mdhBKpvsvHf4aQvwz.mp3",
+                  "kind": "audio",
+                  "id": "1HOPRcvTtidKTio4mdhBKpvsvHf4aQvwz",
+                  "md5": "e77db75f25931a384b472756b4241a16"
+                },
+                {
+                  "type": "file",
+                  "name": "07 Dusty Bibles - Meas. 47 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1FjRa6jgYhz9Kj5A0K54fPWBzV8duo6Fh.mp3",
+                  "kind": "audio",
+                  "id": "1FjRa6jgYhz9Kj5A0K54fPWBzV8duo6Fh",
+                  "md5": "0fe48c24953151905034e61431e409ee"
+                },
+                {
+                  "type": "file",
+                  "name": "08 Dusty Bibles - Meas. 55 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1g9vZ_xNh5s4SFlAyMjiF2AE4ABWYVW7p.mp3",
+                  "kind": "audio",
+                  "id": "1g9vZ_xNh5s4SFlAyMjiF2AE4ABWYVW7p",
+                  "md5": "0836c6e811a13900bbaa58916fa2e318"
+                },
+                {
+                  "type": "file",
+                  "name": "09 Dusty Bibles - Meas. 63 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1inBind4K1X1j3EYfchtozMJ8d3GbJf5F.mp3",
+                  "kind": "audio",
+                  "id": "1inBind4K1X1j3EYfchtozMJ8d3GbJf5F",
+                  "md5": "424215999ae8923738e186f3cdecb852"
+                },
+                {
+                  "type": "file",
+                  "name": "10 Dusty Bibles - Meas. 67 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1wKe3Zb8Qa-Pc9XWvAP18_JOj4yRfCrVX.mp3",
+                  "kind": "audio",
+                  "id": "1wKe3Zb8Qa-Pc9XWvAP18_JOj4yRfCrVX",
+                  "md5": "46cc251122498a9cb5e6f39ef3818cd1"
+                },
+                {
+                  "type": "file",
+                  "name": "11 Dusty Bibles - Meas. 76 - Stereo_1701Y26P028.mp3",
+                  "path": "files/1BWis2IT56T2qiPu_dpTfmuSAwgMKMw6J.mp3",
+                  "kind": "audio",
+                  "id": "1BWis2IT56T2qiPu_dpTfmuSAwgMKMw6J",
+                  "md5": "5eb40a00edb16032fc60fe15b7f9204c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "Dusty-Bibles_Anthem_1701Y26P023.pdf",
+          "path": "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk.pdf",
+          "kind": "pdf",
+          "id": "1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk",
+          "md5": "b865659af9afc7bd49805638daf39cd0"
+        },
+        {
+          "type": "folder",
+          "name": "Lineage (Ramsey, SSA)",
+          "children": [
+            {
+              "type": "file",
+              "name": "Lineage SSA - Accompaniment Track - Andrea Ramsey.mp3",
+              "path": "files/1raS4O5Nh3BEQzgJT9pG35fW4GDVLnUJA.mp3",
+              "kind": "audio",
+              "id": "1raS4O5Nh3BEQzgJT9pG35fW4GDVLnUJA",
+              "md5": "bde654b2e2194c1916fdf94c6ee913fa"
+            },
+            {
+              "type": "file",
+              "name": "Lineage SSA - Alto 1 Predominant - Andrea Ramsey.mp3",
+              "path": "files/1UowJYLuKCnHka7cwky9hkrQ4h41fcpLz.mp3",
+              "kind": "audio",
+              "id": "1UowJYLuKCnHka7cwky9hkrQ4h41fcpLz",
+              "md5": "c9fac15629e17155212bfa10174a8725"
+            },
+            {
+              "type": "file",
+              "name": "Lineage SSA - Alto 2 Predominant - Andrea Ramsey.mp3",
+              "path": "files/1MaC7kpRXnw2tI-2Pxo4P0wGFwqs0ysYE.mp3",
+              "kind": "audio",
+              "id": "1MaC7kpRXnw2tI-2Pxo4P0wGFwqs0ysYE",
+              "md5": "8033400ced76ead2c61ec69113bbf047"
+            },
+            {
+              "type": "file",
+              "name": "Lineage SSA - Balanced Voices - Andrea Ramsey.mp3",
+              "path": "files/1OFguqTl08O8YdWgMRAvQHIIo10A-vHmy.mp3",
+              "kind": "audio",
+              "id": "1OFguqTl08O8YdWgMRAvQHIIo10A-vHmy",
+              "md5": "4d004aeb92b06a2dcf6318ac16a291e3"
+            },
+            {
+              "type": "file",
+              "name": "Lineage SSA - Soprano 1 Predominant - Andrea Ramsey.mp3",
+              "path": "files/1WI0HTY5Wujs1b5bONECubhVQ5c07kJ2I.mp3",
+              "kind": "audio",
+              "id": "1WI0HTY5Wujs1b5bONECubhVQ5c07kJ2I",
+              "md5": "a10bb238ec6667fad3a2721b36d680b2"
+            },
+            {
+              "type": "file",
+              "name": "Lineage SSA - Soprano 2 Predominant - Andrea Ramsey.mp3",
+              "path": "files/1IiUMkTYVjB8Bv3qAgx-JzI4fkQq1nHiP.mp3",
+              "kind": "audio",
+              "id": "1IiUMkTYVjB8Bv3qAgx-JzI4fkQq1nHiP",
+              "md5": "659fa9b02319ab286718e00e8bb0e328"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Lunar Lullaby (Narverud, SA)",
+          "children": [
+            {
+              "type": "file",
+              "name": "Lunar Lullaby SA - Accompaniment Track - Jacob Narverud.mp3",
+              "path": "files/1E9egBcxaXqUgzztqi5Xn56cOoyasD0jJ.mp3",
+              "kind": "audio",
+              "id": "1E9egBcxaXqUgzztqi5Xn56cOoyasD0jJ",
+              "md5": "cfe7a39ab054502028135be5715e5f73"
+            },
+            {
+              "type": "file",
+              "name": "Lunar Lullaby SA - Alto 1 Predominant - Jacob Narverud.mp3",
+              "path": "files/1lkxdPlc-P_p5DOlgi1SbQibOgIW77RQZ.mp3",
+              "kind": "audio",
+              "id": "1lkxdPlc-P_p5DOlgi1SbQibOgIW77RQZ",
+              "md5": "5e0e91d4a415398553f539d7d10e95da"
+            },
+            {
+              "type": "file",
+              "name": "Lunar Lullaby SA - Alto 2 Predominant - Jacob Narverud.mp3",
+              "path": "files/1u47nj0v-G8YNUR2O3EMXAq8_6aJGI5TU.mp3",
+              "kind": "audio",
+              "id": "1u47nj0v-G8YNUR2O3EMXAq8_6aJGI5TU",
+              "md5": "b495b708bdae2f67feed30032fe0d6f5"
+            },
+            {
+              "type": "file",
+              "name": "Lunar Lullaby SA - Balanced Voices - Jacob Narverud.mp3",
+              "path": "files/16M3coy7zBpFaBqO2gCuaeIkhJR0KfSBI.mp3",
+              "kind": "audio",
+              "id": "16M3coy7zBpFaBqO2gCuaeIkhJR0KfSBI",
+              "md5": "ffffe6e560e8aab0f39950426a2f586b"
+            },
+            {
+              "type": "file",
+              "name": "Lunar Lullaby SA - Soprano 1 Predominant - Jacob Narverud.mp3",
+              "path": "files/149m6qKYb99R3Sr9HFYEu34oaiP6fJ5GH.mp3",
+              "kind": "audio",
+              "id": "149m6qKYb99R3Sr9HFYEu34oaiP6fJ5GH",
+              "md5": "a5a4c0982af545fc1e13738d4bc15c23"
+            },
+            {
+              "type": "file",
+              "name": "Lunar Lullaby SA - Soprano 2 Predominant - Jacob Narverud.mp3",
+              "path": "files/1FNEvPwqnrqZhqkgVrmuHYUHV9FkxrwyZ.mp3",
+              "kind": "audio",
+              "id": "1FNEvPwqnrqZhqkgVrmuHYUHV9FkxrwyZ",
+              "md5": "82508ba66b2d4c30f35afb98a623dd89"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Warrior Choir",
+      "children": [
+        {
+          "type": "folder",
+          "name": "I Love You Lord",
+          "children": [
+            {
+              "type": "file",
+              "name": "I Love You Lord.mp3",
+              "path": "files/17y5iNit5Gd9F4rF6YTyWV2IGIwuF0VFq.mp3",
+              "kind": "audio",
+              "id": "17y5iNit5Gd9F4rF6YTyWV2IGIwuF0VFq",
+              "md5": "0d80c6e4f17cd33701ef974481a2c73f"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "My Tribute",
+          "children": [
+            {
+              "type": "file",
+              "name": "88395_altotrack.mp3",
+              "path": "files/1jARam9FFK8RCHgsP5lRut8OLZ4Bwc43X.mp3",
+              "kind": "audio",
+              "id": "1jARam9FFK8RCHgsP5lRut8OLZ4Bwc43X",
+              "md5": "4824de4ea65e031fc1871da825dada08"
+            },
+            {
+              "type": "file",
+              "name": "88395_basstrack.mp3",
+              "path": "files/10bjl15Hlfc4LLzZ4UsXdPWTyyT03WjkM.mp3",
+              "kind": "audio",
+              "id": "10bjl15Hlfc4LLzZ4UsXdPWTyyT03WjkM",
+              "md5": "bad62faf36b423632d534348749f34a2"
+            },
+            {
+              "type": "file",
+              "name": "88395_sopranotrack.mp3",
+              "path": "files/163W_rcyy_UymMCjkiHuMWjf3YL7EiaQ_.mp3",
+              "kind": "audio",
+              "id": "163W_rcyy_UymMCjkiHuMWjf3YL7EiaQ_",
+              "md5": "ebfc280c1ed46a082e63d5e424249540"
+            },
+            {
+              "type": "file",
+              "name": "88395_tenortrack.mp3",
+              "path": "files/1hdTJ9xkkVT9BgcpDiNANgbmRhZ_MiisK.mp3",
+              "kind": "audio",
+              "id": "1hdTJ9xkkVT9BgcpDiNANgbmRhZ_MiisK",
+              "md5": "488d0a3a13a65d1fe3d974c1ffaef712"
+            },
+            {
+              "type": "file",
+              "name": "Vocals - Choir.wav",
+              "path": "files/1OxCuUaWPMg7R5jspAflj--FYtObKyoI0.wav",
+              "kind": "audio",
+              "id": "1OxCuUaWPMg7R5jspAflj--FYtObKyoI0",
+              "md5": "15a23b669116ed3873d0186093142bc0"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Revelation 19:1",
+          "children": [
+            {
+              "type": "file",
+              "name": "Revelation 19 - FULL CHOIR.mp3",
+              "path": "files/17PiDYuUpwHbHfaZiUAOKzcKgaqQukofS.mp3",
+              "kind": "audio",
+              "id": "17PiDYuUpwHbHfaZiUAOKzcKgaqQukofS",
+              "md5": "c5427f48a3c0ebfd8ccece27c5cd48bd"
+            },
+            {
+              "type": "file",
+              "name": "Revelation 19 ALT0.mp3",
+              "path": "files/1-je-IblrXW9cJ6D1ad7mg4TxpOf6d5hY.mp3",
+              "kind": "audio",
+              "id": "1-je-IblrXW9cJ6D1ad7mg4TxpOf6d5hY",
+              "md5": "e0d71b70c112ab253772aec67c5e73d5"
+            },
+            {
+              "type": "file",
+              "name": "Revelation 19 BASS.mp3",
+              "path": "files/1zrP90rfP6T_XFhUa7V2jnaPAIEgbGiVc.mp3",
+              "kind": "audio",
+              "id": "1zrP90rfP6T_XFhUa7V2jnaPAIEgbGiVc",
+              "md5": "b441e229ff20eb8eef3f37d96a50c6a4"
+            },
+            {
+              "type": "file",
+              "name": "Revelation 19 SOPRANO.mp3",
+              "path": "files/18odKDH7O8dhoL-uVUZ0qNs6lJuppzCiW.mp3",
+              "kind": "audio",
+              "id": "18odKDH7O8dhoL-uVUZ0qNs6lJuppzCiW",
+              "md5": "cd3aa2a479277a7b19538d6683a9dc01"
+            },
+            {
+              "type": "file",
+              "name": "Revelation 19 TENOR.mp3",
+              "path": "files/1oofc9xabbRu-TU3MU6pEFzU2B1m9FrnK.mp3",
+              "kind": "audio",
+              "id": "1oofc9xabbRu-TU3MU6pEFzU2B1m9FrnK",
+              "md5": "8df82715c10fcb052912c40f2a7b0eb4"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Son of Suffering",
+          "children": [
+            {
+              "type": "file",
+              "name": "Son-of-Suffering - Reference Track.mp3",
+              "path": "files/1xSB7LLxDk5z65fxvWMx0gaDmd1ZQhWGZ.mp3",
+              "kind": "audio",
+              "id": "1xSB7LLxDk5z65fxvWMx0gaDmd1ZQhWGZ",
+              "md5": "80dfa03063fd3aff65e0c3c69f7e3a59"
+            },
+            {
+              "type": "file",
+              "name": "Son-of-Suffering ALTO",
+              "path": "files/15cL6q7szLEkRa7RZXbI2KpwgUWgxVLc3.mp3",
+              "kind": "audio",
+              "id": "15cL6q7szLEkRa7RZXbI2KpwgUWgxVLc3",
+              "md5": "a603a20ed701284c540f7886207b6215"
+            },
+            {
+              "type": "file",
+              "name": "Son-of-Suffering BASS",
+              "path": "files/10iyaa6Rq-sP-CgIwq-lI89KbI6Ki9k1J.mp3",
+              "kind": "audio",
+              "id": "10iyaa6Rq-sP-CgIwq-lI89KbI6Ki9k1J",
+              "md5": "40e9a01f2af72ed88b71d93ffebdf13b"
+            },
+            {
+              "type": "file",
+              "name": "Son-of-Suffering SOPRANO",
+              "path": "files/1kLmSOV7bq3GGT6op-Wr2niyGBqv-t4r6.mp3",
+              "kind": "audio",
+              "id": "1kLmSOV7bq3GGT6op-Wr2niyGBqv-t4r6",
+              "md5": "5ef6797375a02db8c82e98e54492c8a8"
+            },
+            {
+              "type": "file",
+              "name": "Son-of-Suffering TENOR",
+              "path": "files/15YMaGeF9V-KF8mCq9an4_JQiKoAfw7Jk.mp3",
+              "kind": "audio",
+              "id": "15YMaGeF9V-KF8mCq9an4_JQiKoAfw7Jk",
+              "md5": "b2741207911942987e5412921e234fde"
+            }
+          ]
+        }
+      ]
+    },
+    "divider",
+    {
+      "name": "JH All-Region",
+      "children": [
+        {
+          "type": "folder",
+          "name": "Choral Tracks",
+          "children": [
+            {
+              "type": "folder",
+              "name": "Ad Astra (Narverud, SSA)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Ad Astra SSA - Accompaniment Track - Jacob Narverud.mp3",
+                  "path": "files/1ZFTMYhMSrVAeM7V7RaIKOFQ15TN2Qt3Z.mp3",
+                  "kind": "audio",
+                  "id": "1ZFTMYhMSrVAeM7V7RaIKOFQ15TN2Qt3Z",
+                  "md5": "cbd113eb0a8dd3e0230c7bbe695eae1c"
+                },
+                {
+                  "type": "file",
+                  "name": "Ad Astra SSA - Alto 1 Predominant - Jacob Narverud.mp3",
+                  "path": "files/1K76ttfGaB-Bj2qY_HEteRhuMknNFT0p7.mp3",
+                  "kind": "audio",
+                  "id": "1K76ttfGaB-Bj2qY_HEteRhuMknNFT0p7",
+                  "md5": "bb73a4a0c880df9669aae43968f6783b"
+                },
+                {
+                  "type": "file",
+                  "name": "Ad Astra SSA - Alto 2 Predominant - Jacob Narverud.mp3",
+                  "path": "files/1UVTptY3hZn2-SGo0Nl1dS2-XMVSdbsDm.mp3",
+                  "kind": "audio",
+                  "id": "1UVTptY3hZn2-SGo0Nl1dS2-XMVSdbsDm",
+                  "md5": "64dedceaf1c5124ed10b9d30e87126b1"
+                },
+                {
+                  "type": "file",
+                  "name": "Ad Astra SSA - Balanced Voices - Jacob Narverud.mp3",
+                  "path": "files/1yTCngmW6JKSN_1SRztR_7eal7jfAxA-Z.mp3",
+                  "kind": "audio",
+                  "id": "1yTCngmW6JKSN_1SRztR_7eal7jfAxA-Z",
+                  "md5": "dc41619b89d361c3da7f436faedce6a4"
+                },
+                {
+                  "type": "file",
+                  "name": "Ad Astra SSA - Soprano 1 Predominant - Jacob Narverud.mp3",
+                  "path": "files/1Euah6m5Ht0K577HKHcaylqT-xUgW9Rcu.mp3",
+                  "kind": "audio",
+                  "id": "1Euah6m5Ht0K577HKHcaylqT-xUgW9Rcu",
+                  "md5": "897f605b787ad0a61f6b7be2ee975272"
+                },
+                {
+                  "type": "file",
+                  "name": "Ad Astra SSA - Soprano 2 Predominant - Jacob Narverud.mp3",
+                  "path": "files/1oZc7wDtgX10jmNsqAxl3w6kycxHNfhZg.mp3",
+                  "kind": "audio",
+                  "id": "1oZc7wDtgX10jmNsqAxl3w6kycxHNfhZg",
+                  "md5": "8e1b018ae3d3cc81b3f5ffe6efe681b5"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Dies Irae (Jones, SSA)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Dies Irae SSA - Accompaniment Track - Christi Jones.mp3",
+                  "path": "files/1O_ri5hbtN2ZroIBFWP58-gBLF2Oqk9W2.mp3",
+                  "kind": "audio",
+                  "id": "1O_ri5hbtN2ZroIBFWP58-gBLF2Oqk9W2",
+                  "md5": "d420b70acc0faa6e1fcdb8981b9ddfea"
+                },
+                {
+                  "type": "file",
+                  "name": "Dies Irae SSA - Alto Predominant - Christi Jones.mp3",
+                  "path": "files/1jNlihovmMG0ka2Vn5SZ6oskvkwgLYjoG.mp3",
+                  "kind": "audio",
+                  "id": "1jNlihovmMG0ka2Vn5SZ6oskvkwgLYjoG",
+                  "md5": "87593e39b599e97ffaaebaf33ffd9c8b"
+                },
+                {
+                  "type": "file",
+                  "name": "Dies Irae SSA - Balanced Voices - Christi Jones.mp3",
+                  "path": "files/1Qp_SGLmYW51M1NuPmjSrL6MPiFVxOCYv.mp3",
+                  "kind": "audio",
+                  "id": "1Qp_SGLmYW51M1NuPmjSrL6MPiFVxOCYv",
+                  "md5": "8fbc4df2b3261e2a51dc1ad590aada0c"
+                },
+                {
+                  "type": "file",
+                  "name": "Dies Irae SSA - Soprano 1 Predominant - Christi Jones.mp3",
+                  "path": "files/1LUo-lb7anMRWphlQ8gM1ZEx16s5lvjdh.mp3",
+                  "kind": "audio",
+                  "id": "1LUo-lb7anMRWphlQ8gM1ZEx16s5lvjdh",
+                  "md5": "3f92f2dcf994a57495e7c6ba9decf4a9"
+                },
+                {
+                  "type": "file",
+                  "name": "Dies Irae SSA - Soprano 2 Predominant - Christi Jones.mp3",
+                  "path": "files/1BHFyS6-maL8hnom7VAKS4HNDAKc0mGgh.mp3",
+                  "kind": "audio",
+                  "id": "1BHFyS6-maL8hnom7VAKS4HNDAKc0mGgh",
+                  "md5": "71a91fdd83c49b60cc7748369e911b45"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Lineage (Ramsey, SSA)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Lineage SSA - Accompaniment Track - Andrea Ramsey.mp3",
+                  "path": "files/1Zdh4pwN_LignBDYXhA8HMlHm52851AFq.mp3",
+                  "kind": "audio",
+                  "id": "1Zdh4pwN_LignBDYXhA8HMlHm52851AFq",
+                  "md5": "bde654b2e2194c1916fdf94c6ee913fa"
+                },
+                {
+                  "type": "file",
+                  "name": "Lineage SSA - Alto 1 Predominant - Andrea Ramsey.mp3",
+                  "path": "files/1d7RFXunB6EAtpNzC7EhsXPtH6ZVNqTr5.mp3",
+                  "kind": "audio",
+                  "id": "1d7RFXunB6EAtpNzC7EhsXPtH6ZVNqTr5",
+                  "md5": "c9fac15629e17155212bfa10174a8725"
+                },
+                {
+                  "type": "file",
+                  "name": "Lineage SSA - Alto 2 Predominant - Andrea Ramsey.mp3",
+                  "path": "files/1IXpezMeHAlUT7cxHNDkvVfgLXF9XUfTw.mp3",
+                  "kind": "audio",
+                  "id": "1IXpezMeHAlUT7cxHNDkvVfgLXF9XUfTw",
+                  "md5": "8033400ced76ead2c61ec69113bbf047"
+                },
+                {
+                  "type": "file",
+                  "name": "Lineage SSA - Balanced Voices - Andrea Ramsey.mp3",
+                  "path": "files/1D4jRcRtJGzLJKwUItNHEYfm78Gbz2ffq.mp3",
+                  "kind": "audio",
+                  "id": "1D4jRcRtJGzLJKwUItNHEYfm78Gbz2ffq",
+                  "md5": "4d004aeb92b06a2dcf6318ac16a291e3"
+                },
+                {
+                  "type": "file",
+                  "name": "Lineage SSA - Soprano 1 Predominant - Andrea Ramsey.mp3",
+                  "path": "files/1PxMhuLa0hDszFeugg8WIIZw2nqstEjGz.mp3",
+                  "kind": "audio",
+                  "id": "1PxMhuLa0hDszFeugg8WIIZw2nqstEjGz",
+                  "md5": "a10bb238ec6667fad3a2721b36d680b2"
+                },
+                {
+                  "type": "file",
+                  "name": "Lineage SSA - Soprano 2 Predominant - Andrea Ramsey.mp3",
+                  "path": "files/1K7VQtTMyCuN-YgxM91Ts84IAXhYbj_AW.mp3",
+                  "kind": "audio",
+                  "id": "1K7VQtTMyCuN-YgxM91Ts84IAXhYbj_AW",
+                  "md5": "659fa9b02319ab286718e00e8bb0e328"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Lunar Lullaby (Narverud, SA)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Lunar Lullaby SA - Accompaniment Track - Jacob Narverud.mp3",
+                  "path": "files/1nZ1omiBKlMiflnqonoGttZb7gKyZjcxv.mp3",
+                  "kind": "audio",
+                  "id": "1nZ1omiBKlMiflnqonoGttZb7gKyZjcxv",
+                  "md5": "cfe7a39ab054502028135be5715e5f73"
+                },
+                {
+                  "type": "file",
+                  "name": "Lunar Lullaby SA - Alto 1 Predominant - Jacob Narverud.mp3",
+                  "path": "files/1eVQxzve14cIJOZb9nYcXReDUNTHGQsGJ.mp3",
+                  "kind": "audio",
+                  "id": "1eVQxzve14cIJOZb9nYcXReDUNTHGQsGJ",
+                  "md5": "5e0e91d4a415398553f539d7d10e95da"
+                },
+                {
+                  "type": "file",
+                  "name": "Lunar Lullaby SA - Alto 2 Predominant - Jacob Narverud.mp3",
+                  "path": "files/1vDFpTyRSyX4WO173sIQ0bm2Cj3KtckIn.mp3",
+                  "kind": "audio",
+                  "id": "1vDFpTyRSyX4WO173sIQ0bm2Cj3KtckIn",
+                  "md5": "b495b708bdae2f67feed30032fe0d6f5"
+                },
+                {
+                  "type": "file",
+                  "name": "Lunar Lullaby SA - Balanced Voices - Jacob Narverud.mp3",
+                  "path": "files/1tFF0uTxPOxLFi4eXfbEnky_qBpbqTBO9.mp3",
+                  "kind": "audio",
+                  "id": "1tFF0uTxPOxLFi4eXfbEnky_qBpbqTBO9",
+                  "md5": "ffffe6e560e8aab0f39950426a2f586b"
+                },
+                {
+                  "type": "file",
+                  "name": "Lunar Lullaby SA - Soprano 1 Predominant - Jacob Narverud.mp3",
+                  "path": "files/1n-J8TDTQlzJZ_WOJftq4J9V3gEItgKSy.mp3",
+                  "kind": "audio",
+                  "id": "1n-J8TDTQlzJZ_WOJftq4J9V3gEItgKSy",
+                  "md5": "a5a4c0982af545fc1e13738d4bc15c23"
+                },
+                {
+                  "type": "file",
+                  "name": "Lunar Lullaby SA - Soprano 2 Predominant - Jacob Narverud.mp3",
+                  "path": "files/1sp8eNy-gj5545ZbKegW5CxabNTnG3gKP.mp3",
+                  "kind": "audio",
+                  "id": "1sp8eNy-gj5545ZbKegW5CxabNTnG3gKP",
+                  "md5": "82508ba66b2d4c30f35afb98a623dd89"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Rest Not (Farnell, TB)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Rest Not! TB - Accompaniment Track - Laura Farnell.mp3",
+                  "path": "files/1wxHto8jl2WMtLfN4MRbmMGheNF1zwNCY.mp3",
+                  "kind": "audio",
+                  "id": "1wxHto8jl2WMtLfN4MRbmMGheNF1zwNCY",
+                  "md5": "7da2c139c5ecd2ae1289f7a996981e5c"
+                },
+                {
+                  "type": "file",
+                  "name": "Rest Not! TB - Balanced Voices - Laura Farnell.mp3",
+                  "path": "files/1ZhwOI5KSgi7aHtrnEKMvPakoDMKl2ZlI.mp3",
+                  "kind": "audio",
+                  "id": "1ZhwOI5KSgi7aHtrnEKMvPakoDMKl2ZlI",
+                  "md5": "536e9425798be273413fc38316a865a9"
+                },
+                {
+                  "type": "file",
+                  "name": "Rest Not! TB - Bass Predominant - Laura Farnell.mp3",
+                  "path": "files/1ddvlOvtPYYzDAyVQrOutlpq4UrY7kA-L.mp3",
+                  "kind": "audio",
+                  "id": "1ddvlOvtPYYzDAyVQrOutlpq4UrY7kA-L",
+                  "md5": "f9e618b939a1186908d0bb017472301d"
+                },
+                {
+                  "type": "file",
+                  "name": "Rest Not! TB - Tenor Predominant - Laura Farnell.mp3",
+                  "path": "files/1HqboqJ_pq7m9hJeADDJ4bLO3wAY4tvgR.mp3",
+                  "kind": "audio",
+                  "id": "1HqboqJ_pq7m9hJeADDJ4bLO3wAY4tvgR",
+                  "md5": "6bea0b40af0d2ae099b90a114df29a60"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "She Dwelt Among the Untrodden Ways (Patterson, TTB)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "She Dwelt among the Untrodden Ways TTB - Accompaniment Track - Mark Patterson.mp3",
+                  "path": "files/11YEIF3bQBomTt2BY-yDNMCVoE0ubtcFF.mp3",
+                  "kind": "audio",
+                  "id": "11YEIF3bQBomTt2BY-yDNMCVoE0ubtcFF",
+                  "md5": "dc533c45f2d2fe6d9b1e85fd1731677d"
+                },
+                {
+                  "type": "file",
+                  "name": "She Dwelt among the Untrodden Ways TTB - Balanced Voices - Mark Patterson.mp3",
+                  "path": "files/11fiJef-k_5U_hhdpJoJIdJBTpKmTUcyR.mp3",
+                  "kind": "audio",
+                  "id": "11fiJef-k_5U_hhdpJoJIdJBTpKmTUcyR",
+                  "md5": "095ebf471d9734b29cc49f9a94d3b409"
+                },
+                {
+                  "type": "file",
+                  "name": "She Dwelt among the Untrodden Ways TTB - Bass 1 Predominant - Mark Patterson.mp3",
+                  "path": "files/1-DmV5u9H4OJq_DVOEeTDaLv8-xFQgU-a.mp3",
+                  "kind": "audio",
+                  "id": "1-DmV5u9H4OJq_DVOEeTDaLv8-xFQgU-a",
+                  "md5": "c55d7e9077f1ad15f730c8cbb24cdd7b"
+                },
+                {
+                  "type": "file",
+                  "name": "She Dwelt among the Untrodden Ways TTB - Bass 2 Predominant - Mark Patterson.mp3",
+                  "path": "files/1vIhsoMr2Cu2g4Y902iQUthVYVi4W-geB.mp3",
+                  "kind": "audio",
+                  "id": "1vIhsoMr2Cu2g4Y902iQUthVYVi4W-geB",
+                  "md5": "17f9949bfddfacf2759d4c1c2bf673a1"
+                },
+                {
+                  "type": "file",
+                  "name": "She Dwelt among the Untrodden Ways TTB - Tenor 1 Predominant - Mark Patterson.mp3",
+                  "path": "files/1JDVH0LdePJv4OmRVnVv0f9LXiPvqPclc.mp3",
+                  "kind": "audio",
+                  "id": "1JDVH0LdePJv4OmRVnVv0f9LXiPvqPclc",
+                  "md5": "843e8b0fb0ee6b47ba45225ba88e544f"
+                },
+                {
+                  "type": "file",
+                  "name": "She Dwelt among the Untrodden Ways TTB - Tenor 2 Predominant - Mark Patterson.mp3",
+                  "path": "files/1icPIShM5B_lY7QHZmKjIPCmPRWSXByD-.mp3",
+                  "kind": "audio",
+                  "id": "1icPIShM5B_lY7QHZmKjIPCmPRWSXByD-",
+                  "md5": "816474d47b5e261fe8b67ca6f5e54a31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Official Tracks",
+          "children": [
+            {
+              "type": "folder",
+              "name": "Ad Astra (Nerverud) SSA",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Ad Astra (Narverud) Alto.mp3",
+                  "path": "files/1NQ13zJqTtNkRa_yVMDO95dtIH4gzKQ2y.mp3",
+                  "kind": "audio",
+                  "id": "1NQ13zJqTtNkRa_yVMDO95dtIH4gzKQ2y",
+                  "md5": "ad455478a861444f70017d1d01d08f4a"
+                },
+                {
+                  "type": "file",
+                  "name": "Ad Astra (Narverud) Soprano 1.mp3",
+                  "path": "files/1GWNUefHJVBfiHmPBpr4LSuM4ePcX6yS3.mp3",
+                  "kind": "audio",
+                  "id": "1GWNUefHJVBfiHmPBpr4LSuM4ePcX6yS3",
+                  "md5": "d73061b7fb3c6a50bffef52cb54c7b04"
+                },
+                {
+                  "type": "file",
+                  "name": "Ad Astra (Narverud) Soprano 2.mp3",
+                  "path": "files/1AvMt4tB6AmAXJgGc-8k4Fqol4IFx_s0x.mp3",
+                  "kind": "audio",
+                  "id": "1AvMt4tB6AmAXJgGc-8k4Fqol4IFx_s0x",
+                  "md5": "8e09325722d44333b62d4f2cec2f2068"
+                },
+                {
+                  "type": "file",
+                  "name": "Ad Astra (Narverud) SSA - Pronunciation.mp3",
+                  "path": "files/1I2jeiK3YJNAR8AoQmgc0hA2NixIH2mEY.mp3",
+                  "kind": "audio",
+                  "id": "1I2jeiK3YJNAR8AoQmgc0hA2NixIH2mEY",
+                  "md5": "833599c98d8540d303688fc854bb4eeb"
+                },
+                {
+                  "type": "file",
+                  "name": "Ad Astra (Narverud) SSA Accompaniment.mp3",
+                  "path": "files/1wQbxJ1VQcjJHLxzMJkaNHSQQu0jyUbQG.mp3",
+                  "kind": "audio",
+                  "id": "1wQbxJ1VQcjJHLxzMJkaNHSQQu0jyUbQG",
+                  "md5": "fc744feb62e67f25e56025afdcb1d87a"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Dies Irae (Jones) SSA",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Dies Irae (Jones) Accompaniment.mp3",
+                  "path": "files/1pIlne1SxQFNVRtH17L1b3UNVS7M3FyY4.mp3",
+                  "kind": "audio",
+                  "id": "1pIlne1SxQFNVRtH17L1b3UNVS7M3FyY4",
+                  "md5": "7b9102077634a6010e8ff68a071bfbff"
+                },
+                {
+                  "type": "file",
+                  "name": "Dies Irae (Jones) Alto.mp3",
+                  "path": "files/13-ySl2X-AI1beLG6xGrofjpYvBYt86xI.mp3",
+                  "kind": "audio",
+                  "id": "13-ySl2X-AI1beLG6xGrofjpYvBYt86xI",
+                  "md5": "e5fcae39b57ea09d32dda820a4775145"
+                },
+                {
+                  "type": "file",
+                  "name": "Dies Irae (Jones) Soprano 1.mp3",
+                  "path": "files/1ISGdAWZWH9WmeQU55jhOpb7h4gXucpXl.mp3",
+                  "kind": "audio",
+                  "id": "1ISGdAWZWH9WmeQU55jhOpb7h4gXucpXl",
+                  "md5": "74a286f9bfdf8f9cdd8737688abcf21d"
+                },
+                {
+                  "type": "file",
+                  "name": "Dies Irae (Jones) Soprano 2.mp3",
+                  "path": "files/130uZib9YjabYpBZKyY9W9JTdtvvUyRlH.mp3",
+                  "kind": "audio",
+                  "id": "130uZib9YjabYpBZKyY9W9JTdtvvUyRlH",
+                  "md5": "8a135d1d54e5955dc9bf024d6d3884d6"
+                },
+                {
+                  "type": "file",
+                  "name": "Dies Irae - Pronunciation.mp3",
+                  "path": "files/1kxwUh0-SqsHz1mMZ11hogFxlmoyj5wIV.mp3",
+                  "kind": "audio",
+                  "id": "1kxwUh0-SqsHz1mMZ11hogFxlmoyj5wIV",
+                  "md5": "61ed7b84a78dab11016fbe46de8f2b27"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Lineage (Ramsey) SSAA",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Lineage (Ramsey) Accompaniment.mp3",
+                  "path": "files/1gV0TsBXpkGYzRXk7PvcRO8Yl5el17Ifa.mp3",
+                  "kind": "audio",
+                  "id": "1gV0TsBXpkGYzRXk7PvcRO8Yl5el17Ifa",
+                  "md5": "9edf6f79f897547092565f0f79c963df"
+                },
+                {
+                  "type": "file",
+                  "name": "Lineage (Ramsey) Alto 1.mp3",
+                  "path": "files/1eQSPPa4956DlDzsnI7tD4P5NTdXT9PVM.mp3",
+                  "kind": "audio",
+                  "id": "1eQSPPa4956DlDzsnI7tD4P5NTdXT9PVM",
+                  "md5": "310e6b5b085c1c429d7bdaa7961dc949"
+                },
+                {
+                  "type": "file",
+                  "name": "Lineage (Ramsey) Alto 2.mp3",
+                  "path": "files/10bnz1BndUCwdSfjRaZUh_6_Kx4toFhcL.mp3",
+                  "kind": "audio",
+                  "id": "10bnz1BndUCwdSfjRaZUh_6_Kx4toFhcL",
+                  "md5": "17247d5867da164742714aed0b613fb6"
+                },
+                {
+                  "type": "file",
+                  "name": "Lineage (Ramsey) Soprano 1.mp3",
+                  "path": "files/1mXgr7iuLZBEllbVYeUy6k66MfgV0-yob.mp3",
+                  "kind": "audio",
+                  "id": "1mXgr7iuLZBEllbVYeUy6k66MfgV0-yob",
+                  "md5": "731de6fb67d4278712dbcc4d07f4f94a"
+                },
+                {
+                  "type": "file",
+                  "name": "Lineage (Ramsey) Soprano 2.mp3",
+                  "path": "files/1s4IVfFWSsR6LtjKVkoX0-URBerk7hJvJ.mp3",
+                  "kind": "audio",
+                  "id": "1s4IVfFWSsR6LtjKVkoX0-URBerk7hJvJ",
+                  "md5": "94cf67d9c928a3807c7de06f556e0f46"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Lunar Lullabye (Narverud) SA",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Lunar Lullabye (Narverud) Accompaniment.mp3",
+                  "path": "files/1gfjvNND92HW6USTCEsUl3RX8Wn5PxdMm.mp3",
+                  "kind": "audio",
+                  "id": "1gfjvNND92HW6USTCEsUl3RX8Wn5PxdMm",
+                  "md5": "81701bda7edc3a984364d674a9b3ea87"
+                },
+                {
+                  "type": "file",
+                  "name": "Lunar Lullabye (Narverud) Alto 1.mp3",
+                  "path": "files/1Dv5r4xEzmKCvIVqX7GCLFBhftAkibrYk.mp3",
+                  "kind": "audio",
+                  "id": "1Dv5r4xEzmKCvIVqX7GCLFBhftAkibrYk",
+                  "md5": "1ff810cb8d849095ac0e71169fff478c"
+                },
+                {
+                  "type": "file",
+                  "name": "Lunar Lullabye (Narverud) Alto 2.mp3",
+                  "path": "files/1r9d-mU3fiNCFXYZoTZQF3OdNts0uExe4.mp3",
+                  "kind": "audio",
+                  "id": "1r9d-mU3fiNCFXYZoTZQF3OdNts0uExe4",
+                  "md5": "269dcd00ff333603205f47192944a314"
+                },
+                {
+                  "type": "file",
+                  "name": "Lunar Lullabye (Narverud) Soprano 1.mp3",
+                  "path": "files/132zh5F6OsKdbncyqDKMlWh4cee5g7ni0.mp3",
+                  "kind": "audio",
+                  "id": "132zh5F6OsKdbncyqDKMlWh4cee5g7ni0",
+                  "md5": "f1ff8abd49fbaf1ff0c6515eaaab8933"
+                },
+                {
+                  "type": "file",
+                  "name": "Lunar Lullabye (Narverud) Soprano 2.mp3",
+                  "path": "files/1S_WyFf78xQylgeiX1g_hRadqnwrug75I.mp3",
+                  "kind": "audio",
+                  "id": "1S_WyFf78xQylgeiX1g_hRadqnwrug75I",
+                  "md5": "e72350ac1114a3dbbbe06e2146780ae0"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Rest Not (Farnell) TB",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Rest Not (Farnell) Accompaniment.mp3",
+                  "path": "files/14lsLfc3h1xkhBDkWaMVn4cPUu5OA5N-W.mp3",
+                  "kind": "audio",
+                  "id": "14lsLfc3h1xkhBDkWaMVn4cPUu5OA5N-W",
+                  "md5": "27ab9afe95a4d75d0371140ced6b153a"
+                },
+                {
+                  "type": "file",
+                  "name": "Rest Not (Farnell) Bass.mp3",
+                  "path": "files/1Q9NMXmYX_1F5Kwo8PS8jrI2A65phdSgH.mp3",
+                  "kind": "audio",
+                  "id": "1Q9NMXmYX_1F5Kwo8PS8jrI2A65phdSgH",
+                  "md5": "3a095c9d65520ac74fa0b6efdac5ae03"
+                },
+                {
+                  "type": "file",
+                  "name": "Rest Not (Farnell) Tenor.mp3",
+                  "path": "files/1JX82mLar0kpKA96s5aGmg-dJxD51GGke.mp3",
+                  "kind": "audio",
+                  "id": "1JX82mLar0kpKA96s5aGmg-dJxD51GGke",
+                  "md5": "857624ad9950d2541d0503af4d1890bb"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "She Dwelt Among the Untrodden Ways (Patterson) TTB",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "She Dwelt Among the Untrodden Ways (Patterson) Accompaniment.mp3",
+                  "path": "files/1pWZ9wvgi0OVifFUm1WCBsxRLbbwNibzl.mp3",
+                  "kind": "audio",
+                  "id": "1pWZ9wvgi0OVifFUm1WCBsxRLbbwNibzl",
+                  "md5": "7b5c813f27d76454d2b83f4d83689d9e"
+                },
+                {
+                  "type": "file",
+                  "name": "She Dwelt Among the Untrodden Ways (Patterson) Bass 1.mp3",
+                  "path": "files/1sxcFXU2Q8Ie6XjtZsPwv7I37iblq9lFy.mp3",
+                  "kind": "audio",
+                  "id": "1sxcFXU2Q8Ie6XjtZsPwv7I37iblq9lFy",
+                  "md5": "6a8c1380ba2e4826bd95c8201e649315"
+                },
+                {
+                  "type": "file",
+                  "name": "She Dwelt Among the Untrodden Ways (Patterson) Bass 2.mp3",
+                  "path": "files/1yZ3M6v-1UGy9P2L6p3ucz3bj_x8TsUeG.mp3",
+                  "kind": "audio",
+                  "id": "1yZ3M6v-1UGy9P2L6p3ucz3bj_x8TsUeG",
+                  "md5": "193727b16ab5833efd541d45f1d156c8"
+                },
+                {
+                  "type": "file",
+                  "name": "She Dwelt Among the Untrodden Ways (Patterson) Tenor 1.mp3",
+                  "path": "files/1uSwwxsGvu6VIyVec7-XDzBH2_zI0xrB7.mp3",
+                  "kind": "audio",
+                  "id": "1uSwwxsGvu6VIyVec7-XDzBH2_zI0xrB7",
+                  "md5": "8c2a2a664f37b2639ec6ef74a667d2f5"
+                },
+                {
+                  "type": "file",
+                  "name": "She Dwelt Among the Untrodden Ways (Patterson) Tenor 2.mp3",
+                  "path": "files/1nwopLILDM6_57bEkmvx2r_P-AH1x8tjF.mp3",
+                  "kind": "audio",
+                  "id": "1nwopLILDM6_57bEkmvx2r_P-AH1x8tjF",
+                  "md5": "eed721c185ffc5d7deb10b9648ad64c6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Sheet Music",
+          "children": [
+            {
+              "type": "file",
+              "name": "Ad Astra - Jacob Narverud (SSA).pdf",
+              "path": "files/1MjEFpak0RRLeMCQQyzCOgFe29g6hg9ML.pdf",
+              "kind": "pdf",
+              "id": "1MjEFpak0RRLeMCQQyzCOgFe29g6hg9ML",
+              "md5": "09c4651fd8d136cacfaa6fb8991af00d"
+            },
+            {
+              "type": "file",
+              "name": "Dies Irae - Christi Jones (SSA).pdf",
+              "path": "files/1HV5Uj1vBk4BMXTQmnvUIfjmH8nZOOdga.pdf",
+              "kind": "pdf",
+              "id": "1HV5Uj1vBk4BMXTQmnvUIfjmH8nZOOdga",
+              "md5": "b7374cb0f30a6e57704d55615ec2da54"
+            },
+            {
+              "type": "file",
+              "name": "Lineage - Andrea Ramsey (SSA).pdf",
+              "path": "files/1lyCQrjltvB9TTCovTRRq_ZqbfjDq8gk7.pdf",
+              "kind": "pdf",
+              "id": "1lyCQrjltvB9TTCovTRRq_ZqbfjDq8gk7",
+              "md5": "5c1259e6dac36d535343bd6605a6f0d5"
+            },
+            {
+              "type": "file",
+              "name": "Lunar Lullaby - Jacob Narverud (SSA).pdf",
+              "path": "files/1Lp2yP7pqTI00ZdJ2M1Dlplai5aYwSL1h.pdf",
+              "kind": "pdf",
+              "id": "1Lp2yP7pqTI00ZdJ2M1Dlplai5aYwSL1h",
+              "md5": "4c4f5c9bdfbe118b231f950949fc55e9"
+            },
+            {
+              "type": "file",
+              "name": "Rest Not - HIGHLIGHTED.pdf",
+              "path": "files/1WYNvj1O0hVgC7TFBTll4HkT9BVeCpY5l.pdf",
+              "kind": "pdf",
+              "id": "1WYNvj1O0hVgC7TFBTll4HkT9BVeCpY5l",
+              "md5": "69fd96c4fc8ca41ed49e5f53d66af7ea"
+            },
+            {
+              "type": "file",
+              "name": "Rest Not - Laura Farnell (TB).pdf",
+              "path": "files/1Qn6SWJz8DDWEYkZVMnQcKf1XK_kkVvtV.pdf",
+              "kind": "pdf",
+              "id": "1Qn6SWJz8DDWEYkZVMnQcKf1XK_kkVvtV",
+              "md5": "3a0edb683aa3f9eba8efb841b990adca"
+            },
+            {
+              "type": "file",
+              "name": "She Dwelt Among the Untrodden Ways - BASS HIGHLIGHTED.pdf",
+              "path": "files/1tYQpoE7yczvwHipq1uz1dZMt-qF2HRMw.pdf",
+              "kind": "pdf",
+              "id": "1tYQpoE7yczvwHipq1uz1dZMt-qF2HRMw",
+              "md5": "d621fa28ccafd04c01c23891845097af"
+            },
+            {
+              "type": "file",
+              "name": "She Dwelt Among the Untrodden Ways - Mark Patterson (TTB).pdf",
+              "path": "files/1eN6TEv9G8NoyQlPrylEsptPiY98vsrfM.pdf",
+              "kind": "pdf",
+              "id": "1eN6TEv9G8NoyQlPrylEsptPiY98vsrfM",
+              "md5": "7ad605d50dd7a791689d77f72d5390e4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HS All-Region",
+      "children": []
+    }
+  ]
+}

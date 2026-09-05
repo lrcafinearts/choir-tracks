@@ -15,6 +15,7 @@ The display name lives in the manifest.
 import json
 import os
 import pathlib
+import random
 import sys
 import time
 
@@ -36,6 +37,29 @@ session = requests.Session()
 
 class DriveError(Exception):
     """A folder we couldn't read. Skipped rather than fatal."""
+
+
+# Google answers 403 both for "you can't see this" and for "you're asking too
+# fast". Only the second is worth waiting out.
+RATE_LIMITED = {
+    "rateLimitExceeded",
+    "userRateLimitExceeded",
+    "quotaExceeded",
+    "sharingRateLimitExceeded",
+    "backendError",
+    "RESOURCE_EXHAUSTED",
+}
+
+
+def error_reason(response):
+    try:
+        error = response.json().get("error", {})
+    except ValueError:
+        return ""
+    details = error.get("errors") or []
+    if details:
+        return details[0].get("reason", "")
+    return error.get("status", "")
 
 EXTENSIONS = {
     "application/pdf": ".pdf",
@@ -69,16 +93,22 @@ def extension_for(name, mime):
 
 def get(url, **kwargs):
     """Drive occasionally rate limits. Back off and try again."""
-    for attempt in range(5):
+    for attempt in range(7):
         response = session.get(url, timeout=120, **kwargs)
         if response.status_code < 400:
             return response
-        # 403 here means "not shared" or "key not allowed" — retrying won't
-        # help, so fail straight away rather than waiting through backoff.
-        if response.status_code in (429, 500, 502, 503) and attempt < 4:
-            time.sleep(2 ** attempt)
+
+        reason = error_reason(response) if response.status_code == 403 else ""
+        transient = response.status_code in (429, 500, 502, 503) or reason in RATE_LIMITED
+
+        if transient and attempt < 6:
+            wait = min(2 ** attempt, 30) + random.uniform(0, 1)
+            print(f"    Drive is throttling. Waiting {wait:.0f}s\u2026")
+            time.sleep(wait)
             continue
-        raise DriveError(f"Drive returned {response.status_code}")
+
+        detail = f" ({reason})" if reason else ""
+        raise DriveError(f"Drive returned {response.status_code}{detail}")
     raise DriveError("Gave up talking to Drive")
 
 
@@ -141,6 +171,8 @@ def walk(folder_id, previous, keep, depth=0):
         if not on_disk or not unchanged:
             print(f"  downloading {item['name']}")
             download(file_id, ROOT / path)
+            # A short pause keeps Drive from throttling on a big first run.
+            time.sleep(0.3)
 
         children.append({
             "type": "file",

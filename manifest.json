@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T20:34:44Z",
+  "generated": "2026-09-06T22:42:48Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -2093,21 +2093,21 @@
             },
             {
               "type": "file",
-              "name": "Dicite in Gentibus - Bass - OFFICIAL.mp3",
-              "path": "files/1_MW0_B9oBuUpqOJyQyOhb4UDHdXqy2iB.mp3",
-              "kind": "audio",
-              "id": "1_MW0_B9oBuUpqOJyQyOhb4UDHdXqy2iB",
-              "md5": "38852363749f0c3e4619bf1ec5afbcd7",
-              "peaks": "AABSdI9iZ0hTRziwucJTVE1Q7M7/e1CvxmyHdVsnzcTLkIg7Wtfurn2bKT1fgoddTJShZWpnloy8aG1uXHpqZYJfa2pIHU5yoYdwf0cpL0NBQDdFRnJwdm90cW+DgndmY1oodGxBSkA4OkZRSysvFCE3gYen2YaLz2BCMz4UEwsPEw8SGlBudF9fXV4vKkVNWz9dfpyLgGlPRi9RTCQ2Gm64uI9GPxJKU3xpLjIVamyLfX1bVTUziKK1QkhbXe637YJlhIVFW1lLH8rV0nduJie8sppzaCA0TEdCLzFeR0Q6NkdebE1ARJmFb6ielMDJcztw8tS3fphmTj9vWGVino5CSz1INT1GOEWClJCYR5WWf7GkUURzl3hQQyJ0jHZrbFgfXm9vVqB3Gmhbd2xavOarcLhqVy4mG4iKRFhCP1pkTT81MFdXVkhIXpyUfXtlq9aDaJh2ajMqEGCTlWqBjZh4jY2Yzr9bWmJlSisgFg0aDRiSnWgxKBQXGQwXQnp5bZuQamhHPCskGgMBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Dicite In Gentibus - Bass - SUNG.mp3",
+              "name": "Dicite In Gentibus - Bass - OFFICIAL.mp3",
               "path": "files/1z7Fg_4JXn40WugLYe-1ZSP-peSdjbY4I.mp3",
               "kind": "audio",
               "id": "1z7Fg_4JXn40WugLYe-1ZSP-peSdjbY4I",
               "md5": "158ffd3e7d8f03e77e6eb6d90dd67f55",
               "peaks": "k/B0lDIiAP86AABXcntvdRkFWVUJXQZZA4aGfpSDmpCAfJ3Ho26LeH+Ri52e5bKXy511Soipl3aKlEWFqpmYho9mdo5wrJySoXeScZ+Zm6mMlZ2KgqeRiKCYdYBejoh7c3mdf3SCl4d2iLOZkICIi4GOf5WJrKyMjpSWqZZwbX53ko+GjF56enuSe7ODi5FvdX1QcUlZRHmDX36MiJmPi52Nkqh1eImKipq6nIaMjnxwbYqPeYCQmmV9nVB4l3KGdW1be5ZvsX+tc5WOrsqZrIl2e3aSeJ3VqpqMqYhPeYGwe4KMUIR6p5OMq12HsnaRhICHkaxzhoN6loCghZGasbeMn5iTlX+aoHmUjpKLj5eApoOdipSwZJ2V05lkkJSWroyKmaeEtKWNkYiln3yhVoSZdXmSkVOGqGuDhI9kkY+Ps7CllZSpoKmOUV+QeHB1uXZ6f6Oac8Z5eaF2lXy0iKijg5WVm46Gi32PfFR3qrizjLGxtKmwpISSc4m+kYlxaXFFYThpe3+Hc41Ia2E2h3WFnXmEeodubQcBAAAAAAAAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Dicite in Gentibus - Bass - SUNG.mp3",
+              "path": "files/1_MW0_B9oBuUpqOJyQyOhb4UDHdXqy2iB.mp3",
+              "kind": "audio",
+              "id": "1_MW0_B9oBuUpqOJyQyOhb4UDHdXqy2iB",
+              "md5": "38852363749f0c3e4619bf1ec5afbcd7",
+              "peaks": "AABSdI9iZ0hTRziwucJTVE1Q7M7/e1CvxmyHdVsnzcTLkIg7Wtfurn2bKT1fgoddTJShZWpnloy8aG1uXHpqZYJfa2pIHU5yoYdwf0cpL0NBQDdFRnJwdm90cW+DgndmY1oodGxBSkA4OkZRSysvFCE3gYen2YaLz2BCMz4UEwsPEw8SGlBudF9fXV4vKkVNWz9dfpyLgGlPRi9RTCQ2Gm64uI9GPxJKU3xpLjIVamyLfX1bVTUziKK1QkhbXe637YJlhIVFW1lLH8rV0nduJie8sppzaCA0TEdCLzFeR0Q6NkdebE1ARJmFb6ielMDJcztw8tS3fphmTj9vWGVino5CSz1INT1GOEWClJCYR5WWf7GkUURzl3hQQyJ0jHZrbFgfXm9vVqB3Gmhbd2xavOarcLhqVy4mG4iKRFhCP1pkTT81MFdXVkhIXpyUfXtlq9aDaJh2ajMqEGCTlWqBjZh4jY2Yzr9bWmJlSisgFg0aDRiSnWgxKBQXGQwXQnp5bZuQamhHPCskGgMBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
             },
             {
               "type": "file",
@@ -2153,21 +2153,21 @@
             },
             {
               "type": "file",
-              "name": "Dicite in Gentibus - Bass - OFFICIAL.mp3",
-              "path": "files/14PrWYOddfEomsZszq5wJLKj7uwG68uNO.mp3",
-              "kind": "audio",
-              "id": "14PrWYOddfEomsZszq5wJLKj7uwG68uNO",
-              "md5": "38852363749f0c3e4619bf1ec5afbcd7",
-              "peaks": "AABSdI9iZ0hTRziwucJTVE1Q7M7/e1CvxmyHdVsnzcTLkIg7Wtfurn2bKT1fgoddTJShZWpnloy8aG1uXHpqZYJfa2pIHU5yoYdwf0cpL0NBQDdFRnJwdm90cW+DgndmY1oodGxBSkA4OkZRSysvFCE3gYen2YaLz2BCMz4UEwsPEw8SGlBudF9fXV4vKkVNWz9dfpyLgGlPRi9RTCQ2Gm64uI9GPxJKU3xpLjIVamyLfX1bVTUziKK1QkhbXe637YJlhIVFW1lLH8rV0nduJie8sppzaCA0TEdCLzFeR0Q6NkdebE1ARJmFb6ielMDJcztw8tS3fphmTj9vWGVino5CSz1INT1GOEWClJCYR5WWf7GkUURzl3hQQyJ0jHZrbFgfXm9vVqB3Gmhbd2xavOarcLhqVy4mG4iKRFhCP1pkTT81MFdXVkhIXpyUfXtlq9aDaJh2ajMqEGCTlWqBjZh4jY2Yzr9bWmJlSisgFg0aDRiSnWgxKBQXGQwXQnp5bZuQamhHPCskGgMBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Dicite In Gentibus - Bass - SUNG.mp3",
+              "name": "Dicite In Gentibus - Bass - OFFICIAL.mp3",
               "path": "files/1wn0h3ch_r4nUZocHqlO9TnhPVITexutH.mp3",
               "kind": "audio",
               "id": "1wn0h3ch_r4nUZocHqlO9TnhPVITexutH",
               "md5": "158ffd3e7d8f03e77e6eb6d90dd67f55",
               "peaks": "k/B0lDIiAP86AABXcntvdRkFWVUJXQZZA4aGfpSDmpCAfJ3Ho26LeH+Ri52e5bKXy511Soipl3aKlEWFqpmYho9mdo5wrJySoXeScZ+Zm6mMlZ2KgqeRiKCYdYBejoh7c3mdf3SCl4d2iLOZkICIi4GOf5WJrKyMjpSWqZZwbX53ko+GjF56enuSe7ODi5FvdX1QcUlZRHmDX36MiJmPi52Nkqh1eImKipq6nIaMjnxwbYqPeYCQmmV9nVB4l3KGdW1be5ZvsX+tc5WOrsqZrIl2e3aSeJ3VqpqMqYhPeYGwe4KMUIR6p5OMq12HsnaRhICHkaxzhoN6loCghZGasbeMn5iTlX+aoHmUjpKLj5eApoOdipSwZJ2V05lkkJSWroyKmaeEtKWNkYiln3yhVoSZdXmSkVOGqGuDhI9kkY+Ps7CllZSpoKmOUV+QeHB1uXZ6f6Oac8Z5eaF2lXy0iKijg5WVm46Gi32PfFR3qrizjLGxtKmwpISSc4m+kYlxaXFFYThpe3+Hc41Ia2E2h3WFnXmEeodubQcBAAAAAAAAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Dicite in Gentibus - Bass - SUNG.mp3",
+              "path": "files/14PrWYOddfEomsZszq5wJLKj7uwG68uNO.mp3",
+              "kind": "audio",
+              "id": "14PrWYOddfEomsZszq5wJLKj7uwG68uNO",
+              "md5": "38852363749f0c3e4619bf1ec5afbcd7",
+              "peaks": "AABSdI9iZ0hTRziwucJTVE1Q7M7/e1CvxmyHdVsnzcTLkIg7Wtfurn2bKT1fgoddTJShZWpnloy8aG1uXHpqZYJfa2pIHU5yoYdwf0cpL0NBQDdFRnJwdm90cW+DgndmY1oodGxBSkA4OkZRSysvFCE3gYen2YaLz2BCMz4UEwsPEw8SGlBudF9fXV4vKkVNWz9dfpyLgGlPRi9RTCQ2Gm64uI9GPxJKU3xpLjIVamyLfX1bVTUziKK1QkhbXe637YJlhIVFW1lLH8rV0nduJie8sppzaCA0TEdCLzFeR0Q6NkdebE1ARJmFb6ielMDJcztw8tS3fphmTj9vWGVino5CSz1INT1GOEWClJCYR5WWf7GkUURzl3hQQyJ0jHZrbFgfXm9vVqB3Gmhbd2xavOarcLhqVy4mG4iKRFhCP1pkTT81MFdXVkhIXpyUfXtlq9aDaJh2ajMqEGCTlWqBjZh4jY2Yzr9bWmJlSisgFg0aDRiSnWgxKBQXGQwXQnp5bZuQamhHPCskGgMBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
             },
             {
               "type": "file",

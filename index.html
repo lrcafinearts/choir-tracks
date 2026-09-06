@@ -155,13 +155,21 @@
 
   .row-folder {
     display: flex; align-items: center; justify-content: space-between;
-    gap: 1rem; width: 100%;
+    gap: 0.9rem; width: 100%;
     background: transparent; border: 0; cursor: pointer;
     font-family: var(--serif); font-size: 1.2rem; color: var(--ink);
     text-align: left; padding: 1.05rem 0.2rem; min-height: 56px;
   }
 
+  .folder-name { flex: 1; min-width: 0; }
+
+  .folder-inside {
+    flex: 0 0 auto; font-family: var(--sans); font-size: 0.8rem;
+    color: var(--ink-faint); font-variant-numeric: tabular-nums;
+  }
+
   .row-folder:hover { color: var(--accent); }
+  .row-folder:hover .folder-inside { color: var(--ink-soft); }
   .row-folder:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; }
   .row-chevron { color: var(--ink-faint); font-size: 1.3rem; flex: 0 0 auto; }
 
@@ -600,6 +608,24 @@
 
   /* ---------- rows ---------- */
 
+  /* What's inside, so a folder row reads differently from a file row
+     and says something useful before it's opened. */
+  function summarise(node) {
+    var folders = 0, tracks = 0, scores = 0;
+
+    (node.children || []).forEach(function (child) {
+      if (child.type === "folder") { folders++; }
+      else if (child.kind === "audio") { tracks++; }
+      else { scores++; }
+    });
+
+    var parts = [];
+    if (folders) { parts.push(folders + (folders === 1 ? " folder" : " folders")); }
+    if (tracks) { parts.push(tracks + (tracks === 1 ? " track" : " tracks")); }
+    if (scores) { parts.push(scores + (scores === 1 ? " score" : " scores")); }
+    return parts.join(" \u00B7 ") || "empty";
+  }
+
   function folderRow(node) {
     var row = document.createElement("div");
     row.className = "row";
@@ -609,8 +635,14 @@
     btn.type = "button";
 
     var name = document.createElement("span");
+    name.className = "folder-name";
     name.textContent = node.name;
     btn.appendChild(name);
+
+    var inside = document.createElement("span");
+    inside.className = "folder-inside";
+    inside.textContent = summarise(node);
+    btn.appendChild(inside);
 
     var chev = document.createElement("span");
     chev.className = "row-chevron";

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T20:23:26Z",
+  "generated": "2026-09-06T20:34:44Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -2135,7 +2135,7 @@
           "children": [
             {
               "type": "file",
-              "name": "Afternoon on a Hill (Barnum) Bass 2.mp3",
+              "name": "Afternoon on a Hill - Bass 2 - OFFICIAL.mp3",
               "path": "files/1U6oBtGDbOPXzU8goWOIebV90ArqEcGeN.mp3",
               "kind": "audio",
               "id": "1U6oBtGDbOPXzU8goWOIebV90ArqEcGeN",
@@ -2171,7 +2171,7 @@
             },
             {
               "type": "file",
-              "name": "Miracles (Frizzell) Bass 2.mp3",
+              "name": "Miracles - Bass 2 - OFFICIAL.mp3",
               "path": "files/1t8uDh1KWGH68baI-4U7nEETD9FLogIbs.mp3",
               "kind": "audio",
               "id": "1t8uDh1KWGH68baI-4U7nEETD9FLogIbs",
@@ -2180,7 +2180,7 @@
             },
             {
               "type": "file",
-              "name": "Miracles TTBB - Bass 2 Predominant - J.D. Frizzell.mp3",
+              "name": "Miracles - Bass 2 - SUNG.mp3",
               "path": "files/1s-vn-s7zRLbnmH50zeHP6bSQE71xg5c9.mp3",
               "kind": "audio",
               "id": "1s-vn-s7zRLbnmH50zeHP6bSQE71xg5c9",
@@ -2449,7 +2449,7 @@
         },
         {
           "type": "folder",
-          "name": "\u23f3LEARN AFTER PIECES (OFFICIAL)\u03a9",
+          "name": "\u23f3LEARN AFTER PIECES (OFFICIAL)",
           "children": [
             {
               "type": "folder",
@@ -2764,7 +2764,7 @@
         },
         {
           "type": "folder",
-          "name": "\ud83c\udfb9Accompaniment Only Tracks-",
+          "name": "\ud83c\udfb9Accompaniment Only Tracks",
           "children": [
             {
               "type": "file",

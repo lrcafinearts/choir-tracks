@@ -700,7 +700,7 @@
     var sectionBtn = document.createElement("button");
     sectionBtn.className = "section-btn";
     sectionBtn.type = "button";
-    sectionBtn.textContent = "Repeat part";
+    sectionBtn.textContent = "Loop a section";
     sectionBtn.setAttribute("aria-pressed", "false");
     sectionBtn.disabled = true;
     under.appendChild(sectionBtn);
@@ -908,7 +908,7 @@
         loopStart = null;
         loopEnd = null;
         sectionBtn.setAttribute("aria-pressed", "false");
-        sectionBtn.textContent = "Repeat part";
+        sectionBtn.textContent = "Loop a section";
         drawBand();
         drawTime();
         return;

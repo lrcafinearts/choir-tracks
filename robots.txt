@@ -1,0 +1,3 @@
+# Not for search engines. Students reach this by link or QR code.
+User-agent: *
+Disallow: /

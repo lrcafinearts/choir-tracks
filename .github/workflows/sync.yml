@@ -1,10 +1,15 @@
 name: Sync from Drive
 
 on:
-  # Every hour, at 17 past. GitHub runs scheduled jobs when it has capacity,
-  # so treat this as "roughly hourly" rather than exact.
+  # Times are UTC, and shift an hour against Little Rock at daylight saving.
+  # GitHub runs scheduled jobs when it has capacity, so these are roughly
+  # rather than exactly on time.
   schedule:
-    - cron: "17 * * * *"
+    # Every 10 minutes during the school day, Monday to Friday
+    # (12:00-23:00 UTC is about 7am-6pm Central).
+    - cron: "*/10 12-23 * * 1-5"
+    # And a few times a day the rest of the time, to catch evening uploads.
+    - cron: "37 1,5,9 * * *"
   # Adds a "Run workflow" button on the Actions tab for when you don't
   # want to wait — use this right after adding tracks before a rehearsal.
   workflow_dispatch:

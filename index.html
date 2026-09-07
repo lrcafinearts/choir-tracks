@@ -335,6 +335,11 @@
     margin: 0 0 0.6rem; padding: 0.8rem 0.2rem 0; max-width: 62ch;
   }
 
+  .prompt {
+    font-size: 0.9rem; color: var(--ink-soft);
+    margin: 0; padding: 0.9rem 0.2rem 0.5rem;
+  }
+
   .msg strong { color: var(--ink); font-weight: 600; }
   .msg-list { margin: 0.2rem 0 0.8rem; padding-left: 1.4rem; }
   .msg-list li { margin-bottom: 0.3rem; }
@@ -1064,10 +1069,25 @@
 
   function paintCrumbs() {
     crumbsBar.innerHTML = "";
-    crumbsBar.style.display = path.length > 1 ? "" : "none";
+    crumbsBar.style.display = path.length ? "" : "none";
+
+    var home = document.createElement("button");
+    home.className = "crumb";
+    home.type = "button";
+    home.textContent = "Choirs";
+    home.addEventListener("click", function () {
+      path = [];
+      choirSelect.value = "";
+      var all = groupsBar.querySelectorAll(".group-btn");
+      for (var k = 0; k < all.length; k++) {
+        all[k].setAttribute("aria-current", "false");
+      }
+      render();
+    });
+    crumbsBar.appendChild(home);
 
     path.forEach(function (step, i) {
-      if (i > 0) {
+      {
         var sep = document.createElement("span");
         sep.className = "crumb-sep";
         sep.textContent = "\u203A";
@@ -1093,8 +1113,59 @@
     });
   }
 
+  function chooserRow(choir, i) {
+    var row = document.createElement("div");
+    row.className = "row";
+
+    var btn = document.createElement("button");
+    btn.className = "row-folder";
+    btn.type = "button";
+
+    var icon = document.createElement("span");
+    icon.className = "folder-icon";
+    icon.setAttribute("aria-hidden", "true");
+    icon.innerHTML = FOLDER_ICON;
+    btn.appendChild(icon);
+
+    var name = document.createElement("span");
+    name.className = "folder-name";
+    name.textContent = choir.name;
+    btn.appendChild(name);
+
+    var inside = document.createElement("span");
+    inside.className = "folder-inside";
+    inside.textContent = summarise(choir);
+    btn.appendChild(inside);
+
+    var chev = document.createElement("span");
+    chev.className = "row-chevron";
+    chev.textContent = "\u203A";
+    chev.setAttribute("aria-hidden", "true");
+    btn.appendChild(chev);
+
+    btn.addEventListener("click", function () { selectGroup(i); });
+    row.appendChild(btn);
+    return row;
+  }
+
+  function showChooser() {
+    players.forEach(function (p) { p.audio.pause(); });
+    players = [];
+    panel.innerHTML = "";
+
+    var heading = document.createElement("p");
+    heading.className = "prompt";
+    heading.textContent = "Choose your choir";
+    panel.appendChild(heading);
+
+    choirs.forEach(function (choir, i) {
+      panel.appendChild(chooserRow(choir, i));
+    });
+  }
+
   function render() {
     paintCrumbs();
+    if (!path.length) { showChooser(); return; }
     paint(path[path.length - 1].children);
   }
 
@@ -1134,6 +1205,11 @@
       groupsBar.appendChild(btn);
     });
 
+    var placeholder = document.createElement("option");
+    placeholder.value = "";
+    placeholder.textContent = "Choose your choir\u2026";
+    choirSelect.appendChild(placeholder);
+
     choirs.forEach(function (choir, i) {
       var option = document.createElement("option");
       option.value = String(i);
@@ -1142,7 +1218,8 @@
     });
 
     choirSelect.addEventListener("change", function () {
-      selectGroup(parseInt(choirSelect.value, 10) || 0);
+      if (choirSelect.value === "") { return; }
+      selectGroup(parseInt(choirSelect.value, 10));
     });
   }
 
@@ -1167,7 +1244,8 @@
     }
 
     buildGroupBar();
-    selectGroup(0);
+    path = [];
+    render();
   }).catch(function () {
     showMessage("The file list hasn't been built yet.", [
       "Go to the Actions tab and run \u201cSync from Drive\u201d.",

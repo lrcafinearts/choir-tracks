@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T20:33:27Z",
+  "generated": "2026-09-07T22:59:26Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -97,6 +97,19 @@
                 "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-14.jpg"
               ]
             }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "JH Boys Choir Syllabus 26_27.pdf",
+          "path": "files/1CR65uMStEv-6MiPBWt-O1OadetmzXuJf.pdf",
+          "kind": "pdf",
+          "id": "1CR65uMStEv-6MiPBWt-O1OadetmzXuJf",
+          "md5": "6885f617c9896dfb9705c1079c9f43bc",
+          "pages": [
+            "files/1CR65uMStEv-6MiPBWt-O1OadetmzXuJf-p-1.jpg",
+            "files/1CR65uMStEv-6MiPBWt-O1OadetmzXuJf-p-2.jpg",
+            "files/1CR65uMStEv-6MiPBWt-O1OadetmzXuJf-p-3.jpg"
           ]
         }
       ]
@@ -215,6 +228,19 @@
                 "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-14.jpg"
               ]
             }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "UPDATED JH Girls Choir 26-27.pdf",
+          "path": "files/1VtF4iyA0DKL9vNWLUdQfFu7w8erPYvyS.pdf",
+          "kind": "pdf",
+          "id": "1VtF4iyA0DKL9vNWLUdQfFu7w8erPYvyS",
+          "md5": "aabdb7b21f91bd96e61ffe963cb5a87c",
+          "pages": [
+            "files/1VtF4iyA0DKL9vNWLUdQfFu7w8erPYvyS-p-1.jpg",
+            "files/1VtF4iyA0DKL9vNWLUdQfFu7w8erPYvyS-p-2.jpg",
+            "files/1VtF4iyA0DKL9vNWLUdQfFu7w8erPYvyS-p-3.jpg"
           ]
         }
       ]

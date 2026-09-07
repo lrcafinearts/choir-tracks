@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T22:42:48Z",
+  "generated": "2026-09-07T06:37:39Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -27,124 +27,28 @@
               "peaks": "YlRpZGNLdkRFOC9YZltlbWxYTEtUe2JGM1ZtYUkyUE9WSVJDSzIwKRtQdFhTM1lsU18+SVBYUlVkTU5WLWOflZaHfLVdc3M3tqWRf7ugmZeVdLq4vZKFsKp2iluIt3ykrdm1nJ5+y5R/MSYfaaONj57Lo8+zzp+7rK6hmaaVbUNrw9CoprjEv628scHa/6fei6DdqJtk28eiorKuu4ujgZniqpvSraXds6jR7KjEmMK4kJaLtLirmLPo2dae0qRXZ51+tXxxoHeQy26AlIm0foifiZiVva+9t5+JzLW7pobAxtzEq77ip8+tu8TMx4vIwKG814y2t72We+Tf48rB3dewommjt7/QxaLF8cfb09rS3dzfneWztbO0yL+f0ajFtJ+j167PorXBX9GvpX+N3KeQiLLFopLYmtyYv5qSmZN1SmZ52ca1psLVyLPJsuzGrp3Un6X5v9je/sqfos7Rubl3uceQ09HF1d6j1aLL0JXQqOO13Labn8OMxs7izKPM3fa8xcy1w+msjtbI37vsxLW+r7fD5bi+pru2rb00DAMAAAAA"
             },
             {
-              "type": "folder",
-              "name": "Stereo Track Rehearsal Points",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "01 Because of Jesus - Meas. 1 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1FNwzVFUeO6SSVv7w6Znw-qFfvbAXRwXP.mp3",
-                  "kind": "audio",
-                  "id": "1FNwzVFUeO6SSVv7w6Znw-qFfvbAXRwXP",
-                  "md5": "7958bb1dd363b9975b08ae9a3b858c94",
-                  "peaks": "AAAAACtezqywm6l7hX6NjNfc6qWRk5iIhYfNt5SCbYqWmZCintOsiYWrgo+HeoPp/6eMjYGPlnlzg5J+eoF9k5V/gn+BjnWBcHh2cWhpbGVoXVJdXV9iaIC1oJN2hHyHlJaS462pw5O4sJWOkL/Dloiek7vcpYav7b/Xv7rT3Lmcv9vxxrC1sqe9u72esJWapp6QeIeUiaqKfYeAcHRycoh+cGNjT1NNXkVIRZ9+ZW1OUVA/NC8yLCkuMDY/Mz82KSUsJSMtIiMdHyElKCAgIiYnIR4dhnxMR0pKPTs3OTc2MzUnJSMuLiMgJScmJR4hHRsZFxkYIR8dHR0YGBgaZkA5NCkzKCQdI0w0OzEnNCouIyQrPC8vKicuJycoKU45OjQzMjAqIig3RDk4NUE6QDcoLTQ4LzowMi4xNDkuKi0xNjQxLjMxUU8/PkhASTI0O0R7fnBmVVY8T09DQEJGNjs4OCwyLz82NzUtLyouKigpMi4qLSYYJCQiHVJbQkIyOz0wIickHh8dHSAjJiEhIiUgHiEZISAfHBMaIiglKB4eGxob"
-                },
-                {
-                  "type": "file",
-                  "name": "02 Because of Jesus - Meas. 11 - Stereo_1701Y26P050.mp3",
-                  "path": "files/148MHF8hrA1sGo--WAsft38npUn91VwXX.mp3",
-                  "kind": "audio",
-                  "id": "148MHF8hrA1sGo--WAsft38npUn91VwXX",
-                  "md5": "6970f595d1305b6f2dca4754ff0af225",
-                  "peaks": "sXJnYEZBRj9KPDw2cl1GU0hAQzo1QEA8gz5FT0Q+NUA2MzJoa1FKUk9DS0M/Q0OGh32Nh1pVYmJaWWl+aGqATE5OSmBiWlNlS0lgWUQ2RlBVPUhTSU9NVFlTZViVrPX/oaa8y6SZspqtrL24spOYq5CJeHSShWiAkZZlVml5YFZrcmp1Xl1Wa1ZgZ1mN0PXlpsBtf3aZn4PdtquerHeGbH90d4aDgGZsZWx+W2JZd22LbGVlTm1bSUV0bIqih6KOxbB/bGmJbndrcVtmSVhshX56l72xn4yepaSpn5JueXp7lXN6g3ByTmpis46QgIGEgoN8Y3bBlYpoeG1sVmRma11oal1VQkhORVdGSD5BTDUwNS0nMTY4ZOnEm7SnkJqOe29ycnqig46Zq5R9l6eElKWajI6dg3WBkH1jtnNydX1mWGF0fK68yr+5o46HhXWCfoV5nYJ8anVtZGxxbGFwdmZvbVhebHRMWmlWUVxTTVZWSDtTdHi6o6mHi4GFf3qbbH5uaWd0dG5bUWJyj/ilubKOgZmeeoNnb5SjcKOCg8qXgcvS"
-                },
-                {
-                  "type": "file",
-                  "name": "03 Because of Jesus - Meas. 20 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1cqSk-fk9o6tLs-ko3HHN7Y3-Y8kyKnZq.mp3",
-                  "kind": "audio",
-                  "id": "1cqSk-fk9o6tLs-ko3HHN7Y3-Y8kyKnZq",
-                  "md5": "3d3703c858453963bedbfc7a3de9abc2",
-                  "peaks": "sbJzYUtZWFRMYE5VX1WrVVVca3RUWmNASFmLuFRRYltYVlpCSlpHQLexWFRSUlhKTU5DSmGarmdZYlhmTkpgSE5MWFBVRUNEUDQ2QUNDPklBREI/NUBCS05SUllCSz01Miw0MzA8ODo4P8BMZmRaRkZUTU9eeFraTW9JTT5OYVNaX1ZXv1dCSU5MT1NRUVBIT/9la2pZXmNgXWBpbGLIX3pvYWFSS0tCY1lYk6Z4Xm1aRHBzZWNfgWLLaFdpZ1hlW1NVZVpi1XtsbntdX1RaXW1qWstYalpSZGZOU1aMbGbbcGxsWmRzg3Nra2BD4ZNfbmdfVWxNZ2BVS7SvcmBWX2NbX1ldcEvclGCEl3BOSV5Zc3ZhwqlZaEZOYYxnSlNob3TaWWVdXnRdXmFbaVB252xuZ0dXYFZWT19bV9Vza2FxaFdyeXFaWlu+WGFdZl5aZ2RbTEtX5GRJbmROTnOAZV9qZOJmTFRfW119dWh4aWXHpnhkaFRqeo9rUk9cZdR7W1NYbYVvfVdiXVXVTEBJRU6hkGheU1Bhz1xLVEdOhpZZcFNq"
-                },
-                {
-                  "type": "file",
-                  "name": "04 Because of Jesus - Meas. 28 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1mky-5Z6QG_G0fzvBQbv6gcsFRVauSpWT.mp3",
-                  "kind": "audio",
-                  "id": "1mky-5Z6QG_G0fzvBQbv6gcsFRVauSpWT",
-                  "md5": "841f2dd0c01e86eca2f1fd6e7cbacce0",
-                  "peaks": "46JxaF9eboV7hXpdYePKb2VuZ3WFg2hfXmaX9mtmUl5fh1xPSVpbgNxpYGxcfGubh1VpgYf/iGlygnVUcIJihHN4u4RzYFRZZ2tzeoVnU9RoaJ96Y6efhHSqenyYZmbqmXehnLeBjXSC+XVdaW9bbJZaWFtTWKGGZWZZZWNpZWdlZlzE7F9ZY11jzWFPY2NtfoB4an9eXFprZGlbZ5f8a21nYGFselprZmR9nXV5ZVh4cXxobVZSWN9JVURMUtKncG5jX1t9lmJxWFpeaWhxXmhp+W9mVVJhYV5bX2drYYOaaWFjXFx/YFheY2rOq19PWF5T3F5dZl5eioR5W31dYFRcVVNgYYLKdGFYV0NXcV5yYWtlmWaVUlVjZnZwaXhoY/BtcV1RS2XOUHF0X1m9cmx1goR/dHZriWZW5ndlYk9fcWt8bX2BkYqDgHpdYWBramxgXmmty2F1Zl53yGZTfWZhe6yFY2llYlhlamR/Xlr2YFpbUVhiclxqcmhzxV1gY3t9UWJOVlthZNFmXnR6eNiNZldPUVmRgGRjVk9cc1ddZmJb"
-                },
-                {
-                  "type": "file",
-                  "name": "05 Because of Jesus - Meas. 36 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1_Qv-4iAzvIbM6tAiNgmuj2lTtGgf9eNn.mp3",
-                  "kind": "audio",
-                  "id": "1_Qv-4iAzvIbM6tAiNgmuj2lTtGgf9eNn",
-                  "md5": "61dac6ee57d8f66bfc8172d75e231887",
-                  "peaks": "7GVrYm9UVWFcaGt3V5B/gGZoWWGDbnRrbGzKeGhcU1Zq2H1ubUxTnIh2dllhaWheWnOWd++vbGBZfntgYVljWVWVqHN9fn13kHVriYh+a/FXfIpTbJefgrKMdWyraWmVgnl3d3p0cnBZ219bclxaW/BrWmlfa9meb2VyZl/ZT22kgZHduV9gj4JvyFpcV1FgiOVvbW9pX9lgT2Bva33Oim5aTVnjx29kZ1l093hscGJfwd1rcn1we8BSUYR+Zpvgc2BwUFvUnohkdGVf5XN2ZH1l9oJyZ2tlfeFyZ3Zka8Hbc3uQbmbTX2xVfXJ3zXl9tXl9rHtvlGNVq9uBcWJvctxyRmF4VnfXgmhzal3/i2loXV5r32tfc3Bufax0lqF6oOR7bYGVcH7eZnV4fXTahnhzd3Jj6nBng3Bk1mRPUF5mVrpBSlFgZY6+bG9miGXfcV2Jh31ztXSohohm74RlXWptifVwXmBpc7ffZmNwUWnYjGRiZE9x/HRfYH5i4ZVxXXh9aNFka3qAabiQgZyClHazgnuHbWyV1mJzdl9z0VZzX3WY"
-                },
-                {
-                  "type": "file",
-                  "name": "06 Because of Jesus - Meas. 44 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1KWBj4buHO463-SJvmIhmzrsDlCVwWWFE.mp3",
-                  "kind": "audio",
-                  "id": "1KWBj4buHO463-SJvmIhmzrsDlCVwWWFE",
-                  "md5": "d4f8c7200e175b695f4533985e991785",
-                  "peaks": "yIROWktMxHV5lH559HRtiHRdxWJZfF2MzWd/fpe70GVtg23ZgWZpWFnpZmNTXGG+d3BbWFjOXniKZIDiaXV8d8LXV3qRda9yZJaDb9RbW5JWfLlrT21lXe6Cbm9+m8dkWllv3X9TS0pI0Yd+Y2NQymVkd3R+vV5uhGpiy3lrYmeWwmdmaWz9hF9jWlHOcHFjP0LFjmFvY2O2YHaHXFrYXll2b3PZZIuGf9OhV3lwYfOgZW5pZtheWHNzZ7VzUFNaYL90bGJso8yGa2Jxy5Bta299zXdRhWxkrF9lWE12921obWBOqmlsaWlw029SXlzGqXRvalHQemmDdma6e2aOYV3HenqAdnTKZFdraozQhFVfcNJvY2RgesB5W2Zpa81qS29WVMxtVIJ5e7pjVWdna8VmZ312u9liZWVqps9lgmd2yXdgZHKFxHFgbGJgxmFihWpo4oduc295xUxqd2HHoWZ5bGC1ZmCXe4Hof352W1j/d2OAbnLphHFwZ+TWXXdrcuRvXm+Icc56ZnVyb+JjenR6eM5qa4t3ddN3gGtwid51f5mS"
-                },
-                {
-                  "type": "file",
-                  "name": "07 Because of Jesus - Meas. 53 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1l3bZKGBcSMkvaZVb1fYpgEwIAcEdnsKd.mp3",
-                  "kind": "audio",
-                  "id": "1l3bZKGBcSMkvaZVb1fYpgEwIAcEdnsKd",
-                  "md5": "849c8f0aa89e7ca401d314232a139a3d",
-                  "peaks": "qpSQb3ZxbMGLbHF4aVzDrHZdj2Z89at9dIyJbd2JaYGOg2XQu2pxc3deyaF4nHdra9rAbnx3hmGmw4V1oWFsxLlpcJRtd+CMd1tNTDPgcXBaZ2BhVWAuJyAiGh0YFRUVFBISEhIOFxEQe1pORicqJvZ1W1ZNRUjrYFBISkxL4KxdUUtRTtfJZUtSUj7pi2dQVmZMUVtKVlRUUZx8ZlReWVphfk9PYUxe9oheSk1NWMKdZWxhZV6VhnBxa2tfbWFZX218aeRrYV1jY1VdZmJXX29WfH2Ge26JcFh8dltmZ3L4p39VZmVW7oxiaWZsY52ahn1ucn5deGtkV2pg6LB+XVteYmd3Y2ByY1qKgnl37XJoeYBlbWh5YP+9ZGV/gm6kqX6y1Glgk6SPdr6JgKKjiZeMhW3d3INkbWBiY15nZEtcYXuEd4h7kGuLdGZ0U2xnZmc+NzE3NGo7O0FCNTJpQk5GSz9AQEBHVj5BNWP5bWhlbWtYZWR0bG5hl458gox0cnlvd4JwYWWOymZ9c3t3dNZeWVlsY22kbXB3cmprcWVwaWZ5"
-                },
-                {
-                  "type": "file",
-                  "name": "08 Because of Jesus - Meas. 61 - Stereo_1701Y26P050.mp3",
-                  "path": "files/18sW3AOy-wLcBrxxtFHoN-kDd-IG56JEa.mp3",
-                  "kind": "audio",
-                  "id": "18sW3AOy-wLcBrxxtFHoN-kDd-IG56JEa",
-                  "md5": "aa941b79266ac7a39e73e772ff4360fa",
-                  "peaks": "6Hhte25id3ZmZnJphndybmxvcHlscG1+0mtoV1Fn9U9OR06BoV1iVE5VYmZqUlPVV0lRYGhkYFdfUZiZYnhzZ1tyf39QUd2cRYFeTvJtRVNcUYljZU5PZ3RXYG6ErdWIjZ1/cm5hbGp3ja2neoWYgoNm3GdVfJ+BiImS/GCXbGuQnouPfIGt635vcnlTTSYhICUeIBkdHBgXGhIWFxJ3ZUh0Y0rWd2tpYnH+c2NfVYJme11YW+apXl1PUv9zaHx1b2hvZGZhi5R+c3RkWW9qbGFg6X1fZGJoz4NTW21dlGteeGxWW1tTT2Bg7lVaXFVWblJdUlqNjXJpi3xUWk5ibXvYS1tdTl6/YVtpXVmXdXBLUFJjX1dxT8yLUlFXYcWcY1lpVJZqbV1WYvFleHFscOh4foFcY2FH46OAg5Vr3WhjzZiUhoRv5H15hnBhalxiWmhrrXlpd2hael53ZWr5akdUW07XZ2BZVmOXZmBbX1l0cV1ycYnnb3dkYmhkaGdvYpOQe22Gbld8ZHF/dflqbXdbX9hlbnB3rZFnc21bdnaDaGN7"
-                },
-                {
-                  "type": "file",
-                  "name": "09 Because of Jesus - Meas. 70 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1xM-GMnCmR-uL0tIpCdZNvgcZImcYIRtK.mp3",
-                  "kind": "audio",
-                  "id": "1xM-GMnCmR-uL0tIpCdZNvgcZImcYIRtK",
-                  "md5": "02d946060c6140c0f3404696ec41218f",
-                  "peaks": "avKtcnR8Yn+FY19jZFdZg2tzb2B6fW1tb2lriJCliX+CfGt7c25wbGybgXN1bWyCbWFnY1uH73FyaWtxk49yhodkZdyYbWyEcWh5jH16eHS6pVB3Y22IWo97ZlpeZYFrY15hYG52XHVfY/+lWHJgZVpgY2Z6dGlvdVp6bF5kaW9daGlVjdxzlWV+fmpqbIFtYVJ6UXRqY3h9a4BmYHaH2YZWam1qkZdhdGVlXq2Mb3Redpl+bol5eYyxuX+Ah2T9019MZF11e6J+gm1oaXpiaGFoheafc2JnbHhcX19hZVd1bm14dHRudGxhb3trr3eNZHN6WmR4Y4BrcFdxhnZxen5vanNkeXB83XVWfnF4fnZiYHaHatSliGFzanZ6dIGHgrCEpYJtcm94aGRjU1pybFpbRko+b4ZkpHWBeN2qf2Z4X2BXVFJgWWa33EZgVVdeVUlPVE5ifJCJhXdzZmJ4emFeW1BbUmlsZGdNXFJWV1iJ81l9Z3SIi3p3aG93W++yb5WAhXV2ZVxrYpeMcHd4bYR4eGmAYV5hcmxvY2ZaTlZlZmJe"
-                },
-                {
-                  "type": "file",
-                  "name": "10 Because of Jesus - Meas. 74 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1cwBcuu6Qc1c8spw9pz5s82ApCbPxK1HL.mp3",
-                  "kind": "audio",
-                  "id": "1cwBcuu6Qc1c8spw9pz5s82ApCbPxK1HL",
-                  "md5": "3e9850ba7470f2c2f23f892c2326df47",
-                  "peaks": "/5BodWpcas5tXXhwXsZnVmFSUFvhcGlsZlzIxW1yXGRV7Wp2WXB6ftlpaW5paNlzYWRgZebHVFFraWPJYml6b2Kt+G+BeWxb53Nde2hgzKeQe5KNd9yGb5OCcOvJbX+odW+RjmCyi267p194hm1qe1pgdFVqvZJjY2FfYGFpcNhvcaR+blVgYnfVTExJUmDZv3JcWWRj4GliYlhq59ViaJOCa5KOeXXgTUjYdl9hXm1cin6GjWBiZXnMa2VeZG9alXx6ZspZcI+aj3+Jl3BxXm2NanZvZm9pYnJNThwdGRMVFBcUDA8SDQ8OEBAPDAgRCgoMDGxkQi5kMTA9Vzk0u4U0UFdmTEdnOTonaWJKOTUoKzBRePlrY1xeXl5dXF5qZm5yeGtrXmBzc2tlWmZka2Rqc2Z7cWpzenyMgWRbXmRWXFJiVlhfn2RnWoNvgmJiaI+bkoZtdm9bSFdNOlLdcGBycWtqaGlueWFRTEA3KR0YFBMWFBELCAgHBQQEBAMDAwICAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-                }
+              "type": "file",
+              "name": "Because of Jesus.pdf",
+              "path": "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L.pdf",
+              "kind": "pdf",
+              "id": "1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L",
+              "md5": "30eea5beb3ff8f0f143aef85d8755b88",
+              "pages": [
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-01.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-02.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-03.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-04.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-05.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-06.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-07.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-08.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-09.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-10.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-11.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-12.jpg",
+                "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-13.jpg"
               ]
             }
-          ]
-        },
-        {
-          "type": "file",
-          "name": "Because of Jesus.pdf",
-          "path": "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L.pdf",
-          "kind": "pdf",
-          "id": "1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L",
-          "md5": "30eea5beb3ff8f0f143aef85d8755b88",
-          "pages": [
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-01.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-02.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-03.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-04.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-05.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-06.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-07.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-08.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-09.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-10.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-11.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-12.jpg",
-            "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-13.jpg"
           ]
         },
         {
@@ -170,235 +74,28 @@
               "peaks": "AAIDSUlWRVBAWWtOPjtSUT1FRUhBgp2dnLt+kaaHmGOQgaGHb4ZvLSsyimlzOp2gaF9stLt+zLOVjGtkq5udkKactoqFiGi9gWWUlp6ZmWx1inxAfb2doYR2vKeZmYujrH12T3ioh695UJevfX11k32IfpyEfHGry5N//ci4uKy3zbXctsyEnLmSoHWvs5nYhcaBQUeW0q3zuqHUs9WXq+Ch5KWKmoOdiZakoda0oJuCy4+AooatrZOMinGvy4J4oLaZtW6Zns3Kv8x7r6Bx8J3g4qB1wKe1ppzKgprCkobRhYTE35anu6zPpcOXwMvc38u6tdG2rnrIt563nqKKdnzPpsDmrqnBzMOqzqDCy5i7nYmempumiKqumbqRh4SbhpGXqIeZkoBRk6m8r5Siio2Vmnunu7egaZSXlaiSg3CxnJF3XV7FhCd+fn1yRxdVqHA5dXl9bIKbvfOt0JR2u5fWlZ231X+gjn6ul3z5tLTAv5T/lcWxqqeus6d6bbO4o7DSpsDcrqeZuGCsdZWlo4iEgoGGQScbFxELBwUDAQAAAAAA"
             },
             {
-              "type": "folder",
-              "name": "Stereo Track Rehearsal Points",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "01 Dusty Bibles - Meas. 1 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1Ev8x_x8ousZqvbYz63U2WF5pwjNqvam9.mp3",
-                  "kind": "audio",
-                  "id": "1Ev8x_x8ousZqvbYz63U2WF5pwjNqvam9",
-                  "md5": "5edfbc6e546501a62c31eec97337e00e",
-                  "peaks": "AAAAAQEBAQICAgICAwMEBAUFBQYGBgcICQkKCgkJCQkIDpStoZyEn5t9lO27va6zxZ2SpKKTn9StuKOAu4+IrZWmjMHSsZ2XjpR8nY2IiZSYcnhze3N7jMKofpd7dIGjhnRvv5+smo53fnSCuX2sk6qii2BpZHOypHd+r62NdpuZkZD/8tPDu8TAmriRjJeFhH92aImvq4iTloqWkYeZkXJgT2eYiG+OdYZ7opWgjI+xwKyLhah/vcLCvMvAu8ybxNuMxtuzoraDjIl3j3t6j56QoayTjHCZkH16hMvDk6mfaGtxcZN1k4iFhIqUeHyNs6jDqqi+qZK6kJWjjLXbx8Oxup7MvqCrnZqTn67KpaajlXx8k4FtcIuSj7yhm4qBs611ic62hIN/fYZ3znx0bZVwj3yNtpOJnqJ5Zol4hmudlGmSvpiaoaOcmnWZoZijkIaBZZFxYFKCcWdofW5jdqOBdWWcqIN9eX6Ee3uGf2dyf4KYdouDdp20m42RjJiLooitlaaokYR6aGJnlot9XmFpW1B1rrSCcWxnYG98jFt2bXlx"
-                },
-                {
-                  "type": "file",
-                  "name": "02 Dusty Bibles - Meas. 7 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1tFVr2BoZP8SfUS2yIKqk_v_vOkVLFkLC.mp3",
-                  "kind": "audio",
-                  "id": "1tFVr2BoZP8SfUS2yIKqk_v_vOkVLFkLC",
-                  "md5": "f0cb588c4209c97c474ac872676946c7",
-                  "peaks": "WUgyMTQzUkU4UVBAOEg0NkdVN0QwQDNRQUBVSElAOjc9QUBKSUVBTzo1UE5FQT1CRUdGKDo9PzQ0NCs1OSU3Ozk2OjFGWUBKREc2TFJAXkxRR0pIR0FIOUlCSkFZSj9KRElfPUAzOS9BxlZWNC0gQEc5OVRkTOV2WVdIPjlFSENCNjnydVtFQ0Q9Tzk7TTxF2sBNP05AMTM2QUU9KaXcVUZIOUdSWENETE5L1ENPPDs5Q1tPRk5NYt5tTFVWOjo+Nzk3KivUUkBLNikyOTY7Nyco1KdOMDU8N0g8PU89Nd+hODw8RUFFQDpPTS+o6WpOPTMuREs8SCg8Q9ZkOzYyLzsvJzEnLzz/ZlJPTUg2SEdHQUZKyWtLT0Q4QjUvQUpFQPVqTTg/O0I4MyozMDHq0DUzLDUwQUA1MzQ+8tJWTDZiRElBQERTQEfcX0pQQ0NSW1BHPTtX5XtcV0lEPUJHQkc6TdZTQTQ3Nzw4QzQvLTDugU87Py0+Qzo9PzM12YVKVVtERURIQ15KSNLBVUo4QDlLPTM4Qjs37Es9P0hGSEU5Nzo2"
-                },
-                {
-                  "type": "file",
-                  "name": "03 Dusty Bibles - Meas. 15 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1U20_FeFvE3qwGCa_lCy-d2j2WW1e9Bfn.mp3",
-                  "kind": "audio",
-                  "id": "1U20_FeFvE3qwGCa_lCy-d2j2WW1e9Bfn",
-                  "md5": "ed0990156b8c4d8b4e137f2894090d41",
-                  "peaks": "ur5NPj86QUhFQUBPPkLSTklaMy07RkJGNjY8vFVWREE8MTo8PFM6RL5eTDVSOSlAQUQ9Kjq+aU4zNi86NzQxSS0xqqtGNDk2MjIwRkBJP7auPDkwMy5GMy8uMSq6ljcxQUlARTw1OCwmvrRhXExIUFtiWFVbVpi7YWJgWltid2Jjb116/2hgV11oWmZsZHBabNhhcWVmXWdiaVN2VGrcY0RWTEZoW1tYXlVz6otfUUdHW1FcWWFZW8ybX1JMSW5IUURiXlvtrFRRVUlja1tRVkpGatNeWltVTWdsWmRrT9LWZWBhXFx2XWRpaVVg3Gp1VFtXV1ZSUFZUZ8tVaV9cYF1YVl9tYVjDY1RHQUpwhXBlYFVhvqpgWkpJVlteSU5RR96pSk5MSmliaGRZX1rOuWduYFdiak1LVlRCutpeYmNyaGtuY2ZjW23BmWlnXGOJW19tVllf1Y9RT1VmXWNfZWFmfcpta2FeZ2tZUlJmV1vkf2pdX1NZW01MVU1Ry3dYZWplXVdVTEdMVsm+QUlQS05cT1tKSl+E42p4X1JTVl9vaVBs"
-                },
-                {
-                  "type": "file",
-                  "name": "04 Dusty Bibles - Meas. 23 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1Fekbv7bzZHVgrSyWn568UyGC8wZD6jeO.mp3",
-                  "kind": "audio",
-                  "id": "1Fekbv7bzZHVgrSyWn568UyGC8wZD6jeO",
-                  "md5": "f58bfd6a984071e540e9e5a34d375a3c",
-                  "peaks": "1ZVoXVtjbVpjamu7W2xoXYJsV2BRzKxbU05PUEdaT1i7blJGRlBJSk8t725MWVxhZ1lPT2TTbFZNQlJeXlpWraZQWE9LTEZVU1LJSldOQ0xKU2RPyo55VU5SUVBdXmbUZF5PY1NUWVVSpLJlVVNdT1FXTFC1SzJNS0lHTVBU/49ORVFLV2BQYl3fWlpdUmJbZ0s+52dYRE1XVE9QbWHRYWJtf3pLUlFDzIOXloBkY2hucWdeWFtlZ2hTbVx5tYBrYGpcWWZvbGtnY2ZfW2FYYE9v4oiCd2ZyZW6EcnZja3mBdW5nd2RhVltaXFFQUmJgYlFRT0lSU1JISGFd63NlaFxnXmN+Y1daZWRfWl1mXWFs9I9kcWiCdndsaolzgoWRcnVqaWNk/Hpib2RycnxpdHt5cGxvX1ZfZ2JhcmZgUE9WWU5jamxyVX6Leo9mcXdQ219xX1CTZmxdaE3wY2hmgXxpZl5j0Yh1d2+Pjmx3Z2TQiZBpq4JtemZd3IxcYliEe2VnRlPRWV5ff5tQXkRF0J5PW2Z0h4NpWWHxaH5jhXp9YXBa"
-                },
-                {
-                  "type": "file",
-                  "name": "05 Dusty Bibles - Meas. 33 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1DJjI9qVMC6qhlpu-ZecuaiDkXFCwPDCx.mp3",
-                  "kind": "audio",
-                  "id": "1DJjI9qVMC6qhlpu-ZecuaiDkXFCwPDCx",
-                  "md5": "d4fe524c97569fa84fb430db6b69a975",
-                  "peaks": "bd5mP01NWHFnXV9nTI53blN8ZllVUEQwOTZT24haT1JbVF1FVWBGfnipdVtycoZna1tSY4/9xWNQSkhNV2JZZGNra216g2ZhTVRYXkxJTuG7h3pqdGp3bG5ZXIBzpYJeanB9fXN6al9gW1hBQjcbFRETDAkJCAYICAkHBwYHBAMEAgICAwIDAgIBAgEBAgECAgIBAQEBAQEBAAEBAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0pNiogDzlvYDwjMiQdHRIXDBEsasyAoldYVVBRU0xPTIZ+klt8cl5rbZRbUklZ4P9dYnBdYWFgYltXaYW4fHZnd1iGbFRibFNz8XNLdX9ocI6AY2JhvItraYl0c1lZRzQyM0TPyXpaaXtxZ2GAe3t8cXFzaFdlYmRZaXhcesbSX2E9X2JVWXpnZ4ergYScjoV+hY2qmIRkWOSbYWNsfWVvU1RWVnigcol7aWxrXmtsanlh4MVsT0hOYFZie3hzqm6Pb4l2fm5tcGpoX11s4oFialJfjmJXU1ZYmo6CbV5kZ3lTglp1"
-                },
-                {
-                  "type": "file",
-                  "name": "06 Dusty Bibles - Meas. 37 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1dJcI1nQU066Ke4tTdqQ-5cgMWT_SHxoE.mp3",
-                  "kind": "audio",
-                  "id": "1dJcI1nQU066Ke4tTdqQ-5cgMWT_SHxoE",
-                  "md5": "e77db75f25931a384b472756b4241a16",
-                  "peaks": "5nh6YWGnn257ZnPKVGJ1eI9kamtg0MOHh22Gf3BzZ27RgodmfIl+aV9qxrtmWUhyZ21jZE/NUGtnVYJtanFZyoFqcVydYXFmd2nXdXx4cox7bFxryL1UQFF+XkBDV0nMUD1DM1RFQkA/ws1RQFZOUkI3PTnLT0s+M1FCLzcoucREMDc8QzA7MDvET0A7OlBEKzU01aM8KyQoRjEyMS64QDcvPk81LC0usOZBOjRBXT0/UEe4SUdKPFNAREI3oc9JRUpPY0M0Oze8WTQyOFlMPisqpvo4PD8/VjstLy+9SzpCQUhGLTs+VMVPNSxYVlM0LzjjWFFMRV1cS0g4aN45Szo1TzVHNTfMRTpDSU1HPkNIP+FJQDM6SUJAOCzSRTlJNEFOLU85Vcc6MkZFYDQ9QTjXjEZGP09RPkNJQNJAPjsvaE09RDDKrkBFP1ZVOzk3YuVDUUhJW0ctOjTanDpOPU5IQ0QlQ+hzRzsvTkY6Pze/z0RcSztPOzo0S9lRTkE5S0E4RCq5u0FLO0BNSERDQsxIQjo8XEk7OkBW/1tYPmNcU2ZW"
-                },
-                {
-                  "type": "file",
-                  "name": "07 Dusty Bibles - Meas. 47 - Stereo_1701Y26P028.mp3",
-                  "path": "files/14ga2TtAOWUM0_kggmssPdpIeScogmZ-9.mp3",
-                  "kind": "audio",
-                  "id": "14ga2TtAOWUM0_kggmssPdpIeScogmZ-9",
-                  "md5": "0fe48c24953151905034e61431e409ee",
-                  "peaks": "68RqcltXT0ZCQ1dAREZDP0g2RDc3Nzs/Tzu26mdtcGtvaWlocFlVW1FfW01LSUVISE9FR2n2hGRhZ1NjYmRiZWFwuHpzVWJvYmVqZmdnbsLPdXdSYWaWjEyMXo2QtI5sgGFgprNzdnddVsyDXWtsV36JT2xgXl7dYWxyY1+KfHNjXWlo15OHYVtph7FramphP+WFbpBlc3avcXZubVd5219wdnadqptqb15NaaWAYmViVZFpZm9gbVvzWVRdZFqJdmRoWEhJ+WhRaXBti3J1X3J4Zsh6WV1VYrCBZnJhXkeju1xka2eAgWphWl9WzcdodVpYfodqZIRmTWrGc3x2Znl4Xmdkf4Vm0FdbUGdjpHNyXF1eSM9ucGphfYOyVVNoY13/uWtgY2F9gmlsd2pK2cFZU2dblnRgZFVpV7zFVGVNTUZwdm1vU1NfzHJqd2Fbj2Zra4lsbdd3ilRWWXWrcnJySFvJrGZmcWGJo29ueGhx5IFkfGxZlYprfl9CT8rTXGBYVnN6f1tgU2S+x09kXWBygXpmREdARdJ1dlheaYduYlVg"
-                },
-                {
-                  "type": "file",
-                  "name": "08 Dusty Bibles - Meas. 55 - Stereo_1701Y26P028.mp3",
-                  "path": "files/17kvax7cFLI8pB8HA1vZIvU3YLRoJFc99.mp3",
-                  "kind": "audio",
-                  "id": "17kvax7cFLI8pB8HA1vZIvU3YLRoJFc99",
-                  "md5": "0836c6e811a13900bbaa58916fa2e318",
-                  "peaks": "br9pVlVbZJthbFF2Rk7QdnJ9c3GZYGmGXFd30m9jZWRVeG1ebGhNUM2KXIl9bpCCeIZ0fFdTNB4YHhQXFg4OExMLDQ4KCA8JCAkFBQYHBgQEAwUSCgUpHg5KNRpjYCpMTS04amJNb3NQguR/bIdlc453imh5Z1/RZ3t6c3uNj5l6dXhy6HFmenpwrpd1a1VYXe+ja5V+bIyPeG54dGTJrYh2Zm2Lo4p5eXl9w+BhWGGQaJGTeHyAd3Dfa2WOgnKBjX6Di3Z46X1pXXxkp4CIinCDis1fU2NcZIZjeWhxXm+wlGKOVnSYq35pcHB3t3V6gGZ9tY2DmH1ugtp3YXlqgY2Sd3KNf37ilWxvb3KPsnhmg4iJvNljZVxpjLBzfXpjfHbPjGxzemOZe32Ma3Z7/39tcF6JoI+Rcq5sg9hneHJrcbqObol7m5LVdYCkc3+ChXdpaXRe4NSBZHZwkIN6pY+OjdefcG6EeoiGmnh/eGXUlmhca2iFu39laYuEvddxcn1ZgnhtcnRjWnnZWmJdXVZvcHZ4ZmFz4156aFdilW9LWFpY"
-                },
-                {
-                  "type": "file",
-                  "name": "09 Dusty Bibles - Meas. 63 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1l8dCbovvzwl02QIAkARCCKGUIc44mh5G.mp3",
-                  "kind": "audio",
-                  "id": "1l8dCbovvzwl02QIAkARCCKGUIc44mh5G",
-                  "md5": "424215999ae8923738e186f3cdecb852",
-                  "peaks": "b37Tkl5gdHFEZWFMUX2ggapYV2NjW2GGb2B4huqRkWJ/Znlrl3iddZe0e6CodnV+hlKUdoWX88FbdWZKcoxkW2mBnI+pipNxbnlpaoNtXIK59bykqpd6ppZmnZZ8nqiNj3mhjZp/fnlrcH79v2aAeIRxe1xjZ3Wql9WUeHJ8lYOMfn51gcD2kXV8kn9wjnJ2ZZ22t4Ouh3+Niphrb312iv+nbVBHnrJwYIBnlY+qeoKKho+GqpyRjISA6vZqkoZagKlzh4ybkrGKZap2aqp4dWZLX2qHboWAdGpjd3BocGRYUFZBQEs3Rjw2Vj1DODo9KTYvODgxRDY/LzBBNTMlIiIdIiQzPiopX0k1R0RLQz1JPzc2NTgtLzAwMyw2LiosLTsxMDcyMTU0NzMvMjcvMDIxJygyISEYIDYuR0tcVUZPSVRCTDg3NDA1Ozo9Oj0+LjIsMzNDOzQ1NDEoLyYqLiclHx4oLC0qIR4jJCQjIR0XHzEmKCwnKS8sICchGh8lHyElHx8eIh8fIRcYFxUfFhcbHB0lIh8eHi0tISIjJCAcJzM1"
-                },
-                {
-                  "type": "file",
-                  "name": "10 Dusty Bibles - Meas. 67 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1zP7LOgs9C7itqhrRcsBn3zgIadkXyBw3.mp3",
-                  "kind": "audio",
-                  "id": "1zP7LOgs9C7itqhrRcsBn3zgIadkXyBw3",
-                  "md5": "46cc251122498a9cb5e6f39ef3818cd1",
-                  "peaks": "TUQ/REU6Ojs1NCwpMjAsNzAqKCAvMzZUQkIyNDMoMCQmIiUkLC4oHh8kIRoWKEQ/PjEwMC4sLyorKzIzKSIjHBcmGRweGi0tIR4gHygjIyImGx4iHyYjIDYiGCgxb5hkUE9CSFVTXE1YR0NDSUs9Qk1KUEhRZ5BXW1hUQUtFUklASkVIRU1ISjlFQTpIeVtqXlpQZ2dbV1lic29oZWR1XE9VXFNqWFxVVF1vYGJnYWduaGRWV295cIF7eeWcRDIZOWMpKicUL7Y5HD09V00mGxcORr4vGhwlPTgbFhI0vIgtIyxPVCYsJyAwvEQ9LxpYVSgjIxSSujsiMhZGMCYfFjG9NSksFT9LKRwiEiq+KRkjGz5FLCcxEJu7Mi0iJVgzJh8XD7SvJiAjMksjFicUNLRDMSklUigfIhMReM8vPSIxTCgjEhYd4pY1Pi4+ZlJMUUxD0mphSkNYgW12aVti9mNzZlZhVVNTbFXdxWmEaGOZnmKOeXb+cHBpX6CeXEtWWnrWW1xgZZR0cVtjf+ixaVVYVYeDcHRpZP9ecZ6EeINufXF6"
-                },
-                {
-                  "type": "file",
-                  "name": "11 Dusty Bibles - Meas. 76 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1ntWXS-rMo7BPmFG6pkjMbQlG2c6DxFhO.mp3",
-                  "kind": "audio",
-                  "id": "1ntWXS-rMo7BPmFG6pkjMbQlG2c6DxFhO",
-                  "md5": "5eb40a00edb16032fc60fe15b7f9204c",
-                  "peaks": "55CPlXmZnbp+cLXifmlymad6inl/yKtugGSPfXBqYOq3YXxuk4Jsd2yK1m9bXY6UfHFnYcZqcn9nl2R0gHXXeIdtYpaHbIVuXN58iHJxiW+QeF60taiDflFut5CwmpqVd4uWx5+nn6d9eWw8TlFHTjYwMC4lHitxkG9jV+HLa31usaV/a3qQ3XdyeXGOhYR0ev+hkn5rpIGBcH107YiZdIGvamtkZ+ZmZXRvp5Z7jJKt7FlfcauIeW9oecpnh4RziGZuZGTaln6Ym4mUc4994dB3Zn1ramFpYGZSTE5IQUtIXWRyY6h9kFhdUlJbU0pLWVFMTkNNUUp8cKOMeHhmaXWBeXNudndnXUxGUlFESEpLQkRGR0VNTzo8QEBMS1FEP0E8Ojc5NTpDQEA9PTIvMS0sLjAsLjIuKiwqKiglIiIlJCIiHR4cGxkYGBYWFBQSEA8PDw4NDQwMCgkICAcHBwYFBQUEAwMDAgICAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-                }
+              "type": "file",
+              "name": "Dusty-Bibles.pdf",
+              "path": "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0.pdf",
+              "kind": "pdf",
+              "id": "1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0",
+              "md5": "b865659af9afc7bd49805638daf39cd0",
+              "pages": [
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-01.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-02.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-03.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-04.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-05.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-06.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-07.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-08.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-09.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-10.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-11.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-12.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-13.jpg",
+                "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-14.jpg"
               ]
-            }
-          ]
-        },
-        {
-          "type": "file",
-          "name": "Dusty-Bibles_Anthem_1701Y26P023.pdf",
-          "path": "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0.pdf",
-          "kind": "pdf",
-          "id": "1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0",
-          "md5": "b865659af9afc7bd49805638daf39cd0",
-          "pages": [
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-01.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-02.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-03.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-04.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-05.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-06.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-07.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-08.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-09.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-10.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-11.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-12.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-13.jpg",
-            "files/1DGoIoVp4pKIZkEt4i58BaBCI_uDmIhp0-p-14.jpg"
-          ]
-        },
-        {
-          "type": "folder",
-          "name": "Rest Not ",
-          "children": [
-            {
-              "type": "file",
-              "name": "Rest Not! TB - Accompaniment Track - Laura Farnell.mp3",
-              "path": "files/1MrO_k8lrwjH_IS-sprqcELf8EwM5huvX.mp3",
-              "kind": "audio",
-              "id": "1MrO_k8lrwjH_IS-sprqcELf8EwM5huvX",
-              "md5": "7da2c139c5ecd2ae1289f7a996981e5c",
-              "peaks": "AGp8Z3+IlXt4y4iaiZ2moHaqkIaOuKV8gaq4qJ60lXmoh4OTfK2rfKL/3pXFjotThaGBxp+sp39Gq2jHctGSfF6xa2x/hLhJjZmBa9mGf14rcl1GKVFlTVp4YWBtXqKGcIZreHV4dHBCaFtLW1d9YkluUHuhm0hUfJVbfYSQcHBedIyubIxpdViUVF93oGBddHtXSX+gl5GiolZVvrF6i4eZkHiamJB7p66ZpI2LnIiJiI+Wl51/guvKtZmfcYV0d5Ovr5+ibnGDoJa6nLCzX6B9VWB0nJOJf3h7woaJbENmTE4vNUpIT2NoVGU4kZVybWWScXyJaUVLWFZJRn1pQ0FMemaBlVRVd3N5Tnl5bGhaY21hjmxkYGl1SkiGdExVcHhHR4F7f3ifjElepqCYgZCYSVWQlHmhcKGbomeg39G01oyct6+aiKbDp5SLrrC+tt/HlZp8YkphpGi/dXCtaU2Qb5JcqK14SI1hr3Goa2dxqISPno5LUjSMW1tjfWt7ms59woydVVRGf0cxPaCMj3GZuZShp2xPmJE5VBcEAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Rest Not! TB - Balanced Voices - Laura Farnell.mp3",
-              "path": "files/1VK4ggk4PTkHi8Tu2icPh1ul34pom9Zt4.mp3",
-              "kind": "audio",
-              "id": "1VK4ggk4PTkHi8Tu2icPh1ul34pom9Zt4",
-              "md5": "536e9425798be273413fc38316a865a9",
-              "peaks": "ACkwJzE0Oi8uTjQ7NDxAPXNSd7CLuoRMY5SMdYh1bGWcboSTfKh3Zlm1nIuJUEoja6OVvJ6mfn4ukXu2fIODkH++qqBtZ4p7WHBuhKusk49yVGVNUCAmHiJPjV6BksGeiVpzc1tfbzswWGhMVWBnW1dJaV1Na2FlPYlriWdgkKOgYmSOcYq5roGIe6GbcHJ+aYyDwKyjhHNWhZ+RjaCIVXVzhXWPmlRgWIyOhJJ1fGBxa3F+lrJVWm+7tJSKRUJKZ5+qqqCCeIdKfXGVgG6RaV2aYHRfdXhubmpclZSBi3pUW2hMTxwbHi9ATp6/16F+YFthbGd5XkUzQk42N1qIcjxTST9fZFBOWJKLfoOWh3OBeH13dIhrlDF7Z15sc29ca3RTYH93aXh8gW51f31mOzc7HCE4OS8+gXd9mK7Go2RmxqiUiavU3I9adpOdvqB2UKnMyepvcWhSfX6Kk4OQdVtidH96YXKEcHN1elteaYt7f4ReeWV8fjhtdYplZnp5V5qFioRvXllbcHIydWhsh3SKeVxqnOPY/9e6rw4EAQAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Rest Not! TB - Bass Predominant - Laura Farnell.mp3",
-              "path": "files/1q9EsYIRF7s94RKtGtT215aDOq6Soi3zq.mp3",
-              "kind": "audio",
-              "id": "1q9EsYIRF7s94RKtGtT215aDOq6Soi3zq",
-              "md5": "f9e618b939a1186908d0bb017472301d",
-              "peaks": "AA8SDxITFRIRHRMWFBYYFxcaaaimpSwUGHJtV2psfXgwMVqVoKQmHBeTlXZoXVIuSaWHqZ97cmIhbJWIk3BybmW0laFUUmiGZ3l/fnuZnot/V2BaVxUNCw0THBIYHSkaGhUZGxUZGhEMgJV3eJSDl41voXxso5WQKZFxj1tjiHl4W2OeYJnGs7l5e8zKaZGOiLujzbm3c4llmZmMjnxXJh1OWXFvaBwYHYBsboGGiXk6S153gHoeGFbh4I2JWFJDV6KWzIlzhpVSj4Kjm2ltXh1maZBla1t+dnhmga2jpJF1e4F8gBwMCw4QER8iJh8XFRQcGRcbFQ9MYmZLTYLRvlx/gVFxdnl+U4qWXXB4iZp4Ym98g4J+iSReS21ib25fYHFUcXeCYGxid3Ruc2NaHhQXCgwVFREXGiBqkL7Jkx4dWWp3ddf8/5AgS46vumkpGpDPwIxMUlFGcZCOpnOFjXlYYnKAVG57gH6GZF9WaGlhYnRHXWGqkVp8hG9scGpwR3ZteoFyk5SRkZJAhlduj3SEgGmFZX54eneHZQ0DAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Rest Not! TB - Tenor Predominant - Laura Farnell.mp3",
-              "path": "files/1f0biHPH6DlIPPM-aoVXnEk6Px9ELC5E9.mp3",
-              "kind": "audio",
-              "id": "1f0biHPH6DlIPPM-aoVXnEk6Px9ELC5E9",
-              "md5": "6bea0b40af0d2ae099b90a114df29a60",
-              "peaks": "AAoMCgwNDwwMFA0PDQ8QEGs6VWhSWmVCWGVdYWA9FDWZaF9gVGVtU0NgWlJbORAIT15ZeXduV2AnW1h0VEhdZl2Oi3RQVGNZSkhAT4xkVVg4MDMtLA8JCAlQjGiHjMKqhk5uc1hVaC0sEg4KCw0QDQoKDA8REw0NHkVEYk1JVZV3PklfRU13ZlBOTk1mQERPP1ROZW1mYEk3T1dRUG1wOVlQZmJtcUNHSWVqX1kuFTZlTVVSZnhNUlJfUVFNFAwjQ1VfUFllRE4nRVFdQEhNVjllRkc+RFpRQUYqYF4zNToqJywgHAgHByEyUp/M4ryHYlNOWWNrXUIuCwwHCQ4RDQgLDQsREwoKK1taYFF7WFleYV5KSlxNYRxTTj1EX0lANzguNzlBREdWT0FAQlZGFQ4PBwgODgw5glBle5OBgUpMuq18cWl2c3E6SFhceXFSSlxlxvNmVF4+QVZSY0BBOzZGUE1JPElUSEBPXjpERWBOUFU/XT46OQ9LTnFYS1FaQ3B7bGA9Pjw6PTcvUTI3REA7MCRWs9P0/+e3ug4DAAAAAAAA"
-            }
-          ]
-        },
-        {
-          "type": "folder",
-          "name": "She Dwelt Among the Untrodden Ways ",
-          "children": [
-            {
-              "type": "file",
-              "name": "She Dwelt among the Untrodden Ways TTB - Accompaniment Track - Mark Patterson.mp3",
-              "path": "files/1YjRk72ARtxAO8tN7spbukdL4r9yZhJST.mp3",
-              "kind": "audio",
-              "id": "1YjRk72ARtxAO8tN7spbukdL4r9yZhJST",
-              "md5": "dc533c45f2d2fe6d9b1e85fd1731677d",
-              "peaks": "AAA4d1VtXTsnMVBtr3s7NkGHWHtvTTx/XUJXRiUWhpFagGqcgZqZenJEd15mkFq2UHeBdEJKYyo3P4SFSHRHk5mnoYZ9VV5cSlVcknqUmFk7Tkx7ZbukkVRnjp2vTZhrnDmG9FxTfH83JbNiT5WaXDlIYm2ljU0p2nZcmpeMZYpZWnVUYEp5ZllrZng+e1lthUV6cWRJZqJLh0+ZVEFMJ32Lm05JbVQre1tUWFwsEX1QXE1cKA9DgZI5d1ZCSGZban2VVb+GO05oPh0PYWWhRtuFaGlLboVlSTZ4ZFyKhX122XK9/9iLf4yIqmR9aYyVU3qfZpNgp3m8XUKaSJeNgaBxsZCujYjhn/Nw/ai05LVafudRU8F/TZi+VnmdQITFk09QnFh3nptiYIx7TnFrd3qPWJi+smI6Zn+RoIWKTXZxaHVUZGN+Oy5laYV6mIeOoH2hinGWonxNemR3aJWjV1dRNnRMj1VIYkUiPCRJalCBgpaQdlpQV4hOV3iYWF4xinstHT5rV0tRjGdBuXRDXlQoFQhHNiARDAsHBgQEAQAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "She Dwelt among the Untrodden Ways TTB - Balanced Voices - Mark Patterson.mp3",
-              "path": "files/1kTA51cdai2JXQioJrV73JIUXOJsHFqzX.mp3",
-              "kind": "audio",
-              "id": "1kTA51cdai2JXQioJrV73JIUXOJsHFqzX",
-              "md5": "095ebf471d9734b29cc49f9a94d3b409",
-              "peaks": "AAATKB0lIBQNEBslPCoUEhYuHiomGhQrHxYdFxkjNGpYUFdYUU05PCowQzMuPj5GSE86PDI+SBAsLURdQEtIb4RcRTw/NTU2NkM7NUBGRUBIS0QrfqCRtIBij4p3nz5UZZeCYlpaUldRNkpZW21bKV9alpl7yOLSi6qbsK+armaLjoOPol1dhZt4h4iBTlBeVTxHhKXVum1yXmNhZkdEOENqSkhGSUMsK1VceI6QRkFHU0ZXQypISFxIUEtDJiMfJCozHUEtFBojKjg9UE98in18doWnpreTipZ3fUp1UWdka1dXX2A2bGFLSFpybo17maRzPWlpT3WUnoVZT1x9iZNyd6+V28z/03bIwNXIkXCCgmdXcoJtWlE1Hyk1Fi1DMhsbNR4pNjUhIDAqIy1EXVtPW2plj2qBhHWYmY1gW2pce2NOap5aUHKCZnl2dqK73JleaGtudl+clmdydF5ZZHdsTT0aMR0YIRcMFRwtMTtNX2Wf13iPkH1oXE5HI1V/g69aPy5MW09ZW1xMVlRHUUA0NjArKQsGBAMCAgEBAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "She Dwelt among the Untrodden Ways TTB - Bass 1 Predominant - Mark Patterson.mp3",
-              "path": "files/1xHGbzilI18UYuuozrn-WdtGP8ys9jXtf.mp3",
-              "kind": "audio",
-              "id": "1xHGbzilI18UYuuozrn-WdtGP8ys9jXtf",
-              "md5": "c55d7e9077f1ad15f730c8cbb24cdd7b",
-              "peaks": "AAAECgcJBwUDBAYJDwoFBAULBwoJBgUKBwUHBihMVaCTkZR5gIZbVkdgXV9NXlFHeYNuWGBncQ9QWGJ9c36Iqv/Dc1xfXFhmWXJpTGFuT22FgHg2mrh/hXNZYnNUXTs6d49wTElOUDg5OD5USUYuQmhvlqmhwcScm5ySlZBoK1eKcGCppXVMcaFpbm9sLzpCTkVqfHmHh16HdmpHSiw5OE9lOUpJUTskCT1EPkRBKRwwNzhCU1h4Vm5lX1xDNwwHCQoMBxALBQYJMT1NV1hxk4lce3Gnj35rb3pURDdUMz0/OyUpJCIODg0ODg4REBc8aF9BPklLSWJoaWheXGN1g5CNboRui5B5ZpjMpb3CnnqYgVVjbWpmYz0jCAoNBQsRDAYGDQcKDQ0ICAwKLEVplo6JrZqit3VcWHJ0aUlfcFpqZ3xgcXN4EWNuZnyfh6Hku6Bxa3CNhmJjYn9viHBuZ293YksODAcGCAYEFzs9VmpqcWCSnFJkbV9FOCwmDD5MU0VDNTM+LiwvLiorLjApKyUmJSEkFAMBAQAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "She Dwelt among the Untrodden Ways TTB - Bass 2 Predominant - Mark Patterson.mp3",
-              "path": "files/1FpyxXZ3k0yCKpKOVPvdvoM9K7OSjxGdG.mp3",
-              "kind": "audio",
-              "id": "1FpyxXZ3k0yCKpKOVPvdvoM9K7OSjxGdG",
-              "md5": "17f9949bfddfacf2759d4c1c2bf673a1",
-              "peaks": "AAAECgcJBwUDBAYJDwoFBAULBwoJBgUKBwUHBihMVaCTkZR5gIZbVkdgXV9NXlFHeYNuWGBncQ9QWGJ9c36Iqv/Dc1xfXFhmWXJpTGFuT22FgHg2mrh/hXNZYnNUXTs6d49wTElOUDg5OD5USUUuQmhvlqmiwcOcm5ySlZBoK1eKcGCppXVMcaFpbm9sLjpCTkVqfHmHh16HdmpHSyw5OE9lOUpJUTskESsqKS0zHxotNzhCU1h4Vm9lX1xDNwwHCQoMBxALBQYIRmJqXlJxaHdCTFKcnZB8gIpZWx4kIy8vUEYsKzAsEw0ODg4REBc8Z19BPklLSWNoaWheXGN1g5CNboRui5B5ZpjMpb3CnnqYgFVjbWpmYz0jCAoNBQsQDAYGDQcKDQ0ICAwLLEVplo2JrZqit3VcWHJ0aklecFpqZ3xgcXN4EWNuZnyfh6Hku6Bxa3CNhmJjYn9viHBuZ293YksODAcGCAYEFzs+VmpqcWCSnFJkbV9FOCwmDD5MU0VDNTM+LiwvLiorLjAqKyUmJSEkFAMBAQAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "She Dwelt among the Untrodden Ways TTB - Tenor 1 Predominant - Mark Patterson.mp3",
-              "path": "files/1A6BvBhv_2eOei4pEIAdx2koOD62FbHlo.mp3",
-              "kind": "audio",
-              "id": "1A6BvBhv_2eOei4pEIAdx2koOD62FbHlo",
-              "md5": "843e8b0fb0ee6b47ba45225ba88e544f",
-              "peaks": "AAAECQYIBwQDAwYIDQkEBAUKBgkIBgQKBwUGBQQGCxQQDhASDw8MDAgJDQkJDQwPDQ8KCwkLDQMICA0SDA4NFRcSDgwMCgoJCg0LCw0NDgwNDgwJYmqMm4hQdXJ6gUZCRG9gYlJMT09VKz9ATWQ/DFloYXRpkrmfbHJujYmP0kphdnB1bEdAaG13dXh7Pk1DTis+oHC4sV9gVmNaZElJOzpVKjExMi0dCkdTYHuCTUIwOkFEMi4qIScsLSckGAkHCAkLBg8KBAYIBwkJDQ4YGSZ/bYCTmYaHh39tklJeQ1dRW1BXRUIxn49QWmxydXN+kJ5qNVddOmeJf14aEBEZHB0XWtOa4+v/5lWvutW3gF9tbVRNT1dLRT8pBwkMBQoPCwYGDAYJDAwHBwsJBwgNERIPDz1bTGuEk3eTkolcQ0U6Sz9FTIdWRYOtRl1ZVn+LtHlDQ0BDWFduhVZNW11MO0E+OicICwYFBwUCBAQJCRlWaGmVtWRxYmNYVUUyC1aClLdQOjA/R0pRSU1ISERAPjcxLScfHQMBAQEAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "She Dwelt among the Untrodden Ways TTB - Tenor 2 Predominant - Mark Patterson.mp3",
-              "path": "files/1JnVYggeiRRxewwPP1k_n64WiwK7695Xs.mp3",
-              "kind": "audio",
-              "id": "1JnVYggeiRRxewwPP1k_n64WiwK7695Xs",
-              "md5": "816474d47b5e261fe8b67ca6f5e54a31",
-              "peaks": "AAAFCwgKCQUDBAcKEQwFBQYNCAwKBwUMCQYIBgYHDhkUEhQWExMQDwoLEAsLEA8TEBMNDgwOEAQKChEXDxEQGh0WEg8PDAwMDBAODhAREQ8QEQ8MaXqbyI51l35ysWJ4eZlyXWZpdFRXLj1GTVA9El5/f6igicLrtLmu5b3G53SqnpqcelBWbneAc5x9QkBAQTlL4LG6uF6Df25oeEtJPWh1TVJQRz0wD0pSfoyQP1NKUF1oTjpKOkxLTkA2JhUICgwOCBINBQcKCQwMEFG1qotzla5ldYeEgo9zaUNsUF5eT0dIPzgvERAQESZtZIOGjKaKTnVtRW6PqpBZepmv3/Cfp7KtsMfb64TZ6//ioHOCdltXWmRZRDMhDAsPBg0TDgcHDwgLDw8JCQ0MCQsQFRYTFDVGaYqWkHbsv8NpV1xemH9mmcBnelBkXoF2f6WzzL1PU1JdiYS70pNcWlFVUVJJMyMJDggHCQYDBQYLCx1jlp6by3iPiYRlT0IvDkhvnLBFRSpDR0RTPD40P0A7OTY1MzQ2EgMCAQEAAAAAAAAAAAAA"
             }
           ]
         }
@@ -407,66 +104,6 @@
     {
       "name": "JH Girls",
       "children": [
-        {
-          "type": "folder",
-          "name": "Ad Astra ",
-          "children": [
-            {
-              "type": "file",
-              "name": "Ad Astra SSA - Accompaniment Track - Jacob Narverud.mp3",
-              "path": "files/1eEUR_NZ1O_Q3TUBwrYJeY9GWwJ7QtoR-.mp3",
-              "kind": "audio",
-              "id": "1eEUR_NZ1O_Q3TUBwrYJeY9GWwJ7QtoR-",
-              "md5": "cbd113eb0a8dd3e0230c7bbe695eae1c",
-              "peaks": "AMzA6MnFw9bL2Mbb19zb2bPDucjX2bi58drp8Mjt283x7eO978q+rNbn8fydUiwdFxDm9tzUy2QfCnDky5rN5+zW5dzOwsDbyczd0L/j0tHsx9662u3q6dbx1/T4xojz3NjKwczh6cXq7MXb4cqq1siyusr08evwxb3W28HH3tbT5+jp7ezh4Mz6ye/Rubfw8u+zuMvvsMmquuHaq7zQ5fXi39LduN/x0dbD0tHe6d3v1uHk3tfh2+r1492ryb7zxsnh2te0x7nYu87Opsqy5fD41ow3LB0V//nFi3ImJybZ7M1+VSsZD+n38bxpNzIdGPfLbSUUDg8Q26Y2HgoHBQTkxt7h8rvct+p7tu7p1ery+Pzx5uG47tbd3LTu8NzU1eD37u3595jQ/PXv+u/w89rh6/n36eHJ7uH5+fj2+fb53Pn52+bm6dP458rR6fHP6bTU8fXV+9/nx9jmxdre9bepo+3r2t7gyMrT5+XJ2+DW0+Po092WloWjicmkya+60LKrt47OlOiwYTRRmC0JAwGw5O7b4JMtCAIAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Ad Astra SSA - Alto 1 Predominant - Jacob Narverud.mp3",
-              "path": "files/1ouNRDk1kcGARWamfuj-I2Lb-cJ_E8ivL.mp3",
-              "kind": "audio",
-              "id": "1ouNRDk1kcGARWamfuj-I2Lb-cJ_E8ivL",
-              "md5": "bb73a4a0c880df9669aae43968f6783b",
-              "peaks": "AEBBSzxAPlZAWkNXRU5JQznL07vf3OrRsNLYzeDJ2dTKvsTLx/XZ0MjG9Obc18fMysKfbERIQhgHAhtHgrC3pKiggESzrsC1uJWJopCQjo2UeXeQkJGPYW58jmNcNyJERTk+OT9OOjBLTzdVQzoqaejE1dTH59Ci4N/Ry8rMvJS89+nW+vj39c3Atc65ooOx7O7Q7MHHss7r6c7htszhxLbU8enf8ef35Nrf+Ors4fHx0eHx29Leuuza3uS0vcT0+NbV1d/N0sql3+X797LO1N+aRzvYx97r3+/Tydf/vNft3NHd0tTH3vbP3Ly9mpkmzvrZ58ifg1ms2J62m5yUiGuGe4VvgHeQaGdPXox8f4qRinaLrLu1tc6eTEOt4sjFubZrcrbg6dTK66BuhHne+Pnx+/Lc7PTd8ert8vTz8OfqyKTw/fjoz8Do0mLT5ffYzbHEecbC7vDMyc+ikaaarKSagI+bka6oqqOuazw5N1pNO0peQl0rr6LGvceotLLTtd3UoDM4Jmw7GAzXz8XFxqy5wNm80DgPAwAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Ad Astra SSA - Alto 2 Predominant - Jacob Narverud.mp3",
-              "path": "files/10b79us1GiraGob-D3fOSAs9tUb7IzLEU.mp3",
-              "kind": "audio",
-              "id": "10b79us1GiraGob-D3fOSAs9tUb7IzLEU",
-              "md5": "64dedceaf1c5124ed10b9d30e87126b1",
-              "peaks": "AEBBSzxAPlZAWkNXRU5JQznM07vf3OrSsNLYzeDJ2dTKvsTLx/TZ0MjK4MXauZ+5lpt1akNIQhgHAhtHgrC3pKiggESzrsC1uJWJopCQjo2UeXeQkJGPYW58jmNcNyJERTk+OT9OOjBLTzdVQzoqaejE1dTH59Ci4N/Ry8rMvJS79+nW+vf39c3Atc65ooOx7O7Q68HHss7r6c7htszhxLbU8Onf8ef35Nrf+Ons4fHx0eHx29LeuuzZ3uS0vcT0+NbV1d/N0sql4OX797LO1N+aRzvYx97r3+/Tydf/vNft3NHd0tTI3vbP3Lu9mpkmzvrZ58ifg1ms2J62m5yUiGuGe4VvgHeQaGdPXox8f4qRinaLrLu1ts6eTEOs4sjFubZrcrbg6dTK66BuhHne+Pnx+/Lc7PTc8ert8vTz8OfqyKTw/fjoz8Do0mLT5ffYzbHEecbC7vDMyc+jkaaarKSagI+bkK6oqqOuazw5N1pNO0peQl0rr6LGvseotLLTtd3UoDM4Jmw7GAzXz8XFxqy5wNm80DgPAwAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Ad Astra SSA - Balanced Voices - Jacob Narverud.mp3",
-              "path": "files/1YUPwMowsBuxVlItwOOuHjduzjpfsieEX.mp3",
-              "kind": "audio",
-              "id": "1YUPwMowsBuxVlItwOOuHjduzjpfsieEX",
-              "md5": "dc41619b89d361c3da7f436faedce6a4",
-              "peaks": "AIGCl3mBfa2As3+ui5iPhnPZ0dbq7d7D2PHv9OHg9Nji4ufb0fvY5s359uny+d/179O/yYiShDEPBTePhXl3npWPiYmwlZKuqHikv82/zca4uqXY5NrTsa/R28a2b0SJinN8cn6ddGGXnm2rhnNUf+7c3PbX59Cu5vbk28PD7tHZ6/Pk9vb69Onz5e3t1MHD1uff9+TdydP37NXhtcXy58/r8/Lxz/Py7eny+eX05+Dxw+zq6fL41/b08PDN+t779Nbl7fjf7ebI8/L4/8bS5PThs6f42PX08e/j7O//8vn66vL78fTZ4un139jp4sQ5z/n3+enHvFug3bfPoMGrlYixh+as47nispxdnObWzcrsyNSt0fHj3PW9mn3d4e7bws7I5uru9uTc7ubT6/Ht6/fw6/jw6/ze6vf4+uv38tDq4vnr+Pvs6dHp4cvO8vv/67r88eDN+/Tr5Mbs39bV+9Tdvsjt8vDW6OH1s3Zzbq2bdpW8hKRWjaW8zMG16c/c59LNqFlwTcpzMBny4u7s49vl7vTw6mYdBgEAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Ad Astra SSA - Soprano 1 Predominant - Jacob Narverud.mp3",
-              "path": "files/1ti3MtrWtufCrytO9aCTj4dh8XfMw_TaQ.mp3",
-              "kind": "audio",
-              "id": "1ti3MtrWtufCrytO9aCTj4dh8XfMw_TaQ",
-              "md5": "897f605b787ad0a61f6b7be2ee975272",
-              "peaks": "AEBBSzxAPlZAWkJXRU5JQzrW2bLS6tbFw87W58/ZytHO0ufBx/DSy9rV4PPi1r7CtMWZb0VJQxgHAhtHPDE6R0JARERJPDxKRzlcwcG5w8PLyKrH0MrLvrurx2ZbNyJERTk+OT9OOjBLTzdVQzkqP7rK3c3LyNHB5/Hv5sOxxKnE1tnh+/378eTc1+rQw62iwN3bycy+tKjM5N/Jrrmy0L3M/u325O/+8PL19e/u6LTv18vy6r3M1Pvr9tnO9+/589zcz/LGz77K5Pf//83M5OaPTT/18uL7+Onn2O741PX/9vTa7//Zy8zt8b7LvbYvwvDw1sG9uVqz0rayqK2bn5eWRsXM1rnHu7cqr8fKzdfk7H2y3fHi19q1WaXd3+3EvdFtzObr++Da6vfU0PHZzeHO8Pno8frs5vP57df+6N3S0cDz+v//5ODn7dLR4f/u6dX64t7Z/e34z5bH6tHU+/Ht1bfl7tng6Ofma0Q4N1pNOkpeQl0rpK+6t87D0rrNzLrDkio3J2w6GA379e7w6MzY7O3s61gdBQEAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Ad Astra SSA - Soprano 2 Predominant - Jacob Narverud.mp3",
-              "path": "files/1M0GfHHz8gaqgiDGNCb84J9OUpuEmKyVv.mp3",
-              "kind": "audio",
-              "id": "1M0GfHHz8gaqgiDGNCb84J9OUpuEmKyVv",
-              "md5": "8e1b018ae3d3cc81b3f5ffe6efe681b5",
-              "peaks": "AEBBSzxAPlZAWkJWRU5JQznZ7eXp9uLz2vj78vn79/bt8frd6v7p5uzw/On29vDt4NvTbkNJQxgHAhtHPDE6R0FBRURKPDxKRzmLhKOunZemj4yyyqOpnYm4q2FeNyFERTo+OT9OOjBLTzZVQzkqcf3r7/rn7u3L+f39/NPO48bq///u+fv4++Dg4+bey8jW5Prp9ejjxfe/8O/ou7jdz8H7/f/w+On59vb09Ojh9e+iXvXv7Pj94/Tt+O/s3t/7/+3z/vnw9d3F4OW1j0hO2fby7+v5//7w/vjs8vLx/vH98/f69/n57fz/9fj37c5l4vrz9+bdwFbG35aloaOWg4GDT3NUkFp4Xkw2PnJsa36IiYZZYHtkbnplTEJodIF4aGhnnun69uvS+bxy9fHx/u3x9/by7/rv9v/x8/z96fz29PvzyrGcb2nU/+X86vH068P9+Ofh9fPp3LnxzdnOy7jBr+Pj0eGzwc3ycD05N1pNO0peQl0rqM7Vx8m/1d3b3OTkpjE2J2w6GQ334ufs6OPX8fTw814VBgEAAAAAAAAAAAAA"
-            }
-          ]
-        },
         {
           "type": "folder",
           "name": "Because of Jesus",
@@ -482,7 +119,7 @@
             },
             {
               "type": "file",
-              "name": "Because of Jesus - Alto",
+              "name": "Because of Jesus - ALTO",
               "path": "files/1hP-blICIwmjjLa8txS0tQUaFzPaJTAaR.mp3",
               "kind": "audio",
               "id": "1hP-blICIwmjjLa8txS0tQUaFzPaJTAaR",
@@ -491,7 +128,7 @@
             },
             {
               "type": "file",
-              "name": "Because of Jesus - Soprano",
+              "name": "Because of Jesus - SOPRANO",
               "path": "files/1OLOFzeYhfeiYbzaIkedT61FvgY60oBv3.mp3",
               "kind": "audio",
               "id": "1OLOFzeYhfeiYbzaIkedT61FvgY60oBv3",
@@ -500,191 +137,26 @@
             },
             {
               "type": "file",
-              "name": "Dusty-Bibles_Alto_1701Y26P032.mp3",
-              "path": "files/1imPrdt_ffSTJYi9r69cschPDF0IMaekc.mp3",
-              "kind": "audio",
-              "id": "1imPrdt_ffSTJYi9r69cschPDF0IMaekc",
-              "md5": "bb7028efec4a02cd5478525e2bc6d106",
-              "peaks": "AAEDQkJOP0g5UGFHODVKSjc+PkE7f9i3xt6bj622wYDMqsZseY1+PyctcXZpKZd6ZFQ6iKBxp66Cb1pYmnaognNyiGKFel6PcV5ciIhvfWNpsJ0ycb+Oumdu3MPHxKjlsn1pasXNuKGSca+jl6GWmmp+6bGgd2fesJaK8fW34sDCz+3Pqeiuis7P0Iq/vIuglp+PN0Ca26vznL/sys+lxtmuwrSgvJbcncmupqK1vqGdsHPHtJi1npq3g32Mm3ZsRot+nWN3dLOvkJhieZVizqOinLGUvurGtKvKm63klteRh7PG/re54ZfCp72Vnv7T2bWgzcvKwJzG0YW1nZ2EbW/56KbZyon5vd2r2anFxYKIxbPRham1y77Qt6+8mXnCnaqRrKCpfndNscOqxdKVtISNkKG7la2od6iah4pjX111b3BUWyJ9bCZfWF1dPBW74J4ycbK0hnqMuP69/56a6Lvtl9Oq7X6ropZ5iW/yx7n8vob0kdTNzurTwsdzY46hldewzcm8ysyQr1nJjJ6ZnZekjoiORiMZFQ8KBgQCAQAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Dusty-Bibles_Soprano_1701Y26P031.mp3",
-              "path": "files/1zmvLEWp_4uKz37z5csgAmnaEYQQxcbxW.mp3",
-              "kind": "audio",
-              "id": "1zmvLEWp_4uKz37z5csgAmnaEYQQxcbxW",
-              "md5": "11b74865395a9f77c295e3754b46f635",
-              "peaks": "AAIDUklKN0dDPl1GPDlGTTtKPkU7gp+iqaF9aJOCml+Rf51pdnBrNCorZ2x2KGx5YWs9aqV3vX5diVxyh1+Sa4dug1t5c2yOYnBbdXVhcmJkwr87hbqi+Z9s1uPMuaHEr4iAb6vGraZ5ZcDEp6OGlXyCtreHrWu3t6x4t8at1qrhtuewqs6QjMaZpYG3pL58kbWONzaH3Zb0vZPD1s6liMbC5J6NqXLCgMiOw8voqqmuppbNqquxmKO1fIKJq3R3O36SqHdwaJqImqpfm5dqvr6W9byF4ZfOm5DFi7vloqiJfbu0y4724KrXx9K0n9vYyt6+qsPfxmzGuqGZoamZknHN3snHsL32yeyfuay70aufwn7jfsakuNrvoNi2lnSmopG9ybGZg4xerqrA1sWVrKiRqJG+3aO8faCSko1nTFFmcVtcMShhXidQQl47JRN47IhGecm1eHN3uOCc6Jp3qJvktMCjsnWem4OVhXX3yv/x0Yzsh+zC2LnS4ax8dYCPfe7Gz8jnqqXInF6ttJCMnYqWbHRjThwZEw4JBgMCAQAAAAAA"
-            },
-            {
-              "type": "folder",
-              "name": "Stereo Track Rehearsal Points",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "01 Because of Jesus - Meas. 1 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1P8RB7TBVKiXa-xZRJKwJjI1jkNf6jj95.mp3",
-                  "kind": "audio",
-                  "id": "1P8RB7TBVKiXa-xZRJKwJjI1jkNf6jj95",
-                  "md5": "7958bb1dd363b9975b08ae9a3b858c94",
-                  "peaks": "AAAAACtezqywm6l7hX6NjNfc6qWRk5iIhYfNt5SCbYqWmZCintOsiYWrgo+HeoPp/6eMjYGPlnlzg5J+eoF9k5V/gn+BjnWBcHh2cWhpbGVoXVJdXV9iaIC1oJN2hHyHlJaS462pw5O4sJWOkL/Dloiek7vcpYav7b/Xv7rT3Lmcv9vxxrC1sqe9u72esJWapp6QeIeUiaqKfYeAcHRycoh+cGNjT1NNXkVIRZ9+ZW1OUVA/NC8yLCkuMDY/Mz82KSUsJSMtIiMdHyElKCAgIiYnIR4dhnxMR0pKPTs3OTc2MzUnJSMuLiMgJScmJR4hHRsZFxkYIR8dHR0YGBgaZkA5NCkzKCQdI0w0OzEnNCouIyQrPC8vKicuJycoKU45OjQzMjAqIig3RDk4NUE6QDcoLTQ4LzowMi4xNDkuKi0xNjQxLjMxUU8/PkhASTI0O0R7fnBmVVY8T09DQEJGNjs4OCwyLz82NzUtLyouKigpMi4qLSYYJCQiHVJbQkIyOz0wIickHh8dHSAjJiEhIiUgHiEZISAfHBMaIiglKB4eGxob"
-                },
-                {
-                  "type": "file",
-                  "name": "02 Because of Jesus - Meas. 11 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1ynQvCUJQNfM7LPKM4AfAvWLZ2CaVDwSq.mp3",
-                  "kind": "audio",
-                  "id": "1ynQvCUJQNfM7LPKM4AfAvWLZ2CaVDwSq",
-                  "md5": "6970f595d1305b6f2dca4754ff0af225",
-                  "peaks": "sXJnYEZBRj9KPDw2cl1GU0hAQzo1QEA8gz5FT0Q+NUA2MzJoa1FKUk9DS0M/Q0OGh32Nh1pVYmJaWWl+aGqATE5OSmBiWlNlS0lgWUQ2RlBVPUhTSU9NVFlTZViVrPX/oaa8y6SZspqtrL24spOYq5CJeHSShWiAkZZlVml5YFZrcmp1Xl1Wa1ZgZ1mN0PXlpsBtf3aZn4PdtquerHeGbH90d4aDgGZsZWx+W2JZd22LbGVlTm1bSUV0bIqih6KOxbB/bGmJbndrcVtmSVhshX56l72xn4yepaSpn5JueXp7lXN6g3ByTmpis46QgIGEgoN8Y3bBlYpoeG1sVmRma11oal1VQkhORVdGSD5BTDUwNS0nMTY4ZOnEm7SnkJqOe29ycnqig46Zq5R9l6eElKWajI6dg3WBkH1jtnNydX1mWGF0fK68yr+5o46HhXWCfoV5nYJ8anVtZGxxbGFwdmZvbVhebHRMWmlWUVxTTVZWSDtTdHi6o6mHi4GFf3qbbH5uaWd0dG5bUWJyj/ilubKOgZmeeoNnb5SjcKOCg8qXgcvS"
-                },
-                {
-                  "type": "file",
-                  "name": "03 Because of Jesus - Meas. 20 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1Ke_NNYgp6r-8_UcViHwhWidOqL5gXEGh.mp3",
-                  "kind": "audio",
-                  "id": "1Ke_NNYgp6r-8_UcViHwhWidOqL5gXEGh",
-                  "md5": "3d3703c858453963bedbfc7a3de9abc2",
-                  "peaks": "sbJzYUtZWFRMYE5VX1WrVVVca3RUWmNASFmLuFRRYltYVlpCSlpHQLexWFRSUlhKTU5DSmGarmdZYlhmTkpgSE5MWFBVRUNEUDQ2QUNDPklBREI/NUBCS05SUllCSz01Miw0MzA8ODo4P8BMZmRaRkZUTU9eeFraTW9JTT5OYVNaX1ZXv1dCSU5MT1NRUVBIT/9la2pZXmNgXWBpbGLIX3pvYWFSS0tCY1lYk6Z4Xm1aRHBzZWNfgWLLaFdpZ1hlW1NVZVpi1XtsbntdX1RaXW1qWstYalpSZGZOU1aMbGbbcGxsWmRzg3Nra2BD4ZNfbmdfVWxNZ2BVS7SvcmBWX2NbX1ldcEvclGCEl3BOSV5Zc3ZhwqlZaEZOYYxnSlNob3TaWWVdXnRdXmFbaVB252xuZ0dXYFZWT19bV9Vza2FxaFdyeXFaWlu+WGFdZl5aZ2RbTEtX5GRJbmROTnOAZV9qZOJmTFRfW119dWh4aWXHpnhkaFRqeo9rUk9cZdR7W1NYbYVvfVdiXVXVTEBJRU6hkGheU1Bhz1xLVEdOhpZZcFNq"
-                },
-                {
-                  "type": "file",
-                  "name": "04 Because of Jesus - Meas. 28 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1dpFQj42ZiYwMcYNBsfqk4QH34CW_QPYV.mp3",
-                  "kind": "audio",
-                  "id": "1dpFQj42ZiYwMcYNBsfqk4QH34CW_QPYV",
-                  "md5": "841f2dd0c01e86eca2f1fd6e7cbacce0",
-                  "peaks": "46JxaF9eboV7hXpdYePKb2VuZ3WFg2hfXmaX9mtmUl5fh1xPSVpbgNxpYGxcfGubh1VpgYf/iGlygnVUcIJihHN4u4RzYFRZZ2tzeoVnU9RoaJ96Y6efhHSqenyYZmbqmXehnLeBjXSC+XVdaW9bbJZaWFtTWKGGZWZZZWNpZWdlZlzE7F9ZY11jzWFPY2NtfoB4an9eXFprZGlbZ5f8a21nYGFselprZmR9nXV5ZVh4cXxobVZSWN9JVURMUtKncG5jX1t9lmJxWFpeaWhxXmhp+W9mVVJhYV5bX2drYYOaaWFjXFx/YFheY2rOq19PWF5T3F5dZl5eioR5W31dYFRcVVNgYYLKdGFYV0NXcV5yYWtlmWaVUlVjZnZwaXhoY/BtcV1RS2XOUHF0X1m9cmx1goR/dHZriWZW5ndlYk9fcWt8bX2BkYqDgHpdYWBramxgXmmty2F1Zl53yGZTfWZhe6yFY2llYlhlamR/Xlr2YFpbUVhiclxqcmhzxV1gY3t9UWJOVlthZNFmXnR6eNiNZldPUVmRgGRjVk9cc1ddZmJb"
-                },
-                {
-                  "type": "file",
-                  "name": "05 Because of Jesus - Meas. 36 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1mrYeoxerKCUItjilbzShoony5ehN-X-Q.mp3",
-                  "kind": "audio",
-                  "id": "1mrYeoxerKCUItjilbzShoony5ehN-X-Q",
-                  "md5": "61dac6ee57d8f66bfc8172d75e231887",
-                  "peaks": "7GVrYm9UVWFcaGt3V5B/gGZoWWGDbnRrbGzKeGhcU1Zq2H1ubUxTnIh2dllhaWheWnOWd++vbGBZfntgYVljWVWVqHN9fn13kHVriYh+a/FXfIpTbJefgrKMdWyraWmVgnl3d3p0cnBZ219bclxaW/BrWmlfa9meb2VyZl/ZT22kgZHduV9gj4JvyFpcV1FgiOVvbW9pX9lgT2Bva33Oim5aTVnjx29kZ1l093hscGJfwd1rcn1we8BSUYR+Zpvgc2BwUFvUnohkdGVf5XN2ZH1l9oJyZ2tlfeFyZ3Zka8Hbc3uQbmbTX2xVfXJ3zXl9tXl9rHtvlGNVq9uBcWJvctxyRmF4VnfXgmhzal3/i2loXV5r32tfc3Bufax0lqF6oOR7bYGVcH7eZnV4fXTahnhzd3Jj6nBng3Bk1mRPUF5mVrpBSlFgZY6+bG9miGXfcV2Jh31ztXSohohm74RlXWptifVwXmBpc7ffZmNwUWnYjGRiZE9x/HRfYH5i4ZVxXXh9aNFka3qAabiQgZyClHazgnuHbWyV1mJzdl9z0VZzX3WY"
-                },
-                {
-                  "type": "file",
-                  "name": "06 Because of Jesus - Meas. 44 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1uLmHgEj__dQKjrzq70kGhcO0NnQVGwSs.mp3",
-                  "kind": "audio",
-                  "id": "1uLmHgEj__dQKjrzq70kGhcO0NnQVGwSs",
-                  "md5": "d4f8c7200e175b695f4533985e991785",
-                  "peaks": "yIROWktMxHV5lH559HRtiHRdxWJZfF2MzWd/fpe70GVtg23ZgWZpWFnpZmNTXGG+d3BbWFjOXniKZIDiaXV8d8LXV3qRda9yZJaDb9RbW5JWfLlrT21lXe6Cbm9+m8dkWllv3X9TS0pI0Yd+Y2NQymVkd3R+vV5uhGpiy3lrYmeWwmdmaWz9hF9jWlHOcHFjP0LFjmFvY2O2YHaHXFrYXll2b3PZZIuGf9OhV3lwYfOgZW5pZtheWHNzZ7VzUFNaYL90bGJso8yGa2Jxy5Bta299zXdRhWxkrF9lWE12921obWBOqmlsaWlw029SXlzGqXRvalHQemmDdma6e2aOYV3HenqAdnTKZFdraozQhFVfcNJvY2RgesB5W2Zpa81qS29WVMxtVIJ5e7pjVWdna8VmZ312u9liZWVqps9lgmd2yXdgZHKFxHFgbGJgxmFihWpo4oduc295xUxqd2HHoWZ5bGC1ZmCXe4Hof352W1j/d2OAbnLphHFwZ+TWXXdrcuRvXm+Icc56ZnVyb+JjenR6eM5qa4t3ddN3gGtwid51f5mS"
-                },
-                {
-                  "type": "file",
-                  "name": "07 Because of Jesus - Meas. 53 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1O2gUiULj4WZJM3neL-hq7zw-rkU6bndp.mp3",
-                  "kind": "audio",
-                  "id": "1O2gUiULj4WZJM3neL-hq7zw-rkU6bndp",
-                  "md5": "849c8f0aa89e7ca401d314232a139a3d",
-                  "peaks": "qpSQb3ZxbMGLbHF4aVzDrHZdj2Z89at9dIyJbd2JaYGOg2XQu2pxc3deyaF4nHdra9rAbnx3hmGmw4V1oWFsxLlpcJRtd+CMd1tNTDPgcXBaZ2BhVWAuJyAiGh0YFRUVFBISEhIOFxEQe1pORicqJvZ1W1ZNRUjrYFBISkxL4KxdUUtRTtfJZUtSUj7pi2dQVmZMUVtKVlRUUZx8ZlReWVphfk9PYUxe9oheSk1NWMKdZWxhZV6VhnBxa2tfbWFZX218aeRrYV1jY1VdZmJXX29WfH2Ge26JcFh8dltmZ3L4p39VZmVW7oxiaWZsY52ahn1ucn5deGtkV2pg6LB+XVteYmd3Y2ByY1qKgnl37XJoeYBlbWh5YP+9ZGV/gm6kqX6y1Glgk6SPdr6JgKKjiZeMhW3d3INkbWBiY15nZEtcYXuEd4h7kGuLdGZ0U2xnZmc+NzE3NGo7O0FCNTJpQk5GSz9AQEBHVj5BNWP5bWhlbWtYZWR0bG5hl458gox0cnlvd4JwYWWOymZ9c3t3dNZeWVlsY22kbXB3cmprcWVwaWZ5"
-                },
-                {
-                  "type": "file",
-                  "name": "08 Because of Jesus - Meas. 61 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1ydBiY0ftro2ZTFmOxt69S6AUNcp9IttD.mp3",
-                  "kind": "audio",
-                  "id": "1ydBiY0ftro2ZTFmOxt69S6AUNcp9IttD",
-                  "md5": "aa941b79266ac7a39e73e772ff4360fa",
-                  "peaks": "6Hhte25id3ZmZnJphndybmxvcHlscG1+0mtoV1Fn9U9OR06BoV1iVE5VYmZqUlPVV0lRYGhkYFdfUZiZYnhzZ1tyf39QUd2cRYFeTvJtRVNcUYljZU5PZ3RXYG6ErdWIjZ1/cm5hbGp3ja2neoWYgoNm3GdVfJ+BiImS/GCXbGuQnouPfIGt635vcnlTTSYhICUeIBkdHBgXGhIWFxJ3ZUh0Y0rWd2tpYnH+c2NfVYJme11YW+apXl1PUv9zaHx1b2hvZGZhi5R+c3RkWW9qbGFg6X1fZGJoz4NTW21dlGteeGxWW1tTT2Bg7lVaXFVWblJdUlqNjXJpi3xUWk5ibXvYS1tdTl6/YVtpXVmXdXBLUFJjX1dxT8yLUlFXYcWcY1lpVJZqbV1WYvFleHFscOh4foFcY2FH46OAg5Vr3WhjzZiUhoRv5H15hnBhalxiWmhrrXlpd2hael53ZWr5akdUW07XZ2BZVmOXZmBbX1l0cV1ycYnnb3dkYmhkaGdvYpOQe22Gbld8ZHF/dflqbXdbX9hlbnB3rZFnc21bdnaDaGN7"
-                },
-                {
-                  "type": "file",
-                  "name": "09 Because of Jesus - Meas. 70 - Stereo_1701Y26P050.mp3",
-                  "path": "files/1DWCOgphbtZUvGidAasmM4ygNNIAjB-GB.mp3",
-                  "kind": "audio",
-                  "id": "1DWCOgphbtZUvGidAasmM4ygNNIAjB-GB",
-                  "md5": "02d946060c6140c0f3404696ec41218f",
-                  "peaks": "avKtcnR8Yn+FY19jZFdZg2tzb2B6fW1tb2lriJCliX+CfGt7c25wbGybgXN1bWyCbWFnY1uH73FyaWtxk49yhodkZdyYbWyEcWh5jH16eHS6pVB3Y22IWo97ZlpeZYFrY15hYG52XHVfY/+lWHJgZVpgY2Z6dGlvdVp6bF5kaW9daGlVjdxzlWV+fmpqbIFtYVJ6UXRqY3h9a4BmYHaH2YZWam1qkZdhdGVlXq2Mb3Redpl+bol5eYyxuX+Ah2T9019MZF11e6J+gm1oaXpiaGFoheafc2JnbHhcX19hZVd1bm14dHRudGxhb3trr3eNZHN6WmR4Y4BrcFdxhnZxen5vanNkeXB83XVWfnF4fnZiYHaHatSliGFzanZ6dIGHgrCEpYJtcm94aGRjU1pybFpbRko+b4ZkpHWBeN2qf2Z4X2BXVFJgWWa33EZgVVdeVUlPVE5ifJCJhXdzZmJ4emFeW1BbUmlsZGdNXFJWV1iJ81l9Z3SIi3p3aG93W++yb5WAhXV2ZVxrYpeMcHd4bYR4eGmAYV5hcmxvY2ZaTlZlZmJe"
-                },
-                {
-                  "type": "file",
-                  "name": "10 Because of Jesus - Meas. 74 - Stereo_1701Y26P050.mp3",
-                  "path": "files/18UdXSjHhm-euYeTn1NK_fLeapUMvO-p5.mp3",
-                  "kind": "audio",
-                  "id": "18UdXSjHhm-euYeTn1NK_fLeapUMvO-p5",
-                  "md5": "3e9850ba7470f2c2f23f892c2326df47",
-                  "peaks": "/5BodWpcas5tXXhwXsZnVmFSUFvhcGlsZlzIxW1yXGRV7Wp2WXB6ftlpaW5paNlzYWRgZebHVFFraWPJYml6b2Kt+G+BeWxb53Nde2hgzKeQe5KNd9yGb5OCcOvJbX+odW+RjmCyi267p194hm1qe1pgdFVqvZJjY2FfYGFpcNhvcaR+blVgYnfVTExJUmDZv3JcWWRj4GliYlhq59ViaJOCa5KOeXXgTUjYdl9hXm1cin6GjWBiZXnMa2VeZG9alXx6ZspZcI+aj3+Jl3BxXm2NanZvZm9pYnJNThwdGRMVFBcUDA8SDQ8OEBAPDAgRCgoMDGxkQi5kMTA9Vzk0u4U0UFdmTEdnOTonaWJKOTUoKzBRePlrY1xeXl5dXF5qZm5yeGtrXmBzc2tlWmZka2Rqc2Z7cWpzenyMgWRbXmRWXFJiVlhfn2RnWoNvgmJiaI+bkoZtdm9bSFdNOlLdcGBycWtqaGlueWFRTEA3KR0YFBMWFBELCAgHBQQEBAMDAwICAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-                }
+              "name": "Because-of-Jesus.pdf",
+              "path": "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN.pdf",
+              "kind": "pdf",
+              "id": "1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN",
+              "md5": "30eea5beb3ff8f0f143aef85d8755b88",
+              "pages": [
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-01.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-02.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-03.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-04.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-05.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-06.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-07.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-08.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-09.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-10.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-11.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-12.jpg",
+                "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-13.jpg"
               ]
-            }
-          ]
-        },
-        {
-          "type": "file",
-          "name": "Because-of-Jesus_Anthem_1701Y26P045.pdf",
-          "path": "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN.pdf",
-          "kind": "pdf",
-          "id": "1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN",
-          "md5": "30eea5beb3ff8f0f143aef85d8755b88",
-          "pages": [
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-01.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-02.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-03.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-04.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-05.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-06.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-07.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-08.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-09.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-10.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-11.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-12.jpg",
-            "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-13.jpg"
-          ]
-        },
-        {
-          "type": "folder",
-          "name": "Dies Irae ",
-          "children": [
-            {
-              "type": "file",
-              "name": "Dies Irae SSA - Accompaniment Track - Christi Jones.mp3",
-              "path": "files/1YGhdqTVEDHIIQ562yUTZQg4ihCvvQrYV.mp3",
-              "kind": "audio",
-              "id": "1YGhdqTVEDHIIQ562yUTZQg4ihCvvQrYV",
-              "md5": "d420b70acc0faa6e1fcdb8981b9ddfea",
-              "peaks": "AAAAJToiGxkqHhITGysZGiEnIhgXbn5oiWpkWWVKbVtcYW5jTUs7b61qg3qVqoaRVE1Ra1RXVjhGX3NhZXtkbod3Xl5RgYFmRzg9UDxiRT9RVDs2PCtAKIBqU0FocmtmfoZ6coN/aXZhYG5SMzmKdqOfi5GkirB2WnF5bYh9RylPsYROSHd/Y2F2tI9OaIFvWGFirGiDbqdyZWFllU9dbW9fXFVQjHhyR5xlbF13nXBefXNeZUhSlH99ZbZtcFVVeU9fXV1aZEvHroR2gLJubEZ8bGBjYlxvZWetm4t/Zbt/cWiadVxue3x3iYrTpHtpZNVsi2uObIFtj5J8kX6DXHFVTmpMLD2KcXd3YoB4TYb/4Ly5jtTXhNZ2f455cmmRoXJkbGBkeaqEipVETVNuW05LMF9nc29wbGxjbWpgZ1BkgmhKOFZjY1Y+RkRSNDcxPDdUcmZaOmimmnFua15de2JTV1VfY0o5MKChjp6ynZyPnndvenmSiV9BLSpHJh9YuKh4UPWVWzQxPx0MBwIBAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Dies Irae SSA - Alto Predominant - Christi Jones.mp3",
-              "path": "files/13xGvwhVBW9MY2jZtvqmLt4iPzLPy8lgJ.mp3",
-              "kind": "audio",
-              "id": "13xGvwhVBW9MY2jZtvqmLt4iPzLPy8lgJ",
-              "md5": "87593e39b599e97ffaaebaf33ffd9c8b",
-              "peaks": "AAAADxgOCwoRDAcICxILCw0QDgoKLjUrOiwqJSofLiYmKS4qIB8dd4Nuh5avs7nAqsTJv7Csh3guVlJPYIG1x8vYwdW+u7zKvJ+48MbV57O+w6ClsI9siL+Og4R4d3pocpO4w+Pb+ubc1bOpnF6Clqm+mT1FO0syJi8zLjk0HhEhSjchHjI1KikyTDwhLDYuJSpihIF0i665m4efj1dopp63onZigbGolY+RoJtxmHmGnpuokzSLoZePeNWcqK6/lXB8oqeuljJ1bqK+pp93o4+eq529v8Ksnjip4H6MnLTUws6otH+wtby9ejaamLWzgX6vqa6RqZXMt87Ywko6LjElIDc2JCg6OkJGNUFVQVR1lXuKaXuBeIY8ND0zMCw9RHNiaFdtp8rX1OXO29bn6NyqI2d8ZmiDt+2kt9z2//box9iw3vPhvbzYwsG2p5mblmtueGaRWIZ+h3p4g6CvzbnAu6mhn6V6X6urzqJSQkI7RISLfI6LcGBJTIWkmKeirZirs6FGJBUUGgwFAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Dies Irae SSA - Balanced Voices - Christi Jones.mp3",
-              "path": "files/1EOrYgcPMsIBpc9ZOoqHc7M6PUJc40tPm.mp3",
-              "kind": "audio",
-              "id": "1EOrYgcPMsIBpc9ZOoqHc7M6PUJc40tPm",
-              "md5": "8fbc4df2b3261e2a51dc1ad590aada0c",
-              "peaks": "AAAAFCASDw4XEAoKDxcODhIVEw0MPEU5Szo3MDcoPDIyNTw2KikianZqjoVpeI98eZOepXWHcFUoREY+SXKGmqOV0sWaw8LTxZaY/7vUsbSkn3aWkpB3csF+bFxTWWxiX1+TjoOFsbyllXd0ZF9kYHdzZlFYTGFBMT5CPEpEJxYrYUgrJ0FFNjVBYk4rOUY8MDVEW05XS2hmY01YbDVEXVhlVT86VnFtQW1SXkFVakBMZ1pnVTBffXh1fqB3kXuPfWdwcXlxbTVwgHiLca+Rg311eWV8dHCAd0Gi9sDXq6C8waaGhoe0qpCiekbF1N3appecm5CBmHmimZaZv1ZdVVlDNGZkTlRmXHV4VGyPeImtlLG0VqqWmq9MRk5CPjlPWFZOVEdIgombeat6oneigYJsIEpYTU9md5txhLLT5cfSurN/stOwv7TPx4p6oYp7kIV1l3p2PWd0dnNqaG1psox4Y2mCgXNmb4+KnYJoVlVOVpDAppt6o5GPccjnx8fH48bc88leMBwaIhAHAwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Dies Irae SSA - Soprano 1 Predominant - Christi Jones.mp3",
-              "path": "files/1fuTcl_0kBVYZGzctQ3NzIMSXmAj3V-PG.mp3",
-              "kind": "audio",
-              "id": "1fuTcl_0kBVYZGzctQ3NzIMSXmAj3V-PG",
-              "md5": "3f92f2dcf994a57495e7c6ba9decf4a9",
-              "peaks": "AAAACAwHBgUJBgQEBgkFBQcIBwUFGBwXHhcWExYQGBQUFRgWERANMi8uRD1BQD5AREZFPkJCNisPJh4mKj4/O0xLWmxUepqtq4J0po+XfoVbXGRdR1NLT2hOQTEbLCwuNC0/PztGS1NHQTUkOkE4M0NBNiEjHicaFBkaGB4bDwkRJx0RDxocFhUaJx8RFxwYExUYIhkeGSIeHhcaJRIVGhkcFxIUICIiDyQZGxUcIxcWIRweGREwQ1FQZHZhXmZrYEpWVUpPTRpSYFleUpOQfGxOU1BSUEVVUh1cv5S5j2VzfHVTXWWDcF1nUx6y2+rJq3Z9T15SYVpnYllbbExeXVdHNGFeXF9WRVlPOkdoV2duVXNjMGhlYXUiHB8aGRcgIyYsLCgpPUJCS1FBSEVPST46Di8sKyUzPEc3OlVlcXGrkImEh4WHmZSWhmFTgmo9VVxZXkc9FzQ5OD0sOUg1Uk9JREdNPzFJRT86Pz0rIyIfImKqnHdhh4RyZsHQycTExcDJ/8wxGw0KDgYCAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Dies Irae SSA - Soprano 2 Predominant - Christi Jones.mp3",
-              "path": "files/1M0AMmz2D7QJjk3ldRfQNHTtpa-2pEpyx.mp3",
-              "kind": "audio",
-              "id": "1M0AMmz2D7QJjk3ldRfQNHTtpa-2pEpyx",
-              "md5": "71a91fdd83c49b60cc7748369e911b45",
-              "peaks": "AAAACxEKCAcMCAUFCAwHBwkLCgcGICUeKB8dGh4WIBsbHCAdFhYSQEVYYl97inV7dpKTo4V4dFYqQEI7OlV4hYqx1dGysI9vZpCzsYyjgYt5kYF+bYN6Y35aaFo3TlFWTF12cWV+pJaPe2dfUU1OUmNPQiwwKDQjGiEjICglFQwXNCcXFSMlHRwjNSoXHiYgGhwgLiEoIi0oKB8jMRgcIyElHhgbKi4tFDEhJBwmLx8eLCUpIhdAWm1qhZ6CfoiOgWNzcWNqZyNtgHd+bcTBppBob2ttbFxybSd9j4WKj3iEgot7ZXB7gFFrWiR6lIZ8eY6PjIltbnBybXKAgispHSIaFiYlGBs5ZWFsWWlqanCFknqXVHZukJQtJiojIR8qLzE/NzdAc3N0eop5hGl5cnRjGzVDQUVOdohhd7z/6Nita3ZLscWJqIOCjGt5iG5qknFlgWVsPyg/Qk9OWXZij3F3anJyZ2FXXWx2c2s+Li0qLWSAgX51c3FwYWZ4d2RjdXBvcXoxHBAOEggDAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
             }
           ]
         },
@@ -694,7 +166,7 @@
           "children": [
             {
               "type": "file",
-              "name": "Dusty Bibles - Stereo_1701Y26P028.mp3",
+              "name": "Dusty Bibles - Accompaniment",
               "path": "files/11ALBBHY9IHGdbQF-nUo7WlmHQ4Jt8RLq.mp3",
               "kind": "audio",
               "id": "11ALBBHY9IHGdbQF-nUo7WlmHQ4Jt8RLq",
@@ -702,253 +174,46 @@
               "peaks": "AAACA1NMSTdFQ0FdPzZFSU48R0VNSUNLSTtEMzs3QD1BR0FDOz84RkpGTJ22wK0+r6ewqKdXsbiqy0GfxLrAr1a3qr2tSqa7rsCrT7CtnahAqa+t6MZsyde72WPCxcq6s3quzL3Id7LEutC6YLrRyLC+oq/hxqNTvcDIp6tf79LYxHe+aqtn1n56aV3bdmDkiO51aWuI0ON3xMTRxMR84cfF4smpXgcCAGS45Na7t7zOy8vUl7vExL3Fmb7LvMBPwsK5vMdFrtSxxGmw7LK60mDWwtXES7zIxcHWV8/dxc5IscDt31hM4VrnrcTFqsTSyqraz5zm7Jm+tcC8fcbD8M67cMLLvtmNyL7Ivsyb08uEFw5Ic+HT3a/swuTakePErrXUjuDUzP/UxMzc1s641dTmsMWozdDT0ZnYz45cUEEyTTgpKCdGNksvKUAvKSY0jFCES2BvamFlz1ymsK2tqUCurqulRqW+zsLjaMvrxtm36NnYv9+Iy7rN3YyuuqBO3JrW+ObY5anBzt56bpxZnnp0SU5AQTAqIRYOCQYDAQAAAAAA"
             },
             {
-              "type": "folder",
-              "name": "Stereo Track Rehearsal Points",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "01 Dusty Bibles - Meas. 1 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1jL5uPuX3ujSo8W_K24wQjWEjIx0vOliQ.mp3",
-                  "kind": "audio",
-                  "id": "1jL5uPuX3ujSo8W_K24wQjWEjIx0vOliQ",
-                  "md5": "5edfbc6e546501a62c31eec97337e00e",
-                  "peaks": "AAAAAQEBAQICAgICAwMEBAUFBQYGBgcICQkKCgkJCQkIDpStoZyEn5t9lO27va6zxZ2SpKKTn9StuKOAu4+IrZWmjMHSsZ2XjpR8nY2IiZSYcnhze3N7jMKofpd7dIGjhnRvv5+smo53fnSCuX2sk6qii2BpZHOypHd+r62NdpuZkZD/8tPDu8TAmriRjJeFhH92aImvq4iTloqWkYeZkXJgT2eYiG+OdYZ7opWgjI+xwKyLhah/vcLCvMvAu8ybxNuMxtuzoraDjIl3j3t6j56QoayTjHCZkH16hMvDk6mfaGtxcZN1k4iFhIqUeHyNs6jDqqi+qZK6kJWjjLXbx8Oxup7MvqCrnZqTn67KpaajlXx8k4FtcIuSj7yhm4qBs611ic62hIN/fYZ3znx0bZVwj3yNtpOJnqJ5Zol4hmudlGmSvpiaoaOcmnWZoZijkIaBZZFxYFKCcWdofW5jdqOBdWWcqIN9eX6Ee3uGf2dyf4KYdouDdp20m42RjJiLooitlaaokYR6aGJnlot9XmFpW1B1rrSCcWxnYG98jFt2bXlx"
-                },
-                {
-                  "type": "file",
-                  "name": "02 Dusty Bibles - Meas. 7 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1b0OO60UbXcGv_VRqKlL34fFZ7WwOg2oY.mp3",
-                  "kind": "audio",
-                  "id": "1b0OO60UbXcGv_VRqKlL34fFZ7WwOg2oY",
-                  "md5": "f0cb588c4209c97c474ac872676946c7",
-                  "peaks": "WUgyMTQzUkU4UVBAOEg0NkdVN0QwQDNRQUBVSElAOjc9QUBKSUVBTzo1UE5FQT1CRUdGKDo9PzQ0NCs1OSU3Ozk2OjFGWUBKREc2TFJAXkxRR0pIR0FIOUlCSkFZSj9KRElfPUAzOS9BxlZWNC0gQEc5OVRkTOV2WVdIPjlFSENCNjnydVtFQ0Q9Tzk7TTxF2sBNP05AMTM2QUU9KaXcVUZIOUdSWENETE5L1ENPPDs5Q1tPRk5NYt5tTFVWOjo+Nzk3KivUUkBLNikyOTY7Nyco1KdOMDU8N0g8PU89Nd+hODw8RUFFQDpPTS+o6WpOPTMuREs8SCg8Q9ZkOzYyLzsvJzEnLzz/ZlJPTUg2SEdHQUZKyWtLT0Q4QjUvQUpFQPVqTTg/O0I4MyozMDHq0DUzLDUwQUA1MzQ+8tJWTDZiRElBQERTQEfcX0pQQ0NSW1BHPTtX5XtcV0lEPUJHQkc6TdZTQTQ3Nzw4QzQvLTDugU87Py0+Qzo9PzM12YVKVVtERURIQ15KSNLBVUo4QDlLPTM4Qjs37Es9P0hGSEU5Nzo2"
-                },
-                {
-                  "type": "file",
-                  "name": "03 Dusty Bibles - Meas. 15 - Stereo_1701Y26P028.mp3",
-                  "path": "files/18WcstoPbAU0PRns0mZbAS7saBluKzxa8.mp3",
-                  "kind": "audio",
-                  "id": "18WcstoPbAU0PRns0mZbAS7saBluKzxa8",
-                  "md5": "ed0990156b8c4d8b4e137f2894090d41",
-                  "peaks": "ur5NPj86QUhFQUBPPkLSTklaMy07RkJGNjY8vFVWREE8MTo8PFM6RL5eTDVSOSlAQUQ9Kjq+aU4zNi86NzQxSS0xqqtGNDk2MjIwRkBJP7auPDkwMy5GMy8uMSq6ljcxQUlARTw1OCwmvrRhXExIUFtiWFVbVpi7YWJgWltid2Jjb116/2hgV11oWmZsZHBabNhhcWVmXWdiaVN2VGrcY0RWTEZoW1tYXlVz6otfUUdHW1FcWWFZW8ybX1JMSW5IUURiXlvtrFRRVUlja1tRVkpGatNeWltVTWdsWmRrT9LWZWBhXFx2XWRpaVVg3Gp1VFtXV1ZSUFZUZ8tVaV9cYF1YVl9tYVjDY1RHQUpwhXBlYFVhvqpgWkpJVlteSU5RR96pSk5MSmliaGRZX1rOuWduYFdiak1LVlRCutpeYmNyaGtuY2ZjW23BmWlnXGOJW19tVllf1Y9RT1VmXWNfZWFmfcpta2FeZ2tZUlJmV1vkf2pdX1NZW01MVU1Ry3dYZWplXVdVTEdMVsm+QUlQS05cT1tKSl+E42p4X1JTVl9vaVBs"
-                },
-                {
-                  "type": "file",
-                  "name": "04 Dusty Bibles - Meas. 23 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1QZ6EcbCClJVpCMi-t_gGYa2TE9XdEZ0n.mp3",
-                  "kind": "audio",
-                  "id": "1QZ6EcbCClJVpCMi-t_gGYa2TE9XdEZ0n",
-                  "md5": "f58bfd6a984071e540e9e5a34d375a3c",
-                  "peaks": "1ZVoXVtjbVpjamu7W2xoXYJsV2BRzKxbU05PUEdaT1i7blJGRlBJSk8t725MWVxhZ1lPT2TTbFZNQlJeXlpWraZQWE9LTEZVU1LJSldOQ0xKU2RPyo55VU5SUVBdXmbUZF5PY1NUWVVSpLJlVVNdT1FXTFC1SzJNS0lHTVBU/49ORVFLV2BQYl3fWlpdUmJbZ0s+52dYRE1XVE9QbWHRYWJtf3pLUlFDzIOXloBkY2hucWdeWFtlZ2hTbVx5tYBrYGpcWWZvbGtnY2ZfW2FYYE9v4oiCd2ZyZW6EcnZja3mBdW5nd2RhVltaXFFQUmJgYlFRT0lSU1JISGFd63NlaFxnXmN+Y1daZWRfWl1mXWFs9I9kcWiCdndsaolzgoWRcnVqaWNk/Hpib2RycnxpdHt5cGxvX1ZfZ2JhcmZgUE9WWU5jamxyVX6Leo9mcXdQ219xX1CTZmxdaE3wY2hmgXxpZl5j0Yh1d2+Pjmx3Z2TQiZBpq4JtemZd3IxcYliEe2VnRlPRWV5ff5tQXkRF0J5PW2Z0h4NpWWHxaH5jhXp9YXBa"
-                },
-                {
-                  "type": "file",
-                  "name": "05 Dusty Bibles - Meas. 33 - Stereo_1701Y26P028.mp3",
-                  "path": "files/18HePAIjGI63ZF48QQpQxuBk3LBCwQK-O.mp3",
-                  "kind": "audio",
-                  "id": "18HePAIjGI63ZF48QQpQxuBk3LBCwQK-O",
-                  "md5": "d4fe524c97569fa84fb430db6b69a975",
-                  "peaks": "bd5mP01NWHFnXV9nTI53blN8ZllVUEQwOTZT24haT1JbVF1FVWBGfnipdVtycoZna1tSY4/9xWNQSkhNV2JZZGNra216g2ZhTVRYXkxJTuG7h3pqdGp3bG5ZXIBzpYJeanB9fXN6al9gW1hBQjcbFRETDAkJCAYICAkHBwYHBAMEAgICAwIDAgIBAgEBAgECAgIBAQEBAQEBAAEBAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0pNiogDzlvYDwjMiQdHRIXDBEsasyAoldYVVBRU0xPTIZ+klt8cl5rbZRbUklZ4P9dYnBdYWFgYltXaYW4fHZnd1iGbFRibFNz8XNLdX9ocI6AY2JhvItraYl0c1lZRzQyM0TPyXpaaXtxZ2GAe3t8cXFzaFdlYmRZaXhcesbSX2E9X2JVWXpnZ4ergYScjoV+hY2qmIRkWOSbYWNsfWVvU1RWVnigcol7aWxrXmtsanlh4MVsT0hOYFZie3hzqm6Pb4l2fm5tcGpoX11s4oFialJfjmJXU1ZYmo6CbV5kZ3lTglp1"
-                },
-                {
-                  "type": "file",
-                  "name": "06 Dusty Bibles - Meas. 37 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1HOPRcvTtidKTio4mdhBKpvsvHf4aQvwz.mp3",
-                  "kind": "audio",
-                  "id": "1HOPRcvTtidKTio4mdhBKpvsvHf4aQvwz",
-                  "md5": "e77db75f25931a384b472756b4241a16",
-                  "peaks": "5nh6YWGnn257ZnPKVGJ1eI9kamtg0MOHh22Gf3BzZ27RgodmfIl+aV9qxrtmWUhyZ21jZE/NUGtnVYJtanFZyoFqcVydYXFmd2nXdXx4cox7bFxryL1UQFF+XkBDV0nMUD1DM1RFQkA/ws1RQFZOUkI3PTnLT0s+M1FCLzcoucREMDc8QzA7MDvET0A7OlBEKzU01aM8KyQoRjEyMS64QDcvPk81LC0usOZBOjRBXT0/UEe4SUdKPFNAREI3oc9JRUpPY0M0Oze8WTQyOFlMPisqpvo4PD8/VjstLy+9SzpCQUhGLTs+VMVPNSxYVlM0LzjjWFFMRV1cS0g4aN45Szo1TzVHNTfMRTpDSU1HPkNIP+FJQDM6SUJAOCzSRTlJNEFOLU85Vcc6MkZFYDQ9QTjXjEZGP09RPkNJQNJAPjsvaE09RDDKrkBFP1ZVOzk3YuVDUUhJW0ctOjTanDpOPU5IQ0QlQ+hzRzsvTkY6Pze/z0RcSztPOzo0S9lRTkE5S0E4RCq5u0FLO0BNSERDQsxIQjo8XEk7OkBW/1tYPmNcU2ZW"
-                },
-                {
-                  "type": "file",
-                  "name": "07 Dusty Bibles - Meas. 47 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1FjRa6jgYhz9Kj5A0K54fPWBzV8duo6Fh.mp3",
-                  "kind": "audio",
-                  "id": "1FjRa6jgYhz9Kj5A0K54fPWBzV8duo6Fh",
-                  "md5": "0fe48c24953151905034e61431e409ee",
-                  "peaks": "68RqcltXT0ZCQ1dAREZDP0g2RDc3Nzs/Tzu26mdtcGtvaWlocFlVW1FfW01LSUVISE9FR2n2hGRhZ1NjYmRiZWFwuHpzVWJvYmVqZmdnbsLPdXdSYWaWjEyMXo2QtI5sgGFgprNzdnddVsyDXWtsV36JT2xgXl7dYWxyY1+KfHNjXWlo15OHYVtph7FramphP+WFbpBlc3avcXZubVd5219wdnadqptqb15NaaWAYmViVZFpZm9gbVvzWVRdZFqJdmRoWEhJ+WhRaXBti3J1X3J4Zsh6WV1VYrCBZnJhXkeju1xka2eAgWphWl9WzcdodVpYfodqZIRmTWrGc3x2Znl4Xmdkf4Vm0FdbUGdjpHNyXF1eSM9ucGphfYOyVVNoY13/uWtgY2F9gmlsd2pK2cFZU2dblnRgZFVpV7zFVGVNTUZwdm1vU1NfzHJqd2Fbj2Zra4lsbdd3ilRWWXWrcnJySFvJrGZmcWGJo29ueGhx5IFkfGxZlYprfl9CT8rTXGBYVnN6f1tgU2S+x09kXWBygXpmREdARdJ1dlheaYduYlVg"
-                },
-                {
-                  "type": "file",
-                  "name": "08 Dusty Bibles - Meas. 55 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1g9vZ_xNh5s4SFlAyMjiF2AE4ABWYVW7p.mp3",
-                  "kind": "audio",
-                  "id": "1g9vZ_xNh5s4SFlAyMjiF2AE4ABWYVW7p",
-                  "md5": "0836c6e811a13900bbaa58916fa2e318",
-                  "peaks": "br9pVlVbZJthbFF2Rk7QdnJ9c3GZYGmGXFd30m9jZWRVeG1ebGhNUM2KXIl9bpCCeIZ0fFdTNB4YHhQXFg4OExMLDQ4KCA8JCAkFBQYHBgQEAwUSCgUpHg5KNRpjYCpMTS04amJNb3NQguR/bIdlc453imh5Z1/RZ3t6c3uNj5l6dXhy6HFmenpwrpd1a1VYXe+ja5V+bIyPeG54dGTJrYh2Zm2Lo4p5eXl9w+BhWGGQaJGTeHyAd3Dfa2WOgnKBjX6Di3Z46X1pXXxkp4CIinCDis1fU2NcZIZjeWhxXm+wlGKOVnSYq35pcHB3t3V6gGZ9tY2DmH1ugtp3YXlqgY2Sd3KNf37ilWxvb3KPsnhmg4iJvNljZVxpjLBzfXpjfHbPjGxzemOZe32Ma3Z7/39tcF6JoI+Rcq5sg9hneHJrcbqObol7m5LVdYCkc3+ChXdpaXRe4NSBZHZwkIN6pY+OjdefcG6EeoiGmnh/eGXUlmhca2iFu39laYuEvddxcn1ZgnhtcnRjWnnZWmJdXVZvcHZ4ZmFz4156aFdilW9LWFpY"
-                },
-                {
-                  "type": "file",
-                  "name": "09 Dusty Bibles - Meas. 63 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1inBind4K1X1j3EYfchtozMJ8d3GbJf5F.mp3",
-                  "kind": "audio",
-                  "id": "1inBind4K1X1j3EYfchtozMJ8d3GbJf5F",
-                  "md5": "424215999ae8923738e186f3cdecb852",
-                  "peaks": "b37Tkl5gdHFEZWFMUX2ggapYV2NjW2GGb2B4huqRkWJ/Znlrl3iddZe0e6CodnV+hlKUdoWX88FbdWZKcoxkW2mBnI+pipNxbnlpaoNtXIK59bykqpd6ppZmnZZ8nqiNj3mhjZp/fnlrcH79v2aAeIRxe1xjZ3Wql9WUeHJ8lYOMfn51gcD2kXV8kn9wjnJ2ZZ22t4Ouh3+Niphrb312iv+nbVBHnrJwYIBnlY+qeoKKho+GqpyRjISA6vZqkoZagKlzh4ybkrGKZap2aqp4dWZLX2qHboWAdGpjd3BocGRYUFZBQEs3Rjw2Vj1DODo9KTYvODgxRDY/LzBBNTMlIiIdIiQzPiopX0k1R0RLQz1JPzc2NTgtLzAwMyw2LiosLTsxMDcyMTU0NzMvMjcvMDIxJygyISEYIDYuR0tcVUZPSVRCTDg3NDA1Ozo9Oj0+LjIsMzNDOzQ1NDEoLyYqLiclHx4oLC0qIR4jJCQjIR0XHzEmKCwnKS8sICchGh8lHyElHx8eIh8fIRcYFxUfFhcbHB0lIh8eHi0tISIjJCAcJzM1"
-                },
-                {
-                  "type": "file",
-                  "name": "10 Dusty Bibles - Meas. 67 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1wKe3Zb8Qa-Pc9XWvAP18_JOj4yRfCrVX.mp3",
-                  "kind": "audio",
-                  "id": "1wKe3Zb8Qa-Pc9XWvAP18_JOj4yRfCrVX",
-                  "md5": "46cc251122498a9cb5e6f39ef3818cd1",
-                  "peaks": "TUQ/REU6Ojs1NCwpMjAsNzAqKCAvMzZUQkIyNDMoMCQmIiUkLC4oHh8kIRoWKEQ/PjEwMC4sLyorKzIzKSIjHBcmGRweGi0tIR4gHygjIyImGx4iHyYjIDYiGCgxb5hkUE9CSFVTXE1YR0NDSUs9Qk1KUEhRZ5BXW1hUQUtFUklASkVIRU1ISjlFQTpIeVtqXlpQZ2dbV1lic29oZWR1XE9VXFNqWFxVVF1vYGJnYWduaGRWV295cIF7eeWcRDIZOWMpKicUL7Y5HD09V00mGxcORr4vGhwlPTgbFhI0vIgtIyxPVCYsJyAwvEQ9LxpYVSgjIxSSujsiMhZGMCYfFjG9NSksFT9LKRwiEiq+KRkjGz5FLCcxEJu7Mi0iJVgzJh8XD7SvJiAjMksjFicUNLRDMSklUigfIhMReM8vPSIxTCgjEhYd4pY1Pi4+ZlJMUUxD0mphSkNYgW12aVti9mNzZlZhVVNTbFXdxWmEaGOZnmKOeXb+cHBpX6CeXEtWWnrWW1xgZZR0cVtjf+ixaVVYVYeDcHRpZP9ecZ6EeINufXF6"
-                },
-                {
-                  "type": "file",
-                  "name": "11 Dusty Bibles - Meas. 76 - Stereo_1701Y26P028.mp3",
-                  "path": "files/1BWis2IT56T2qiPu_dpTfmuSAwgMKMw6J.mp3",
-                  "kind": "audio",
-                  "id": "1BWis2IT56T2qiPu_dpTfmuSAwgMKMw6J",
-                  "md5": "5eb40a00edb16032fc60fe15b7f9204c",
-                  "peaks": "55CPlXmZnbp+cLXifmlymad6inl/yKtugGSPfXBqYOq3YXxuk4Jsd2yK1m9bXY6UfHFnYcZqcn9nl2R0gHXXeIdtYpaHbIVuXN58iHJxiW+QeF60taiDflFut5CwmpqVd4uWx5+nn6d9eWw8TlFHTjYwMC4lHitxkG9jV+HLa31usaV/a3qQ3XdyeXGOhYR0ev+hkn5rpIGBcH107YiZdIGvamtkZ+ZmZXRvp5Z7jJKt7FlfcauIeW9oecpnh4RziGZuZGTaln6Ym4mUc4994dB3Zn1ramFpYGZSTE5IQUtIXWRyY6h9kFhdUlJbU0pLWVFMTkNNUUp8cKOMeHhmaXWBeXNudndnXUxGUlFESEpLQkRGR0VNTzo8QEBMS1FEP0E8Ojc5NTpDQEA9PTIvMS0sLjAsLjIuKiwqKiglIiIlJCIiHR4cGxkYGBYWFBQSEA8PDw4NDQwMCgkICAcHBwYFBQUEAwMDAgICAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-                }
+              "type": "file",
+              "name": "Dusty-Bibles - ALTO",
+              "path": "files/1imPrdt_ffSTJYi9r69cschPDF0IMaekc.mp3",
+              "kind": "audio",
+              "id": "1imPrdt_ffSTJYi9r69cschPDF0IMaekc",
+              "md5": "bb7028efec4a02cd5478525e2bc6d106",
+              "peaks": "AAEDQkJOP0g5UGFHODVKSjc+PkE7f9i3xt6bj622wYDMqsZseY1+PyctcXZpKZd6ZFQ6iKBxp66Cb1pYmnaognNyiGKFel6PcV5ciIhvfWNpsJ0ycb+Oumdu3MPHxKjlsn1pasXNuKGSca+jl6GWmmp+6bGgd2fesJaK8fW34sDCz+3Pqeiuis7P0Iq/vIuglp+PN0Ca26vznL/sys+lxtmuwrSgvJbcncmupqK1vqGdsHPHtJi1npq3g32Mm3ZsRot+nWN3dLOvkJhieZVizqOinLGUvurGtKvKm63klteRh7PG/re54ZfCp72Vnv7T2bWgzcvKwJzG0YW1nZ2EbW/56KbZyon5vd2r2anFxYKIxbPRham1y77Qt6+8mXnCnaqRrKCpfndNscOqxdKVtISNkKG7la2od6iah4pjX111b3BUWyJ9bCZfWF1dPBW74J4ycbK0hnqMuP69/56a6Lvtl9Oq7X6ropZ5iW/yx7n8vob0kdTNzurTwsdzY46hldewzcm8ysyQr1nJjJ6ZnZekjoiORiMZFQ8KBgQCAQAAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Dusty-Bibles - SOPRANO",
+              "path": "files/1zmvLEWp_4uKz37z5csgAmnaEYQQxcbxW.mp3",
+              "kind": "audio",
+              "id": "1zmvLEWp_4uKz37z5csgAmnaEYQQxcbxW",
+              "md5": "11b74865395a9f77c295e3754b46f635",
+              "peaks": "AAIDUklKN0dDPl1GPDlGTTtKPkU7gp+iqaF9aJOCml+Rf51pdnBrNCorZ2x2KGx5YWs9aqV3vX5diVxyh1+Sa4dug1t5c2yOYnBbdXVhcmJkwr87hbqi+Z9s1uPMuaHEr4iAb6vGraZ5ZcDEp6OGlXyCtreHrWu3t6x4t8at1qrhtuewqs6QjMaZpYG3pL58kbWONzaH3Zb0vZPD1s6liMbC5J6NqXLCgMiOw8voqqmuppbNqquxmKO1fIKJq3R3O36SqHdwaJqImqpfm5dqvr6W9byF4ZfOm5DFi7vloqiJfbu0y4724KrXx9K0n9vYyt6+qsPfxmzGuqGZoamZknHN3snHsL32yeyfuay70aufwn7jfsakuNrvoNi2lnSmopG9ybGZg4xerqrA1sWVrKiRqJG+3aO8faCSko1nTFFmcVtcMShhXidQQl47JRN47IhGecm1eHN3uOCc6Jp3qJvktMCjsnWem4OVhXX3yv/x0Yzsh+zC2LnS4ax8dYCPfe7Gz8jnqqXInF6ttJCMnYqWbHRjThwZEw4JBgMCAQAAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Dusty-Bibles.pdf",
+              "path": "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk.pdf",
+              "kind": "pdf",
+              "id": "1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk",
+              "md5": "b865659af9afc7bd49805638daf39cd0",
+              "pages": [
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-01.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-02.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-03.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-04.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-05.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-06.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-07.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-08.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-09.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-10.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-11.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-12.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-13.jpg",
+                "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-14.jpg"
               ]
-            }
-          ]
-        },
-        {
-          "type": "file",
-          "name": "Dusty-Bibles_Anthem_1701Y26P023.pdf",
-          "path": "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk.pdf",
-          "kind": "pdf",
-          "id": "1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk",
-          "md5": "b865659af9afc7bd49805638daf39cd0",
-          "pages": [
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-01.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-02.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-03.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-04.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-05.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-06.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-07.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-08.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-09.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-10.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-11.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-12.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-13.jpg",
-            "files/1ZPm-ITnQaNan91fGR5Ug3-oM1b2l15Jk-p-14.jpg"
-          ]
-        },
-        {
-          "type": "folder",
-          "name": "Lineage (Ramsey, SSA)",
-          "children": [
-            {
-              "type": "file",
-              "name": "Lineage SSA - Accompaniment Track - Andrea Ramsey.mp3",
-              "path": "files/1raS4O5Nh3BEQzgJT9pG35fW4GDVLnUJA.mp3",
-              "kind": "audio",
-              "id": "1raS4O5Nh3BEQzgJT9pG35fW4GDVLnUJA",
-              "md5": "bde654b2e2194c1916fdf94c6ee913fa",
-              "peaks": "QQUBAE5OCwMBAGUjBwJuM2UdEldKYBALAmMQZAxUDQxdDFZOWVkdWMheD12ViD4LClSm214MYlW1VgtVYFJabmYYCwJYDdhQfF/MtmJUdnMOzFJ+XbPEW0tyeZAcDJcVDokLdWN21HRTc3bmPCJBIEOSEA2HC5kYLCYqI9ta61Rn/1la/HT5QA4EBQtfCgwBYGYQXV0MA1cIXxBUjV1chaKJXl6LVlOUeGRh75dVhw33U3lsVlbqfnpTWO2MVVWAU1iBjRqKCQIBihUlT000RSlYPxszOC4vEEUNCVsNBAEAXhWHEyNDSD5cFhFgIwtfUQwHB1gQVh0aRkI+XAxUVw1VTxALCAtSYSQGU6vLS8URUMS/U18NSrZEZ6tUl7tTsrJOS64pkE6kUESrSU6qUIeuiiSyTFNhSpuxRkujHFJTJCgoEDA2DnJudElQp0aMqEVFzAsDAQhPCUA/Rk0QPz1KDEUJRg1RSgtARHZMSjVKCUNFB0NBRboXBSExJkgIShJDTwsCGR4cHw4IBQMCAQEfDggFBEIJCghESQ4DAQAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Lineage SSA - Alto 1 Predominant - Andrea Ramsey.mp3",
-              "path": "files/1UowJYLuKCnHka7cwky9hkrQ4h41fcpLz.mp3",
-              "kind": "audio",
-              "id": "1UowJYLuKCnHka7cwky9hkrQ4h41fcpLz",
-              "md5": "c9fac15629e17155212bfa10174a8725",
-              "peaks": "BAAAAAUFAAAAAAYCAAAHAwdDWWZ9W2d/qqSTSW9ue1x1pFtgaF8jYnp/jJSAX2pVb39mPkY0TkVud3FEQj49NzIUZ2FiZ3l3FSMmIx4cIyAZFQsjIB4cHCAeHBsPc7OJaJVzgqJ4gZvDqZqPGVxSY0BMcJGJeGsUbFNPOEErLS4wMzEyMDc4HImIdneShXaQm40Ye1F5ZMyjc6atgWJcievQdG9qT21MUWJdWEpJR0VBGU9RR0Y+MU1RQ0g7ZZR/gYFWXZOVe2lgTQ59cIKEbqOhnZScfnhibWVWWl1CQUA/RjsnBThhcFJKY2VVdGpbaUtDLzg6OGuAXXt6enZtb319eHVRQC4vMR0CBgsOBX5rj6F7dZG9jWIpd6+xgJeDk3hnSU05SGVco47RbYKpT1pLYW6BkHWJV3p0iJGnIV+RcE1iYEdAV05RWmNhZX2Bp3l5RE5Tc19igiYhHx0gHxsZFBMMGxsaFhQTGhoREQ0UFxkXExIQEBMHAZuHgOz/08fz4uXRa29WY1xPPT86HB4bHR0aGRYTEhARFREBAAEBAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Lineage SSA - Alto 2 Predominant - Andrea Ramsey.mp3",
-              "path": "files/1MaC7kpRXnw2tI-2Pxo4P0wGFwqs0ysYE.mp3",
-              "kind": "audio",
-              "id": "1MaC7kpRXnw2tI-2Pxo4P0wGFwqs0ysYE",
-              "md5": "8033400ced76ead2c61ec69113bbf047",
-              "peaks": "BAAAAAUFAAAAAAcCAAAIAwdJYW+IY3CKuLKfT3h4hmR/smNpcGgmaoWJmKGLZnNceYpvQ0w5VUt3gnpKSENCPDYWcGlqcISCISIrJSMlLCQkIg0lIycpLycpIyIPla2kh52vh6K4pKCvkZikO2ZYa0VTeZ2UgnQWdVpWPUYvMTI0ODU2NDw9HpWTgIKfkYCdqJobhViEbN6xfrS8i2tklf/ifnlzVnZTWWpmX1BPTktGHFZYTkxENVNXSU9AbqCKjIxdZaCihnJoVA+Heo2Qd7GuqqCpiYJrd21eYmVIR0ZFTUArBT1qellRa21cfnNjclFJMzw/PXSLZYaFhIB2eYeHgn9YRTIzNh8CBgwPBYp1nLCFf57NmWosgb3Ai6SPoINwT1M+Tm1kspnjd424VmFSaniLnH+UX4R+lJ21JGadelNqaE5fXldUT1NMSmVZXVRNE2Zjfmm5uiEvISMrJyUhHxkNKScmKCUmKigiGQ4yICIlIB8cHBcFAZJ/eOHzyr7q293LaG1UYVtPPUA6HR8bHR4bGhYUExASFhMBAAEBAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Lineage SSA - Balanced Voices - Andrea Ramsey.mp3",
-              "path": "files/1OFguqTl08O8YdWgMRAvQHIIo10A-vHmy.mp3",
-              "kind": "audio",
-              "id": "1OFguqTl08O8YdWgMRAvQHIIo10A-vHmy",
-              "md5": "4d004aeb92b06a2dcf6318ac16a291e3",
-              "peaks": "DgEAABEQAgAAABUHAQAXCxUdNERMM2lHfYltHVZFdzZhgWxIUVUQQHN2bWZKUDgwUVRGQj8rSzxRYk83QDYuMSsYOjZdWoB0XF99Wy42T0kpWTNNSEkyWD9XPUxGfLiulJB0crmgtuf/4Oz1U0RFTDtIZnpsc1kRUUE+JTgoR0M5U0dKS0VIEkRPQjtHV3B1fGEtVUNFSHl4dYFxUFNQcbt5fERHMF1OR1xdOzo/Sz1EJTlKRkdMLU1IQ1Y2RmlhbnXBxr25qpiHahRDQ0g8Nl2HjXaGoJNYb21qXlpWW1tbaUxBCSxAYVlKV2hrdHuRVFIvLjYtNi5jTHFoYH+Jc3GQgmtPPjY3LRUCEiQsEF48YHJ9dmXGhVgTapyXjJaOn4hTX2VHN01VnXSnUVqLQVdJNkx4mUZdS050QWJgGTtscGtmXjtiTldaX15bVndyhXJwMjpgYk6IklZEQEsfPzY7PjdCTUhSNxcyRjwxSkVIRUcuEhUVFSwHAVlNQnCZZV6MkXtxQzQ0QjE0KyoQIxwYHB0fHh0WGRgYGRkBAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Lineage SSA - Soprano 1 Predominant - Andrea Ramsey.mp3",
-              "path": "files/1WI0HTY5Wujs1b5bONECubhVQ5c07kJ2I.mp3",
-              "kind": "audio",
-              "id": "1WI0HTY5Wujs1b5bONECubhVQ5c07kJ2I",
-              "md5": "a10bb238ec6667fad3a2721b36d680b2",
-              "peaks": "AwAAAAQEAAAAAAUBAAAFAgUZKjdJP1hKXF1JEE5RWzZghGJaY1INOlxrX19LU1IxPkQ6Ojs0KjVoTFEvLTAlJyENNEddTXJmbXJ9YQ4sM1IxUTtcSkw+VkNgQldVc4iKjINFUJWGoMrCw/3/dkNCSC1LgWVjXE0RSz40KiwiMTwwSk1LSUM/DQoNEA0MPWJ4Yj9COTs3NiWBdHhZR0E6O0M4KRAPC1xhRllUNjo9UD9CMDdKRkE3P1VQS1NIVGOBfozt89zjz7yskh4NDxIQDhRulH2UwrlWfI2OfG5ndYR4hHNoC0ZEZWpGXlpkVVxyQEwrKCwsNg1uZYxtYH6JdGR2fmBKPTQ0KRQCBAkLBHxflHqMZ4TFlnQOeJN/Z2Rgb3tdbXVRWV5minDBaXWdPVA9KVxTf1FvTmNXSl9HFk2Ce3JtZEZPPUZBQEBBP0VPSEM/DDdbd1tZeW9UXWUPTD9KQE5QU01WQQooREIxXVlUVVg9CAQDBAoBAG9pYZ2+hZGLiIWCRFM+SkQ1OjoiHBUNFhsgJRoaFBUVGBYBAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Lineage SSA - Soprano 2 Predominant - Andrea Ramsey.mp3",
-              "path": "files/1IiUMkTYVjB8Bv3qAgx-JzI4fkQq1nHiP.mp3",
-              "kind": "audio",
-              "id": "1IiUMkTYVjB8Bv3qAgx-JzI4fkQq1nHiP",
-              "md5": "659fa9b02319ab286718e00e8bb0e328",
-              "peaks": "BAAAAAUFAAAAAAcCAAAHAwcvQmhza4R1j6aRIVVgl115uYN8lIgdUYSCsap5cXw/h75vVWFPVFSFd3RCSENISTMdUXCTUqaWjn2VkE9tdJM/cVlbXFZDk3B8Tmh8lpyopLCbZ+XE5+na1cy3KlRWXEpXho14kXkWZVpVO0Y+O05QVEVAPzc4CFtrhGd3fX2Jh2UXVFKObLadiH6GZ2lmpMiowWteTm1ORVZPO1VKYFNSSl9PWllCWExzUkBJZFtPSU+yv7mBfnRrXgxOcX11YZaGel9gaFNCS0tTTkg8NzI0MicdAzZkjINfYGiEkKrSaXk9LzAsLRePdpOJcnV+k4/YvYtqT0c9NBUCBgwOBm97mdOKYnaaflkLkqzY2NbN6st0kYEzWnd0y5f3i6iWRF5NHWCAoXKLSn2CX1hVDUeDmX2Tl0JjZXB0Yltbc2h+d4JzF0BlckdwhGxUVj4JMUJbT1ZfX2dwVDQ9UGVeW1FSW1Q6BwYFBQ4BAJaNgtL/scG4tLCsWm5SYlpGTEwsKR4gHSIiIh0WHB0dHBkBAAEAAAAA"
-            }
-          ]
-        },
-        {
-          "type": "folder",
-          "name": "Lunar Lullaby (Narverud, SA)",
-          "children": [
-            {
-              "type": "file",
-              "name": "Lunar Lullaby SA - Accompaniment Track - Jacob Narverud.mp3",
-              "path": "files/1E9egBcxaXqUgzztqi5Xn56cOoyasD0jJ.mp3",
-              "kind": "audio",
-              "id": "1E9egBcxaXqUgzztqi5Xn56cOoyasD0jJ",
-              "md5": "cfe7a39ab054502028135be5715e5f73",
-              "peaks": "AAB9UyOhhEMSjF1lw2M1WHyXkF9DSY1uXWtVbGzFyLyGW1ZuqZaEa15TXVZjZVpgNiI7eWxyaWJpYz+IpaCkcmBjdWJhiH5tSl5dfoizrK91a1tobk1bWJe4pngoFgk/ZHRlKzt8dWhaVnBSm5+DWV9ZZmtKU4xqonhtT2pvZ1hXaEd9mIGDspPApX9JqKuRYKG3fY6HSIuiuJVxdHt2W19MSW9kbIttPYCDdoiGbHRUaVZicVpYaWdeX3l3ZVBDEQkDOWmDZjE/f4pMWFFdQ4JoeG1ZPVVva1RZRlNdV1ZrbF0SBoNlTiR9TjleZmo/OUY+ckovyoBJKnQ7GS1eclRYgqZ9UFKFbXWFdF5sXouvv55LQ6lWco3Unlo5kFUnGIS9nEhAMFV/lJBOdojY9OncUDJAv5WfkUcYDVNZlYaFZm1iZGFgUX5venpebFh9eZpReY5cjJ//lrKdPj1nfmVyiHxQYl1tbFdKSXFMUmZPIBMKcUgvJGhEJ0lULhtcXzMVynQ1GndFGgx5WhwaqFUoGQ8IBQMDAgICAQAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Lunar Lullaby SA - Alto 1 Predominant - Jacob Narverud.mp3",
-              "path": "files/1lkxdPlc-P_p5DOlgi1SbQibOgIW77RQZ.mp3",
-              "kind": "audio",
-              "id": "1lkxdPlc-P_p5DOlgi1SbQibOgIW77RQZ",
-              "md5": "5e0e91d4a415398553f539d7d10e95da",
-              "peaks": "AAAJBgIMCgUBCgcHDwcEBgkLCwcFBQoIBwgGCAgPDw4KBwYIDQsKCAcGBwYHBwYHBAIECTtPPkNEQWFaMzw4QldYVYVcQF5SS08wIjEpDkRfSzMsJzQ8RlNQJSUfFwQ9VVc0MkdHWVpTYlJJVC49S05tNTs0O0E/OTI1cHNhVFZRPiYpLyMqLjEzJUZPRWeBeWBbYYB6O3F9ipKducrGgNC5yYtgOh9WTkNDSlAjFNW5uItjTU1LcFpgX3KTdnlxfn1gPFprRERAPm5yUl9kUT+DhXhOW3FqbGB0fWZcVU9RRhUEPFOYj1+Nu2VjZEJRWFqMbnHIs6KAT1NHRExCUWtugWp7j6R/S1dcQ0xQNxs3VVmEpWuecXFkbm3t+MGgsbKos8LY/f9SFwsFCQoQExIRBgMEDgsMCwUCUFNXNj9GUllNa01ZeoZuUE4wOzpGSURGWm3C00x9YkVMTkRFU0FRbXlPVFU5R1FTRz9EZ2KOd0IVICQfFxYUFBQiIBoWFhYSGCMiGxcTEhAWGRgTFxQUEA8MAwAAAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Lunar Lullaby SA - Alto 2 Predominant - Jacob Narverud.mp3",
-              "path": "files/1u47nj0v-G8YNUR2O3EMXAq8_6aJGI5TU.mp3",
-              "kind": "audio",
-              "id": "1u47nj0v-G8YNUR2O3EMXAq8_6aJGI5TU",
-              "md5": "b495b708bdae2f67feed30032fe0d6f5",
-              "peaks": "AAAJBgIMCgUBCgcHDwcEBgkLCwcFBQoIBwgGCAgPDw4KBwYIDQsKCAcGBwYHBwYHBAIECTtPPkNEQWFaMzw4QldYVYVcQF5SS08wIjEpDkRfSzMsJzQ8RlNQJSUfFwQ9VVc0MkdHWVpTYlJJVC49S05tNTs0O0E/OTI1cHRhVFZRPiYpLyMqLjEzJUZPRWeBeWBbYYB6O3F9ipKducrGgNC5yYtgOh9WTkNDSlAjFNW5uItjTU1LcFpgX3KTdnlxfn1gPFprRERAPm5yUl9kUT+DhXhOW3FqbGB0fWZcVU9QRhUEPFOYj1+Nu2VjZEJRWFmMbnHIs6KAT1NHRExCUWtugWp7j6R/S1dcQ0xQNzRwcGejtl5idXplXVvs9cChsbKos8LY/f9SFwsFCQoQEhIRBgMEDgsMCwUCUFNYNj9GUllNa01ZeoZuUE4wOzpGSURGWm3D1E19YkRMTkRFU0FRbXlPVFU5R1FTR0BEZ2KOd0IVICQfFxYUFBQiIBoWFhYSGSMiGxcTEhAWGRgTFxQUEA8MAwAAAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Lunar Lullaby SA - Balanced Voices - Jacob Narverud.mp3",
-              "path": "files/16M3coy7zBpFaBqO2gCuaeIkhJR0KfSBI.mp3",
-              "kind": "audio",
-              "id": "16M3coy7zBpFaBqO2gCuaeIkhJR0KfSBI",
-              "md5": "ffffe6e560e8aab0f39950426a2f586b",
-              "peaks": "AAAjFwotJRIFJxocNhsPGCMqKBoSFCcfGh4YHh43ODQlGRgfLyolHhoXGhgcHBkbDwkQIjlCNjJCJENQNz08NERMUHxMQlM+Pj0tMzI+MkFLRS81KzQ4PFxERScdFgMvRD4jHycrOTE3UkM5QzQrO0FGMTgvNDxCQzcsR2RIP1RRLiowRjI5QjVCQllPZnuCdXhwfH94To3Bvb2+197dl6uQgnpdPiRHPzg3PUMtZY2MfmtOOj1DeHN/hKKvn5ecnpV4MUtQRDQxNF5mUGptUU1US1ViUkZIU0xye1VYTj9DPh0GKjl1eTZodzg4PT89NUJaPT19iIV0PUZEOyk9TVZOd4WJiZV+UlNXRDxEMUN9h8rq66r/wMSrm6OXr318ZI2foqmhwq5wMCkWISY8REE+Fg4SNSosKBQHKTM8LDM1OTw0QDc5RUtIOTMoMj1RS1NGZGJ+hzaWiX1oRzgoSkBFXl9WQXlhZFc4K0E9RF5sVDILJBweFygXFBMfGxoVGRQROCofFioWEA8jJRUTMhcTEA0KBAEBAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Lunar Lullaby SA - Soprano 1 Predominant - Jacob Narverud.mp3",
-              "path": "files/149m6qKYb99R3Sr9HFYEu34oaiP6fJ5GH.mp3",
-              "kind": "audio",
-              "id": "149m6qKYb99R3Sr9HFYEu34oaiP6fJ5GH",
-              "md5": "a5a4c0982af545fc1e13738d4bc15c23",
-              "peaks": "AAAJBgIMCgUBCgcHDgcEBgkLCwcFBQoIBwgGCAgPDw4KBgYIDAsKCAcGBwYHBwYHBAIECSw+NzMyLUVCKC80MUBHUY9MREs3PT0uHyQoEEllWy83NkFARlk/KR4aFQM8ODUYGxocNjAuOjcuMiceMS9CJzYrKzE5LCggO0ZTRVRULiQvPCIpIR8jRF1gdZCUdHR5p5xwUXno0tjJ0NDhvZWLppppQQ9ZS0M5OjsXu6GjfFxFYFVWmpytrOTRyLrZ1cqnQU1mSTMrL2VyZnuBcW4QDXGHfUBKSUZucGZmWEo9LwoBJjhcekFUhEdDMCozNTpQSVtieYiCTElDOCw2Sk9bhZDIsL2sVklaPkY6J1V5pvLP/6rzurqhfoKi0IGFk5SZlKK3tp54EwsGCQoQEhEQBgMEDgsMCwUBBgkMCgsLCwsKCwoKCw0NCwkICzpOTGBfdVxVVyXTzaeYZkEcbFJQUFBfO6CUk15PM1NSTnVXUTgRHx4dEhUSEg4aGBUPEQ8QEhoZFRMODg8QFxcREQsLCwoIBQAAAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Lunar Lullaby SA - Soprano 2 Predominant - Jacob Narverud.mp3",
-              "path": "files/1FNEvPwqnrqZhqkgVrmuHYUHV9FkxrwyZ.mp3",
-              "kind": "audio",
-              "id": "1FNEvPwqnrqZhqkgVrmuHYUHV9FkxrwyZ",
-              "md5": "82508ba66b2d4c30f35afb98a623dd89",
-              "peaks": "AAAKBgINCgUBCwcIDwgEBwoMCwcFBgsJBwgHCAgQEA8KBwcIDQwKCAcGBwcICAcHBAIECTBDOzc2MUtHKzQ4NUZOWJpTSlI8Q0MyIicsEVBuYzM9OkdGTWFFLCEdGANCPjsaHRwfOzUzQD0yNyshNjRJKzsvMDY/MCwjQk5cTF1dMyg0QiYtJCImTGhqgqClgYGGuq99W32he4CBkJCZbJ2WsaVxRhBfUEg9Pj8ZyKyuhGNKZ1tcpae5uPTg1sfo5NizRVJtTjYuMmx7bYOKeXYRDnmQhkVPTkt1d21uXlBBMwsCKDxjgkVajUxINC02OT5VTmFpgpGLUU5IPC86T1Vhj5rWvMq4XE5gQks+KkuAc53M3qf/pKyEh5yt34mOnZ+kn63Ew6mBFAwGCQsRFBMSBgQFDwwNCwUBBgoMCwsLCwwLDAsLDA4ODAoJCz5TUWdmfmJbXSji27OjbUYfc1hVVlZmP6yenWVVN1lYVH5dVjwSISAfExYUEw8cGhcQEhASExwbFhQPDxARGRkSEgwMDAsJBQAAAAAAAAAAAAAAAAAA"
             }
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T19:42:49Z",
+  "generated": "2026-09-17T22:27:41Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -1282,28 +1282,10 @@
             },
             {
               "type": "file",
-              "name": "Afternoon On a Hill - Alto 1 - SUNG.mp3",
-              "path": "files/1N5tJ8qsRzM5-K3o3v8kb-rJHJy46Nyz7.mp3",
-              "kind": "audio",
-              "id": "1N5tJ8qsRzM5-K3o3v8kb-rJHJy46Nyz7",
-              "md5": "337953726077773a898a4e5e66e9cec9",
-              "peaks": "AAUICwoDAQYJDAoDAggJCggDBwcJFwwKDxMQGA4bSXNWtpTCoWxve258W2lFSFFHTypbXEtOQDYxJUxRVDk3LlRfc01LUVJXRS8iKkU7UC9pS19tU09PVW1QTFZJelRob0xUZWtnRykpIyAdLzUyOUVGPRYRFhQXGl53cFZxXn19T0I3GRUbFxkmIykjXYx1oXeWiZmMU2V+gotOeIWOd2Brb3RgQTdET0VfW2tVbFBNKj1OUlRKRVRSY1EzPk9SUlZKXllwT08sPDJGPjkwOSg1MB8YLkRVRnBni41saXxkZGNvRUR8zaJ8q6SMfWdXK0RRXFxUWGdke2ZQaGB0fYKSi4S4s7yheJeovLCYjXuFln1zb2p0d350kf7/4sKrpL+/xaSjh7h/m5amppFmWnJiVEive6t0o42swKlypbSYp42OgnplWzQIBwcJBwwNDQ8NDgkJAggBBwYHBzlUbUpLM2FqcFVHY2NoZE8zPFtja1RdX19kWjhBTEI+SkhDPz09PjkrJAMBBgcHCQMBCQsBAAoCAAAQBQMCAQEAAAAAAAAA"
-            },
-            {
-              "type": "file",
               "name": "Copy of Dicite in Gentibus - Pronunciation.mp3",
               "path": "files/1eoItGuAFtoW8Ldzch5WhzEDwR73FKgNb.mp3",
               "kind": "audio",
               "id": "1eoItGuAFtoW8Ldzch5WhzEDwR73FKgNb",
-              "md5": "55670546e05d5030e923bd81196468e9",
-              "peaks": "AAAAAAAAAAAAABBOS2JfdZJbBTpLUkQWdF8xMksfBAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSfLKPChmyizs8UQwHAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtRlSLzWF3I4NKVkV4bREBhYN1VEpNSQsBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMaTaclEktO1RMM11HKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyPO20lGML/ZWQTBgIBAAAAAAAAAAAAAAAAAAAAAAAACHeTW5CMEWvMhkUkBAgBAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAACDkXNteoVPAhRpWghpramQhglTQzAGJicHAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAANOzoxZWpEPBc6VXWMZ1cEAAAAAAAAAAAAAAAAAAABAQEhg7g1jmEqQmykijlESwMAAAAAAAAAAAAAAAAAAAAAYF0ro6RcRFsgAQAAAAAAAAAAAAAAAAAAPapqamVqZioDAAAAAAAAAAAA"
-            },
-            {
-              "type": "file",
-              "name": "Copy of Dicite in Gentibus - Pronunciation.mp3",
-              "path": "files/1IW2bzryf4m8a8uG0IezpmxkvzEcqnzZ_.mp3",
-              "kind": "audio",
-              "id": "1IW2bzryf4m8a8uG0IezpmxkvzEcqnzZ_",
               "md5": "55670546e05d5030e923bd81196468e9",
               "peaks": "AAAAAAAAAAAAABBOS2JfdZJbBTpLUkQWdF8xMksfBAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSfLKPChmyizs8UQwHAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtRlSLzWF3I4NKVkV4bREBhYN1VEpNSQsBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMaTaclEktO1RMM11HKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyPO20lGML/ZWQTBgIBAAAAAAAAAAAAAAAAAAAAAAAACHeTW5CMEWvMhkUkBAgBAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAACDkXNteoVPAhRpWghpramQhglTQzAGJicHAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAANOzoxZWpEPBc6VXWMZ1cEAAAAAAAAAAAAAAAAAAABAQEhg7g1jmEqQmykijlESwMAAAAAAAAAAAAAAAAAAAAAYF0ro6RcRFsgAQAAAAAAAAAAAAAAAAAAPapqamVqZioDAAAAAAAAAAAA"
             },
@@ -1358,15 +1340,6 @@
           "type": "folder",
           "name": "Alto 2",
           "children": [
-            {
-              "type": "file",
-              "name": "Afternoon On a Hill - Alto 2 - SUNG.mp3",
-              "path": "files/1YNqXLuS8keY8FNRTVeIEdRTNise4rc3r.mp3",
-              "kind": "audio",
-              "id": "1YNqXLuS8keY8FNRTVeIEdRTNise4rc3r",
-              "md5": "b5eba61788e8430b02287478c719bc99",
-              "peaks": "AAYJDAsDAgcKDAsDAgkKCggDCAcKGQ0LEBQQGQ4cTnpbwp3Oq3JTTk1UX3FJTFZMVC1gYlBTRDk0J1FWWT07MVllelFQVldcSTIlLUo/VTJwT2VzWFNTWnRVUVtNgVlvdlFaa3JtSysrJSIfMjk2PElLQRgSFxYZHGN+d1t4ZIWEVEY6GhYcGBsoJSwlYpR9q36gkaKVWGuGipNTf42WfmZydntlRStMSUZVNmFmc31LQXtfWmZMSm94Zn1JS3lVTEtDVXd4hYA5PDk3NCQfNjA1OR4kM0pcTHlwlpl0cYRramh1SEeC1aqCsaqRgWpZLXFbaG5kZ3V5qZBacF+Bk6ZobnaPi491gH2Us5qQWHuFln91cGl1d4B1kP3/38Gqor69xKKfhbV8mJWnppBmhZRrblqreat0oY2rwKl0prOYqI2Og3tmXDUICAgKCAwNDhAODgoKAwgBCAcHBzpVbkpMNGJrclZJZWZqZVA0PV5lbVZfYWJnXDpETkRATUpGQkBAQTstJgQCBgcICQMBCgsBAAoCAAARBQQCAQEAAAAAAAAA"
-            },
             {
               "type": "file",
               "name": "Afternoon on a Hill Alto 2 - OFFICIAL.mp3",

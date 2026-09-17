@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T16:09:59Z",
+  "generated": "2026-09-17T19:42:49Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -111,6 +111,15 @@
             "files/1CR65uMStEv-6MiPBWt-O1OadetmzXuJf-p-2.jpg",
             "files/1CR65uMStEv-6MiPBWt-O1OadetmzXuJf-p-3.jpg"
           ]
+        },
+        {
+          "type": "file",
+          "name": "Lord You Are Good 9_10.mp3",
+          "path": "files/16wqeL8zJFtZ4JmxU-rJd_0U3765Qdco_.mp3",
+          "kind": "audio",
+          "id": "16wqeL8zJFtZ4JmxU-rJd_0U3765Qdco_",
+          "md5": "afabedd194877a9e4a764792a949eb86",
+          "peaks": "AAAAAAAZKwMhIQEkIwEoMgJGe0dGUjk7XIaFhIadjQOCrASBhFGWgk6DhgRrZgR3jUySj3mFYLCLW7B5crCSjJ2VpGuje3mGxoGam3yynXyGlGe1hICeuGuboXece71sk3yUmJycr5V6q4KMooeK9nfL9+q2raGPt5qIkLmYnKCNs6WrmtOlrc+St2WjlGiJgK6ZdsXFdXhic2mWf6msiJGNgaG/ka16aMOsn5HLhZ6rlaB4gKBpo62Zro95kLF3mqGlj5+Ph66iirKB0oydh4qntpbPmaiRvXiji7CdoZR0w4Kjz6N/nKGDwdl4uZmRyotkltPAoaVvsJGQpbhnj7iDiMFskJCNxIF6msaLRzYtKSgoJyEqIixvSjpJL0FRLSRIL3JyhW5xYH9UbHBabGaHcXJpYll3bpV/nv+ZmG2FrHCHl5eaw4W1V3u0ZaydZY95g7aiaJeNa5eclcSNusWeaoB3hrSYfangj4egeoWZdomnjIiSkYnBenGEe5idhIWfUwMDA1qblYaLcn53bG+SdXaAd4J2amdUNyAaDAMAAAAA"
         }
       ]
     },
@@ -229,6 +238,15 @@
               ]
             }
           ]
+        },
+        {
+          "type": "file",
+          "name": "God You Are Good 9_10.mp3",
+          "path": "files/1f8qzDSEMHm16Wc4aORPRS1Q1pGvcrzur.mp3",
+          "kind": "audio",
+          "id": "1f8qzDSEMHm16Wc4aORPRS1Q1pGvcrzur",
+          "md5": "afabedd194877a9e4a764792a949eb86",
+          "peaks": "AAAAAAAZKwMhIQEkIwEoMgJGe0dGUjk7XIaFhIadjQOCrASBhFGWgk6DhgRrZgR3jUySj3mFYLCLW7B5crCSjJ2VpGuje3mGxoGam3yynXyGlGe1hICeuGuboXece71sk3yUmJycr5V6q4KMooeK9nfL9+q2raGPt5qIkLmYnKCNs6WrmtOlrc+St2WjlGiJgK6ZdsXFdXhic2mWf6msiJGNgaG/ka16aMOsn5HLhZ6rlaB4gKBpo62Zro95kLF3mqGlj5+Ph66iirKB0oydh4qntpbPmaiRvXiji7CdoZR0w4Kjz6N/nKGDwdl4uZmRyotkltPAoaVvsJGQpbhnj7iDiMFskJCNxIF6msaLRzYtKSgoJyEqIixvSjpJL0FRLSRIL3JyhW5xYH9UbHBabGaHcXJpYll3bpV/nv+ZmG2FrHCHl5eaw4W1V3u0ZaydZY95g7aiaJeNa5eclcSNusWeaoB3hrSYfangj4egeoWZdomnjIiSkYnBenGEe5idhIWfUwMDA1qblYaLcn53bG+SdXaAd4J2amdUNyAaDAMAAAAA"
         },
         {
           "type": "file",

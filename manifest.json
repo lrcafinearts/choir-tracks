@@ -1,9 +1,18 @@
 {
-  "generated": "2026-09-18T13:48:32Z",
+  "generated": "2026-09-18T15:44:04Z",
   "choirs": [
     {
       "name": "JH Boys",
       "children": [
+        {
+          "type": "file",
+          "name": "Allelluia Accompaniment",
+          "path": "files/1vBLVEp8gUOkp0MHrdQXUrSFeCWsn83Zb.mp3",
+          "kind": "audio",
+          "id": "1vBLVEp8gUOkp0MHrdQXUrSFeCWsn83Zb",
+          "md5": "d3bd0426d1c331d351a373c8ab59906a",
+          "peaks": "AAAAAAAAIT0qNCspRDBBKi4qRjAzTUswMiZVNig4NS0xQzE3Ry84OTw6LEI1OEOwjJylnqiGg5OLj42ei52Po3+ThYyOfaaXkZeZlIylnY6RmISOeYyGpa+GmZ+OkpuzgISiooyBvp6qoId/lZmWg6qRkoGWiHaVv4qikKa4oqCb0pTYp/+arN6PnZ+Wma60kLuawqd3t7uelY7CwszDm6p8x72XqsCcpP6qmsq8vbfYysCiz5a/3rx4s7GzlbKv053IobjKrbyakbWdpK2ksL6np5qoipfCrarek4yahKiomJyKpMm2nsWTh5bDtr22zNyppNCmosfQxZrOuZy4t8zcxNrKyKGk6byWqq2Xrd6/pq6myKu6xqLByb2p77qMtp68oLiWpJPSm66lxZbNlIu1x6LCx6ituMy+nMy5ltOuiJOE2a7MsW9xcGdgaoqBrI1wm6eO05h4sKyjxpq4zDttsq6iw8CWt9ijmM6soby3tay/prDZraTckaCttcrG6ZPPtLCusPzHo63UvObzq76ptLq15r+XslIJBgUEAQAAAAAA"
+        },
         {
           "type": "folder",
           "name": "Because of Jesus",
@@ -126,6 +135,15 @@
     {
       "name": "JH Girls",
       "children": [
+        {
+          "type": "file",
+          "name": "Allelluia Accompaniment",
+          "path": "files/1RLY0QSUwb90y2CaQ0W-inLSM1pzT2Mnt.mp3",
+          "kind": "audio",
+          "id": "1RLY0QSUwb90y2CaQ0W-inLSM1pzT2Mnt",
+          "md5": "d3bd0426d1c331d351a373c8ab59906a",
+          "peaks": "AAAAAAAAIT0qNCspRDBBKi4qRjAzTUswMiZVNig4NS0xQzE3Ry84OTw6LEI1OEOwjJylnqiGg5OLj42ei52Po3+ThYyOfaaXkZeZlIylnY6RmISOeYyGpa+GmZ+OkpuzgISiooyBvp6qoId/lZmWg6qRkoGWiHaVv4qikKa4oqCb0pTYp/+arN6PnZ+Wma60kLuawqd3t7uelY7CwszDm6p8x72XqsCcpP6qmsq8vbfYysCiz5a/3rx4s7GzlbKv053IobjKrbyakbWdpK2ksL6np5qoipfCrarek4yahKiomJyKpMm2nsWTh5bDtr22zNyppNCmosfQxZrOuZy4t8zcxNrKyKGk6byWqq2Xrd6/pq6myKu6xqLByb2p77qMtp68oLiWpJPSm66lxZbNlIu1x6LCx6ituMy+nMy5ltOuiJOE2a7MsW9xcGdgaoqBrI1wm6eO05h4sKyjxpq4zDttsq6iw8CWt9ijmM6soby3tay/prDZraTckaCttcrG6ZPPtLCusPzHo63UvObzq76ptLq15r+XslIJBgUEAQAAAAAA"
+        },
         {
           "type": "folder",
           "name": "Because of Jesus",
@@ -266,6 +284,21 @@
     {
       "name": "Warrior Choir",
       "children": [
+        {
+          "type": "folder",
+          "name": "Alleluia (Combined Piece)",
+          "children": [
+            {
+              "type": "file",
+              "name": "Alleluia Accompaniment",
+              "path": "files/1iIZMPVkNnU2fTLOdnF73hg9eRhIXzzkr.mp3",
+              "kind": "audio",
+              "id": "1iIZMPVkNnU2fTLOdnF73hg9eRhIXzzkr",
+              "md5": "a8cec8d798131d710051a106a0d4a9da",
+              "peaks": "d09HfoJddigcIhwbLSArGx99LyAiMzIfIBk4JBolIx4hLCEkLh8lJSgnHSt+NYl1XWdtaW9ZV2FcX11oXGhfbFVhWVxeU2+spmRlYl1taV5gZVdeUF1ZbXRYZWlfYWd3VVdrhYFVfWlwallUYmVjV3BgYVViW05jfltrX256jHxli2KPbqhncZNfZ2ljZnR4X3xmgW9OeXtpe3DDgoaAaHFSg3xlb35naqdxZYZ8fXqOh39qiK1+k3xQdnZ3Y3V1jGeFa3qGc3tmYXhobHJtdZ+HbmhvXGSAcnGSYVxlV29vZWdbbYV6aIFiWop9dn53h5JwaoltaoSJgmaGe2l5eoeRgpKGhIWUmX5lcHNicZN/bnVthXJ7g2uAhX5wn3tdeWigiXpkbGKHZnNrhWOIY1x5g2yCg25xeYd+aYb/Z4tzXGJYknWNdUlKSURARltVcl5KkG5fi2VPdXFtg395hkeAeXRrgH9ke49sZYlxanx4eHGBcHSQc2yRkaNzdYaEm2OKd3Ryd6eCbXKMfpmhcH1wd3p3mZtjdzcGBAMCAQAAAAAA"
+            }
+          ]
+        },
         {
           "type": "folder",
           "name": "I Love You Lord",

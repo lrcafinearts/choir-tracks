@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T07:23:35Z",
+  "generated": "2026-09-30T16:06:08Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -143,6 +143,17 @@
           "id": "1RLY0QSUwb90y2CaQ0W-inLSM1pzT2Mnt",
           "md5": "d3bd0426d1c331d351a373c8ab59906a",
           "peaks": "AAAAAAAAIT0qNCspRDBBKi4qRjAzTUswMiZVNig4NS0xQzE3Ry84OTw6LEI1OEOwjJylnqiGg5OLj42ei52Po3+ThYyOfaaXkZeZlIylnY6RmISOeYyGpa+GmZ+OkpuzgISiooyBvp6qoId/lZmWg6qRkoGWiHaVv4qikKa4oqCb0pTYp/+arN6PnZ+Wma60kLuawqd3t7uelY7CwszDm6p8x72XqsCcpP6qmsq8vbfYysCiz5a/3rx4s7GzlbKv053IobjKrbyakbWdpK2ksL6np5qoipfCrarek4yahKiomJyKpMm2nsWTh5bDtr22zNyppNCmosfQxZrOuZy4t8zcxNrKyKGk6byWqq2Xrd6/pq6myKu6xqLByb2p77qMtp68oLiWpJPSm66lxZbNlIu1x6LCx6ituMy+nMy5ltOuiJOE2a7MsW9xcGdgaoqBrI1wm6eO05h4sKyjxpq4zDttsq6iw8CWt9ijmM6soby3tay/prDZraTckaCttcrG6ZPPtLCusPzHo63UvObzq76ptLq15r+XslIJBgUEAQAAAAAA"
+        },
+        {
+          "type": "file",
+          "name": "Allregionjudgingrubric.pdf",
+          "path": "files/1XwjY4hi-18ajJMqv0dNt3hAXsIzrsko2.pdf",
+          "kind": "pdf",
+          "id": "1XwjY4hi-18ajJMqv0dNt3hAXsIzrsko2",
+          "md5": "4323c621ebacf367175fb36f9c202ac0",
+          "pages": [
+            "files/1XwjY4hi-18ajJMqv0dNt3hAXsIzrsko2-p-1.jpg"
+          ]
         },
         {
           "type": "folder",
@@ -290,7 +301,16 @@
           "children": [
             {
               "type": "file",
-              "name": "Alleluia Accompaniment",
+              "name": "Alleluia Accomp with cuts 9:30.mp3",
+              "path": "files/1QA8R8pi1pzr2bcz3DcZvloXcg-gBPSne.mp3",
+              "kind": "audio",
+              "id": "1QA8R8pi1pzr2bcz3DcZvloXcg-gBPSne",
+              "md5": "d3bd0426d1c331d351a373c8ab59906a",
+              "peaks": "AAAAAAAAIT0qNCspRDBBKi4qRjAzTUswMiZVNig4NS0xQzE3Ry84OTw6LEI1OEOwjJylnqiGg5OLj42ei52Po3+ThYyOfaaXkZeZlIylnY6RmISOeYyGpa+GmZ+OkpuzgISiooyBvp6qoId/lZmWg6qRkoGWiHaVv4qikKa4oqCb0pTYp/+arN6PnZ+Wma60kLuawqd3t7uelY7CwszDm6p8x72XqsCcpP6qmsq8vbfYysCiz5a/3rx4s7GzlbKv053IobjKrbyakbWdpK2ksL6np5qoipfCrarek4yahKiomJyKpMm2nsWTh5bDtr22zNyppNCmosfQxZrOuZy4t8zcxNrKyKGk6byWqq2Xrd6/pq6myKu6xqLByb2p77qMtp68oLiWpJPSm66lxZbNlIu1x6LCx6ituMy+nMy5ltOuiJOE2a7MsW9xcGdgaoqBrI1wm6eO05h4sKyjxpq4zDttsq6iw8CWt9ijmM6soby3tay/prDZraTckaCttcrG6ZPPtLCusPzHo63UvObzq76ptLq15r+XslIJBgUEAQAAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Alleluia w/ guide",
               "path": "files/1iIZMPVkNnU2fTLOdnF73hg9eRhIXzzkr.mp3",
               "kind": "audio",
               "id": "1iIZMPVkNnU2fTLOdnF73hg9eRhIXzzkr",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T07:42:50Z",
+  "generated": "2026-10-07T18:24:26Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -241,13 +241,19 @@
           ]
         },
         {
-          "type": "file",
-          "name": "Lord You Are Good 9_10.mp3",
-          "path": "files/16wqeL8zJFtZ4JmxU-rJd_0U3765Qdco_.mp3",
-          "kind": "audio",
-          "id": "16wqeL8zJFtZ4JmxU-rJd_0U3765Qdco_",
-          "md5": "afabedd194877a9e4a764792a949eb86",
-          "peaks": "AAAAAAAZKwMhIQEkIwEoMgJGe0dGUjk7XIaFhIadjQOCrASBhFGWgk6DhgRrZgR3jUySj3mFYLCLW7B5crCSjJ2VpGuje3mGxoGam3yynXyGlGe1hICeuGuboXece71sk3yUmJycr5V6q4KMooeK9nfL9+q2raGPt5qIkLmYnKCNs6WrmtOlrc+St2WjlGiJgK6ZdsXFdXhic2mWf6msiJGNgaG/ka16aMOsn5HLhZ6rlaB4gKBpo62Zro95kLF3mqGlj5+Ph66iirKB0oydh4qntpbPmaiRvXiji7CdoZR0w4Kjz6N/nKGDwdl4uZmRyotkltPAoaVvsJGQpbhnj7iDiMFskJCNxIF6msaLRzYtKSgoJyEqIixvSjpJL0FRLSRIL3JyhW5xYH9UbHBabGaHcXJpYll3bpV/nv+ZmG2FrHCHl5eaw4W1V3u0ZaydZY95g7aiaJeNa5eclcSNusWeaoB3hrSYfangj4egeoWZdomnjIiSkYnBenGEe5idhIWfUwMDA1qblYaLcn53bG+SdXaAd4J2amdUNyAaDAMAAAAA"
+          "type": "folder",
+          "name": "Lord You Are Good",
+          "children": [
+            {
+              "type": "file",
+              "name": "Lord You Are Good - 10/7",
+              "path": "files/1zdRD_KjQNNAgrl1eC1iY9gRUfyJ4K-m-.mp3",
+              "kind": "audio",
+              "id": "1zdRD_KjQNNAgrl1eC1iY9gRUfyJ4K-m-",
+              "md5": "87c831ad8acde6ff3a000dc58793420b",
+              "peaks": "ACoZGx0eHCEeGispLndPRVBAODhdg4V7hJ+TkIGrllOAhJZvgmOAiQNvZwdjjEyOjHmFhbhriVuzd3GwloubmaJqonl3g8WAe5eXs4mZhnmTt6CHfpi4bJ6hZ3eaXL+RdXyQl5t/r5d7qH+NoHCK8jjA85frtIeji7qZiLqwmLdmopMWi35UrnNdxsEddXJpZZd6pamHk4x/ocKPqodnw2ero5DKZpypk593fKZsoquYrHqOjnaxnISmn3ifjIetooSxf8yQm4qKoraOzIyZp7G4cqCLqpejl2/AgqLPon6XaJ3DltSzcZPQh4tllM6/p6hwjq2Pppe8kWK2g4jBkmuSx7+AepvCjVc1LCknKCYfKiImLHBAOkkuQVAtJEhEc3JbhG9fVn5rZG9fbWOGT3JpYk92cHmUjf+XkJeAgK+FjZWVmMSHtVd+ZrWrbpyRX3m3hZ9olo1rnIqVwYy5wZmLfnODtJWYqZDcj4mgd4Obco2njIaRkYfCd3OAepaEnIOAngQDAwNanZd/iXF9dmxxknt2f3GCWXdrZkI3IBoMAwAA"
+            }
+          ]
         },
         {
           "type": "folder",
@@ -429,21 +435,6 @@
         },
         {
           "type": "folder",
-          "name": "God You Are Good",
-          "children": [
-            {
-              "type": "file",
-              "name": "God You Are Good 9_10.mp3",
-              "path": "files/1f8qzDSEMHm16Wc4aORPRS1Q1pGvcrzur.mp3",
-              "kind": "audio",
-              "id": "1f8qzDSEMHm16Wc4aORPRS1Q1pGvcrzur",
-              "md5": "afabedd194877a9e4a764792a949eb86",
-              "peaks": "AAAAAAAZKwMhIQEkIwEoMgJGe0dGUjk7XIaFhIadjQOCrASBhFGWgk6DhgRrZgR3jUySj3mFYLCLW7B5crCSjJ2VpGuje3mGxoGam3yynXyGlGe1hICeuGuboXece71sk3yUmJycr5V6q4KMooeK9nfL9+q2raGPt5qIkLmYnKCNs6WrmtOlrc+St2WjlGiJgK6ZdsXFdXhic2mWf6msiJGNgaG/ka16aMOsn5HLhZ6rlaB4gKBpo62Zro95kLF3mqGlj5+Ph66iirKB0oydh4qntpbPmaiRvXiji7CdoZR0w4Kjz6N/nKGDwdl4uZmRyotkltPAoaVvsJGQpbhnj7iDiMFskJCNxIF6msaLRzYtKSgoJyEqIixvSjpJL0FRLSRIL3JyhW5xYH9UbHBabGaHcXJpYll3bpV/nv+ZmG2FrHCHl5eaw4W1V3u0ZaydZY95g7aiaJeNa5eclcSNusWeaoB3hrSYfangj4egeoWZdomnjIiSkYnBenGEe5idhIWfUwMDA1qblYaLcn53bG+SdXaAd4J2amdUNyAaDAMAAAAA"
-            }
-          ]
-        },
-        {
-          "type": "folder",
           "name": "Gonna Sing About A Baby",
           "children": [
             {
@@ -516,6 +507,21 @@
                 "files/1Taavq0Q7p3KGvuvegOuNvPGZgMxeb7O_-p-6.jpg",
                 "files/1Taavq0Q7p3KGvuvegOuNvPGZgMxeb7O_-p-7.jpg"
               ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Lord You Are Good",
+          "children": [
+            {
+              "type": "file",
+              "name": "Lord You Are Good - 10/7",
+              "path": "files/1SoW8uDUZShs9tKOhCZIYuMN1NDuXFhgD.mp3",
+              "kind": "audio",
+              "id": "1SoW8uDUZShs9tKOhCZIYuMN1NDuXFhgD",
+              "md5": "87c831ad8acde6ff3a000dc58793420b",
+              "peaks": "ACoZGx0eHCEeGispLndPRVBAODhdg4V7hJ+TkIGrllOAhJZvgmOAiQNvZwdjjEyOjHmFhbhriVuzd3GwloubmaJqonl3g8WAe5eXs4mZhnmTt6CHfpi4bJ6hZ3eaXL+RdXyQl5t/r5d7qH+NoHCK8jjA85frtIeji7qZiLqwmLdmopMWi35UrnNdxsEddXJpZZd6pamHk4x/ocKPqodnw2ero5DKZpypk593fKZsoquYrHqOjnaxnISmn3ifjIetooSxf8yQm4qKoraOzIyZp7G4cqCLqpejl2/AgqLPon6XaJ3DltSzcZPQh4tllM6/p6hwjq2Pppe8kWK2g4jBkmuSx7+AepvCjVc1LCknKCYfKiImLHBAOkkuQVAtJEhEc3JbhG9fVn5rZG9fbWOGT3JpYk92cHmUjf+XkJeAgK+FjZWVmMSHtVd+ZrWrbpyRX3m3hZ9olo1rnIqVwYy5wZmLfnODtJWYqZDcj4mgd4Obco2njIaRkYfCd3OAepaEnIOAngQDAwNanZd/iXF9dmxxknt2f3GCWXdrZkI3IBoMAwAA"
             }
           ]
         },

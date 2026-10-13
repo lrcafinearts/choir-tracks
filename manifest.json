@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13T08:25:30Z",
+  "generated": "2026-10-13T17:08:14Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -246,12 +246,12 @@
           "children": [
             {
               "type": "file",
-              "name": "Lord You Are Good - 10/7",
-              "path": "files/1zdRD_KjQNNAgrl1eC1iY9gRUfyJ4K-m-.mp3",
+              "name": "Lord You Are Good - 10/13",
+              "path": "files/1owAXNhIS3Oq4CORSexIWG4vE7A2WrB7P.mp3",
               "kind": "audio",
-              "id": "1zdRD_KjQNNAgrl1eC1iY9gRUfyJ4K-m-",
-              "md5": "87c831ad8acde6ff3a000dc58793420b",
-              "peaks": "ACoZGx0eHCEeGispLndPRVBAODhdg4V7hJ+TkIGrllOAhJZvgmOAiQNvZwdjjEyOjHmFhbhriVuzd3GwloubmaJqonl3g8WAe5eXs4mZhnmTt6CHfpi4bJ6hZ3eaXL+RdXyQl5t/r5d7qH+NoHCK8jjA85frtIeji7qZiLqwmLdmopMWi35UrnNdxsEddXJpZZd6pamHk4x/ocKPqodnw2ero5DKZpypk593fKZsoquYrHqOjnaxnISmn3ifjIetooSxf8yQm4qKoraOzIyZp7G4cqCLqpejl2/AgqLPon6XaJ3DltSzcZPQh4tllM6/p6hwjq2Pppe8kWK2g4jBkmuSx7+AepvCjVc1LCknKCYfKiImLHBAOkkuQVAtJEhEc3JbhG9fVn5rZG9fbWOGT3JpYk92cHmUjf+XkJeAgK+FjZWVmMSHtVd+ZrWrbpyRX3m3hZ9olo1rnIqVwYy5wZmLfnODtJWYqZDcj4mgd4Obco2njIaRkYfCd3OAepaEnIOAngQDAwNanZd/iXF9dmxxknt2f3GCWXdrZkI3IBoMAwAA"
+              "id": "1owAXNhIS3Oq4CORSexIWG4vE7A2WrB7P",
+              "md5": "6ad74f7cbc1ba28cc954f3297a2fa176",
+              "peaks": "ACoZGx0eHCEeGispLndPRVBAODhdg4V7hJ+TkIGrllOAhJZvgmOAiQNvZwdjjEyOjHmFhbhriVuzd3GwloubmaJqonl3g8WAe5eXs4mZhnmTt6CHfpi4bJ6hZ3eaXL+RdXyQl5t/r5d7qH+NoHCK8jjA85frtIeji7qZiLqwmLdmopMWi35UrnNdxsEddXJpZZd6pamHk4x/ocKPqodnw2ero5DKZpypk593fKZsoquYrHqOjnaxnISmn3ifjIetooSxf8yQm4qKoraOzIyZp7G4cqCLqpejl2/AgqLPon6XaJ3DltSzcZPQh4tllM6/p6hwjq2Pppe8kWK2g4jBkmuSx7+AepvCjVc1LCknKCYfKiImLHBAOkkuQVAtJEhEc3JbhG9fVn5rZG9fbWOGT3JpYk92cHmUjf+XkJeAgK+FjZWVmMSHtVd+ZrWrbpyRX3m3hZ9olo1rnIqVwYy5wZmLfnODtJWYqZDcj4mgd4Obco2njIaRkYfCd3OAepaEnIOAngQDAwNanY8yIwsAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
             }
           ]
         },
@@ -516,12 +516,12 @@
           "children": [
             {
               "type": "file",
-              "name": "Lord You Are Good - 10/7",
-              "path": "files/1SoW8uDUZShs9tKOhCZIYuMN1NDuXFhgD.mp3",
+              "name": "God You Are Good - 10/13.mp3",
+              "path": "files/1F9ptiCRdgiXxDvzrAT7nNMU3_FbzydTu.mp3",
               "kind": "audio",
-              "id": "1SoW8uDUZShs9tKOhCZIYuMN1NDuXFhgD",
-              "md5": "87c831ad8acde6ff3a000dc58793420b",
-              "peaks": "ACoZGx0eHCEeGispLndPRVBAODhdg4V7hJ+TkIGrllOAhJZvgmOAiQNvZwdjjEyOjHmFhbhriVuzd3GwloubmaJqonl3g8WAe5eXs4mZhnmTt6CHfpi4bJ6hZ3eaXL+RdXyQl5t/r5d7qH+NoHCK8jjA85frtIeji7qZiLqwmLdmopMWi35UrnNdxsEddXJpZZd6pamHk4x/ocKPqodnw2ero5DKZpypk593fKZsoquYrHqOjnaxnISmn3ifjIetooSxf8yQm4qKoraOzIyZp7G4cqCLqpejl2/AgqLPon6XaJ3DltSzcZPQh4tllM6/p6hwjq2Pppe8kWK2g4jBkmuSx7+AepvCjVc1LCknKCYfKiImLHBAOkkuQVAtJEhEc3JbhG9fVn5rZG9fbWOGT3JpYk92cHmUjf+XkJeAgK+FjZWVmMSHtVd+ZrWrbpyRX3m3hZ9olo1rnIqVwYy5wZmLfnODtJWYqZDcj4mgd4Obco2njIaRkYfCd3OAepaEnIOAngQDAwNanZd/iXF9dmxxknt2f3GCWXdrZkI3IBoMAwAA"
+              "id": "1F9ptiCRdgiXxDvzrAT7nNMU3_FbzydTu",
+              "md5": "6ad74f7cbc1ba28cc954f3297a2fa176",
+              "peaks": "ACoZGx0eHCEeGispLndPRVBAODhdg4V7hJ+TkIGrllOAhJZvgmOAiQNvZwdjjEyOjHmFhbhriVuzd3GwloubmaJqonl3g8WAe5eXs4mZhnmTt6CHfpi4bJ6hZ3eaXL+RdXyQl5t/r5d7qH+NoHCK8jjA85frtIeji7qZiLqwmLdmopMWi35UrnNdxsEddXJpZZd6pamHk4x/ocKPqodnw2ero5DKZpypk593fKZsoquYrHqOjnaxnISmn3ifjIetooSxf8yQm4qKoraOzIyZp7G4cqCLqpejl2/AgqLPon6XaJ3DltSzcZPQh4tllM6/p6hwjq2Pppe8kWK2g4jBkmuSx7+AepvCjVc1LCknKCYfKiImLHBAOkkuQVAtJEhEc3JbhG9fVn5rZG9fbWOGT3JpYk92cHmUjf+XkJeAgK+FjZWVmMSHtVd+ZrWrbpyRX3m3hZ9olo1rnIqVwYy5wZmLfnODtJWYqZDcj4mgd4Obco2njIaRkYfCd3OAepaEnIOAngQDAwNanY8yIwsAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
             }
           ]
         },

@@ -675,8 +675,7 @@
     btn.appendChild(chev);
 
     btn.addEventListener("click", function () {
-      path.push(node);
-      render();
+      navigate(path.concat([node]), true);
     });
 
     row.appendChild(btn);
@@ -1075,15 +1074,7 @@
     home.className = "crumb";
     home.type = "button";
     home.textContent = "Choirs";
-    home.addEventListener("click", function () {
-      path = [];
-      choirSelect.value = "";
-      var all = groupsBar.querySelectorAll(".group-btn");
-      for (var k = 0; k < all.length; k++) {
-        all[k].setAttribute("aria-current", "false");
-      }
-      render();
-    });
+    home.addEventListener("click", function () { navigate([], true); });
     crumbsBar.appendChild(home);
 
     path.forEach(function (step, i) {
@@ -1102,8 +1093,7 @@
 
       if (i < path.length - 1) {
         btn.addEventListener("click", function () {
-          path = path.slice(0, i + 1);
-          render();
+          navigate(path.slice(0, i + 1), true);
         });
       } else {
         btn.disabled = true;
@@ -1165,23 +1155,73 @@
 
   function render() {
     paintCrumbs();
+    paintChoirState();
     if (!path.length) { showChooser(); return; }
     paint(path[path.length - 1].children);
   }
 
+  function paintChoirState() {
+    var current = path.length ? choirs.indexOf(path[0]) : -1;
+    var btns = groupsBar.querySelectorAll(".group-btn");
+    for (var j = 0; j < btns.length; j++) {
+      btns[j].setAttribute("aria-current", j === current ? "true" : "false");
+    }
+    choirSelect.value = current === -1 ? "" : String(current);
+  }
+
+  /* The address bar carries where you are, so Back and Forward work and a
+     link to a particular folder can be handed to a student. */
+  function hashFor(steps) {
+    if (!steps.length) { return "#/"; }
+    return "#/" + steps.map(function (step) {
+      return encodeURIComponent(step.name);
+    }).join("/");
+  }
+
+  function stepsFromHash() {
+    var raw = window.location.hash.replace(/^#\/?/, "");
+    if (!raw) { return []; }
+
+    var names = raw.split("/").filter(Boolean).map(decodeURIComponent);
+    var steps = [];
+    var level = choirs;
+
+    for (var i = 0; i < names.length; i++) {
+      var found = null;
+      for (var j = 0; j < level.length; j++) {
+        var node = level[j];
+        if (node.name === names[i] && (i === 0 || node.type === "folder")) {
+          found = node;
+          break;
+        }
+      }
+      if (!found) { break; }     // folder renamed or gone — stop where we can
+      steps.push(found);
+      level = found.children || [];
+    }
+
+    return steps;
+  }
+
+  function navigate(steps, push) {
+    path = steps;
+    closeViewer();
+    render();
+
+    var target = hashFor(steps);
+    if (push && window.location.hash !== target) {
+      window.history.pushState({ at: target }, "", target);
+    }
+  }
+
+  window.addEventListener("popstate", function () {
+    navigate(stepsFromHash(), false);
+  });
+
   /* ---------- choirs ---------- */
 
   function selectGroup(i) {
-    closeViewer();
-
-    var btns = groupsBar.querySelectorAll(".group-btn");
-    for (var j = 0; j < btns.length; j++) {
-      btns[j].setAttribute("aria-current", j === i ? "true" : "false");
-    }
-    choirSelect.value = String(i);
-
-    path = [choirs[i]];
-    render();
+    navigate([choirs[i]], true);
   }
 
   function buildGroupBar() {
@@ -1244,8 +1284,9 @@
     }
 
     buildGroupBar();
-    path = [];
-    render();
+    var opening = stepsFromHash();
+    navigate(opening, false);
+    window.history.replaceState({ at: hashFor(opening) }, "", hashFor(opening));
   }).catch(function () {
     showMessage("The file list hasn't been built yet.", [
       "Go to the Actions tab and run \u201cSync from Drive\u201d.",

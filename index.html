@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>LRCA Choir Practice Tracks</title>
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<meta name="theme-color" content="#0F2244">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Choir Tracks">
 
@@ -77,12 +80,9 @@
   .brand-rule { height: 2px; background: var(--gold); width: 100%; }
 
   .groups {
-    display: flex; align-items: stretch; gap: 0.4rem;
-    margin-top: 1.1rem; overflow-x: auto;
-    -webkit-overflow-scrolling: touch; scrollbar-width: none;
+    display: flex; align-items: stretch; flex-wrap: wrap;
+    gap: 0.4rem; margin-top: 1.1rem;
   }
-
-  .groups::-webkit-scrollbar { display: none; }
 
   .group-btn {
     flex: 0 0 auto;
@@ -102,8 +102,8 @@
   .group-btn:focus-visible { outline: 2px solid var(--gold); outline-offset: -3px; }
 
   .group-divider {
-    flex: 0 0 auto; width: 1px;
-    background: var(--cover-line); margin: 0.5rem 0.6rem;
+    flex: 0 0 auto; width: 1px; align-self: stretch;
+    background: var(--cover-line); margin: 0.3rem 0.6rem;
   }
 
   .choir-picker {

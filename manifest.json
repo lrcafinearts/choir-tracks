@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T14:41:01Z",
+  "generated": "2026-10-21T16:18:42Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -744,187 +744,469 @@
       "children": [
         {
           "type": "folder",
-          "name": "Alleluia (Combined Piece)",
+          "name": "A Christmas Call to Worship",
           "children": [
             {
               "type": "file",
-              "name": "Alleluia Accomp with cuts 9:30.mp3",
-              "path": "files/1QA8R8pi1pzr2bcz3DcZvloXcg-gBPSne.mp3",
+              "name": "Alto - A Christmas Call to Worship .mp3",
+              "path": "files/1bGx4QKoKUECQ7kWAqoFq-U7HHi_1c_Po.mp3",
               "kind": "audio",
-              "id": "1QA8R8pi1pzr2bcz3DcZvloXcg-gBPSne",
-              "md5": "d3bd0426d1c331d351a373c8ab59906a",
-              "peaks": "AAAAAAAAIT0qNCspRDBBKi4qRjAzTUswMiZVNig4NS0xQzE3Ry84OTw6LEI1OEOwjJylnqiGg5OLj42ei52Po3+ThYyOfaaXkZeZlIylnY6RmISOeYyGpa+GmZ+OkpuzgISiooyBvp6qoId/lZmWg6qRkoGWiHaVv4qikKa4oqCb0pTYp/+arN6PnZ+Wma60kLuawqd3t7uelY7CwszDm6p8x72XqsCcpP6qmsq8vbfYysCiz5a/3rx4s7GzlbKv053IobjKrbyakbWdpK2ksL6np5qoipfCrarek4yahKiomJyKpMm2nsWTh5bDtr22zNyppNCmosfQxZrOuZy4t8zcxNrKyKGk6byWqq2Xrd6/pq6myKu6xqLByb2p77qMtp68oLiWpJPSm66lxZbNlIu1x6LCx6ituMy+nMy5ltOuiJOE2a7MsW9xcGdgaoqBrI1wm6eO05h4sKyjxpq4zDttsq6iw8CWt9ijmM6soby3tay/prDZraTckaCttcrG6ZPPtLCusPzHo63UvObzq76ptLq15r+XslIJBgUEAQAAAAAA"
+              "id": "1bGx4QKoKUECQ7kWAqoFq-U7HHi_1c_Po",
+              "md5": "542a931d2c80ad83a158367cd0bc6e43",
+              "peaks": "qopxX2VscnBzu2NSU3pZdJLAo5hpnlKTYZRnroCaW8J5vW5KSU9dUXSJp8apiqvIpamvqpOOp5CDfbLWraCnsa/CwNyQhI6a37Sz2a7WdtWf9cDOuc2wz9X09ODK9+DOrJyY2bz/+My54eDd8+PS57vQmla5ofG5jq65l390hIFqeZ9gd5ynfo+AnLbK8ci1sMuxrKy1p+XJll2/s7yj2s22oqiKhsnk1IN9tr2/jpbH9OPG9bulnp+uspDJq8Hv9K/Kn7+xuLXItaOxxW5lUExBqcqcfWZpZ2x6hIq7d4+R4e1/VpCjbWLI1ntSn53ZutK1gGndzYWpu77X7sX4ttiw8uHT1fm5786vvYl78+u7gPbi4qn23+TcxqTx67mZxKLaqryrpXB6bVy/vo2JnsTT1rvO88Lv9dfk1cSwwmzjrfGk0qvat8SsqaK4pI6118uj45/dkObD8+HXpunH08vw7fvUu9e0uNG77OWt09fG7/Xj6Nm4qcDb2rbr79u+9OrrvdfT3MOZgvnr6ezS9tTyzNbU19XW7d6WMw4EAgEAAAAA"
             },
             {
               "type": "file",
-              "name": "Alleluia w/ guide",
-              "path": "files/1iIZMPVkNnU2fTLOdnF73hg9eRhIXzzkr.mp3",
+              "name": "Basses - A Christmas Call to Worship ",
+              "path": "files/15_8kshFwNbOx5Zok3Tmkn7KUya68ZWkv.mp3",
               "kind": "audio",
-              "id": "1iIZMPVkNnU2fTLOdnF73hg9eRhIXzzkr",
-              "md5": "a8cec8d798131d710051a106a0d4a9da",
-              "peaks": "d09HfoJddigcIhwbLSArGx99LyAiMzIfIBk4JBolIx4hLCEkLh8lJSgnHSt+NYl1XWdtaW9ZV2FcX11oXGhfbFVhWVxeU2+spmRlYl1taV5gZVdeUF1ZbXRYZWlfYWd3VVdrhYFVfWlwallUYmVjV3BgYVViW05jfltrX256jHxli2KPbqhncZNfZ2ljZnR4X3xmgW9OeXtpe3DDgoaAaHFSg3xlb35naqdxZYZ8fXqOh39qiK1+k3xQdnZ3Y3V1jGeFa3qGc3tmYXhobHJtdZ+HbmhvXGSAcnGSYVxlV29vZWdbbYV6aIFiWop9dn53h5JwaoltaoSJgmaGe2l5eoeRgpKGhIWUmX5lcHNicZN/bnVthXJ7g2uAhX5wn3tdeWigiXpkbGKHZnNrhWOIY1x5g2yCg25xeYd+aYb/Z4tzXGJYknWNdUlKSURARltVcl5KkG5fi2VPdXFtg395hkeAeXRrgH9ke49sZYlxanx4eHGBcHSQc2yRkaNzdYaEm2OKd3Ryd6eCbXKMfpmhcH1wd3p3mZtjdzcGBAMCAQAAAAAA"
+              "id": "15_8kshFwNbOx5Zok3Tmkn7KUya68ZWkv",
+              "md5": "58f397371cd0d1065e42e95bba2d55cb",
+              "peaks": "nIB9aWtvdm94sWRTUnhaboS6l5twnlCHXYFrnIKMV65zrXRLQ0taVHJ7k5+shdippG2XiGZnsXSDcpedo5OrlMXmwZqjd7WiurKkwufsY5lvzKyWjJ6Rp4baopGi2N3QpMWVxrfZ6KSX15ve7+zg5qOzjVvLjZKAgZSnhHR1aICCg5Nec4uZdpF5k8Kevuagl7aWvoiOkKKNfWWjgsSItbXJm6eRYY+e3J6Fr4+gmYuDqJSnu6WPjcSjoIS9f5+UsojEcbCCmKWZtqG3uGloUk5CnriOfGlmZWV0f5aheX925rxRi3uqcF+/o1xMnZHTlbmIYl6boX3hzrGsv73U18GcvLSRqq6t0bSym5V10/TRit3CxoyutMvYpZep8L3boLvioMe4rmqDa2CytJKUu9nl5qvi4dKdw7K3xuiqw6L/3uXQy725qaSts5qpwuCp6OfExpvByNylxdbcoLe2xNPz5dLx/d/YsuG8xM/MwdLG7PXN9+HlxrzN68ul+7rF99XM0MjZ7eOrjebi9Ma20NTI7Pbc1d/j3s6gLw0EAQAAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Soprano - A Christmas Call to Worship ",
+              "path": "files/1Y5pDcWcFIrHRsfKPgHVCzDCS077od_Kv.mp3",
+              "kind": "audio",
+              "id": "1Y5pDcWcFIrHRsfKPgHVCzDCS077od_Kv",
+              "md5": "dfbeea08c4ff3a4ff975f769724e4418",
+              "peaks": "tZJwYmRscnF1wmRVV39beZjGrJZip1OcZptqt4KiXsp7xGtRTVBeU3iNpqCajc+Vo53YvtOuy4iffbZ5oIjDo5Ows7uKeaOUm6CxvMjIbrZum4yvraGsx6SToKfBtK64j6qTspyjtr7Dlpu7x7jt/7u1nmWjs9CvhJqbh29nbJZ6cqRjfKOvhJeIoJeoo72Ei62jpqGgobqoo1yura6XwLKdhayvebG5nIGDsr+gnamgu6yYqauzsqSUiZudq7+nw4WieL6Znqnqk6mvynBsVU9ErtGgf2Rna21/hY6jgXeZ2K16WZijini9umNOwaGkjp6whXaovKKavKmkx8nNxZ6xvKmXrtG1vJ7KopCIz6uscMe5op/N0L+jy6mkusGjq6bqyqumvXR6bVfFvI6Kpa+gsqPIo62fqLGuu8eznnOzkLyvxdjEpayrjZvHkaeeyby2stLBq8jKzLLHc7i8yI/ZzMWqrcOtjbuswK6lpKyz6eG018PBs5uv8sjIz+K+x73i1MPCz9i2gMqz6/jm7NfUus7U587N1daONw8EAgEAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Tenors - A Christmas Call to Worship .mp3",
+              "path": "files/12Qolz-kueGBvGeU5IkZzJNsZ44ElTgA0.mp3",
+              "kind": "audio",
+              "id": "12Qolz-kueGBvGeU5IkZzJNsZ44ElTgA0",
+              "md5": "4512de0a9fd88ca3579278744f054ee2",
+              "peaks": "roxtXl9obm5yu2JSVHpZdJG/pJBeoFCXYpVnr32cXMJ2vWlOSk5aUXSInZ2ZgrurgH7HmIJ5sX98WKp6pXrHh42CtJCMiJmFuqPSuJq4VrFrt5S8paGY4pmdr65+joblmqaGsZuYs63Qo5WumKPZwKeKmEzDkqF/mLOYfVpwZnRzhZ5hd5yof5GCpsXBz7KClJ+6tr6fpdWchW3GpaqF1sO0h9nOiaO7sIt+qMu7s6nFqsvctqa3tbidm8vbg7+YvpjPisbDkbDdt8itqWxoUkxCqMmbe2FlZmp6gJqlcIaTw5JpUaydj3ew2pJ8s4S6naqUfZ7Yw5Gewq60z7zZtLLz6MKzq9Oku6W/npOHx8nIeeTMuLS9yc3H4Jupr7mSjKnHnKqdq3B2alW8tYmGu9/F+KC/yKu0y6qrusy/vZboq8+cu5yVnLq5lJiwoaO1wazKwrvYzMav/8SyqeLDtJvLsqe5scKqmvnRoKHNw8bNsry9qfTKm6Lv3ZfNxcrC5ca/qpmTrbabf+ax26200MCrspelxdeqs9GNNQ4EAgEAAAAA"
             }
           ]
         },
         {
           "type": "folder",
-          "name": "My Tribute",
+          "name": "And Suddenly Tracks",
           "children": [
             {
               "type": "file",
-              "name": "My Tribute - Alto",
-              "path": "files/1jARam9FFK8RCHgsP5lRut8OLZ4Bwc43X.mp3",
+              "name": " Soprano 2 - And Suddenly ",
+              "path": "files/1pUoZ8937Np7_S6ySuOaGbs7yUFeSeMbz.mp3",
               "kind": "audio",
-              "id": "1jARam9FFK8RCHgsP5lRut8OLZ4Bwc43X",
-              "md5": "4824de4ea65e031fc1871da825dada08",
-              "peaks": "AAAAAAYGBQMEBgMEAwIJCQYHBgoLCggGCgkFCgkKCAMCCgsJBwQMEg8MBwcOCgcLDhAIBQMNEAwHDxEMCwoKDgwLDA0ODxANDQ8OCw8MCAkHCQoNDQsLCQwLEAgFCgkIBgoIBgQKP09NOj8/RkA3SltWTURIS0hDKjpdWE9UVVBMQVFUTzpJXFhMSCZBWF5QQURLRjo6RlJXZ2ZbVUU+NEZtZF5YUFtZS1FfUTY/RERJQ0E9OxkTDRcYGRQOFRYTExoaHxccFhghdop5gY+Jn3p8JyUgKichHyg9io+BfWFjcmVTeo97cGxde4R/Y1Z+gZJyaoeOYY6ceW1sjpCXhnOHfoKGeXlzb2NUc62RnYuDcnFnWG2rjX9hhn2Fe5Oae41xkJCTiYVpsNT1xdnU/6+bV7Tfzbb3xMyudTtrcomYkoZfn5R9o32EiZGgkqRxhpeUg35ugYFrYdWxioiNgqONdFmakIR9boySi2eYhXtjbC99eKGWfJmUlH+UilNogn6Yl46Vi446eW2eVKWbjJ+MrZyIfGAkFA8RAAAAAAAAAAAA"
+              "id": "1pUoZ8937Np7_S6ySuOaGbs7yUFeSeMbz",
+              "md5": "9cecaa0b046ad6834d110b5268d7aacd",
+              "peaks": "ACMcGhkVanyij5mLb35ps26Vjp+BhXa+fW5aUmlgorCgn5+oFQsICTqCsxscGhN+uIscHJuJj6urmY17gn2NnHRmfGiBcHlkV5FoZluClWRnXJuNfJt2kI1/gLmpgHdmP6pyhohxoNiQa7l2lZ+FfRINFBmghm1tfpNuzJOBiI9vgH55emuikZFueXGJh4Btb4aGhcduhrODfmuNb2duepVxZ2SdiG6VZ5KonG6ytZd4bhaVZX2JZ4/o1om+hoyBdY4VEBIeFR0hKRTJq2iihkMXEQ8SFVaEeGznkeTodXiEcmuMcpaoa9+0q2irn6mqfYyghZIeq8iYkSmpvIV7LKeilIaSk2UbGx0eGhkaHiMZEyAfJBQXIHP2xLGF49zCcGPB2qaGf46kYB4hv/+3h+HSqnZuLCwoJVahnIQYIc/0wJ+r48uwgjTM8rqcnJKGi5SUJQ4IDWp1laiRfnJwdbl4sr7FgIV2lpeDoaRnKXR2cXtupHJ0h3VxVcOodHR5m55/d3p5eZ55eG6IvbfP6OG039PRz8rQ1+Pz4d8sDAIAAAAA"
             },
             {
               "type": "file",
-              "name": "My Tribute - Bass",
-              "path": "files/10bjl15Hlfc4LLzZ4UsXdPWTyyT03WjkM.mp3",
+              "name": "Alto 1 - And Suddenly ",
+              "path": "files/1iwUG-rV5LXOkOqgNrbvF6VSFaki3L5SE.mp3",
               "kind": "audio",
-              "id": "10bjl15Hlfc4LLzZ4UsXdPWTyyT03WjkM",
-              "md5": "bad62faf36b423632d534348749f34a2",
-              "peaks": "AAAAAAgIBgMGBwQFBAIMDAgJCA0ODQoHDQsHDQsNCwQCDA4MCQUQFxMPCgoRDQkOEhULBgMRFQ8JExYPDg0NEg8OEBASExURERQSDhMPCgwJDA0REQ4OCw8PFAoHDQwKCA0KCAV4nJ+ilFnb2cZVgpyfzKVjz9eeT26yqsOjx/XtoNzAfF2irbDRyhq4t6iYj5nGt4yR1smmsreY36iOjXKgsr2hvfL0lM+vdGKVsKq1vX9/MB4YER0eIBkSGxwZGCEiJx0kHB8rqbGOuZyKlYx3JC4qNDEoKDONdWpjaHqRpoZpZm5qanJ5moJgW3GEiIZ4dauih6W4h1meo6iqrk27lmtfbZGronmK3LWLgnuSn5epmXmYk2KTge75iKarmoTDtq+tnVg6qph+n7eno5yCM5+ZqZq0l5eZWzGinqu2pJssw866pJeRatDLuoZUbol+gYKOlp91cImLlo56wKCOa5KUnaiugrWbk3+nq5ONXEahYsLjxNj4wM/ypT2tstb0/8Dh4IVDuJOXldSbdmyAe3Z9STslEgMBAAAAAAAAAAAA"
+              "id": "1iwUG-rV5LXOkOqgNrbvF6VSFaki3L5SE",
+              "md5": "347e634895488580d2a65ef06ba85ed9",
+              "peaks": "AC0kISEcrrOhlcaVqLSeea7FtrZ7eIKnuIttZmRuq7Kjrb94Eg0LC1KWryMjIRmLtagpJYeTkpe7vsbIvK2zqo6Rhn2Jin1zpLlcW017v3N1W5W9hKiuqrC4vcW+f29Xj7CclZGQwavBgZ6HrpKcjxcQGlqslnp3qaCg0rKPtqWfkbCgfnrDw6CHpKa6nJGIlcC2wZiohqKhtXWuamBTk69ziHG1ynW4iKS/trC5q3Nza1qqjIuLI7Onp3ClnL+Di40cExcmGyUqNBoyKBkffaF7joefYBskvIOXksCQmpScsIyFk5WEo7WZinl0kLaln5i/nqsqcLuGsjfEtKu0Obq1rKjCtackIyUnISEiJy4gGCkoLhoeKmS7mbScsaSni4OV1JaSmczHWyYrOz8wLHKbnISHtZuiopHStY8fKy1FW6iHlHC4o5Ogk56/p7G+2MCRNhILEbbFobSvn4a0srCbnqieg2t7z7uXrqaCUZ7IhMCKlrirhoiBLZingYBrrJutt6Sjh7KcqqGIs6CJ9NCq/+fEv8/cxNHY2L81DwMAAAAA"
             },
             {
               "type": "file",
-              "name": "My Tribute - Choir Only",
-              "path": "files/1Z6DrSonI6-Z-zXnQC2AXWT5JbZccNAVO.mp3",
+              "name": "Alto 2 - And Suddenly ",
+              "path": "files/1PoKRENuU0KFnjUW_PeuioiSnWBorOUnX.mp3",
               "kind": "audio",
-              "id": "1Z6DrSonI6-Z-zXnQC2AXWT5JbZccNAVO",
-              "md5": "fc7e5ce058f20d5a60293571cce4de04",
-              "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACE8PEMvLjc0ISJfVG1OLElJKxg0ZWhjO0FGNhxVPCw1R2dMRS0qQFFkR01GOiUbO3JzaUVURT8iHnlkaGc+T0w+Ml0wJS1NRDk3NDYzAgAAAAAAAAAAAAAAAAAAAAAAAGqWbWuCmqKinBQBAAAAAAAAPnV/eHNCdmtdNXeRjYdQe6WCQUCUoq+cgY2IX5qmfEBSmoqekGtokZCKYox+eDVOvZ2wlKmSkWo8aK2qsICcp5tUkJFzT3ubmoqCdEON7baljHtfQxRxu7Gyr26EUjJUlqOW445mj4Bno6eBWY2utrmJp8W+tXiit61LZ82yts2Yvr+QXJOhlo2Jg5GCUaqDiohyT5yLqZqmx6+rrtbAdLvUvd3iu+3RRGx+zo7Pv+jm/9Dh5NUqAwAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              "id": "1PoKRENuU0KFnjUW_PeuioiSnWBorOUnX",
+              "md5": "63b03c6bbd0b25f9d4a7f2e8dce3a1e6",
+              "peaks": "ADAmIyMdub2rntKfsr+ogbjSwcKDf4qxw5NzbGp1tb2tuMt/Ew4LDFefuSYlIxuTwbMrJ4+cnKHGytPUx7e+tJeajoSRkoV6rsRiYFKDy3p9YZ7IjLK5tLvDydHKhnZcmLuln5qZzbbNiaiQuZummBgRHGC3n4J+s6qr376YwbCombuqhoHQzqqPrbHFpZqRnsvBzKGyjqurv3y4cGZZnLp6kXjA13zEka/LwbvEtnp6cl+1lZOTJb6xsnevpcuLk5UdFRkpHScsNxs1KhsghauCl4+oZh0mx4ugm8yZpJ2lu5SNnJ6MrcGikoF7mMKvqaLKqLUtd8aOvTrQv7W/PcbAt7POwLEmJicpIyMkKTEjGisrMRwfLWrHor+mvK6xk4ue4p+botnTYCguPkIzL3mkpY2PwKWsrJrfwJcgLTBJYbOPnnfDrZyqnKjLsbzK5cuaORMMEsHRq7+6qI/AvbukqLOoi3GC3MehubCKVqjVjMyToMK1j5CJMKGxiYhyt6S4wq6tj72mtayQvqmS7/+vyc3T2OSooa27posvEAMAAAAA"
             },
             {
               "type": "file",
-              "name": "My Tribute - Reference Track.mp3",
-              "path": "files/1xpAzLYLN0b27IB0c5TbIsh6ITgRWsJQm.mp3",
+              "name": "Balanced Voices - And Suddenly",
+              "path": "files/1EVLU433D_DI-MBZZdl8JrFu-9mKi9xD4.mp3",
               "kind": "audio",
-              "id": "1xpAzLYLN0b27IB0c5TbIsh6ITgRWsJQm",
-              "md5": "b18b4ba9d29560a859c22878adba7fd5",
-              "peaks": "AAAAABYcEwwTFw8RDQkkKCEdGyguKyAZKyoeCygqIRUJDS4kIQw0Rz8xHiA2LiAtNEItGQwiQDErPkVHMS0sMTkyLTU5OT1EMUA8Mh4/KSYnHSk1Ni4rLS4xQyseFiknHCYqHxgLJmBKUkw+WUlCXWdcUmVPUllaSDZhZ1tWYnNidVJyXFpAUEtZUVlJRWNUUlJTS09SXmZubmhbXlRRWFhQaGFyaUhthF0zTVJHRkxeYEpIT3NjTTZeYGJRPFVVUEhna35cb11ihoVyeYG8kpmtwrV4kaGJnIaoop+lzI2wlmSYjYm+lox9l46ScZCSma2AjZityZKstKOloHavl5eoqqealZWtdKWdeq6fkda8iIh9w46msZKhoKGS6LKYtZfJo7zTqrikosCSprGurKWmtoOni72IraCIkbmmmpiypJqMmY6kweW3rL2208PZzqCn58a7pomm2a3om627q+jLr6jK3c3MoMm3sbyZscXGpIyS/7mR1OPcw+nnu7nX4rWurp3GvdHM39vztrbex9Ox4tPMy9zDysBdIwYCAQAAAAAA"
+              "id": "1EVLU433D_DI-MBZZdl8JrFu-9mKi9xD4",
+              "md5": "ff14b7f3ebfa20be53113ac299abdc44",
+              "peaks": "ADMoJSUfcF+Fc4xrcnZmeGWkmIVre2p8emxPSk9MoaWJnIuIFA8MDTqHoycnJRyMvIMkKZF6icDGsKp+m5KnkYRuZnN2X2NLa3VLSDRie1NLOoB0WWlkiIVwgJWHX1tGT6BfY2mPs5WVWpNnin19chkVHV90UlZRWGBhhW9udVxYVm5yW12Ml4hjh259ZG5XaYSAiaplYYhmiVGAUVBCh4hXWkatl1B+ZXaXd3KTfFNJUBmRXWVebISrg2N+b4xxdHsfGhorJkFacDdhUDlGRTosMS81NjNDX01/bKZvaWh0ZHp7d4hsX591iE1wdZCQhYS4fn9KvsOAdoGnz4dyjbiShYCFmmwnKCspJiUmNCwaGy4xNCEcL3abhmdjpph1XSp7in5ljJe1JDBZf3lSR31xa09QY2dfVHSmin8iMFyAZmV7hnuFW3m2nJtxmpyZmLOFHBQMKHNpdYJ0Xkt4aXZfh3+IV098pXV9lYEwVXN2Z3JicYpvcWZgIZGvV11tcXKEhn5JfXmHcm5ujYZ3/7G57cvC28nd4eH07LIgDAMAAAAA"
             },
             {
               "type": "file",
-              "name": "My Tribute - Soprano",
-              "path": "files/163W_rcyy_UymMCjkiHuMWjf3YL7EiaQ_.mp3",
+              "name": "Bass 1 - And Suddenly ",
+              "path": "files/12P09ndMDA5cG47j2v2MXhAUHyaJcY7wD.mp3",
               "kind": "audio",
-              "id": "163W_rcyy_UymMCjkiHuMWjf3YL7EiaQ_",
-              "md5": "ebfc280c1ed46a082e63d5e424249540",
-              "peaks": "AAAAAAYGBAIEBQIDAgEICAUGBgkJCQcFCQgFCQgJBwMBCAkIBgMLEA0KBwcMCQYKDQ4HBAILDgsGDQ8KCQkJDAoKCwsMDQ4MDA4MCg0KBwgGCAkLDAoJCAoKDgcECQgHBgkHBgMUNjo+OTs3RjUzQUhCSE5BQTw8LzdLSk9JSUdLOVZNTjpATERDRyk4SFRPT0xHQDU4PmliWk1NVj46NEJcTFtfRFhURUNHSi9CRUI+PEBBPBcRCxQVFhEMExMRERcXGxQZExYeaXNsZ36ilIZtIB8cJSIdHCMohXZzdVRhY21SVHuAZ2ladXZsWF2Ll3R1ZoGPZ4GseG9khYGUhWx2iYODe3d6eWNMV36KgnaFdXJSUX6klYh5Z4uMdn6nfItndYNwfHBmpOm+uuC2tKB7Oq/O0Lr/v62dhjBrdYF7l3NkmYB6i490Z6C5kY98ZJeFimFthp1mSYqQo5FtinqAaVGNh3VwXHCBZlaMcWx7aSpqZYSOZ4qQcn96dkpieXF+hoOAd3EvgGV1R6CSlX2OgnlzaVUeEgcGAAAAAAAAAAAA"
+              "id": "12P09ndMDA5cG47j2v2MXhAUHyaJcY7wD",
+              "md5": "0280e82eb9debcfd4128831f5a111492",
+              "peaks": "ACYeHBwXdGxuZXVfTmdUTFRtlWldY2ySg4xiWFV4gX1zfGl0DgsJCRKgvx4cHBWh1rUeH5qdkbPS0qqVpr6We4F9doOTbFtOdJZPSDZcZEE9O6O0QlqHjJGFi52RZ1NPN6VmYlVl/7i8iuKXhYJ+dhMOFlyhil1oWnhRc4uCLiUjI4iQbHCGk3B2lWtbX2pagJyZqXVcappZck6ZXkxKhahbXVagnGpbYIKFcIynk4BfTxSWXWxmJttvu2eieXmYd40XEBQgGFlugkU/IhUaGRkXExETVk0fJiFkX6+CTlZgWmhpVXZocYxgS1JKf5HFnY+VVpkku9aHjC6gwaimL5WmkaTHn54dHh8gHBscICYbFCIiJhYZI0aMf2lepqaNZz1yd3taxaKfXSEkMTQoJTYvKyUlXZN0fVrJoY8ZJCY6MSstd3FrTcOshpp30ZCbnoiBFg8JDmdhX3pvc1pnZG5uam+BTlNpqLJujYdpYW6Bd5l5anJgfnJvOHqYWWKIiIeYknt3UoCDhXmCf3h5hHV9lJOHd5KBmYWku7EiDQMAAAAA"
             },
             {
               "type": "file",
-              "name": "My Tribute - Tenor",
-              "path": "files/1hdTJ9xkkVT9BgcpDiNANgbmRhZ_MiisK.mp3",
+              "name": "Bass 2 - And Suddenly ",
+              "path": "files/1MxvIbpGo9OEiOhSdpWXQ9-sNNtpXIA_t.mp3",
               "kind": "audio",
-              "id": "1hdTJ9xkkVT9BgcpDiNANgbmRhZ_MiisK",
-              "md5": "488d0a3a13a65d1fe3d974c1ffaef712",
-              "peaks": "AAAAAAYHBQMEBgMEAwIKCQYHBgoLCggGCwkFCgkKCAMCCgsJBwQNEg8MCAgOCgcLDhAIBQMNEAwHDxIMCwoKDgwLDA0ODxAODRAOCw8MCAkHCgoNDQsLCQwLEAgFCwoIBgoIBgQWQEhLSUVKTlFDR1BSWF5LTk9CNzhfYVdgTV5VTF1qYENJY2xPVClKXVZNR2lPS0k/RGhtYVdcX0pORFJzbmlcTFtdSU9SVEBLVlNKQ0xHPxkUDRcYGRQOFhYTExobHxccFhkico6XdNPe6bGsJiUhKichIChNiIiZkF6DjIBycYugpZdqm6enYHSar6qZfpymlqXri4uFuMrQ3bqRiLafsKF8gJdXgJihpIt+kZ6GXXeksMOSbND0qaKth5N5kZOXlaGMqvn/5uPvwLmoUrHq7rP4wLrPiDJnop+KnXpUkYOMyMSbe5zzyKykfMbEqZGSr+iQZazq7eWuruDbhWzYurSjbbXGwXqTj5WwhzKRe6a6hr63rqS+vWuEg4epqaittq1AeHiKfrLY3brUqaqvoIskDwgIAAAAAAAAAAAA"
+              "id": "1MxvIbpGo9OEiOhSdpWXQ9-sNNtpXIA_t",
+              "md5": "231e1f452a59905b0ef027cf8636ce39",
+              "peaks": "ACYeHBwXdGxuZXVfTmdUTFRtlWldY2yRg4xiWFV3gX1zfGl0DgsJCRKgvx4cHBWh1rUeH5qdkLPS0qmVpr6We4F9doOTbFtOdJZPSDZcZEE9O6O0QlqHjJCFip2RZ1NPN6VmYlVl/7i8iuKYhYJ+dhMOFl2hil1pWnhRc4uCLiUkI4mQbHCGk3B2lWtbX2pagJuZqXVcappZck6ZXkxKhahbXVagnGpbYIKEcIynk4BfTxSWXWxmJttvuWeieXmXd40XEBQgGFlugkU/IhUaGhkXExETVk0fJiFkX6+CTlZgWmhpVXZocYxgS1JKf5HFnY+VVpkku9aHjC6gwammL5amkaTHn54dHh8gHBscICYbFCIiJhYZI0aMf2lfpqaNZz1yd3paxaOfXSEkMTQoJTYvKyUlXZN0fVrJoY8ZJCY6MSstd3BrTsOshpp30ZCbnoiBFg8JDmdhX3pvc1pnZG1uam+BTlNpqLJujYdpYW6Bd5l5anJfXkI+J3qYWWKIiIeYknt3UoCDhXmBfnh5hHaMuLeys7qLknh9fIonDQMAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Small Group Part - And Suddenly",
+              "path": "files/11mXM2VtSOPUrgw289GV2LqHqCmGw6l_7.mp3",
+              "kind": "audio",
+              "id": "11mXM2VtSOPUrgw289GV2LqHqCmGw6l_7",
+              "md5": "8f0bae232fe0d8a8a177dbe3c6d934ce",
+              "peaks": "AB0XFhUSJB8qJS4jJyYfIx4yLiwnLB4nMiIZGBkYMzEoLykpCggHBwwpMRYWFRAvNisYGDInMjI9OjklMTA2LCchHycpHS4aIiUYFhAcIxgWEykkHyIdLCcmJi0pHRwUFC8fJRwfNzEuGysfKSUmIw4KERUjGxkaIB0eKSQhJB0cGyQhGxkuLykfKSMoHyIaHicmKTUdHSghJhooGBcTHycZGhY0LBknGiUuLCUrJBsWFwwsGyEcESgqNCAqJCsjIiUSDQ8ZEhgbIhEgGhAUFBMSDw0PERIXHRolIDAlHR4jHSknIisjGDAkLBwjJSksKC06Jy1/dakwn/aJfizQ/4ltMigpOScXFxgZFhUWGR4VEBoaHhETGyEyLC4hMy0lIR8mKysjJTA5GRkcJikfHSokIR0dJSUhHx4+MSoUHB0tJiEjKi0tHywwOTkvLysuMT0rFAsHCyMiIyUnIRklISEeKCYmHh0XNC8mLCogIiIkHSQhJyohKSUiFCQ1HB0eJyAqJiklHiknKCImLisyVEszS0RBOkA9QUdHUUgcCgIAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Soprano 1 - And Suddenly",
+              "path": "files/1AYsruiKi5gulsAFBp8IynyY6NqDAXYFS.mp3",
+              "kind": "audio",
+              "id": "1AYsruiKi5gulsAFBp8IynyY6NqDAXYFS",
+              "md5": "261c48f2266e41f24acde947e9be12f3",
+              "peaks": "ACMcGhkVan2ijpmLb35ps26Vjp+BhXa+fW5aUmhhorCfoJ+oFQsICTqCsxscGhN+uIscHJuJkKyrmI17gn2NnHRmfGiBcHpkV5FoZluClWRnXZuNfJt2kI1/gLqpgHdmP6pyhodxoNeQa7l2lZ+FfBINFBmghm1tfpNuzJOBiI5vgH54e2uhkZFueXCJh4Btb4aFhchuhrODf2uNb2duepVxZ2SdiG+VZ5KonG6ytJd4bhaVZX2JZ4/o1om+hoyBdI4VEBIeFR0hKRTJq2iihkMXEQ8SFVaEeGznkeTodXmEcmuMcpWoa+C0q2irn6mqfYyghZIeq8iYkSmovIV7LaeilIaTlGUbGx0eGhkaHiQZEyAfJBQXIHP2xLGF493CcGLA2qaGf4+kYB4hvv+3h+HSqnZuLCwoJVahnIQYIc/0wJ+r48uwgjXN8bqcnJKGipSUJQ4IDWt1laiRfnJwdbp4sb7FgIV2lpeEoaRnKXR2cXtupHJzh3VxVcOodHR5nJ5/d3p5eJ95eG6IvbfP9ue2697kycrUuszc59JDDQMAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Tenor Predominant  - And Suddenly SATB ",
+              "path": "files/1kj--8ecj6xvB37xLSa7PAAhtTYWRSm9c.mp3",
+              "kind": "audio",
+              "id": "1kj--8ecj6xvB37xLSa7PAAhtTYWRSm9c",
+              "md5": "8f2d6ca559b25ed20268a32f00fbd648",
+              "peaks": "ACMcGhoVYHBekLNejo98soO+sYhcV2F3eltDSkZQ1tC0vdOhEwsICRHA/xscGhOH2cIdHHhxX+jt6sGDrdDc26GCfmtnYltNYGc+PTJii0I5MlxdVXRlhm1qZX97TjtEJH1CTVmXzsi0ZY91jYODcxENFDdzYEZIS2NVYkBuklJZW3ZyTFmsx6FeknBfbl9icqGedL6GXHtXZEJySzlCa35JQDyMekB2dpGIkIRbZVUzMS2AcUtOPH1urVaIdJt7c5EVEBIeFnChxVtVHxMYGBcWEhASS1QdIx9mcpRrYHuFeZaldpSCU7V6fWZFlXuOg5XDWY0fruxwjimRmHVtK5mYd2ScsI4aHB0eGhkaHiQZEx8fJBQXIG2cc31VkYhsVUJna1t2gMO2fR4hLjEmIzMsKCIjZXh7c1W0oqIXISM2LigqhG9mVomou5t0q5mgor+xJw4IDW51YZGoXVOHeoJ2ZnxhQTpreWOOpqdzTml3W2dibot1bFdPNJ2ySkJOX1x5cHhoUHVpdVRXZmh0d25Xho+NjZJ9f6KhnoYiDAIAAAAA"
             }
           ]
         },
         {
           "type": "folder",
-          "name": "Revelation 19:1",
+          "name": "Glory Hallelujah",
           "children": [
             {
               "type": "file",
-              "name": "Revelation 19 - FULL CHOIR.mp3",
-              "path": "files/17PiDYuUpwHbHfaZiUAOKzcKgaqQukofS.mp3",
+              "name": "Alto 1 - Glory, Hallelujah to the Newborn King.mp3",
+              "path": "files/1M0osTTKTI53mumWndX7oNDdsslHnJBJx.mp3",
               "kind": "audio",
-              "id": "17PiDYuUpwHbHfaZiUAOKzcKgaqQukofS",
-              "md5": "c5427f48a3c0ebfd8ccece27c5cd48bd",
-              "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEg+MQE+LTtVJAA7Mj1AOisxKCwrCzFKREo8EEVAQz8sByc5SW4mLjIpMS00LQEASEM5BEUyLFUkAQ89OT1BKTIoLjwjAT5MSz0mFj9ESSwiAT5BS18lOC4xPjs/JT1EMUMxMjI8V0wlRTE9XW9PQlhMRk5TSFFBMTQwOi5IaTFCPS1bWlhIRFZWWFdIInNqY1haV2RdYGpad2thb2ZmcGteYVxCYXNhXVVbYWllYG1ncmpyfFxzan1uaml3psvvvZfYqMLqs32TxdzR0aaOuLzW6+Cx1ce0tXWWuN/OvqGl18/KoZyc6r3I0NWjwbOvebeTlomMp6jApJKTg5eyvpGjtEGrtMypg6SXk5yipavTuqWvhrDmv6fBwxEUGBsVGBgrIh0dJTE0OTNON0JFU1ZugpOoiXCPeoGyn46Yn73Uv7uhj8Lf58belhAYEBoWGicaHh0dITxANUNCRWFiVnRljLSaqamWoMaOtKmYu/DtsqyfpP/S+efc37vDxFoAAAAAAAAA"
+              "id": "1M0osTTKTI53mumWndX7oNDdsslHnJBJx",
+              "md5": "14c814c11e0bb1d46a679959f5b39ac0",
+              "peaks": "AAAAAAAAAG1xcYdoJBCAjH54VaO0jpB7eGxlVGF5aIZ2ExSJd5J5bmmCn3d0ZF5dQ0gQDRAQFA8ZGhMREBoaEw8RDAwICAgDDxEPEQ8TFA4RE3yNgYRzYHx0j456d4pkFCCFjXt9e4yLZ4Z4ZW9hRmluYmNpFiB5eYd1aHF/h2h1b1lpTU4nJBcWGhYdIxkdJCEgERMdHBoYHx0OESYfHhgdKxQZFlBjVXdyWH2Ff21YWmtcLRVicH9paWhsi3VkY1RgRmlcYHdtGhiVi6Nui4eLfWV0fFx0chVnWBJUFA9aW0pHRxZrV0xHRkVFRBM/aRRQMxFUWF5jTBlZWVNdWUVSVo1zcIF5eo9eoIiqxomFgnB0W01YS4tyiYWWeaZarMK2/4G4wmqQg1tgZXxvb4F4UxaDdYVuhHCCfn+JdGRnXXx5c2xtVBSLj593jnqCboF3hXCLX3p+eJWhiBeXgZqBioWbe5V7X2BgYnxxbYuFXxWWmouThHmPfIt/Y2h3V4GNe2BkTUhHcn6Jd42YoI2TWGplYVY2n4WZh3t0gXxycxEC"
             },
             {
               "type": "file",
-              "name": "Revelation 19 ALT0.mp3",
-              "path": "files/1-je-IblrXW9cJ6D1ad7mg4TxpOf6d5hY.mp3",
+              "name": "Alto 2 - Glory, Hallelujah to the Newborn King.mp3",
+              "path": "files/1aI9Z918aiB7hBTvwWEFEJTk_sWtKN9iV.mp3",
               "kind": "audio",
-              "id": "1-je-IblrXW9cJ6D1ad7mg4TxpOf6d5hY",
-              "md5": "e0d71b70c112ab253772aec67c5e73d5",
-              "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE9TQQN2XVJjUwFiUlZpalJpUkpTJXZqemphG0tkdEhJDVxtbWlCW2JCT0RvXwAASldLAXRcXWJVACNbU2ldVE9lRVJOA3h8fWQ+BWRjdElBA2tqa188Yk1SSGxdRWZXRTYlVEg0c00sWkkrXltBakZqbXh0Z05WRTU5UkFMckRZWEdOXlxKUWSIb66bF6Kbh4GjfZWLoJOslpuAzdiZtqSapZZwdqOVdH2hgY+PoKeHmZ191rSZvZ6appd7eXN2Xl5ZVFqWU0NNX2CCg0xPdn1en39ci05OR0hKTXSKQUlHQnNfZ09La15nemK61MCYiteXz9yT1LLk87aihnSc0fHz7kXIsLWhn9fCqN2007Dr97KNan3U7KTyvSQiNCcqKFQ6V2hcamNxaHZkalxpg3l/eYiOnpZ/uZXV7qil5OH/sLCJbY7W5/P1fiQ0GiwqI1FXWGZwXm5fYXRwWHGKa4Fvb4eZkYSIptvwyJ6g8Pnusox+orjSjM7P1+HG4o0AAAAAAAAA"
+              "id": "1aI9Z918aiB7hBTvwWEFEJTk_sWtKN9iV",
+              "md5": "4f44c05ec2c33906388e685f6ed1873f",
+              "peaks": "AAAAAAAAAG1xcYdoJBCAjIB4VaO0jpB7eGxlU2F5aIZ2ExSJdpJ5bmmCn3d0ZV5dQ0gRDRAQFA8ZGhMREBoaEw8RDAwICAgDDxEPEQ8TFA4RE3yNgYRzYI2Jf457d4pkFCCFjXt9e4yLZoZ4ZW9hRmluYmNqFiB5eYd2aHF/h2p1b1lpTU4nJBYWGhYdIxkdJCEgEhMdHBoYHx0OESYeHhgdKxQZFlBjVXdyWJifenFYWmtbLRVicH9paWhsinNkY1RgRmlcYHdtGhiVi6Nui4eLfWV0fFx0chVnWBJUFA9aW0pHRxZrV0xHRkVFRBM/aRRQMxFUWF5jTBlZWVNdWUVTVo1zcIF5eo9eoIiqxomFgnB0W01YS4tyiYWWeaZarcK2/4G4wmqQg1tgZHxvb4F5VBaDdYVuhXCAfn+JdGRnXX14c2xtVBOLj595jnqCboF3hXCLX3p/eJWhiBeXgZqBioWbe5V7X2BgYnxybYuFXxWWmouThHmPfIt/Y2h3V4CNe2BlTUhHcn6Jd42YoI2TWGplYFY2n4WZh3t0gnxycxEC"
             },
             {
               "type": "file",
-              "name": "Revelation 19 BASS.mp3",
-              "path": "files/1zrP90rfP6T_XFhUa7V2jnaPAIEgbGiVc.mp3",
+              "name": "Balanced Voices - Glory, Hallelujah to the Newborn King.mp3",
+              "path": "files/1bMIiSjtciuPgOO-C3MA5E9LfvL1G70bd.mp3",
               "kind": "audio",
-              "id": "1zrP90rfP6T_XFhUa7V2jnaPAIEgbGiVc",
-              "md5": "b441e229ff20eb8eef3f37d96a50c6a4",
-              "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFPRAJRREhDNQBBT0dFTFFHS0xGKk1JUz9THWpNUUZDC0lpSVVQWk1FRkBTQQAAQFBKAVU2SD47AB5PSEdQQUtLTEo+BE1RTlUyD3FUTD88AmlZV01FWDhEPlVJHB8cFhgNHiAKJBoJIBQPHxYMHhQjHCUmHR8cGBASIBQSJREdIBQTHxUUEzNENUtFAVhhV1JLTj9VOl1cPnlRVlhHOVlLTFAzOVhfOVVKSkBVO15ZeGpXXU1KT1pLTU8t4LWWo5KvtJS0g8PRqp+gipO7qbery7F07Z+liIKumMGce7bejnmpkJONnZfSuofz3pKch57/8qTSoKHMr3+KjZKzrYK+rEX1rpmgiJn47pXEmqjVn3qHiZaxnKS7qDMzLkIoQztAeXxan6hykYpwo52Wn6COnLuY17OJn7DZzdbJrtasgYmGma26irWcZTMrLkFENEF+W3ysX56KdI6kZJKjfJCZx6LMmMKdr6nP5KnQzKOCgIqPhauvkK+kl6aQiGwAAAAAAAAA"
+              "id": "1bMIiSjtciuPgOO-C3MA5E9LfvL1G70bd",
+              "md5": "fa78bc20128d975fc68f5bb877b28f2a",
+              "peaks": "AAAAAYiAoaiSaD+82JWwmc7fopSrlrKPjm+GkZSZXE7ZuK+SiJiomo2OhqGnjW9BLzA1QjxMUkA9N0hXPzg1MDAfHyIXMTc5NTlBQjc0P4zJmXifmZS/z797e6yrnkvEuoqmrc3OmoaLqKqbapqGkZiih1S+yq28mLWltKKUc5CtbH9MX3dLVk9ldVxTdlB7XkY/Y2NqXmVcLn9uZFpigYVOXWSpm6yShKrF0YaNbJ6gjlq+uKrBtH6+tKWjrp6BdlezYa+wtlWo466tpWjepaGRlZijmKFQp0Nbd0B8knpjeV1/mXBqcoJ/f5FNnUdBeEN/nol7f2pwiX1ybW5qjGR5bsC4o/fIfKK8/+u2xcDFw4uOsm1/ecCwzcnCgfjq5Nq667KuzpV/knp8fLGirFe1vMSayX/QxLONoJ2UbWyQlYSMyE6H4r6irJDLr5x9o7e6rohxWKGaok9A0NGYkqPMwpmRgoSLlHiLe6PTzks91daxqqTEyYWol42Qqo1lfJSQk42Fj7Gjsa2zwLetnHCNfn+MdrXOv5qTvsGwyrYUBwMB"
             },
             {
               "type": "file",
-              "name": "Revelation 19 SOPRANO.mp3",
-              "path": "files/18odKDH7O8dhoL-uVUZ0qNs6lJuppzCiW.mp3",
+              "name": "Bass Predominant - Glory, Hallelujah to the Newborn King.mp3",
+              "path": "files/1X8Xu7nNmQHpbY3j4-GJOei-77T7fiu5M.mp3",
               "kind": "audio",
-              "id": "18odKDH7O8dhoL-uVUZ0qNs6lJuppzCiW",
-              "md5": "cd3aa2a479277a7b19538d6683a9dc01",
-              "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFtTTAJ+SFJgYABYcmJhZ1lfUVBHHlx1c3CCK1Ngd2BCBVhmZIJSSlFPUk5gXwAAPlhFAXxYTWRiAAVwVFxmV0tiU0Y8BHZicY1IAl5eeVpDA1xnf4ZGT0JNXFphgXNQVks4Z1cyjVdBV2BLknJMm2SBiXhxhFtOU0pnW0FPiUxWTl9okHNucYOXoLeKJM+euqn0uazCnrOtt/+WmeKejK64sdeckcy2nKnft6e+qLag2f6e6KyXoLS5stFbmZaFd2tpfm2Dk2uRcXB+g2hpcoZ5e3dJcl1qVZJoenJucVJeWWdmcWFacGJdZFKUuKXDjsillKajxbLEuKTGz5PKsLyfoF2kwL2bjsKpmanFnbzKrqLOppjGq7CmpyciLiYnLjBFb25XkYZ4dnWFm5OMnIqQtaHlm66fnJyz8rnezKvMobjLo5HAtKirmyUvHykqLkJqSnKIZ5BzcYCnnIqajKC3ktSampySnr/hxdPs1cidpNCBl67Lrr3gs7izqoYAAAAAAAAA"
+              "id": "1X8Xu7nNmQHpbY3j4-GJOei-77T7fiu5M",
+              "md5": "6bf911c7c44d3a201946d925a63b6582",
+              "peaks": "AAAAAAABAZyidXqEc2PU05yzq+bah5eLrpl3gXSflJyZd3rDyKSkd4eKbW2HiZOmmYxIDxITFxUdHxcUEh4dFxIUDw4JCQkAERQSFBEXFxETFXGMdpqccKOOo6OiiZe5dnW/uZW4ssvTtZDLwJFvZ5OHlIWaf47DtqOqXZCFdHeNbaSjjIsqkHyFant1ln6gnaehbYF9d3h1hn8VcKl4jomfuXp0fpKnpMOrfLPx0K6YiKWagbbZzrq0v9LClKLIyIZgZ6eOprC1dqvL5pLGkaKLcGSGgqmio3qKd2VQXWJtWkeAnGaEUGJXeHy7mm95b25XX2ZtZlp6gWpuXVpZZWuDZqOPysh248iHruHVqavUtqTDkny/nquS/+6W3eeP3eq1387qqpLZiYSdjbSjtKrMh8jV2rWuvNjRpprm3Ztocn53j47PbKLRxpi4qpZ+bWWOq6qyp5iapKCserPByaa51tXBoLm7tYdlX66Em76odrXj7KbTwqmme2qEfY2fnXNsnaKTeHTEr7mQLYKDgn6SWVpncWavrKeRpIylsaG7rwYC"
             },
             {
               "type": "file",
-              "name": "Revelation 19 TENOR.mp3",
-              "path": "files/1oofc9xabbRu-TU3MU6pEFzU2B1m9FrnK.mp3",
+              "name": "Solo Predominant - Glory, Hallelujah to the Newborn King.mp3",
+              "path": "files/11NcnEKXciDOasB6WQ6pAyTE2PrGv5RV1.mp3",
               "kind": "audio",
-              "id": "1oofc9xabbRu-TU3MU6pEFzU2B1m9FrnK",
-              "md5": "8df82715c10fcb052912c40f2a7b0eb4",
-              "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYvKgAwHyooIQAsKi0rMSspJSQlEikrMCsuCSkrLSkgBCMtLTEmIyccIScxIgAAJCcuADAdJCghAAksKSswLCgmIyMZASsuLSwaAiUsLR8hAC0sMCklKBsiKDEvDhATDBIKEREGGRMIEAsEGRQOFg0VExcWDhITDBMIEQcLGhIMEAoNGQ8VExUlLTMnAjY5QiQ/MDYqMCssOUEwLDowLTU0NDQlKTlENiY9MjUoMCsvOUMwOy0wMjYzNTM2fZayg0T/9dbi02V92PLg2LC349i34rPLx9nZvFvd19+d2n/0suDW3siz47/bwa1ZVVlLRUtPW01UWUxfTVJTQ0BLUUZfSipcTVhHRUpdU0xWS0lgT1NQQ0NQTEhcThcXGx8YHiohODo4RlU4UkdBTkhKR1RZS09LUkxIVExMWE5cV19PUklIR0pNRVdQKxgbEx4dHC04MTlCPlRTQkxNTk9JT19LSlFEVUNKU09JXlhSWVRRT0xVS1FPRU5VT1ZQTDwAAAAAAAAA"
+              "id": "11NcnEKXciDOasB6WQ6pAyTE2PrGv5RV1",
+              "md5": "0a30eb4e73cc83c49ac442c572247d03",
+              "peaks": "AAAAAAAAAEBFSlFIIRtxakRbRmxpRVNLSkxCODNETEpGHyFqXlJMRVFXV0Y+OkVROzMTcYmhtofk/6WXjtbpqLCWcmRKR1Iqh52Hpqazt4iPrEZYPEhNQk5bbVw4XVhiPh9hcVVQT2xjT0NNX0lEK0A4QlRFMx9nZ11bOl1bTk1GL0BYNTkWOyYjKiUwPCkvPDQ2IR8eLywoMjMdHD4yMSkwRzcqKD1MS11NRlxqaEM2Pk9UQCJcYEtaVVhhYlBYWUJBLUVNRllnUiZuY1NSSmFiTkdFSUtTRyEgTBkyNBo/RicsOx5PQysxNTg/PyceRhs1NRs9TSw+Nx4/QzI2ODIzQCU5QGBVTHVEVVaHem5iaktZaEZHUiVAQWxfWYE6THxkhmN0ZUhUcUBCTCc/PVtVUiNgXF9MT0ZpU0xFWkVGNS9DP0BWWiBWb1hMVUpcTUZAUmFbY0A1MVBPUCBgb1xKUix1W1lFRjhKNCo+OldkRh9Va2ZRWy1hZEpJSjRMVDY9O0ZGPzk5VFdMWRpaWFJNQjU4Nio+U2JaVlBBUVJYW0kD"
+            },
+            {
+              "type": "file",
+              "name": "Soprano 1a Predominant - Glory, Hallelujah to the Newborn King .mp3",
+              "path": "files/1dA78EsMI2TeQrA5PFi55mC0o0e1dUaxx.mp3",
+              "kind": "audio",
+              "id": "1dA78EsMI2TeQrA5PFi55mC0o0e1dUaxx",
+              "md5": "3b538fa50be6564df36302de8dfab6c0",
+              "peaks": "AAAAAAAAAE1TWGRXJSGHflJuVYKAU2NZWVxPQz1SXVpUJSiAcGRZUmFoaVNLRVJhRj0WGR8hJx4yNSciIDMzJx4jGRkQEBAGHiMeIh8nKB4iJVJnTFdeUFxthW1DcGx1Jj51h2NfX4FxUFxIcFhSNU5CXWRQKSV6bG9jRm5uXFxTOVxoP0QaRy4rMy05RjI6SEFBIyY4ODQvPTscI0w+OzE5VicyLElbW25cR3N+fVE7W15jKipxc2xcZXR1Xl5oa0VOMl5BYW16JS6DeGVgWHN2X1ZTV1piVihFXR89Hx5UTzQqRyJfSTo/QENKSiM1UyNBJyFcVklDQiRQSkBDQDZOSUVBbnRWbI1SZ2milmt/eGpof09kQE1OeoBtbJtJhJN5n1yMeFeHuMfPxUxEam5mKSp0cWVcX3mAW1Nca1NPP1FLTVNrMCaHeVxXZmluXVRjc1t3Tz88X11gQyd9hWNZYW6NYGtUUVJaPUtHTmx5VCZ8f2ZtZmN5Z1lZTFJkSDZKVFRSP0VDZ1psWlJrYVdcLUQ/QUobdGpsVGGw/+3Iph4E"
+            },
+            {
+              "type": "file",
+              "name": "Soprano 1b Predominant - Glory, Hallelujah to the Newborn King.mp3",
+              "path": "files/1dtzNHQPWzIT3_XWKK-Xs5m03UAzFLH7G.mp3",
+              "kind": "audio",
+              "id": "1dtzNHQPWzIT3_XWKK-Xs5m03UAzFLH7G",
+              "md5": "ba2b45a873d515ce3dc75ef5a681f41a",
+              "peaks": "AAAAAAAAAE1TWWRXJSCGflJuVYJ7U2RZWVxPQz1SXFlVJSiAb2RZTWJoaVRLRVJhRj0WGR8hJyUyNSciIDMyJx4jGRkQEBABHiMeIh8oKB4iJVJnTFZdUGtthG1Eb3ViJlaHdWNfXoJvUFxwcVlSNE5CZFRPKUJ8bG9jOm5uXFxPOWhjP0QMRy4zLS05RjJIRUFBHyY4ODQrPTsHI0w+OzA5VycyKU5cbllcPnN+flE+X2NSKVJycGxcZXR1WF5oa05GMV5BbHtjJUaEeGJgS3VwX1ZTWWNgVChdUR89Hi9USzQ3R0hfRjs/QERKSiNIVCNBHyJcS0lCQUBRSkBEOzxOPUVBdHRQjYlRZ2millp/eGt+VUVkQE5OgX9oeJtJk5Ogm3GMcFeHx73PW0xEbmFnKm90cmRfSXuAW1NrZ1Q9P1FNTVVrI1SHa1tmSGluVERic253Tj88X11gJ3SFcGNZYY11XGtUTlpJPUtGY3hsJlN/e2NtXXR5WldZS1pkSDZKVFRLRURlaFtsQWtpYVNcQUNBQUpldGxnYUrt/7/PjQkC"
+            },
+            {
+              "type": "file",
+              "name": "Soprano 2 Predominant - Glory, Hallelujah to the Newborn King.mp3",
+              "path": "files/1o3oNg8W5ogcP4wK5uIRuFHMffWvXiOkT.mp3",
+              "kind": "audio",
+              "id": "1o3oNg8W5ogcP4wK5uIRuFHMffWvXiOkT",
+              "md5": "8233441925903c209ff7e1086c3a956e",
+              "peaks": "AAAAAAAAAGaHj6eDHxaupYlvZbbKdm5vZHJiWW1dfHaCGhqXk4JocZaoe2lpXm1tUEAVEBQVGRQgIxkWFCEhGRMWEA8KCgoEExYTFhMZGhMWGIqLgG9zt5y7wIJPmaSmNGOll4BpZrjFioaDfnVqT2thgpGHHRmklIJ1crrVgoaKZ3h/WkoTLh0cIR0lLh8lLyoqFhgkIyEeKCYSFjEoJh8mOBkhHWSue3J3Zde2h2dWYouNHRqrsYVwfqiwpIeHdWFwSnR4iJCTKh6zpXSOaKuviXd5YF95aBxJZRVIIRNdXE5JOBliUUVSRkdJSBY1axlgTBR6d1NPPxdud1NkXFdpYl5eqrSrnKOPtqzV+sOWnauIg3FyaH9te7G8j6RuvOnE/7aQmIqlom9xfIJ5rK2qMBzBnHFvbqqajGeCe3ZfZmdjdIqNXxrCy42CoKy1wJiSe3WOX252jKGVcxmetXpshJaplXx+bWdkW3pvdKCtlRq/1omBiKLPuIaCdG5rZ2xoY2BlWFhGanuln5PdlHeGQ3F5WGYVtOuRfJBneKWNdhID"
+            },
+            {
+              "type": "file",
+              "name": "Tenor Predominant - Glory, Hallelujah to the Newborn King.mp3",
+              "path": "files/1R4Rj_j_fYncjvPwtj2cvqqWoH6__yc2W.mp3",
+              "kind": "audio",
+              "id": "1R4Rj_j_fYncjvPwtj2cvqqWoH6__yc2W",
+              "md5": "78fda85ac03be386d8752066646d6a33",
+              "peaks": "AAAAAAAAAGB0r7SZODLAtZ+ggb+rkpKzmJmpjoF1s6+KKDfPorirsM+7xJOrjqu1aGgcEBMUGBYeIBcVEx8fGBEVDw8KCQkBEhUSFRIYGBEVFrS4coeTmaez1JR3y+CzG7ng5Keii9fEmJaSn7CxbH1+xKyfGj7lxLiVhsCxjpuYfZyuZmURiGV3VVxtmYB/gH90WmeKaGpVcW4TWY51fXWHjFlwW3eBnJyWgKjCz4hfxriaKin/1rWroL7MvJSrlrStX5R73uGaGS7Vn6mehr/JoaOrranMfBumpBR1JCO0onhddFi9gXKEW1mLjBadpRduGhy4sqJgdG+rg2WGd2F5XFlWoJVz4tRmhKPO0nixiZHwzm6NgH98v7+jx91hl46wsFyspInycGOCYYVprqGjG4TJv6WrsrTChImZeI+LbmpXnaGCI2jFlpaBiJi4kZOQp5G5emRRoJOkIBzayZ+EqbCjmZ2VfYSadHmMpayyLRy8o6GVh7LQrqKOZ4aZYXVwgI1/UmuNoKl3bbuyj4KMYGBaYmmCrIiUmVtrhGdxZwcB"
             }
           ]
         },
         {
           "type": "folder",
-          "name": "Son of Suffering",
+          "name": "O Come O Come Emmanuel",
           "children": [
             {
               "type": "file",
-              "name": "REFERENCE TRACK - Son of Suffering w cut.mp3",
-              "path": "files/1Fph-LQMAIPUpi26c4jACwPlTPsfP4ja3.mp3",
+              "name": "Accompaniment Track - O Come, O Come Emmanuel .mp3",
+              "path": "files/1zGJdT60CVw-FJ08Fb3lsKgGLLA9iLrK6.mp3",
               "kind": "audio",
-              "id": "1Fph-LQMAIPUpi26c4jACwPlTPsfP4ja3",
-              "md5": "90d38659d485778129f63eda7368e15c",
-              "peaks": "QycWJTYfEhouOzY/Ixg2c0JJOVo9JlVFU0A9IhI9UDotUjg4HE5KTkI3InGSh5aAfH2HkKyCeY5xnXaudZaVgV+Eg42tgI9se21FOziQaktSgEYse36jUnc3G4OaWz6GVEx0e22biWA7J5t6jZTGn6jEloutqXectpKVqKaEjbWsm4aprpPPoa6sq5x7gXxONTNJQjE8YlVFTW1hgVtPbE9jWk5/dWlomH5RgXFqgXOHhX90nKWesJWKjIarmIihfYyhmY+BtbGOgaDJ6tfUztDS093D09Cy1czVwdnJzL/i2K7gy9vd4NKx9/G/6tDg0t7T1Ors2vXmz9Lt3dbS4dvm5M/W1s7Wi4lvQS8fbnZVLIBsX31/YG5qSXlEj7eHsJOMf5yWVkL/jnWTfmCBclycU3I0L4lkY1GTeUVyoXV8hXddNoh4bHlsclhreoqxbmBGb5xscoqHgICChoiepIKOp5Wie4mCaYmUkqOFXm7iakxUzlRvo5N5oG1tZZWTinGbjW+fqYt7t7mOZYmXmLWKgIl3amtHNxcIBAEAAAAAAAAA"
+              "id": "1zGJdT60CVw-FJ08Fb3lsKgGLLA9iLrK6",
+              "md5": "e07222f7fd7f054eba21669345c3e844",
+              "peaks": "AHiSdjCFcXgoWK50a51WQvGdgiyUiX0xb3GCajMhHY18qU+Fd08/pmFMiHyeQXFuTi2djmMsg39to4yJPlVYglqte5BmfHFzrKuuZ3CZmT5osrKll9qygVcTLIZ2X2N6b4jBpX98coEfeIF4enlsa3tNdGx8vzqdhFuWem+OaXl1ZnNYXIOAgoSoX4BiZ6NyfVCFi1Vrq4aXX2hne/90XINtncW5h6m7kb+yk7VumXx/jGO8mYS7re3ErHx+goFnsWR6o6Vchp2sY6hhUE7Yz2dWsnRzWaRpSWtvoKqQ0ujRqeXrl3Wot9i53JDF+Ldwg8xtZ5KV7kulz6+hZ7Gcll90HRG1ibuony2kkphplm92boe/jpGclIPMcJuBZm9XdIuerbeBXYuUfIe4lHiYdt6ikKSQ4KnKfbl1gah/r6vNwl62jmBAXVpjeWyJeqSTd2pIYW5oenNTPMWJaIZbcIvkYbU8rzMWCnhvZC8JcFFmTnRFQk5nZVKprWBoUUFPPzsnMCIiHxMGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
             },
             {
               "type": "file",
-              "name": "Son of Suffering ALTO w cut.mp3",
-              "path": "files/1BM2yvb1AmCBeHXgYmchbq-48ov5P2Ikh.mp3",
+              "name": "ALTO PREDOMINANT - O Come, O Come Emmanuel.mp3",
+              "path": "files/1fHeax2KRyaI2LzADgqffrJ9MDBVWgnSA.mp3",
               "kind": "audio",
-              "id": "1BM2yvb1AmCBeHXgYmchbq-48ov5P2Ikh",
-              "md5": "fc8a0dabe221bffaa2606c1916b2ca9c",
-              "peaks": "FAsGCxEJBQgPEhIUDAgQJBQWEhwUCxoUGhQTCgUTGRIOGxIRCRgXFxUSCqOPo7+hdZvKr6l/uqGXt6GZlLOvj3y2n6PHvZGnqpYWEhGSo4eZro5ro7yvmGgZCY2koo3EdHcos8CzlmsTDcKnuq+yta/ZjZDPvazVzZeey8eTkMulr8uxuJvS2ZvHuJ2EkIsgEg8WFQ8SHxoXGyMeKB4ZIBghHRkmJSEhMCkYKSUfJyd/iJuAqZ+RvK2qk23Ooo25lJjPw5mS1am5jqzRqcu8v57FyMjzx7XTgdjFo9vKptXjw7Lu6O+/j+LfruPz36+n+9Ov3e2osv/zl+Dg3LbIwdCf7O6f7cqGioBxFBAKJSUbDSkgHyYqICEjGSYYLzglNzEuKDIyHRZOLiUtKR0qJR4xHCcQDkN5eXiSjGE5mLafj3RlOYyag5CXjk+Zi5mjcHZuaaKfqpe2eEuJlpKdmYSssJutmI+WjKvDq6R3eXZYPRgZSxpovJ526KSQnLGdoZ+qmojCrI+DqaGDcbuRq6Wpf4KAgHRUMRkDAgAAAAAAAAAA"
+              "id": "1fHeax2KRyaI2LzADgqffrJ9MDBVWgnSA",
+              "md5": "9f24d6d2bbf521441d09a58f0b9b8a44",
+              "peaks": "ACo0KREvJyoOHz0pJTceF1c4LQ80MCwRJycuJRIMdIuiv82yucGHfG9pd3Vwd+Sil4SggHV1cFhtX3FJoauvi3aJkpFubkpNUGBai4m7r7Koy76HeYiGZGxGDy8pISIrJzBEOiwrKC0VV42Gi5uSmX5RXl1eXyRHY4F5cneFdHhtcGWKnYaHhKCUnGVcWltVTJewqMmrzLmicWKCh12CiKWmoKiUvbvIwNl2ouiKoYJmpbWgeLydo5jf/+q5sqWzt9KhkIddlnF2dJHk+2V3clxXZVdWPEAkGiUnODwySlZKO1NcNSk8QE9Cnryd7L/d09ODb4e40qSe0d+2srqZrqO/wrrBppGabFSZrZ++pZ6QtXyWwezQtKygkKm7lJB1r8DXmaCStdyXrLKnvs2hjrDjuJbh4OPSnLqps9vO6bihp6/HqseooLuRgFlYZ310QyYlLi8oLTAyZ6O/ko1sfXOAWUMVppySwpORqJ+gdWxxXWhZTVdRYU1nbSIlHBccFhQOEQwMCwYCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
             },
             {
               "type": "file",
-              "name": "Son of Suffering BASS w cut.mp3",
-              "path": "files/1zywu4NpqQa8I7pvV8LNaCbxw5agPi17V.mp3",
+              "name": "BALANCED VOICES - O Come, O Come Emmanuel .mp3",
+              "path": "files/1QmEWq3fjTKN2xsxQiNw0YdJKbjD6lo3m.mp3",
               "kind": "audio",
-              "id": "1zywu4NpqQa8I7pvV8LNaCbxw5agPi17V",
-              "md5": "83293351eb02e4d6ac2dc293948c92a9",
-              "peaks": "FgwHDBIKBQgQExMVDAgQJBYWEhwUDBoVGxQTCwYUGRMOGxISCRkYGRYSC5WEiLCrZHHF0m5puZt5lJqmj5WtonbkhqyxqXxudXcXExFkgltqfFpCkLSmfUkgCYtvdFKXX2cqj6CLe0MUDKu+nNXIqNn6oJP1vZj55Yd5z86FfvyNrq7T7nXTv+DY5pdqf30zEw8XFhASIBsXHCUeKR4aIRgiHhopJyEjMikaKicgKSd/gIuEq5mBt5KWjIDjn22Xj4m8rHWEvZlxarz/57bEsn7fxcTIt323o/LmvOLgjsP1lonzxrWkqf3s5N3x5qCp8b+m8vu7svPvndj5we+p3NaU+dbH89mjcoRZFxAKJykbDSkjISctIh0lGSYZLz0oNjIvKTc0HRZQLyctKh4rJh80HScRDzNNVWJmiEkyZnp3dkc8IlNaVFdyg0FXdXB/REowa9SOmXKgbDaakYWPh4qSuJyGgKqcdWOKhYh7RUZSQRobTRuu0qB726hpeN+WfKreiHjKuJ+DmKpqYbqrq8ufk3uLdmNQQhwDAgAAAAAAAAAA"
+              "id": "1QmEWq3fjTKN2xsxQiNw0YdJKbjD6lo3m",
+              "md5": "2e42e6989b098bec7c6ae3c3fb5a54bd",
+              "peaks": "ADI+MRQ4LzIRJUkxLUIkHGdDNhI+OTQULy82LRUNTVuIqpmNmYRkcExETlNXbq+LolGAhVZUW0teXWc/gKqzXXWLcnp1ckdKYmJVkpTGgpd9vYxiV2h+Y3M3EzgxKCkzLzlRRTU0MDY/UYScZpG1oVlOV2BfYGWKZHuSko1qcV9dVkhsZFliZHFmY1ZNPkBJN2hydGx1hYZ3VUlZVmmhfZaXn5GgtMrEvLWJldquxHNhvbCWi7ydr4u7//6frdavt7y/ladvrJCeeH6KqGKGZ1FJW1NQN0wrHy0vQ0c8WGZYR2NuPzFITV5PmY6fprWbz7yNh5W6w4KXvcihk6WGkrfRwb7FoIyahXl0uarlt6+CrajFdcSZtsKQiZ2RqKC14OfWpduilrKImHeonLOah5ylybrQ7vr9orjcxNrR67G/u4BudYRtZHVqXT88SV9kNDdeamtHWWx3UYu0aHZgTlV5SUwZlWVegEFVYVVXaU1LN0c3KSYyNSZQVSgsIhshGhgQFA4ODQgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
             },
             {
               "type": "file",
-              "name": "Son of Suffering SOPRANO w cut.mp3",
-              "path": "files/1shYDPrx7ZNKpBfLs3lCvq5LBuhFrhJWY.mp3",
+              "name": "BASS - O Come, O Come Emmanuel.mp3",
+              "path": "files/14WMl4FfGgZJfPE8nkARI-6So6-AKpWyo.mp3",
               "kind": "audio",
-              "id": "1shYDPrx7ZNKpBfLs3lCvq5LBuhFrhJWY",
-              "md5": "6e57ea8e56e251dadf3bd11d00bfbdec",
-              "peaks": "FAsGCxEJBQgPExITCwgQJBQWEhwUCxoUGhQTCgUTGRIOGxERCRgXGBUSCquvo7urgJTW4puTxqyh8Li8qNrgooXnz7rwt5WSmZ8WEhGyqJR6545bxb+kqmYuCajRxGfem40qrra7nWkUDdrfnNj0z9rkq5ri56rl2bO469+9o+nCsMrR2LDp68Tq7rmin6M5Eg8WFQ8SIBoWGiMdKB4ZHxgiHBgnJSEhMCgYKSUfJifAsKm5wLGk4K2uq3ntzL6/rLrbxKeU28e6lMjZ7cHc0KjawLzr27Hjy+btz/DuwNfvwsnv6Pvn0u/i+Pni6LG05+e35/XQv+Pdsd3t6Mnk3Omx3+zE6/+btnpiFRAKJSUbDSkgHyUpICEjGSUYLzgmNjIuKDIxHRVOLiYtKR4qJR4yHCcQDj9afmuttHFcd6WonnhcJmhxdn+Xnl1voZ2dcXAyjKGrp4u9e09+iqeTib6us8SxmJWjmoW7vLWkVzlTPhkZShmIpqKfxbuQfdPAkcXMv4TTt6qXv9GSadfCytHLvn9+e2xsWhkDAQAAAAAAAAAA"
+              "id": "14WMl4FfGgZJfPE8nkARI-6So6-AKpWyo",
+              "md5": "47f6a20f03c1843be701834fc1316248",
+              "peaks": "ACcwJxAsJScNHTkmIzMcFlE1Kg4xLSkQJCUrIxELNW2HpZmaqr14j2hYY2hqdoeXjXaIdWdeXmFaZGBNf7uwj4aFd31qZEdNb21bhHm7kLeRoLmHWlFZUFMxDywmHyEoJC0/NiopJiphip7AkLDXyoJucnB4Zam1f5mmtrByZGdjUkwqKS8uMjY7Jy0jJjMnKicuOCQvQzU6Ih4nK1S5oqmag52qtbCskq2uqMu1pXuH1sSwq5qxya2r8t+ymMGWqb7OxcanvKCbf19scVxnXFdVXUZANDkiGCMkNDgvRVBFN01XMic5PEo+mJ65xc/G8ui2y8nHxsbYwN/Zvr3GiczjuMG1ubmNioGDtL+/oqJwn6PSm9HU0aexsMSLra2MxMHNoaaekqeqvYuNr6aesby8scap/+3rkbzLt6SotoeypJ1DNzYfKiopKSItKzo3KFZ4Z39rbYSFP2x7bIRiT11aRj4TSh0YICoqKBgXLh8mGigcGRYgIhs6Ph8iGhUaFRMNEAsLCgYCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
             },
             {
               "type": "file",
-              "name": "Son of Suffering TENOR w cut.mp3",
-              "path": "files/1DAZXiLbq7E80mHDX2UV_gNZldeOH6eOZ.mp3",
+              "name": "SOPRANO - O Come, O Come Emmanuel.mp3",
+              "path": "files/1NMEL9L-6ISFM7gRdmrLtRvGak3Cr76Sz.mp3",
               "kind": "audio",
-              "id": "1DAZXiLbq7E80mHDX2UV_gNZldeOH6eOZ",
-              "md5": "e03f21096e78b7be2b91e5b13218f2e2",
-              "peaks": "FQsHDBEJBQgQExIUDAgRJRQXExwUCxsUGxQTCwYTGRIOGxIRCRkYGBUSC4uac8mdYm2gqnyGlZtqtK6Th5icgoG1lKOxmXV+goEXExFYc0ddY0g6a4mjb0kfCFpYYUqOa2Aqh4+Eg1kUDmOht9jVtdfrr4Ln3Ifq84mK292Ii++XnJq4zJDPqrrWuYqDlYNFEw8XFRATIBoXGyMeKR4ZIBkiHRknJiIhMSkZKiYgJydxcnp8gpCmqoxzeWLOpZaTd3OnoIl1vJGGYJnTv7PIzZft7N3W7K7Fi+DHn9/Kobv/vazm0N3CjePI0uzrzI+H+LaG3uyim+/OfezquMCZ69Kb7dLL3cxrgIlsFxAKJiYbDSkgHyYqICIkGSYZMDomODIvKTMzHhZQLyYuKh4rJh8yHCcQDjhJQ1GEekI1Yl95b1Y9M0tRSFlqbjhFW2R2R0U4daeLc1+KaD96bWGIXnebsZWQZYiVXkBdbmZiRzVOQhkaTBqVl4hspYxQWriBbaexeXyclZdor5F5Z7qQqa2Jg3dpamRTNy0DAgAAAAAAAAAA"
+              "id": "1NMEL9L-6ISFM7gRdmrLtRvGak3Cr76Sz",
+              "md5": "e992f5de12015a2e991ed3b47c10f2e8",
+              "peaks": "ACUtJA8pIiUMGzUjITAaFEwxJw0tKiYPIiIoIA8KWVyKk42JiX1zbUo7RkU+W5l5bVd6e2ZeSj4+TVQ0XJObd2pzfYF1YUZLU1ZKb4uTgJ+hqoNjVG1pXGgvDSkkHR4lIio7MicmIycSJ3NjW2J1XFlCQ1JOQx8+V3R5g3NYV09LT0N4anxkZG1mYk1NPkFDPF98bm99l4iRWGJzg16NkJV6gIGCq6OtpJZvj7ins2dbfol2d4WChnO+u7qhjpOWt5mJe3NMlldtY3h9g1ZiW0E0UUg/LEEgFiEiMTQsQEtANEhRLiQ1OEU6epCLra6dm4yAVnygpYKdwK6BjnRUbomVi4JxbmN0VUt9xKSim5qgkW9tqb6inaWHe4V6fGi72s/ElYhxZHxraHmOgqySfouYmJq92+ntuqqp3P/C2MqhlryFiX13dnx6X0YxQlBVNyEgKCgjJyorYXifbGFTSltuRDUSjmpujF9hdGpseFNBOkE4MTk1OTRMTx0gGBQYExIMDgoKCQUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "TENOR - O Come, O Come Emmanuel.mp3",
+              "path": "files/1b2J4w7XsdGprqxPkk3V5IPJhsDRWEPj5.mp3",
+              "kind": "audio",
+              "id": "1b2J4w7XsdGprqxPkk3V5IPJhsDRWEPj5",
+              "md5": "900b8ea8b048d885011306c2414a714a",
+              "peaks": "ACAoIA0kHyELGC8gHSsXEkMrIwwoJSINHh8jHQ4JMFhqhXFxeIhLdEpBUkxKaIJ+bEpeXkdCVUtARj4oY4KJbF5qYnVhRjdGPktNeHqEaHB7iGpoPUpRQUAlDCUgGhshHiU0LSIhHyNAWn+DYIesj0pJR0hTTn6LYG95gmNQSUhFPTQiIicmKS0xICUdICogIyAnLh4nNywwHBkgJEVzcHeChoibq56ZdouBh46CfVJFXFpxgmqVlmWW4OZ6utevfKagdHFngn6SdVVbWlF7XkhERUtLN0QcFB0eKy4nOUI5LkBIKSAvMj0zbYCAqsiR16uQk7SNr5uks7u6ipWPd9besKudn6Sph2yfirWqhoZata+yhqyhk4Oklcd/ucWizsbAjN++ZXZ+iF1ibW93b42ZzrKl+/j/j8PRqaW9tImfelI4LS0ZIyMiIhwlJDAtIUJshXxVZYSNWm16XmhQQ0pkOTMQPRgUGiMiIRQTJxkgFiEXFBIaHBYwNBocFhEWERAKDQkJCAUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "\ud83d\uddc2\ufe0f Old Songs",
+          "children": [
+            {
+              "type": "folder",
+              "name": "Alleluia (Combined Piece)",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Alleluia Accomp with cuts 9:30.mp3",
+                  "path": "files/1QA8R8pi1pzr2bcz3DcZvloXcg-gBPSne.mp3",
+                  "kind": "audio",
+                  "id": "1QA8R8pi1pzr2bcz3DcZvloXcg-gBPSne",
+                  "md5": "d3bd0426d1c331d351a373c8ab59906a",
+                  "peaks": "AAAAAAAAIT0qNCspRDBBKi4qRjAzTUswMiZVNig4NS0xQzE3Ry84OTw6LEI1OEOwjJylnqiGg5OLj42ei52Po3+ThYyOfaaXkZeZlIylnY6RmISOeYyGpa+GmZ+OkpuzgISiooyBvp6qoId/lZmWg6qRkoGWiHaVv4qikKa4oqCb0pTYp/+arN6PnZ+Wma60kLuawqd3t7uelY7CwszDm6p8x72XqsCcpP6qmsq8vbfYysCiz5a/3rx4s7GzlbKv053IobjKrbyakbWdpK2ksL6np5qoipfCrarek4yahKiomJyKpMm2nsWTh5bDtr22zNyppNCmosfQxZrOuZy4t8zcxNrKyKGk6byWqq2Xrd6/pq6myKu6xqLByb2p77qMtp68oLiWpJPSm66lxZbNlIu1x6LCx6ituMy+nMy5ltOuiJOE2a7MsW9xcGdgaoqBrI1wm6eO05h4sKyjxpq4zDttsq6iw8CWt9ijmM6soby3tay/prDZraTckaCttcrG6ZPPtLCusPzHo63UvObzq76ptLq15r+XslIJBgUEAQAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Alleluia w/ guide",
+                  "path": "files/1iIZMPVkNnU2fTLOdnF73hg9eRhIXzzkr.mp3",
+                  "kind": "audio",
+                  "id": "1iIZMPVkNnU2fTLOdnF73hg9eRhIXzzkr",
+                  "md5": "a8cec8d798131d710051a106a0d4a9da",
+                  "peaks": "d09HfoJddigcIhwbLSArGx99LyAiMzIfIBk4JBolIx4hLCEkLh8lJSgnHSt+NYl1XWdtaW9ZV2FcX11oXGhfbFVhWVxeU2+spmRlYl1taV5gZVdeUF1ZbXRYZWlfYWd3VVdrhYFVfWlwallUYmVjV3BgYVViW05jfltrX256jHxli2KPbqhncZNfZ2ljZnR4X3xmgW9OeXtpe3DDgoaAaHFSg3xlb35naqdxZYZ8fXqOh39qiK1+k3xQdnZ3Y3V1jGeFa3qGc3tmYXhobHJtdZ+HbmhvXGSAcnGSYVxlV29vZWdbbYV6aIFiWop9dn53h5JwaoltaoSJgmaGe2l5eoeRgpKGhIWUmX5lcHNicZN/bnVthXJ7g2uAhX5wn3tdeWigiXpkbGKHZnNrhWOIY1x5g2yCg25xeYd+aYb/Z4tzXGJYknWNdUlKSURARltVcl5KkG5fi2VPdXFtg395hkeAeXRrgH9ke49sZYlxanx4eHGBcHSQc2yRkaNzdYaEm2OKd3Ryd6eCbXKMfpmhcH1wd3p3mZtjdzcGBAMCAQAAAAAA"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "My Tribute",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "My Tribute - Alto",
+                  "path": "files/1jARam9FFK8RCHgsP5lRut8OLZ4Bwc43X.mp3",
+                  "kind": "audio",
+                  "id": "1jARam9FFK8RCHgsP5lRut8OLZ4Bwc43X",
+                  "md5": "4824de4ea65e031fc1871da825dada08",
+                  "peaks": "AAAAAAYGBQMEBgMEAwIJCQYHBgoLCggGCgkFCgkKCAMCCgsJBwQMEg8MBwcOCgcLDhAIBQMNEAwHDxEMCwoKDgwLDA0ODxANDQ8OCw8MCAkHCQoNDQsLCQwLEAgFCgkIBgoIBgQKP09NOj8/RkA3SltWTURIS0hDKjpdWE9UVVBMQVFUTzpJXFhMSCZBWF5QQURLRjo6RlJXZ2ZbVUU+NEZtZF5YUFtZS1FfUTY/RERJQ0E9OxkTDRcYGRQOFRYTExoaHxccFhghdop5gY+Jn3p8JyUgKichHyg9io+BfWFjcmVTeo97cGxde4R/Y1Z+gZJyaoeOYY6ceW1sjpCXhnOHfoKGeXlzb2NUc62RnYuDcnFnWG2rjX9hhn2Fe5Oae41xkJCTiYVpsNT1xdnU/6+bV7Tfzbb3xMyudTtrcomYkoZfn5R9o32EiZGgkqRxhpeUg35ugYFrYdWxioiNgqONdFmakIR9boySi2eYhXtjbC99eKGWfJmUlH+UilNogn6Yl46Vi446eW2eVKWbjJ+MrZyIfGAkFA8RAAAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "My Tribute - Bass",
+                  "path": "files/10bjl15Hlfc4LLzZ4UsXdPWTyyT03WjkM.mp3",
+                  "kind": "audio",
+                  "id": "10bjl15Hlfc4LLzZ4UsXdPWTyyT03WjkM",
+                  "md5": "bad62faf36b423632d534348749f34a2",
+                  "peaks": "AAAAAAgIBgMGBwQFBAIMDAgJCA0ODQoHDQsHDQsNCwQCDA4MCQUQFxMPCgoRDQkOEhULBgMRFQ8JExYPDg0NEg8OEBASExURERQSDhMPCgwJDA0REQ4OCw8PFAoHDQwKCA0KCAV4nJ+ilFnb2cZVgpyfzKVjz9eeT26yqsOjx/XtoNzAfF2irbDRyhq4t6iYj5nGt4yR1smmsreY36iOjXKgsr2hvfL0lM+vdGKVsKq1vX9/MB4YER0eIBkSGxwZGCEiJx0kHB8rqbGOuZyKlYx3JC4qNDEoKDONdWpjaHqRpoZpZm5qanJ5moJgW3GEiIZ4dauih6W4h1meo6iqrk27lmtfbZGronmK3LWLgnuSn5epmXmYk2KTge75iKarmoTDtq+tnVg6qph+n7eno5yCM5+ZqZq0l5eZWzGinqu2pJssw866pJeRatDLuoZUbol+gYKOlp91cImLlo56wKCOa5KUnaiugrWbk3+nq5ONXEahYsLjxNj4wM/ypT2tstb0/8Dh4IVDuJOXldSbdmyAe3Z9STslEgMBAAAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "My Tribute - Choir Only",
+                  "path": "files/1Z6DrSonI6-Z-zXnQC2AXWT5JbZccNAVO.mp3",
+                  "kind": "audio",
+                  "id": "1Z6DrSonI6-Z-zXnQC2AXWT5JbZccNAVO",
+                  "md5": "fc7e5ce058f20d5a60293571cce4de04",
+                  "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACE8PEMvLjc0ISJfVG1OLElJKxg0ZWhjO0FGNhxVPCw1R2dMRS0qQFFkR01GOiUbO3JzaUVURT8iHnlkaGc+T0w+Ml0wJS1NRDk3NDYzAgAAAAAAAAAAAAAAAAAAAAAAAGqWbWuCmqKinBQBAAAAAAAAPnV/eHNCdmtdNXeRjYdQe6WCQUCUoq+cgY2IX5qmfEBSmoqekGtokZCKYox+eDVOvZ2wlKmSkWo8aK2qsICcp5tUkJFzT3ubmoqCdEON7baljHtfQxRxu7Gyr26EUjJUlqOW445mj4Bno6eBWY2utrmJp8W+tXiit61LZ82yts2Yvr+QXJOhlo2Jg5GCUaqDiohyT5yLqZqmx6+rrtbAdLvUvd3iu+3RRGx+zo7Pv+jm/9Dh5NUqAwAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "My Tribute - Reference Track.mp3",
+                  "path": "files/1xpAzLYLN0b27IB0c5TbIsh6ITgRWsJQm.mp3",
+                  "kind": "audio",
+                  "id": "1xpAzLYLN0b27IB0c5TbIsh6ITgRWsJQm",
+                  "md5": "b18b4ba9d29560a859c22878adba7fd5",
+                  "peaks": "AAAAABYcEwwTFw8RDQkkKCEdGyguKyAZKyoeCygqIRUJDS4kIQw0Rz8xHiA2LiAtNEItGQwiQDErPkVHMS0sMTkyLTU5OT1EMUA8Mh4/KSYnHSk1Ni4rLS4xQyseFiknHCYqHxgLJmBKUkw+WUlCXWdcUmVPUllaSDZhZ1tWYnNidVJyXFpAUEtZUVlJRWNUUlJTS09SXmZubmhbXlRRWFhQaGFyaUhthF0zTVJHRkxeYEpIT3NjTTZeYGJRPFVVUEhna35cb11ihoVyeYG8kpmtwrV4kaGJnIaoop+lzI2wlmSYjYm+lox9l46ScZCSma2AjZityZKstKOloHavl5eoqqealZWtdKWdeq6fkda8iIh9w46msZKhoKGS6LKYtZfJo7zTqrikosCSprGurKWmtoOni72IraCIkbmmmpiypJqMmY6kweW3rL2208PZzqCn58a7pomm2a3om627q+jLr6jK3c3MoMm3sbyZscXGpIyS/7mR1OPcw+nnu7nX4rWurp3GvdHM39vztrbex9Ox4tPMy9zDysBdIwYCAQAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "My Tribute - Soprano",
+                  "path": "files/163W_rcyy_UymMCjkiHuMWjf3YL7EiaQ_.mp3",
+                  "kind": "audio",
+                  "id": "163W_rcyy_UymMCjkiHuMWjf3YL7EiaQ_",
+                  "md5": "ebfc280c1ed46a082e63d5e424249540",
+                  "peaks": "AAAAAAYGBAIEBQIDAgEICAUGBgkJCQcFCQgFCQgJBwMBCAkIBgMLEA0KBwcMCQYKDQ4HBAILDgsGDQ8KCQkJDAoKCwsMDQ4MDA4MCg0KBwgGCAkLDAoJCAoKDgcECQgHBgkHBgMUNjo+OTs3RjUzQUhCSE5BQTw8LzdLSk9JSUdLOVZNTjpATERDRyk4SFRPT0xHQDU4PmliWk1NVj46NEJcTFtfRFhURUNHSi9CRUI+PEBBPBcRCxQVFhEMExMRERcXGxQZExYeaXNsZ36ilIZtIB8cJSIdHCMohXZzdVRhY21SVHuAZ2ladXZsWF2Ll3R1ZoGPZ4GseG9khYGUhWx2iYODe3d6eWNMV36KgnaFdXJSUX6klYh5Z4uMdn6nfItndYNwfHBmpOm+uuC2tKB7Oq/O0Lr/v62dhjBrdYF7l3NkmYB6i490Z6C5kY98ZJeFimFthp1mSYqQo5FtinqAaVGNh3VwXHCBZlaMcWx7aSpqZYSOZ4qQcn96dkpieXF+hoOAd3EvgGV1R6CSlX2OgnlzaVUeEgcGAAAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "My Tribute - Tenor",
+                  "path": "files/1hdTJ9xkkVT9BgcpDiNANgbmRhZ_MiisK.mp3",
+                  "kind": "audio",
+                  "id": "1hdTJ9xkkVT9BgcpDiNANgbmRhZ_MiisK",
+                  "md5": "488d0a3a13a65d1fe3d974c1ffaef712",
+                  "peaks": "AAAAAAYHBQMEBgMEAwIKCQYHBgoLCggGCwkFCgkKCAMCCgsJBwQNEg8MCAgOCgcLDhAIBQMNEAwHDxIMCwoKDgwLDA0ODxAODRAOCw8MCAkHCgoNDQsLCQwLEAgFCwoIBgoIBgQWQEhLSUVKTlFDR1BSWF5LTk9CNzhfYVdgTV5VTF1qYENJY2xPVClKXVZNR2lPS0k/RGhtYVdcX0pORFJzbmlcTFtdSU9SVEBLVlNKQ0xHPxkUDRcYGRQOFhYTExobHxccFhkico6XdNPe6bGsJiUhKichIChNiIiZkF6DjIBycYugpZdqm6enYHSar6qZfpymlqXri4uFuMrQ3bqRiLafsKF8gJdXgJihpIt+kZ6GXXeksMOSbND0qaKth5N5kZOXlaGMqvn/5uPvwLmoUrHq7rP4wLrPiDJnop+KnXpUkYOMyMSbe5zzyKykfMbEqZGSr+iQZazq7eWuruDbhWzYurSjbbXGwXqTj5WwhzKRe6a6hr63rqS+vWuEg4epqaittq1AeHiKfrLY3brUqaqvoIskDwgIAAAAAAAAAAAA"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Revelation 19:1",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Revelation 19 - FULL CHOIR.mp3",
+                  "path": "files/17PiDYuUpwHbHfaZiUAOKzcKgaqQukofS.mp3",
+                  "kind": "audio",
+                  "id": "17PiDYuUpwHbHfaZiUAOKzcKgaqQukofS",
+                  "md5": "c5427f48a3c0ebfd8ccece27c5cd48bd",
+                  "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEg+MQE+LTtVJAA7Mj1AOisxKCwrCzFKREo8EEVAQz8sByc5SW4mLjIpMS00LQEASEM5BEUyLFUkAQ89OT1BKTIoLjwjAT5MSz0mFj9ESSwiAT5BS18lOC4xPjs/JT1EMUMxMjI8V0wlRTE9XW9PQlhMRk5TSFFBMTQwOi5IaTFCPS1bWlhIRFZWWFdIInNqY1haV2RdYGpad2thb2ZmcGteYVxCYXNhXVVbYWllYG1ncmpyfFxzan1uaml3psvvvZfYqMLqs32TxdzR0aaOuLzW6+Cx1ce0tXWWuN/OvqGl18/KoZyc6r3I0NWjwbOvebeTlomMp6jApJKTg5eyvpGjtEGrtMypg6SXk5yipavTuqWvhrDmv6fBwxEUGBsVGBgrIh0dJTE0OTNON0JFU1ZugpOoiXCPeoGyn46Yn73Uv7uhj8Lf58belhAYEBoWGicaHh0dITxANUNCRWFiVnRljLSaqamWoMaOtKmYu/DtsqyfpP/S+efc37vDxFoAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Revelation 19 ALT0.mp3",
+                  "path": "files/1-je-IblrXW9cJ6D1ad7mg4TxpOf6d5hY.mp3",
+                  "kind": "audio",
+                  "id": "1-je-IblrXW9cJ6D1ad7mg4TxpOf6d5hY",
+                  "md5": "e0d71b70c112ab253772aec67c5e73d5",
+                  "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE9TQQN2XVJjUwFiUlZpalJpUkpTJXZqemphG0tkdEhJDVxtbWlCW2JCT0RvXwAASldLAXRcXWJVACNbU2ldVE9lRVJOA3h8fWQ+BWRjdElBA2tqa188Yk1SSGxdRWZXRTYlVEg0c00sWkkrXltBakZqbXh0Z05WRTU5UkFMckRZWEdOXlxKUWSIb66bF6Kbh4GjfZWLoJOslpuAzdiZtqSapZZwdqOVdH2hgY+PoKeHmZ191rSZvZ6appd7eXN2Xl5ZVFqWU0NNX2CCg0xPdn1en39ci05OR0hKTXSKQUlHQnNfZ09La15nemK61MCYiteXz9yT1LLk87aihnSc0fHz7kXIsLWhn9fCqN2007Dr97KNan3U7KTyvSQiNCcqKFQ6V2hcamNxaHZkalxpg3l/eYiOnpZ/uZXV7qil5OH/sLCJbY7W5/P1fiQ0GiwqI1FXWGZwXm5fYXRwWHGKa4Fvb4eZkYSIptvwyJ6g8Pnusox+orjSjM7P1+HG4o0AAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Revelation 19 BASS.mp3",
+                  "path": "files/1zrP90rfP6T_XFhUa7V2jnaPAIEgbGiVc.mp3",
+                  "kind": "audio",
+                  "id": "1zrP90rfP6T_XFhUa7V2jnaPAIEgbGiVc",
+                  "md5": "b441e229ff20eb8eef3f37d96a50c6a4",
+                  "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFPRAJRREhDNQBBT0dFTFFHS0xGKk1JUz9THWpNUUZDC0lpSVVQWk1FRkBTQQAAQFBKAVU2SD47AB5PSEdQQUtLTEo+BE1RTlUyD3FUTD88AmlZV01FWDhEPlVJHB8cFhgNHiAKJBoJIBQPHxYMHhQjHCUmHR8cGBASIBQSJREdIBQTHxUUEzNENUtFAVhhV1JLTj9VOl1cPnlRVlhHOVlLTFAzOVhfOVVKSkBVO15ZeGpXXU1KT1pLTU8t4LWWo5KvtJS0g8PRqp+gipO7qbery7F07Z+liIKumMGce7bejnmpkJONnZfSuofz3pKch57/8qTSoKHMr3+KjZKzrYK+rEX1rpmgiJn47pXEmqjVn3qHiZaxnKS7qDMzLkIoQztAeXxan6hykYpwo52Wn6COnLuY17OJn7DZzdbJrtasgYmGma26irWcZTMrLkFENEF+W3ysX56KdI6kZJKjfJCZx6LMmMKdr6nP5KnQzKOCgIqPhauvkK+kl6aQiGwAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Revelation 19 SOPRANO.mp3",
+                  "path": "files/18odKDH7O8dhoL-uVUZ0qNs6lJuppzCiW.mp3",
+                  "kind": "audio",
+                  "id": "18odKDH7O8dhoL-uVUZ0qNs6lJuppzCiW",
+                  "md5": "cd3aa2a479277a7b19538d6683a9dc01",
+                  "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFtTTAJ+SFJgYABYcmJhZ1lfUVBHHlx1c3CCK1Ngd2BCBVhmZIJSSlFPUk5gXwAAPlhFAXxYTWRiAAVwVFxmV0tiU0Y8BHZicY1IAl5eeVpDA1xnf4ZGT0JNXFphgXNQVks4Z1cyjVdBV2BLknJMm2SBiXhxhFtOU0pnW0FPiUxWTl9okHNucYOXoLeKJM+euqn0uazCnrOtt/+WmeKejK64sdeckcy2nKnft6e+qLag2f6e6KyXoLS5stFbmZaFd2tpfm2Dk2uRcXB+g2hpcoZ5e3dJcl1qVZJoenJucVJeWWdmcWFacGJdZFKUuKXDjsillKajxbLEuKTGz5PKsLyfoF2kwL2bjsKpmanFnbzKrqLOppjGq7CmpyciLiYnLjBFb25XkYZ4dnWFm5OMnIqQtaHlm66fnJyz8rnezKvMobjLo5HAtKirmyUvHykqLkJqSnKIZ5BzcYCnnIqajKC3ktSampySnr/hxdPs1cidpNCBl67Lrr3gs7izqoYAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Revelation 19 TENOR.mp3",
+                  "path": "files/1oofc9xabbRu-TU3MU6pEFzU2B1m9FrnK.mp3",
+                  "kind": "audio",
+                  "id": "1oofc9xabbRu-TU3MU6pEFzU2B1m9FrnK",
+                  "md5": "8df82715c10fcb052912c40f2a7b0eb4",
+                  "peaks": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYvKgAwHyooIQAsKi0rMSspJSQlEikrMCsuCSkrLSkgBCMtLTEmIyccIScxIgAAJCcuADAdJCghAAksKSswLCgmIyMZASsuLSwaAiUsLR8hAC0sMCklKBsiKDEvDhATDBIKEREGGRMIEAsEGRQOFg0VExcWDhITDBMIEQcLGhIMEAoNGQ8VExUlLTMnAjY5QiQ/MDYqMCssOUEwLDowLTU0NDQlKTlENiY9MjUoMCsvOUMwOy0wMjYzNTM2fZayg0T/9dbi02V92PLg2LC349i34rPLx9nZvFvd19+d2n/0suDW3siz47/bwa1ZVVlLRUtPW01UWUxfTVJTQ0BLUUZfSipcTVhHRUpdU0xWS0lgT1NQQ0NQTEhcThcXGx8YHiohODo4RlU4UkdBTkhKR1RZS09LUkxIVExMWE5cV19PUklIR0pNRVdQKxgbEx4dHC04MTlCPlRTQkxNTk9JT19LSlFEVUNKU09JXlhSWVRRT0xVS1FPRU5VT1ZQTDwAAAAAAAAA"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Son of Suffering",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "REFERENCE TRACK - Son of Suffering w cut.mp3",
+                  "path": "files/1Fph-LQMAIPUpi26c4jACwPlTPsfP4ja3.mp3",
+                  "kind": "audio",
+                  "id": "1Fph-LQMAIPUpi26c4jACwPlTPsfP4ja3",
+                  "md5": "90d38659d485778129f63eda7368e15c",
+                  "peaks": "QycWJTYfEhouOzY/Ixg2c0JJOVo9JlVFU0A9IhI9UDotUjg4HE5KTkI3InGSh5aAfH2HkKyCeY5xnXaudZaVgV+Eg42tgI9se21FOziQaktSgEYse36jUnc3G4OaWz6GVEx0e22biWA7J5t6jZTGn6jEloutqXectpKVqKaEjbWsm4aprpPPoa6sq5x7gXxONTNJQjE8YlVFTW1hgVtPbE9jWk5/dWlomH5RgXFqgXOHhX90nKWesJWKjIarmIihfYyhmY+BtbGOgaDJ6tfUztDS093D09Cy1czVwdnJzL/i2K7gy9vd4NKx9/G/6tDg0t7T1Ors2vXmz9Lt3dbS4dvm5M/W1s7Wi4lvQS8fbnZVLIBsX31/YG5qSXlEj7eHsJOMf5yWVkL/jnWTfmCBclycU3I0L4lkY1GTeUVyoXV8hXddNoh4bHlsclhreoqxbmBGb5xscoqHgICChoiepIKOp5Wie4mCaYmUkqOFXm7iakxUzlRvo5N5oG1tZZWTinGbjW+fqYt7t7mOZYmXmLWKgIl3amtHNxcIBAEAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Son of Suffering ALTO w cut.mp3",
+                  "path": "files/1BM2yvb1AmCBeHXgYmchbq-48ov5P2Ikh.mp3",
+                  "kind": "audio",
+                  "id": "1BM2yvb1AmCBeHXgYmchbq-48ov5P2Ikh",
+                  "md5": "fc8a0dabe221bffaa2606c1916b2ca9c",
+                  "peaks": "FAsGCxEJBQgPEhIUDAgQJBQWEhwUCxoUGhQTCgUTGRIOGxIRCRgXFxUSCqOPo7+hdZvKr6l/uqGXt6GZlLOvj3y2n6PHvZGnqpYWEhGSo4eZro5ro7yvmGgZCY2koo3EdHcos8CzlmsTDcKnuq+yta/ZjZDPvazVzZeey8eTkMulr8uxuJvS2ZvHuJ2EkIsgEg8WFQ8SHxoXGyMeKB4ZIBghHRkmJSEhMCkYKSUfJyd/iJuAqZ+RvK2qk23Ooo25lJjPw5mS1am5jqzRqcu8v57FyMjzx7XTgdjFo9vKptXjw7Lu6O+/j+LfruPz36+n+9Ov3e2osv/zl+Dg3LbIwdCf7O6f7cqGioBxFBAKJSUbDSkgHyYqICEjGSYYLzglNzEuKDIyHRZOLiUtKR0qJR4xHCcQDkN5eXiSjGE5mLafj3RlOYyag5CXjk+Zi5mjcHZuaaKfqpe2eEuJlpKdmYSssJutmI+WjKvDq6R3eXZYPRgZSxpovJ526KSQnLGdoZ+qmojCrI+DqaGDcbuRq6Wpf4KAgHRUMRkDAgAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Son of Suffering BASS w cut.mp3",
+                  "path": "files/1zywu4NpqQa8I7pvV8LNaCbxw5agPi17V.mp3",
+                  "kind": "audio",
+                  "id": "1zywu4NpqQa8I7pvV8LNaCbxw5agPi17V",
+                  "md5": "83293351eb02e4d6ac2dc293948c92a9",
+                  "peaks": "FgwHDBIKBQgQExMVDAgQJBYWEhwUDBoVGxQTCwYUGRMOGxISCRkYGRYSC5WEiLCrZHHF0m5puZt5lJqmj5WtonbkhqyxqXxudXcXExFkgltqfFpCkLSmfUkgCYtvdFKXX2cqj6CLe0MUDKu+nNXIqNn6oJP1vZj55Yd5z86FfvyNrq7T7nXTv+DY5pdqf30zEw8XFhASIBsXHCUeKR4aIRgiHhopJyEjMikaKicgKSd/gIuEq5mBt5KWjIDjn22Xj4m8rHWEvZlxarz/57bEsn7fxcTIt323o/LmvOLgjsP1lonzxrWkqf3s5N3x5qCp8b+m8vu7svPvndj5we+p3NaU+dbH89mjcoRZFxAKJykbDSkjISctIh0lGSYZLz0oNjIvKTc0HRZQLyctKh4rJh80HScRDzNNVWJmiEkyZnp3dkc8IlNaVFdyg0FXdXB/REowa9SOmXKgbDaakYWPh4qSuJyGgKqcdWOKhYh7RUZSQRobTRuu0qB726hpeN+WfKreiHjKuJ+DmKpqYbqrq8ufk3uLdmNQQhwDAgAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Son of Suffering SOPRANO w cut.mp3",
+                  "path": "files/1shYDPrx7ZNKpBfLs3lCvq5LBuhFrhJWY.mp3",
+                  "kind": "audio",
+                  "id": "1shYDPrx7ZNKpBfLs3lCvq5LBuhFrhJWY",
+                  "md5": "6e57ea8e56e251dadf3bd11d00bfbdec",
+                  "peaks": "FAsGCxEJBQgPExITCwgQJBQWEhwUCxoUGhQTCgUTGRIOGxERCRgXGBUSCquvo7urgJTW4puTxqyh8Li8qNrgooXnz7rwt5WSmZ8WEhGyqJR6545bxb+kqmYuCajRxGfem40qrra7nWkUDdrfnNj0z9rkq5ri56rl2bO469+9o+nCsMrR2LDp68Tq7rmin6M5Eg8WFQ8SIBoWGiMdKB4ZHxgiHBgnJSEhMCgYKSUfJifAsKm5wLGk4K2uq3ntzL6/rLrbxKeU28e6lMjZ7cHc0KjawLzr27Hjy+btz/DuwNfvwsnv6Pvn0u/i+Pni6LG05+e35/XQv+Pdsd3t6Mnk3Omx3+zE6/+btnpiFRAKJSUbDSkgHyUpICEjGSUYLzgmNjIuKDIxHRVOLiYtKR4qJR4yHCcQDj9afmuttHFcd6WonnhcJmhxdn+Xnl1voZ2dcXAyjKGrp4u9e09+iqeTib6us8SxmJWjmoW7vLWkVzlTPhkZShmIpqKfxbuQfdPAkcXMv4TTt6qXv9GSadfCytHLvn9+e2xsWhkDAQAAAAAAAAAA"
+                },
+                {
+                  "type": "file",
+                  "name": "Son of Suffering TENOR w cut.mp3",
+                  "path": "files/1DAZXiLbq7E80mHDX2UV_gNZldeOH6eOZ.mp3",
+                  "kind": "audio",
+                  "id": "1DAZXiLbq7E80mHDX2UV_gNZldeOH6eOZ",
+                  "md5": "e03f21096e78b7be2b91e5b13218f2e2",
+                  "peaks": "FQsHDBEJBQgQExIUDAgRJRQXExwUCxsUGxQTCwYTGRIOGxIRCRkYGBUSC4uac8mdYm2gqnyGlZtqtK6Th5icgoG1lKOxmXV+goEXExFYc0ddY0g6a4mjb0kfCFpYYUqOa2Aqh4+Eg1kUDmOht9jVtdfrr4Ln3Ifq84mK292Ii++XnJq4zJDPqrrWuYqDlYNFEw8XFRATIBoXGyMeKR4ZIBkiHRknJiIhMSkZKiYgJydxcnp8gpCmqoxzeWLOpZaTd3OnoIl1vJGGYJnTv7PIzZft7N3W7K7Fi+DHn9/Kobv/vazm0N3CjePI0uzrzI+H+LaG3uyim+/OfezquMCZ69Kb7dLL3cxrgIlsFxAKJiYbDSkgHyYqICIkGSYZMDomODIvKTMzHhZQLyYuKh4rJh8yHCcQDjhJQ1GEekI1Yl95b1Y9M0tRSFlqbjhFW2R2R0U4daeLc1+KaD96bWGIXnebsZWQZYiVXkBdbmZiRzVOQhkaTBqVl4hspYxQWriBbaexeXyclZdor5F5Z7qQqa2Jg3dpamRTNy0DAgAAAAAAAAAA"
+                }
+              ]
             }
           ]
         }

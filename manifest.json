@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T08:15:10Z",
+  "generated": "2026-11-02T19:46:15Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -154,6 +154,15 @@
           "type": "folder",
           "name": "God Rest Ye ",
           "children": [
+            {
+              "type": "file",
+              "name": "God Rest Ye (TB track).mp3",
+              "path": "files/1BcsrtYpXEd3kXFz3kuOpmkxrFS7ZeBdZ.mp3",
+              "kind": "audio",
+              "id": "1BcsrtYpXEd3kXFz3kuOpmkxrFS7ZeBdZ",
+              "md5": "b101c798f3f2379c45b6c1a809e5488c",
+              "peaks": "Ml8pT11gSod9X0k2XUZORD5XaEJQZVk9ZFliRlBCRUtHeolqd3hfdWxkVmaJY15nS1Zjood6l3NraV52e5dmZG5JdnmCinl2qmaFXWFwaZafYYidi2trbHWKdGN2U2xfcHeG2Ix8k7q2foNxUVrPtGmBVn1WSEZ4UblLlG1VRpRke3tvgE5HWXqvqlWzbFVFmlF+WWNRSVGQgKKcsKJtd3lZZKmLbGZZYGBrimaIkIl5Y25uhXdOS1lmVWGNe4Spl3Nnp2RuUkNWV3FSpXbukl5AdX+1tUDil4Gw8m2ZqXp1ZIt6e46glFtlfIW3kIl+e1yPgJRzm3xLRv/OkpGmmWRugXJlYURtVHJ1eHSZqnpdbFqCfYyNmZGCbGtaPDhNZk9RcWeDXohqcXmCf1hsYmJvUlU2yYS6eWKYgV84GKhqUX5fT5F+dml3f19/XoJ6nFZLSD1WqZuMjnxmXGKAdlJtXmtvdFJTXldyooSYkZtrcWBiZV12jWNJfnOKVleHcmh+a2tZUWilbUlSQzg1MCkpLy0wLS4oHgQBAAAAAAAAAAAA"
+            },
             {
               "type": "file",
               "name": "God Rest You Merry, Gentlemen TB - Accompaniment Track - arr. Philip Kern.mp3",

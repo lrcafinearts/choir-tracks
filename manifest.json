@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T23:55:29Z",
+  "generated": "2026-11-04T04:56:54Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -57,6 +57,48 @@
                 "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-12.jpg",
                 "files/1DabJ5hrDFpIRUJ16RgXSNC2DWXgC1-7L-p-13.jpg"
               ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Christmas Call to Worship",
+          "children": [
+            {
+              "type": "file",
+              "name": "Alto - A Christmas Call to Worship .mp3",
+              "path": "files/18QLwOhAOYxiVs2QEmfYdTgrKXgkZ_Dly.mp3",
+              "kind": "audio",
+              "id": "18QLwOhAOYxiVs2QEmfYdTgrKXgkZ_Dly",
+              "md5": "542a931d2c80ad83a158367cd0bc6e43",
+              "peaks": "qopxX2VscnBzu2NSU3pZdJLAo5hpnlKTYZRnroCaW8J5vW5KSU9dUXSJp8apiqvIpamvqpOOp5CDfbLWraCnsa/CwNyQhI6a37Sz2a7WdtWf9cDOuc2wz9X09ODK9+DOrJyY2bz/+My54eDd8+PS57vQmla5ofG5jq65l390hIFqeZ9gd5ynfo+AnLbK8ci1sMuxrKy1p+XJll2/s7yj2s22oqiKhsnk1IN9tr2/jpbH9OPG9bulnp+uspDJq8Hv9K/Kn7+xuLXItaOxxW5lUExBqcqcfWZpZ2x6hIq7d4+R4e1/VpCjbWLI1ntSn53ZutK1gGndzYWpu77X7sX4ttiw8uHT1fm5786vvYl78+u7gPbi4qn23+TcxqTx67mZxKLaqryrpXB6bVy/vo2JnsTT1rvO88Lv9dfk1cSwwmzjrfGk0qvat8SsqaK4pI6118uj45/dkObD8+HXpunH08vw7fvUu9e0uNG77OWt09fG7/Xj6Nm4qcDb2rbr79u+9OrrvdfT3MOZgvnr6ezS9tTyzNbU19XW7d6WMw4EAgEAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Basses - A Christmas Call to Worship_.mp3",
+              "path": "files/1lTLPgmu4XB6GpJx8mzZh4iDa73z2B7kU.mp3",
+              "kind": "audio",
+              "id": "1lTLPgmu4XB6GpJx8mzZh4iDa73z2B7kU",
+              "md5": "58f397371cd0d1065e42e95bba2d55cb",
+              "peaks": "nIB9aWtvdm94sWRTUnhaboS6l5twnlCHXYFrnIKMV65zrXRLQ0taVHJ7k5+shdippG2XiGZnsXSDcpedo5OrlMXmwZqjd7WiurKkwufsY5lvzKyWjJ6Rp4baopGi2N3QpMWVxrfZ6KSX15ve7+zg5qOzjVvLjZKAgZSnhHR1aICCg5Nec4uZdpF5k8Kevuagl7aWvoiOkKKNfWWjgsSItbXJm6eRYY+e3J6Fr4+gmYuDqJSnu6WPjcSjoIS9f5+UsojEcbCCmKWZtqG3uGloUk5CnriOfGlmZWV0f5aheX925rxRi3uqcF+/o1xMnZHTlbmIYl6boX3hzrGsv73U18GcvLSRqq6t0bSym5V10/TRit3CxoyutMvYpZep8L3boLvioMe4rmqDa2CytJKUu9nl5qvi4dKdw7K3xuiqw6L/3uXQy725qaSts5qpwuCp6OfExpvByNylxdbcoLe2xNPz5dLx/d/YsuG8xM/MwdLG7PXN9+HlxrzN68ul+7rF99XM0MjZ7eOrjebi9Ma20NTI7Pbc1d/j3s6gLw0EAQAAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Soprano - A Christmas Call to Worship_.mp3",
+              "path": "files/1eEXk0zyDLhlz1Lkc5_9BYXuL9My8uao-.mp3",
+              "kind": "audio",
+              "id": "1eEXk0zyDLhlz1Lkc5_9BYXuL9My8uao-",
+              "md5": "dfbeea08c4ff3a4ff975f769724e4418",
+              "peaks": "tZJwYmRscnF1wmRVV39beZjGrJZip1OcZptqt4KiXsp7xGtRTVBeU3iNpqCajc+Vo53YvtOuy4iffbZ5oIjDo5Ows7uKeaOUm6CxvMjIbrZum4yvraGsx6SToKfBtK64j6qTspyjtr7Dlpu7x7jt/7u1nmWjs9CvhJqbh29nbJZ6cqRjfKOvhJeIoJeoo72Ei62jpqGgobqoo1yura6XwLKdhayvebG5nIGDsr+gnamgu6yYqauzsqSUiZudq7+nw4WieL6Znqnqk6mvynBsVU9ErtGgf2Rna21/hY6jgXeZ2K16WZijini9umNOwaGkjp6whXaovKKavKmkx8nNxZ6xvKmXrtG1vJ7KopCIz6uscMe5op/N0L+jy6mkusGjq6bqyqumvXR6bVfFvI6Kpa+gsqPIo62fqLGuu8eznnOzkLyvxdjEpayrjZvHkaeeyby2stLBq8jKzLLHc7i8yI/ZzMWqrcOtjbuswK6lpKyz6eG018PBs5uv8sjIz+K+x73i1MPCz9i2gMqz6/jm7NfUus7U587N1daONw8EAgEAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Tenors - A Christmas Call to Worship .mp3",
+              "path": "files/15q-Ti6qSRaguoaj1hYpuvgfcHoLthsJf.mp3",
+              "kind": "audio",
+              "id": "15q-Ti6qSRaguoaj1hYpuvgfcHoLthsJf",
+              "md5": "4512de0a9fd88ca3579278744f054ee2",
+              "peaks": "roxtXl9obm5yu2JSVHpZdJG/pJBeoFCXYpVnr32cXMJ2vWlOSk5aUXSInZ2ZgrurgH7HmIJ5sX98WKp6pXrHh42CtJCMiJmFuqPSuJq4VrFrt5S8paGY4pmdr65+joblmqaGsZuYs63Qo5WumKPZwKeKmEzDkqF/mLOYfVpwZnRzhZ5hd5yof5GCpsXBz7KClJ+6tr6fpdWchW3GpaqF1sO0h9nOiaO7sIt+qMu7s6nFqsvctqa3tbidm8vbg7+YvpjPisbDkbDdt8itqWxoUkxCqMmbe2FlZmp6gJqlcIaTw5JpUaydj3ew2pJ8s4S6naqUfZ7Yw5Gewq60z7zZtLLz6MKzq9Oku6W/npOHx8nIeeTMuLS9yc3H4Jupr7mSjKnHnKqdq3B2alW8tYmGu9/F+KC/yKu0y6qrusy/vZboq8+cu5yVnLq5lJiwoaO1wazKwrvYzMav/8SyqeLDtJvLsqe5scKqmvnRoKHNw8bNsry9qfTKm6Lv3ZfNxcrC5ca/qpmTrbabf+ax26200MCrspelxdeqs9GNNQ4EAgEAAAAA"
             }
           ]
         },
@@ -424,6 +466,48 @@
                 "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-12.jpg",
                 "files/1GZWE9WDv8m23tTc1exadaBW8d4PkIGtN-p-13.jpg"
               ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Christmas Call to Worship",
+          "children": [
+            {
+              "type": "file",
+              "name": "Alto - A Christmas Call to Worship .mp3",
+              "path": "files/11_Gjvjnh_bK1fZB5sYkn5rB6QhqRb_Hh.mp3",
+              "kind": "audio",
+              "id": "11_Gjvjnh_bK1fZB5sYkn5rB6QhqRb_Hh",
+              "md5": "542a931d2c80ad83a158367cd0bc6e43",
+              "peaks": "qopxX2VscnBzu2NSU3pZdJLAo5hpnlKTYZRnroCaW8J5vW5KSU9dUXSJp8apiqvIpamvqpOOp5CDfbLWraCnsa/CwNyQhI6a37Sz2a7WdtWf9cDOuc2wz9X09ODK9+DOrJyY2bz/+My54eDd8+PS57vQmla5ofG5jq65l390hIFqeZ9gd5ynfo+AnLbK8ci1sMuxrKy1p+XJll2/s7yj2s22oqiKhsnk1IN9tr2/jpbH9OPG9bulnp+uspDJq8Hv9K/Kn7+xuLXItaOxxW5lUExBqcqcfWZpZ2x6hIq7d4+R4e1/VpCjbWLI1ntSn53ZutK1gGndzYWpu77X7sX4ttiw8uHT1fm5786vvYl78+u7gPbi4qn23+TcxqTx67mZxKLaqryrpXB6bVy/vo2JnsTT1rvO88Lv9dfk1cSwwmzjrfGk0qvat8SsqaK4pI6118uj45/dkObD8+HXpunH08vw7fvUu9e0uNG77OWt09fG7/Xj6Nm4qcDb2rbr79u+9OrrvdfT3MOZgvnr6ezS9tTyzNbU19XW7d6WMw4EAgEAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Basses - A Christmas Call to Worship_.mp3",
+              "path": "files/1Hjx5fUDftYwRkusH68v8u8YyMJMkFahr.mp3",
+              "kind": "audio",
+              "id": "1Hjx5fUDftYwRkusH68v8u8YyMJMkFahr",
+              "md5": "58f397371cd0d1065e42e95bba2d55cb",
+              "peaks": "nIB9aWtvdm94sWRTUnhaboS6l5twnlCHXYFrnIKMV65zrXRLQ0taVHJ7k5+shdippG2XiGZnsXSDcpedo5OrlMXmwZqjd7WiurKkwufsY5lvzKyWjJ6Rp4baopGi2N3QpMWVxrfZ6KSX15ve7+zg5qOzjVvLjZKAgZSnhHR1aICCg5Nec4uZdpF5k8Kevuagl7aWvoiOkKKNfWWjgsSItbXJm6eRYY+e3J6Fr4+gmYuDqJSnu6WPjcSjoIS9f5+UsojEcbCCmKWZtqG3uGloUk5CnriOfGlmZWV0f5aheX925rxRi3uqcF+/o1xMnZHTlbmIYl6boX3hzrGsv73U18GcvLSRqq6t0bSym5V10/TRit3CxoyutMvYpZep8L3boLvioMe4rmqDa2CytJKUu9nl5qvi4dKdw7K3xuiqw6L/3uXQy725qaSts5qpwuCp6OfExpvByNylxdbcoLe2xNPz5dLx/d/YsuG8xM/MwdLG7PXN9+HlxrzN68ul+7rF99XM0MjZ7eOrjebi9Ma20NTI7Pbc1d/j3s6gLw0EAQAAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Soprano - A Christmas Call to Worship_.mp3",
+              "path": "files/1xCAWjp2YUUcoZiSS8Uoo_tOKjzPUDr-z.mp3",
+              "kind": "audio",
+              "id": "1xCAWjp2YUUcoZiSS8Uoo_tOKjzPUDr-z",
+              "md5": "dfbeea08c4ff3a4ff975f769724e4418",
+              "peaks": "tZJwYmRscnF1wmRVV39beZjGrJZip1OcZptqt4KiXsp7xGtRTVBeU3iNpqCajc+Vo53YvtOuy4iffbZ5oIjDo5Ows7uKeaOUm6CxvMjIbrZum4yvraGsx6SToKfBtK64j6qTspyjtr7Dlpu7x7jt/7u1nmWjs9CvhJqbh29nbJZ6cqRjfKOvhJeIoJeoo72Ei62jpqGgobqoo1yura6XwLKdhayvebG5nIGDsr+gnamgu6yYqauzsqSUiZudq7+nw4WieL6Znqnqk6mvynBsVU9ErtGgf2Rna21/hY6jgXeZ2K16WZijini9umNOwaGkjp6whXaovKKavKmkx8nNxZ6xvKmXrtG1vJ7KopCIz6uscMe5op/N0L+jy6mkusGjq6bqyqumvXR6bVfFvI6Kpa+gsqPIo62fqLGuu8eznnOzkLyvxdjEpayrjZvHkaeeyby2stLBq8jKzLLHc7i8yI/ZzMWqrcOtjbuswK6lpKyz6eG018PBs5uv8sjIz+K+x73i1MPCz9i2gMqz6/jm7NfUus7U587N1daONw8EAgEAAAAA"
+            },
+            {
+              "type": "file",
+              "name": "Tenors - A Christmas Call to Worship .mp3",
+              "path": "files/1g0AwHZluQXxPtQBIl9Xt0O4wXqXumGCU.mp3",
+              "kind": "audio",
+              "id": "1g0AwHZluQXxPtQBIl9Xt0O4wXqXumGCU",
+              "md5": "4512de0a9fd88ca3579278744f054ee2",
+              "peaks": "roxtXl9obm5yu2JSVHpZdJG/pJBeoFCXYpVnr32cXMJ2vWlOSk5aUXSInZ2ZgrurgH7HmIJ5sX98WKp6pXrHh42CtJCMiJmFuqPSuJq4VrFrt5S8paGY4pmdr65+joblmqaGsZuYs63Qo5WumKPZwKeKmEzDkqF/mLOYfVpwZnRzhZ5hd5yof5GCpsXBz7KClJ+6tr6fpdWchW3GpaqF1sO0h9nOiaO7sIt+qMu7s6nFqsvctqa3tbidm8vbg7+YvpjPisbDkbDdt8itqWxoUkxCqMmbe2FlZmp6gJqlcIaTw5JpUaydj3ew2pJ8s4S6naqUfZ7Yw5Gewq60z7zZtLLz6MKzq9Oku6W/npOHx8nIeeTMuLS9yc3H4Jupr7mSjKnHnKqdq3B2alW8tYmGu9/F+KC/yKu0y6qrusy/vZboq8+cu5yVnLq5lJiwoaO1wazKwrvYzMav/8SyqeLDtJvLsqe5scKqmvnRoKHNw8bNsry9qfTKm6Lv3ZfNxcrC5ca/qpmTrbabf+ax26200MCrspelxdeqs9GNNQ4EAgEAAAAA"
             }
           ]
         },

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T08:50:08Z",
+  "generated": "2026-11-10T17:17:18Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -1110,93 +1110,6 @@
         },
         {
           "type": "folder",
-          "name": "Glory Hallelujah",
-          "children": [
-            {
-              "type": "file",
-              "name": "Alto 1 - Glory, Hallelujah to the Newborn King.mp3",
-              "path": "files/1M0osTTKTI53mumWndX7oNDdsslHnJBJx.mp3",
-              "kind": "audio",
-              "id": "1M0osTTKTI53mumWndX7oNDdsslHnJBJx",
-              "md5": "14c814c11e0bb1d46a679959f5b39ac0",
-              "peaks": "AAAAAAAAAG1xcYdoJBCAjH54VaO0jpB7eGxlVGF5aIZ2ExSJd5J5bmmCn3d0ZF5dQ0gQDRAQFA8ZGhMREBoaEw8RDAwICAgDDxEPEQ8TFA4RE3yNgYRzYHx0j456d4pkFCCFjXt9e4yLZ4Z4ZW9hRmluYmNpFiB5eYd1aHF/h2h1b1lpTU4nJBcWGhYdIxkdJCEgERMdHBoYHx0OESYfHhgdKxQZFlBjVXdyWH2Ff21YWmtcLRVicH9paWhsi3VkY1RgRmlcYHdtGhiVi6Nui4eLfWV0fFx0chVnWBJUFA9aW0pHRxZrV0xHRkVFRBM/aRRQMxFUWF5jTBlZWVNdWUVSVo1zcIF5eo9eoIiqxomFgnB0W01YS4tyiYWWeaZarMK2/4G4wmqQg1tgZXxvb4F4UxaDdYVuhHCCfn+JdGRnXXx5c2xtVBSLj593jnqCboF3hXCLX3p+eJWhiBeXgZqBioWbe5V7X2BgYnxxbYuFXxWWmouThHmPfIt/Y2h3V4GNe2BkTUhHcn6Jd42YoI2TWGplYVY2n4WZh3t0gXxycxEC"
-            },
-            {
-              "type": "file",
-              "name": "Alto 2 - Glory, Hallelujah to the Newborn King.mp3",
-              "path": "files/1aI9Z918aiB7hBTvwWEFEJTk_sWtKN9iV.mp3",
-              "kind": "audio",
-              "id": "1aI9Z918aiB7hBTvwWEFEJTk_sWtKN9iV",
-              "md5": "4f44c05ec2c33906388e685f6ed1873f",
-              "peaks": "AAAAAAAAAG1xcYdoJBCAjIB4VaO0jpB7eGxlU2F5aIZ2ExSJdpJ5bmmCn3d0ZV5dQ0gRDRAQFA8ZGhMREBoaEw8RDAwICAgDDxEPEQ8TFA4RE3yNgYRzYI2Jf457d4pkFCCFjXt9e4yLZoZ4ZW9hRmluYmNqFiB5eYd2aHF/h2p1b1lpTU4nJBYWGhYdIxkdJCEgEhMdHBoYHx0OESYeHhgdKxQZFlBjVXdyWJifenFYWmtbLRVicH9paWhsinNkY1RgRmlcYHdtGhiVi6Nui4eLfWV0fFx0chVnWBJUFA9aW0pHRxZrV0xHRkVFRBM/aRRQMxFUWF5jTBlZWVNdWUVTVo1zcIF5eo9eoIiqxomFgnB0W01YS4tyiYWWeaZarcK2/4G4wmqQg1tgZHxvb4F5VBaDdYVuhXCAfn+JdGRnXX14c2xtVBOLj595jnqCboF3hXCLX3p/eJWhiBeXgZqBioWbe5V7X2BgYnxybYuFXxWWmouThHmPfIt/Y2h3V4CNe2BlTUhHcn6Jd42YoI2TWGplYFY2n4WZh3t0gnxycxEC"
-            },
-            {
-              "type": "file",
-              "name": "Balanced Voices - Glory, Hallelujah to the Newborn King.mp3",
-              "path": "files/1bMIiSjtciuPgOO-C3MA5E9LfvL1G70bd.mp3",
-              "kind": "audio",
-              "id": "1bMIiSjtciuPgOO-C3MA5E9LfvL1G70bd",
-              "md5": "fa78bc20128d975fc68f5bb877b28f2a",
-              "peaks": "AAAAAYiAoaiSaD+82JWwmc7fopSrlrKPjm+GkZSZXE7ZuK+SiJiomo2OhqGnjW9BLzA1QjxMUkA9N0hXPzg1MDAfHyIXMTc5NTlBQjc0P4zJmXifmZS/z797e6yrnkvEuoqmrc3OmoaLqKqbapqGkZiih1S+yq28mLWltKKUc5CtbH9MX3dLVk9ldVxTdlB7XkY/Y2NqXmVcLn9uZFpigYVOXWSpm6yShKrF0YaNbJ6gjlq+uKrBtH6+tKWjrp6BdlezYa+wtlWo466tpWjepaGRlZijmKFQp0Nbd0B8knpjeV1/mXBqcoJ/f5FNnUdBeEN/nol7f2pwiX1ybW5qjGR5bsC4o/fIfKK8/+u2xcDFw4uOsm1/ecCwzcnCgfjq5Nq667KuzpV/knp8fLGirFe1vMSayX/QxLONoJ2UbWyQlYSMyE6H4r6irJDLr5x9o7e6rohxWKGaok9A0NGYkqPMwpmRgoSLlHiLe6PTzks91daxqqTEyYWol42Qqo1lfJSQk42Fj7Gjsa2zwLetnHCNfn+MdrXOv5qTvsGwyrYUBwMB"
-            },
-            {
-              "type": "file",
-              "name": "Bass Predominant - Glory, Hallelujah to the Newborn King.mp3",
-              "path": "files/1X8Xu7nNmQHpbY3j4-GJOei-77T7fiu5M.mp3",
-              "kind": "audio",
-              "id": "1X8Xu7nNmQHpbY3j4-GJOei-77T7fiu5M",
-              "md5": "6bf911c7c44d3a201946d925a63b6582",
-              "peaks": "AAAAAAABAZyidXqEc2PU05yzq+bah5eLrpl3gXSflJyZd3rDyKSkd4eKbW2HiZOmmYxIDxITFxUdHxcUEh4dFxIUDw4JCQkAERQSFBEXFxETFXGMdpqccKOOo6OiiZe5dnW/uZW4ssvTtZDLwJFvZ5OHlIWaf47DtqOqXZCFdHeNbaSjjIsqkHyFant1ln6gnaehbYF9d3h1hn8VcKl4jomfuXp0fpKnpMOrfLPx0K6YiKWagbbZzrq0v9LClKLIyIZgZ6eOprC1dqvL5pLGkaKLcGSGgqmio3qKd2VQXWJtWkeAnGaEUGJXeHy7mm95b25XX2ZtZlp6gWpuXVpZZWuDZqOPysh248iHruHVqavUtqTDkny/nquS/+6W3eeP3eq1387qqpLZiYSdjbSjtKrMh8jV2rWuvNjRpprm3Ztocn53j47PbKLRxpi4qpZ+bWWOq6qyp5iapKCserPByaa51tXBoLm7tYdlX66Em76odrXj7KbTwqmme2qEfY2fnXNsnaKTeHTEr7mQLYKDgn6SWVpncWavrKeRpIylsaG7rwYC"
-            },
-            {
-              "type": "file",
-              "name": "Solo Predominant - Glory, Hallelujah to the Newborn King.mp3",
-              "path": "files/11NcnEKXciDOasB6WQ6pAyTE2PrGv5RV1.mp3",
-              "kind": "audio",
-              "id": "11NcnEKXciDOasB6WQ6pAyTE2PrGv5RV1",
-              "md5": "0a30eb4e73cc83c49ac442c572247d03",
-              "peaks": "AAAAAAAAAEBFSlFIIRtxakRbRmxpRVNLSkxCODNETEpGHyFqXlJMRVFXV0Y+OkVROzMTcYmhtofk/6WXjtbpqLCWcmRKR1Iqh52Hpqazt4iPrEZYPEhNQk5bbVw4XVhiPh9hcVVQT2xjT0NNX0lEK0A4QlRFMx9nZ11bOl1bTk1GL0BYNTkWOyYjKiUwPCkvPDQ2IR8eLywoMjMdHD4yMSkwRzcqKD1MS11NRlxqaEM2Pk9UQCJcYEtaVVhhYlBYWUJBLUVNRllnUiZuY1NSSmFiTkdFSUtTRyEgTBkyNBo/RicsOx5PQysxNTg/PyceRhs1NRs9TSw+Nx4/QzI2ODIzQCU5QGBVTHVEVVaHem5iaktZaEZHUiVAQWxfWYE6THxkhmN0ZUhUcUBCTCc/PVtVUiNgXF9MT0ZpU0xFWkVGNS9DP0BWWiBWb1hMVUpcTUZAUmFbY0A1MVBPUCBgb1xKUix1W1lFRjhKNCo+OldkRh9Va2ZRWy1hZEpJSjRMVDY9O0ZGPzk5VFdMWRpaWFJNQjU4Nio+U2JaVlBBUVJYW0kD"
-            },
-            {
-              "type": "file",
-              "name": "Soprano 1a Predominant - Glory, Hallelujah to the Newborn King .mp3",
-              "path": "files/1dA78EsMI2TeQrA5PFi55mC0o0e1dUaxx.mp3",
-              "kind": "audio",
-              "id": "1dA78EsMI2TeQrA5PFi55mC0o0e1dUaxx",
-              "md5": "3b538fa50be6564df36302de8dfab6c0",
-              "peaks": "AAAAAAAAAE1TWGRXJSGHflJuVYKAU2NZWVxPQz1SXVpUJSiAcGRZUmFoaVNLRVJhRj0WGR8hJx4yNSciIDMzJx4jGRkQEBAGHiMeIh8nKB4iJVJnTFdeUFxthW1DcGx1Jj51h2NfX4FxUFxIcFhSNU5CXWRQKSV6bG9jRm5uXFxTOVxoP0QaRy4rMy05RjI6SEFBIyY4ODQvPTscI0w+OzE5VicyLElbW25cR3N+fVE7W15jKipxc2xcZXR1Xl5oa0VOMl5BYW16JS6DeGVgWHN2X1ZTV1piVihFXR89Hx5UTzQqRyJfSTo/QENKSiM1UyNBJyFcVklDQiRQSkBDQDZOSUVBbnRWbI1SZ2milmt/eGpof09kQE1OeoBtbJtJhJN5n1yMeFeHuMfPxUxEam5mKSp0cWVcX3mAW1Nca1NPP1FLTVNrMCaHeVxXZmluXVRjc1t3Tz88X11gQyd9hWNZYW6NYGtUUVJaPUtHTmx5VCZ8f2ZtZmN5Z1lZTFJkSDZKVFRSP0VDZ1psWlJrYVdcLUQ/QUobdGpsVGGw/+3Iph4E"
-            },
-            {
-              "type": "file",
-              "name": "Soprano 1b Predominant - Glory, Hallelujah to the Newborn King.mp3",
-              "path": "files/1dtzNHQPWzIT3_XWKK-Xs5m03UAzFLH7G.mp3",
-              "kind": "audio",
-              "id": "1dtzNHQPWzIT3_XWKK-Xs5m03UAzFLH7G",
-              "md5": "ba2b45a873d515ce3dc75ef5a681f41a",
-              "peaks": "AAAAAAAAAE1TWWRXJSCGflJuVYJ7U2RZWVxPQz1SXFlVJSiAb2RZTWJoaVRLRVJhRj0WGR8hJyUyNSciIDMyJx4jGRkQEBABHiMeIh8oKB4iJVJnTFZdUGtthG1Eb3ViJlaHdWNfXoJvUFxwcVlSNE5CZFRPKUJ8bG9jOm5uXFxPOWhjP0QMRy4zLS05RjJIRUFBHyY4ODQrPTsHI0w+OzA5VycyKU5cbllcPnN+flE+X2NSKVJycGxcZXR1WF5oa05GMV5BbHtjJUaEeGJgS3VwX1ZTWWNgVChdUR89Hi9USzQ3R0hfRjs/QERKSiNIVCNBHyJcS0lCQUBRSkBEOzxOPUVBdHRQjYlRZ2millp/eGt+VUVkQE5OgX9oeJtJk5Ogm3GMcFeHx73PW0xEbmFnKm90cmRfSXuAW1NrZ1Q9P1FNTVVrI1SHa1tmSGluVERic253Tj88X11gJ3SFcGNZYY11XGtUTlpJPUtGY3hsJlN/e2NtXXR5WldZS1pkSDZKVFRLRURlaFtsQWtpYVNcQUNBQUpldGxnYUrt/7/PjQkC"
-            },
-            {
-              "type": "file",
-              "name": "Soprano 2 Predominant - Glory, Hallelujah to the Newborn King.mp3",
-              "path": "files/1o3oNg8W5ogcP4wK5uIRuFHMffWvXiOkT.mp3",
-              "kind": "audio",
-              "id": "1o3oNg8W5ogcP4wK5uIRuFHMffWvXiOkT",
-              "md5": "8233441925903c209ff7e1086c3a956e",
-              "peaks": "AAAAAAAAAGaHj6eDHxaupYlvZbbKdm5vZHJiWW1dfHaCGhqXk4JocZaoe2lpXm1tUEAVEBQVGRQgIxkWFCEhGRMWEA8KCgoEExYTFhMZGhMWGIqLgG9zt5y7wIJPmaSmNGOll4BpZrjFioaDfnVqT2thgpGHHRmklIJ1crrVgoaKZ3h/WkoTLh0cIR0lLh8lLyoqFhgkIyEeKCYSFjEoJh8mOBkhHWSue3J3Zde2h2dWYouNHRqrsYVwfqiwpIeHdWFwSnR4iJCTKh6zpXSOaKuviXd5YF95aBxJZRVIIRNdXE5JOBliUUVSRkdJSBY1axlgTBR6d1NPPxdud1NkXFdpYl5eqrSrnKOPtqzV+sOWnauIg3FyaH9te7G8j6RuvOnE/7aQmIqlom9xfIJ5rK2qMBzBnHFvbqqajGeCe3ZfZmdjdIqNXxrCy42CoKy1wJiSe3WOX252jKGVcxmetXpshJaplXx+bWdkW3pvdKCtlRq/1omBiKLPuIaCdG5rZ2xoY2BlWFhGanuln5PdlHeGQ3F5WGYVtOuRfJBneKWNdhID"
-            },
-            {
-              "type": "file",
-              "name": "Tenor Predominant - Glory, Hallelujah to the Newborn King.mp3",
-              "path": "files/1R4Rj_j_fYncjvPwtj2cvqqWoH6__yc2W.mp3",
-              "kind": "audio",
-              "id": "1R4Rj_j_fYncjvPwtj2cvqqWoH6__yc2W",
-              "md5": "78fda85ac03be386d8752066646d6a33",
-              "peaks": "AAAAAAAAAGB0r7SZODLAtZ+ggb+rkpKzmJmpjoF1s6+KKDfPorirsM+7xJOrjqu1aGgcEBMUGBYeIBcVEx8fGBEVDw8KCQkBEhUSFRIYGBEVFrS4coeTmaez1JR3y+CzG7ng5Keii9fEmJaSn7CxbH1+xKyfGj7lxLiVhsCxjpuYfZyuZmURiGV3VVxtmYB/gH90WmeKaGpVcW4TWY51fXWHjFlwW3eBnJyWgKjCz4hfxriaKin/1rWroL7MvJSrlrStX5R73uGaGS7Vn6mehr/JoaOrranMfBumpBR1JCO0onhddFi9gXKEW1mLjBadpRduGhy4sqJgdG+rg2WGd2F5XFlWoJVz4tRmhKPO0nixiZHwzm6NgH98v7+jx91hl46wsFyspInycGOCYYVprqGjG4TJv6WrsrTChImZeI+LbmpXnaGCI2jFlpaBiJi4kZOQp5G5emRRoJOkIBzayZ+EqbCjmZ2VfYSadHmMpayyLRy8o6GVh7LQrqKOZ4aZYXVwgI1/UmuNoKl3bbuyj4KMYGBaYmmCrIiUmVtrhGdxZwcB"
-            }
-          ]
-        },
-        {
-          "type": "folder",
           "name": "O Come O Come Emmanuel",
           "children": [
             {
@@ -1331,6 +1244,93 @@
                   "id": "1iIZMPVkNnU2fTLOdnF73hg9eRhIXzzkr",
                   "md5": "a8cec8d798131d710051a106a0d4a9da",
                   "peaks": "d09HfoJddigcIhwbLSArGx99LyAiMzIfIBk4JBolIx4hLCEkLh8lJSgnHSt+NYl1XWdtaW9ZV2FcX11oXGhfbFVhWVxeU2+spmRlYl1taV5gZVdeUF1ZbXRYZWlfYWd3VVdrhYFVfWlwallUYmVjV3BgYVViW05jfltrX256jHxli2KPbqhncZNfZ2ljZnR4X3xmgW9OeXtpe3DDgoaAaHFSg3xlb35naqdxZYZ8fXqOh39qiK1+k3xQdnZ3Y3V1jGeFa3qGc3tmYXhobHJtdZ+HbmhvXGSAcnGSYVxlV29vZWdbbYV6aIFiWop9dn53h5JwaoltaoSJgmaGe2l5eoeRgpKGhIWUmX5lcHNicZN/bnVthXJ7g2uAhX5wn3tdeWigiXpkbGKHZnNrhWOIY1x5g2yCg25xeYd+aYb/Z4tzXGJYknWNdUlKSURARltVcl5KkG5fi2VPdXFtg395hkeAeXRrgH9ke49sZYlxanx4eHGBcHSQc2yRkaNzdYaEm2OKd3Ryd6eCbXKMfpmhcH1wd3p3mZtjdzcGBAMCAQAAAAAA"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Glory Hallelujah",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Alto 1 - Glory, Hallelujah to the Newborn King.mp3",
+                  "path": "files/1M0osTTKTI53mumWndX7oNDdsslHnJBJx.mp3",
+                  "kind": "audio",
+                  "id": "1M0osTTKTI53mumWndX7oNDdsslHnJBJx",
+                  "md5": "14c814c11e0bb1d46a679959f5b39ac0",
+                  "peaks": "AAAAAAAAAG1xcYdoJBCAjH54VaO0jpB7eGxlVGF5aIZ2ExSJd5J5bmmCn3d0ZF5dQ0gQDRAQFA8ZGhMREBoaEw8RDAwICAgDDxEPEQ8TFA4RE3yNgYRzYHx0j456d4pkFCCFjXt9e4yLZ4Z4ZW9hRmluYmNpFiB5eYd1aHF/h2h1b1lpTU4nJBcWGhYdIxkdJCEgERMdHBoYHx0OESYfHhgdKxQZFlBjVXdyWH2Ff21YWmtcLRVicH9paWhsi3VkY1RgRmlcYHdtGhiVi6Nui4eLfWV0fFx0chVnWBJUFA9aW0pHRxZrV0xHRkVFRBM/aRRQMxFUWF5jTBlZWVNdWUVSVo1zcIF5eo9eoIiqxomFgnB0W01YS4tyiYWWeaZarMK2/4G4wmqQg1tgZXxvb4F4UxaDdYVuhHCCfn+JdGRnXXx5c2xtVBSLj593jnqCboF3hXCLX3p+eJWhiBeXgZqBioWbe5V7X2BgYnxxbYuFXxWWmouThHmPfIt/Y2h3V4GNe2BkTUhHcn6Jd42YoI2TWGplYVY2n4WZh3t0gXxycxEC"
+                },
+                {
+                  "type": "file",
+                  "name": "Alto 2 - Glory, Hallelujah to the Newborn King.mp3",
+                  "path": "files/1aI9Z918aiB7hBTvwWEFEJTk_sWtKN9iV.mp3",
+                  "kind": "audio",
+                  "id": "1aI9Z918aiB7hBTvwWEFEJTk_sWtKN9iV",
+                  "md5": "4f44c05ec2c33906388e685f6ed1873f",
+                  "peaks": "AAAAAAAAAG1xcYdoJBCAjIB4VaO0jpB7eGxlU2F5aIZ2ExSJdpJ5bmmCn3d0ZV5dQ0gRDRAQFA8ZGhMREBoaEw8RDAwICAgDDxEPEQ8TFA4RE3yNgYRzYI2Jf457d4pkFCCFjXt9e4yLZoZ4ZW9hRmluYmNqFiB5eYd2aHF/h2p1b1lpTU4nJBYWGhYdIxkdJCEgEhMdHBoYHx0OESYeHhgdKxQZFlBjVXdyWJifenFYWmtbLRVicH9paWhsinNkY1RgRmlcYHdtGhiVi6Nui4eLfWV0fFx0chVnWBJUFA9aW0pHRxZrV0xHRkVFRBM/aRRQMxFUWF5jTBlZWVNdWUVTVo1zcIF5eo9eoIiqxomFgnB0W01YS4tyiYWWeaZarcK2/4G4wmqQg1tgZHxvb4F5VBaDdYVuhXCAfn+JdGRnXX14c2xtVBOLj595jnqCboF3hXCLX3p/eJWhiBeXgZqBioWbe5V7X2BgYnxybYuFXxWWmouThHmPfIt/Y2h3V4CNe2BlTUhHcn6Jd42YoI2TWGplYFY2n4WZh3t0gnxycxEC"
+                },
+                {
+                  "type": "file",
+                  "name": "Balanced Voices - Glory, Hallelujah to the Newborn King.mp3",
+                  "path": "files/1bMIiSjtciuPgOO-C3MA5E9LfvL1G70bd.mp3",
+                  "kind": "audio",
+                  "id": "1bMIiSjtciuPgOO-C3MA5E9LfvL1G70bd",
+                  "md5": "fa78bc20128d975fc68f5bb877b28f2a",
+                  "peaks": "AAAAAYiAoaiSaD+82JWwmc7fopSrlrKPjm+GkZSZXE7ZuK+SiJiomo2OhqGnjW9BLzA1QjxMUkA9N0hXPzg1MDAfHyIXMTc5NTlBQjc0P4zJmXifmZS/z797e6yrnkvEuoqmrc3OmoaLqKqbapqGkZiih1S+yq28mLWltKKUc5CtbH9MX3dLVk9ldVxTdlB7XkY/Y2NqXmVcLn9uZFpigYVOXWSpm6yShKrF0YaNbJ6gjlq+uKrBtH6+tKWjrp6BdlezYa+wtlWo466tpWjepaGRlZijmKFQp0Nbd0B8knpjeV1/mXBqcoJ/f5FNnUdBeEN/nol7f2pwiX1ybW5qjGR5bsC4o/fIfKK8/+u2xcDFw4uOsm1/ecCwzcnCgfjq5Nq667KuzpV/knp8fLGirFe1vMSayX/QxLONoJ2UbWyQlYSMyE6H4r6irJDLr5x9o7e6rohxWKGaok9A0NGYkqPMwpmRgoSLlHiLe6PTzks91daxqqTEyYWol42Qqo1lfJSQk42Fj7Gjsa2zwLetnHCNfn+MdrXOv5qTvsGwyrYUBwMB"
+                },
+                {
+                  "type": "file",
+                  "name": "Bass Predominant - Glory, Hallelujah to the Newborn King.mp3",
+                  "path": "files/1X8Xu7nNmQHpbY3j4-GJOei-77T7fiu5M.mp3",
+                  "kind": "audio",
+                  "id": "1X8Xu7nNmQHpbY3j4-GJOei-77T7fiu5M",
+                  "md5": "6bf911c7c44d3a201946d925a63b6582",
+                  "peaks": "AAAAAAABAZyidXqEc2PU05yzq+bah5eLrpl3gXSflJyZd3rDyKSkd4eKbW2HiZOmmYxIDxITFxUdHxcUEh4dFxIUDw4JCQkAERQSFBEXFxETFXGMdpqccKOOo6OiiZe5dnW/uZW4ssvTtZDLwJFvZ5OHlIWaf47DtqOqXZCFdHeNbaSjjIsqkHyFant1ln6gnaehbYF9d3h1hn8VcKl4jomfuXp0fpKnpMOrfLPx0K6YiKWagbbZzrq0v9LClKLIyIZgZ6eOprC1dqvL5pLGkaKLcGSGgqmio3qKd2VQXWJtWkeAnGaEUGJXeHy7mm95b25XX2ZtZlp6gWpuXVpZZWuDZqOPysh248iHruHVqavUtqTDkny/nquS/+6W3eeP3eq1387qqpLZiYSdjbSjtKrMh8jV2rWuvNjRpprm3Ztocn53j47PbKLRxpi4qpZ+bWWOq6qyp5iapKCserPByaa51tXBoLm7tYdlX66Em76odrXj7KbTwqmme2qEfY2fnXNsnaKTeHTEr7mQLYKDgn6SWVpncWavrKeRpIylsaG7rwYC"
+                },
+                {
+                  "type": "file",
+                  "name": "Solo Predominant - Glory, Hallelujah to the Newborn King.mp3",
+                  "path": "files/11NcnEKXciDOasB6WQ6pAyTE2PrGv5RV1.mp3",
+                  "kind": "audio",
+                  "id": "11NcnEKXciDOasB6WQ6pAyTE2PrGv5RV1",
+                  "md5": "0a30eb4e73cc83c49ac442c572247d03",
+                  "peaks": "AAAAAAAAAEBFSlFIIRtxakRbRmxpRVNLSkxCODNETEpGHyFqXlJMRVFXV0Y+OkVROzMTcYmhtofk/6WXjtbpqLCWcmRKR1Iqh52Hpqazt4iPrEZYPEhNQk5bbVw4XVhiPh9hcVVQT2xjT0NNX0lEK0A4QlRFMx9nZ11bOl1bTk1GL0BYNTkWOyYjKiUwPCkvPDQ2IR8eLywoMjMdHD4yMSkwRzcqKD1MS11NRlxqaEM2Pk9UQCJcYEtaVVhhYlBYWUJBLUVNRllnUiZuY1NSSmFiTkdFSUtTRyEgTBkyNBo/RicsOx5PQysxNTg/PyceRhs1NRs9TSw+Nx4/QzI2ODIzQCU5QGBVTHVEVVaHem5iaktZaEZHUiVAQWxfWYE6THxkhmN0ZUhUcUBCTCc/PVtVUiNgXF9MT0ZpU0xFWkVGNS9DP0BWWiBWb1hMVUpcTUZAUmFbY0A1MVBPUCBgb1xKUix1W1lFRjhKNCo+OldkRh9Va2ZRWy1hZEpJSjRMVDY9O0ZGPzk5VFdMWRpaWFJNQjU4Nio+U2JaVlBBUVJYW0kD"
+                },
+                {
+                  "type": "file",
+                  "name": "Soprano 1a Predominant - Glory, Hallelujah to the Newborn King .mp3",
+                  "path": "files/1dA78EsMI2TeQrA5PFi55mC0o0e1dUaxx.mp3",
+                  "kind": "audio",
+                  "id": "1dA78EsMI2TeQrA5PFi55mC0o0e1dUaxx",
+                  "md5": "3b538fa50be6564df36302de8dfab6c0",
+                  "peaks": "AAAAAAAAAE1TWGRXJSGHflJuVYKAU2NZWVxPQz1SXVpUJSiAcGRZUmFoaVNLRVJhRj0WGR8hJx4yNSciIDMzJx4jGRkQEBAGHiMeIh8nKB4iJVJnTFdeUFxthW1DcGx1Jj51h2NfX4FxUFxIcFhSNU5CXWRQKSV6bG9jRm5uXFxTOVxoP0QaRy4rMy05RjI6SEFBIyY4ODQvPTscI0w+OzE5VicyLElbW25cR3N+fVE7W15jKipxc2xcZXR1Xl5oa0VOMl5BYW16JS6DeGVgWHN2X1ZTV1piVihFXR89Hx5UTzQqRyJfSTo/QENKSiM1UyNBJyFcVklDQiRQSkBDQDZOSUVBbnRWbI1SZ2milmt/eGpof09kQE1OeoBtbJtJhJN5n1yMeFeHuMfPxUxEam5mKSp0cWVcX3mAW1Nca1NPP1FLTVNrMCaHeVxXZmluXVRjc1t3Tz88X11gQyd9hWNZYW6NYGtUUVJaPUtHTmx5VCZ8f2ZtZmN5Z1lZTFJkSDZKVFRSP0VDZ1psWlJrYVdcLUQ/QUobdGpsVGGw/+3Iph4E"
+                },
+                {
+                  "type": "file",
+                  "name": "Soprano 1b Predominant - Glory, Hallelujah to the Newborn King.mp3",
+                  "path": "files/1dtzNHQPWzIT3_XWKK-Xs5m03UAzFLH7G.mp3",
+                  "kind": "audio",
+                  "id": "1dtzNHQPWzIT3_XWKK-Xs5m03UAzFLH7G",
+                  "md5": "ba2b45a873d515ce3dc75ef5a681f41a",
+                  "peaks": "AAAAAAAAAE1TWWRXJSCGflJuVYJ7U2RZWVxPQz1SXFlVJSiAb2RZTWJoaVRLRVJhRj0WGR8hJyUyNSciIDMyJx4jGRkQEBABHiMeIh8oKB4iJVJnTFZdUGtthG1Eb3ViJlaHdWNfXoJvUFxwcVlSNE5CZFRPKUJ8bG9jOm5uXFxPOWhjP0QMRy4zLS05RjJIRUFBHyY4ODQrPTsHI0w+OzA5VycyKU5cbllcPnN+flE+X2NSKVJycGxcZXR1WF5oa05GMV5BbHtjJUaEeGJgS3VwX1ZTWWNgVChdUR89Hi9USzQ3R0hfRjs/QERKSiNIVCNBHyJcS0lCQUBRSkBEOzxOPUVBdHRQjYlRZ2millp/eGt+VUVkQE5OgX9oeJtJk5Ogm3GMcFeHx73PW0xEbmFnKm90cmRfSXuAW1NrZ1Q9P1FNTVVrI1SHa1tmSGluVERic253Tj88X11gJ3SFcGNZYY11XGtUTlpJPUtGY3hsJlN/e2NtXXR5WldZS1pkSDZKVFRLRURlaFtsQWtpYVNcQUNBQUpldGxnYUrt/7/PjQkC"
+                },
+                {
+                  "type": "file",
+                  "name": "Soprano 2 Predominant - Glory, Hallelujah to the Newborn King.mp3",
+                  "path": "files/1o3oNg8W5ogcP4wK5uIRuFHMffWvXiOkT.mp3",
+                  "kind": "audio",
+                  "id": "1o3oNg8W5ogcP4wK5uIRuFHMffWvXiOkT",
+                  "md5": "8233441925903c209ff7e1086c3a956e",
+                  "peaks": "AAAAAAAAAGaHj6eDHxaupYlvZbbKdm5vZHJiWW1dfHaCGhqXk4JocZaoe2lpXm1tUEAVEBQVGRQgIxkWFCEhGRMWEA8KCgoEExYTFhMZGhMWGIqLgG9zt5y7wIJPmaSmNGOll4BpZrjFioaDfnVqT2thgpGHHRmklIJ1crrVgoaKZ3h/WkoTLh0cIR0lLh8lLyoqFhgkIyEeKCYSFjEoJh8mOBkhHWSue3J3Zde2h2dWYouNHRqrsYVwfqiwpIeHdWFwSnR4iJCTKh6zpXSOaKuviXd5YF95aBxJZRVIIRNdXE5JOBliUUVSRkdJSBY1axlgTBR6d1NPPxdud1NkXFdpYl5eqrSrnKOPtqzV+sOWnauIg3FyaH9te7G8j6RuvOnE/7aQmIqlom9xfIJ5rK2qMBzBnHFvbqqajGeCe3ZfZmdjdIqNXxrCy42CoKy1wJiSe3WOX252jKGVcxmetXpshJaplXx+bWdkW3pvdKCtlRq/1omBiKLPuIaCdG5rZ2xoY2BlWFhGanuln5PdlHeGQ3F5WGYVtOuRfJBneKWNdhID"
+                },
+                {
+                  "type": "file",
+                  "name": "Tenor Predominant - Glory, Hallelujah to the Newborn King.mp3",
+                  "path": "files/1R4Rj_j_fYncjvPwtj2cvqqWoH6__yc2W.mp3",
+                  "kind": "audio",
+                  "id": "1R4Rj_j_fYncjvPwtj2cvqqWoH6__yc2W",
+                  "md5": "78fda85ac03be386d8752066646d6a33",
+                  "peaks": "AAAAAAAAAGB0r7SZODLAtZ+ggb+rkpKzmJmpjoF1s6+KKDfPorirsM+7xJOrjqu1aGgcEBMUGBYeIBcVEx8fGBEVDw8KCQkBEhUSFRIYGBEVFrS4coeTmaez1JR3y+CzG7ng5Keii9fEmJaSn7CxbH1+xKyfGj7lxLiVhsCxjpuYfZyuZmURiGV3VVxtmYB/gH90WmeKaGpVcW4TWY51fXWHjFlwW3eBnJyWgKjCz4hfxriaKin/1rWroL7MvJSrlrStX5R73uGaGS7Vn6mehr/JoaOrranMfBumpBR1JCO0onhddFi9gXKEW1mLjBadpRduGhy4sqJgdG+rg2WGd2F5XFlWoJVz4tRmhKPO0nixiZHwzm6NgH98v7+jx91hl46wsFyspInycGOCYYVprqGjG4TJv6WrsrTChImZeI+LbmpXnaGCI2jFlpaBiJi4kZOQp5G5emRRoJOkIBzayZ+EqbCjmZ2VfYSadHmMpayyLRy8o6GVh7LQrqKOZ4aZYXVwgI1/UmuNoKl3bbuyj4KMYGBaYmmCrIiUmVtrhGdxZwcB"
                 }
               ]
             },

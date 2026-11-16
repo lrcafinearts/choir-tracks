@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T08:34:18Z",
+  "generated": "2026-11-16T18:08:01Z",
   "choirs": [
     {
       "name": "JH Boys",
@@ -1165,6 +1165,39 @@
               "id": "1b2J4w7XsdGprqxPkk3V5IPJhsDRWEPj5",
               "md5": "900b8ea8b048d885011306c2414a714a",
               "peaks": "ACAoIA0kHyELGC8gHSsXEkMrIwwoJSINHh8jHQ4JMFhqhXFxeIhLdEpBUkxKaIJ+bEpeXkdCVUtARj4oY4KJbF5qYnVhRjdGPktNeHqEaHB7iGpoPUpRQUAlDCUgGhshHiU0LSIhHyNAWn+DYIesj0pJR0hTTn6LYG95gmNQSUhFPTQiIicmKS0xICUdICogIyAnLh4nNywwHBkgJEVzcHeChoibq56ZdouBh46CfVJFXFpxgmqVlmWW4OZ6utevfKagdHFngn6SdVVbWlF7XkhERUtLN0QcFB0eKy4nOUI5LkBIKSAvMj0zbYCAqsiR16uQk7SNr5uks7u6ipWPd9besKudn6Sph2yfirWqhoZata+yhqyhk4Oklcd/ucWizsbAjN++ZXZ+iF1ibW93b42ZzrKl+/j/j8PRqaW9tImfelI4LS0ZIyMiIhwlJDAtIUJshXxVZYSNWm16XmhQQ0pkOTMQPRgUGiMiIRQTJxkgFiEXFBIaHBYwNBocFhEWERAKDQkJCAUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Sing We Now (Girls Piece)",
+          "children": [
+            {
+              "type": "file",
+              "name": "Sing We Now - Soprano 1.m4a",
+              "path": "files/1PHVFW8mdDzZQGz1RMIXyTOITBv5HcqiJ.m4a",
+              "kind": "audio",
+              "id": "1PHVFW8mdDzZQGz1RMIXyTOITBv5HcqiJ",
+              "md5": "2b93b121775ca643657f1560f4d6dd65",
+              "peaks": "AgICAgICOhYRRQlIKTg1BUUJhqlowYqzXcoktLC+yoOdICgYpLNZtLeWo9tol6iQvo5cHiMSBgUDuslFZiIuGBu8hqDqWEUcTtSUvFNVLSwbjc2Hj6l71rjAZ7Iww6O+raeEHh4dnzdlMlVkGFcSy0/ebYGzH90ptH+IVhl8EFISVRusj40ci7IW2mZ1MDMdGhgTEQkIBQQEBAMFBJFdKtIcvUhqJkNaELhdxFEcFxl+NsF9GMBeYy5zdR//HKlTGhBMexR6irtVNaKIZ02FkqpgLRkGTBUZDgqgWl4nWGcWGwu4URjNYZGDGb8ksZpjOS1jGKScYd0kIBgTERQHBzE6OiYzK4o8MRZUNjk+LjwvNiiicEmJXYAoUWgaVUlZIBVjjUKtvnagZpw/OWoXe0RmfabmLB4bx4l4oWeDL0dpHlRCcljD4h0gHURIEbzIsVxhHp5HP5ivZ6hXWiqTlBVbZ2wyHc+8am1TXjlqH6Me0INZiF53IlleGEeDYrSd4B0eH7qHlYtrhhllQRtlGYozEtMmWxJLJwoLCQYEBREKBAIP"
+            },
+            {
+              "type": "file",
+              "name": "Sing We Now - soprano 2.m4a",
+              "path": "files/1Rr-pwrP1mj_z3IGTBmNgoM19M9hSpn4b.m4a",
+              "kind": "audio",
+              "id": "1Rr-pwrP1mj_z3IGTBmNgoM19M9hSpn4b",
+              "md5": "cf05cc53a447d4e751b76ec45d5bea81",
+              "peaks": "Ag4EAgQJfNJ2VLOvgmKWHrywoLO1nmUlKRC2xW+Z1rxUx4Im06aeoniSIR0XFgQDAwOgwqdoOS8ZGKeqonakXVgqI77M0WdZKxsTn6RqmqOwV8Gwj12zIcmzdpWhf1oZHAmiLLpbGbRC0asYqzxQrzKTZDXNObhiKbZfWRTPnSOxQbJ5JckVtHgtkjEiHRUZGAwICAgJCggFBAUGCAcCAq2xr0W5yI5uuiLVpauH249RHyAX4nglmReghiAkFZRpJfhx8bA+JyZbZRSAjn61MizMqHZ9ln+2kTMnHZN6HyQYV0kWGRiDjhkeE4lvHP9BpJitWqHAkmyuJr+ejo3VwI0qLBsaMickJxhAWUgGUkYvJoYREA5HG2FSPkIzNCnGhGdbvIdpJe0gyJ1gprK3lyotGsJOYV2jg2kg0yK9jox+eZ57ICUUixyGcpGeLh8ahZWZhm2QkCYfEcd8JLuvnGYeHIKur32gu9JAL9Fw2nRPYbB8H/aeIcaNlFuFpjwiIhS/SlaZlHEb3C96eh6EH2VBFpQZjT4RExMJBQ4HBQQDAgIL"
+            },
+            {
+              "type": "file",
+              "name": "Sing We Now- alto.m4a",
+              "path": "files/1yW5Gv2K5_Qh5bIFTqSOj10vw1leKL3gp.m4a",
+              "kind": "audio",
+              "id": "1yW5Gv2K5_Qh5bIFTqSOj10vw1leKL3gp",
+              "md5": "6a682969756c0c2c52cb764d2ab9da38",
+              "peaks": "AQEBAQICAgKbRHsuomO7uDyFJK5Q/70qKxekTHssp2GTnS/l0OvYqIYtFBbXfnSK35lAI5R9x4V62H6UIiEQmENvs657Ix1xyaGXh9aNhSAfFJBBhSiZaimcOnEli01Y5i4lFbeAaX0enzqGRM+SJ3wyzHGUSkTNLsxNkEODfnLEKd89sU6cZnS5PBUXFREPEREcICEsNCUDApBzKWEXYDUVGx21L2YzbD4TDwbZjFtmh2svz5dBVVyKXYTIRyUlD4NPFhobZz8XDg8TiUIXHBpsLg8QDqtbYXPGil8jGn+tqn1q0IhYIhoZhTlqMhSHPhgkIaoxg1kdpVUhFBIQDR4eGRkWDl4xFhYTDSNYOUskKjclHSYlQCUhJBCXhHFbt4dWIKwjgmt1soRZz20eJiVxY0Vrm2VyHJc9dqKErHSDrGseHyAaBQQEoqdzGxsRFxS9hUovslGil4yLRBoTe5iVd5qUpp0/oYMaeWdweKJshRunniCEb1KUapqaMx8eZXprbZ+5fByXriOZSnjZLY9RHHszdx4UFAoFBQgJCAICAgII"
             }
           ]
         },
